@@ -216,11 +216,7 @@ class topic_modelling:
         df_covid = df_covid[df_covid['language']=='en']
         # change to spark
         # Enable Arrow-based columnar data transfers
-        spark = SparkSession \
-            .builder \
-            .appName("PySparkKMeans") \
-            .config("spark.some.config.option", "some-value") \
-            .getOrCreate()
+        spark = SparkSession.builder.appName("PySparkKMeans").config("spark.some.config.option", "some-value").getOrCreate()
         spark.conf.set("spark.sql.execution.arrow.enabled", "true")
 
         # Create a Spark DataFrame from a pandas DataFrame using Arrow
