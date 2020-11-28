@@ -21,7 +21,7 @@ class topic_modelling:
 
   
     DEFAULT_PREPROCESSING_OUTPUT = "/dbfs/FileStore/vector_no_stopw_df.parquet"
-    CLUSTER_DF = "../data/cluster.csv"
+    CLUSTER_DF = "../data/dbscan_output.csv"
 
     """Optimal Parameters Obtained for lda
     """
@@ -32,11 +32,10 @@ class topic_modelling:
     DEFAULT_OUTPUT_FILE = "../data/topic_modelling.csv"
     sqlContext = SQLContext(sc)
 	
-	    root_path = ".."
+    root_path = ".."
     metadata_path = "../data/metadata.csv"
     DEFAULT_INPUT_PATH = "../data/"
     DEFAULT_OUTPUT_FILE = "preprocessing_output_0_7.csv"
-
 
     def get_breaks(self, content, length):
         data = ""
@@ -196,16 +195,16 @@ class topic_modelling:
         df_covid['language'] = languages
         # drop
         df_covid = df_covid[df_covid['language']=='en']
+        return df_covid
 
-    
-    def lda_optimal(self, preprocess_file = DEFAULT_PREPROCESSING_OUTPUT, cluster_df = CLUSTER_DF, maxiter = MAXITER, 
-    	output_file_name = DEFAULT_OUTPUT_FILE, max_term_tagging = m):
+    def is_digit(self, value):
+        if value:
+	    return value.isdigit()
+	else:
+	    return False
 
-	def is_digit(value):
-	    if value:
-	        return value.isdigit()
-	    else:
-	        return False
+    def lda_optimal(self, preprocess_file = DEFAULT_PREPROCESSING_OUTPUT, cluster_df = CLUSTER_DF, maxiter = MAXITER, output_file_name = DEFAULT_OUTPUT_FILE, max_term_tagging = m):
+
 	filter_number_udf = udf(lambda row: [x for x in row if not is_digit(x)], ArrayType(StringType()))
 	temp = qlContext.read.parquet(preprocess_file)
 	temp = temp.withColumn('no_number_vector_removed', filter_number_udf(col('vector_no_stopw')))
