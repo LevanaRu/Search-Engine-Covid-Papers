@@ -8,7 +8,7 @@ Due to the file size restriction of LumiNUS, only a subset of data is put in thi
 Spark version: 3.0.1  
 Scala version: 2.12  
 Pyspark version 3.0.1  
-BERT set-up instruction: https://bert-as-service.readthedocs.io/en/latest/
+BERT set-up instruction: https://bert-as-service.readthedocs.io/en/latest/  
 The specific execution instruction is written in the main function of each script. 
 
 ## 1. Data Pre-processing
