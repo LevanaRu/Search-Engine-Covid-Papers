@@ -7,15 +7,13 @@ import pyspark.sql.functions as func
 
 
 class kmeans_cluster():
-    root_path = "/dbfs/FileStore/tables/data_preprocess/"
+
     optimal_k = 610
+    DEFAULT_PREPROCESSING_OUTPUT = "../preprocessing/preprocessing_output_0_7.csv"
+    DEFAULT_OUTPUT_FILE = "kmeans_output.csv"
 
     def clustering_optimal(self):
-        df_raw = pd.read_csv(f"{self.root_path}/part1.csv", header=None)
-        for file_num in range(2, 7):
-            #   print(file_num)
-            file_data = pd.read_csv(f"{self.root_path}/part{file_num}.csv", header=None)
-            df_raw = pd.concat([df_raw, file_data])
+        df_raw = pd.read_csv(f"{self.DEFAULT_PREPROCESSING_OUTPUT}", header=None)
 
         spark = SparkSession \
             .builder \
@@ -48,15 +46,12 @@ class kmeans_cluster():
         transformed = transformed.reset_index()
 
         silhouette = evaluator.evaluate(transformed)
+        transformed.to_csv(f"{self.DEFAULT_OUTPUT_FILE}")
 
         return transformed
 
     def clustering_tuning(self):
-        df_raw = pd.read_csv(f"{self.root_path}/part1.csv", header=None)
-        for file_num in range(2, 7):
-            #   print(file_num)
-            file_data = pd.read_csv(f"{self.root_path}/part{file_num}.csv", header=None)
-            df_raw = pd.concat([df_raw, file_data])
+        df_raw = pd.read_csv(f"{self.DEFAULT_PREPROCESSING_OUTPUT}", header=None)
 
         spark = SparkSession \
             .builder \
