@@ -11,16 +11,20 @@ val spark = SparkSession.builder
 import spark.implicits._
 spark.sparkContext.setLogLevel("WARN")
 
-val file_path = "dbfs:/FileStore/tables/data_preprocess/part1.csv"
+DEFAULT_PREPROCESSING_INPUT = "../data/preprocessing_output.csv"
+DEFAULT_PREPROCESSING_OUTPUT = "../data/SOM_output.csv"
+
+val file_path = DEFAULT_PREPROCESSING_INPUT
 val data_rdd = spark.sparkContext.textFile(file_path).map(line => (1, linalg.Vectors.dense(line.split (",").map(_.toDouble)))).collect().toList
 val data = data_rdd.toDF("id", "features")
 
-for( val num <- 2 until 6) {
-  val this_file_path = "dbfs:/FileStore/tables/data_preprocess/part" + num.toString + ".csv"
-  val file_data_rdd = spark.sparkContext.textFile(this_file_path).map(line => (1, linalg.Vectors.dense(line.split (",").map(_.toDouble)))).collect().toList
-  val file_data = data_rdd.toDF("id", "features")
-  data = data.union(file_data)
-}
+//for( val num <- 2 until 6) {
+//  val this_file_path = "dbfs:/FileStore/tables/data_preprocess/part" + num.toString + ".csv"
+//  val file_data_rdd = spark.sparkContext.textFile(this_file_path).map(line => (1, linalg.Vectors.dense(line.split (",").map(_.toDouble)))).collect().toList
+//  val file_data = data_rdd.toDF("id", "features")
+//  data = data.union(file_data)
+//}
+
 // data.show()
 
 val som = new SOM()
@@ -31,7 +35,7 @@ val model = som.fit(data)
 val summary = model.summary // training summary
 
 val res = summary.predictions
-val result_file = "dbfs:/FileStore/tables/SOM_result/10x10_total.csv"
+val result_file = DEFAULT_PREPROCESSING_OUTPUT
 res.select("prediction").repartition(1)
   .write.format("com.databricks.spark.csv")
   .option("header", "true")
