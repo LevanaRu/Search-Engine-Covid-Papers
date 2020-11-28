@@ -214,7 +214,50 @@ class topic_modelling:
         df_covid['language'] = languages
         # drop
         df_covid = df_covid[df_covid['language']=='en']
-        return df_covid
+        # change to spark
+        # Enable Arrow-based columnar data transfers
+        spark = SparkSession \
+            .builder \
+            .appName("PySparkKMeans") \
+            .config("spark.some.config.option", "some-value") \
+            .getOrCreate()
+        spark.conf.set("spark.sql.execution.arrow.enabled", "true")
+
+        # Create a Spark DataFrame from a pandas DataFrame using Arrow
+        df_english = spark.createDataFrame(df_covid)
+        clean_text_df = df_english.withColumn("text", self.clean_text(col("body_text")))
+
+        tokenizer = Tokenizer(inputCol="text", outputCol="vector")
+        vector_df = tokenizer.transform(clean_text_df)
+
+
+        # remove stopwords
+        punctuations = string.punctuation
+        stopwords = list(STOP_WORDS)
+        stopwords[:10]
+
+        custom_stop_words = [
+            'doi', 'preprint', 'copyright', 'peer', 'reviewed', 'org', 'https', 'et', 'al', 'author', 'figure',
+            'rights', 'reserved', 'permission', 'used', 'using', 'biorxiv', 'medrxiv', 'license', 'fig', 'fig.',
+            'al.', 'elsevier', 'pmc', 'czi', 'www', "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m",
+            "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"
+        ]
+
+        for w in custom_stop_words:
+            if w not in stopwords:
+                stopwords.append(w)
+
+        # Define a list of stop words or use default list
+        remover = StopWordsRemover(stopWords=stopwords)
+
+        # Specify input/output columns
+        remover.setInputCol("vector")
+        remover.setOutputCol("vector_no_stopw")
+
+        # Transform existing dataframe with the StopWordsRemover
+        vector_no_stopw_df = remover.transform(vector_df)
+	
+	return vector_no_stopw_df
 
 
     def is_digit(self, value):
