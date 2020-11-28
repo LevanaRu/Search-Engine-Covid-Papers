@@ -109,7 +109,7 @@ class preprocess_pyspark:
                 authors = meta_data['authors'].values[0].split(';')
                 if len(authors) > 2:
                     # if more than 2 authors, take them all with html tag breaks in between
-                    dict_['authors'].append(get_breaks('. '.join(authors), 40))
+                    dict_['authors'].append(self.get_breaks('. '.join(authors), 40))
                 else:
                     # authors will fit in plot
                     dict_['authors'].append(". ".join(authors))
@@ -119,7 +119,7 @@ class preprocess_pyspark:
 
             # add the title information, add breaks when needed
             try:
-                title = get_breaks(meta_data['title'].values[0], 40)
+                title = self.get_breaks(meta_data['title'].values[0], 40)
                 dict_['title'].append(title)
             # if title was not provided
             except Exception as e:
@@ -264,16 +264,16 @@ class FileReader:
         with open(file_path) as file:
             content = json.load(file)
             self.paper_id = content['paper_id']
-                self.abstract = []
-                self.body_text = []
-                # Abstract
-                for entry in content['abstract']:
-                    self.abstract.append(entry['text'])
-                # Body text
-                for entry in content['body_text']:
-                    self.body_text.append(entry['text'])
-                self.abstract = '\n'.join(self.abstract)
-                self.body_text = '\n'.join(self.body_text)
+            self.abstract = []
+            self.body_text = []
+            # Abstract
+            for entry in content['abstract']:
+                self.abstract.append(entry['text'])
+            # Body text
+            for entry in content['body_text']:
+                self.body_text.append(entry['text'])
+            self.abstract = '\n'.join(self.abstract)
+            self.body_text = '\n'.join(self.body_text)
         def __repr__(self):
             return f'{self.paper_id}: {self.abstract[:200]}... {self.body_text[:200]}...'
 
