@@ -5,9 +5,9 @@ Due to the file size restriction of LumiNUS, only a subset of data is put in thi
 
 
 ## Dependencies:
-Spark version: 3.0.1 
-Scala version: 2.12
-Pyspark version 3.0.1
+Spark version: 3.0.1  
+Scala version: 2.12  
+Pyspark version 3.0.1  
 BERT set-up instruction: https://bert-as-service.readthedocs.io/en/latest/
 The specific execution instruction is written in the main function of each script. 
 
