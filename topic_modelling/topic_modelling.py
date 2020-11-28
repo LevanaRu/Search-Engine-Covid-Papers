@@ -206,7 +206,7 @@ class topic_modelling:
     def lda_optimal(self, preprocess_file = DEFAULT_PREPROCESSING_OUTPUT, cluster_df = CLUSTER_DF, maxiter = MAXITER, output_file_name = DEFAULT_OUTPUT_FILE, max_term_tagging = m):
 
 	filter_number_udf = udf(lambda row: [x for x in row if not is_digit(x)], ArrayType(StringType()))
-	temp = qlContext.read.parquet(preprocess_file)
+	temp = sqlContext.read.parquet(preprocess_file)
 	temp = temp.withColumn('no_number_vector_removed', filter_number_udf(col('vector_no_stopw')))
 	temp1= temp.select(temp.paper_id,explode(temp.no_number_vector_removed))
 	temp2 = temp1.filter(temp1.col != "")
