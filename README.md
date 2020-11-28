@@ -17,10 +17,10 @@ The script will pre-process the input json file into a clean text format and vec
 It will be  passed to clustering algorithm in the next step. 
 
 ## 2. Clustering
-The various clustering algorith uses high dimentional vector input and output a dataframe， containing the document id and its corresponding cluster number. 
+The various clustering algorithm uses high dimentional vector input and output a dataframe, containing the document id and its corresponding cluster number. 
 
 ## 3. Topic Modelling
-Topic modeling takes in the clustered documents and analyse the keyword in each cluster. Top M important keywords are taken to be the tagging for each topic. Relevant documents for each topic can also be retrievd.
+Topic modeling takes in the clustered documents and analyse the keyword in each cluster. Top M important keywords are taken to be the tagging for each topic. Relevant documents for each topic can also be retrieved.
 
 ## 4. Searching
-Searching makes use of the keyword tagging and rsearch for the most similar cluster to the input search query. 
+Searching makes use of the keyword tagging and search for the most similar cluster to the input search query. 
