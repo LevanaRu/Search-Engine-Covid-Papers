@@ -9,6 +9,7 @@ Spark version: 3.0.1
 Scala version: 2.12  
 Pyspark version 3.0.1  
 BERT set-up instruction: https://bert-as-service.readthedocs.io/en/latest/  
+sparkml-som set-up instruction: https://github.com/FlorentF9/sparkml-som  
 The specific execution instruction is written in the main function of each script. 
 
 ## 1. Data Pre-processing
