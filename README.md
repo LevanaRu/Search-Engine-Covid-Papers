@@ -1,5 +1,7 @@
 # Search-Engine-Covid-Papers
-Creating a search engine for covid-19 papers
+Creating a search engine for covid-19 papers。
+
+Due to the file size restriction of LumiNUS, only a subset of data is put in this folder for a demonstration purpose.
 
 
 ## Dependencies:
