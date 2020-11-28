@@ -13,3 +13,8 @@ prep.preprocess()
 # Clustering: only one model is demostrated here
 clustering = DBSCAN_clustering()
 time, labels = clustering.dbscan_optimal()
+
+
+# Search
+search_fun = searching()
+print(search_fun.find_nearest("covid"))
