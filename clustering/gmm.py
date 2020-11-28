@@ -5,14 +5,13 @@ from pyspark.ml.clustering import GaussianMixture
 
 
 class gmm():
-    root_path = "/dbfs/FileStore/tables/data_preprocess/"
+
     optimal_k = 150
-    def clustering_tuning(self):
-        df_raw = pd.read_csv(f"{self.root_path}/part1.csv", header=None)
-        for file_num in range(2, 7):
-            #   print(file_num)
-            file_data = pd.read_csv(f"{self.root_path}/part{file_num}.csv", header=None)
-            df_raw = pd.concat([df_raw, file_data])
+    DEFAULT_PREPROCESSING_OUTPUT = "../preprocessing/preprocessing_output_0_7.csv"
+    DEFAULT_OUTPUT_FILE = "gmm_output.csv"
+
+    def clustering_optimal(self):
+        df_raw = pd.read_csv(f"{self.DEFAULT_PREPROCESSING_OUTPUT}", header=None)
 
         spark = SparkSession \
             .builder \
@@ -36,14 +35,11 @@ class gmm():
         transformed = model.transform(df).select("features", "newPrediction")
 
         transformed = transformed.reset_index()
+        transformed.to_csv(f"{self.DEFAULT_OUTPUT_FILE}")
         return transformed
 
     def clustering_tuning(self):
-        df_raw = pd.read_csv(f"{self.root_path}/part1.csv", header=None)
-        for file_num in range(2, 7):
-            #   print(file_num)
-            file_data = pd.read_csv(f"{self.root_path}/part{file_num}.csv", header=None)
-            df_raw = pd.concat([df_raw, file_data])
+        df_raw = pd.read_csv(f"{self.DEFAULT_PREPROCESSING_OUTPUT}", header=None)
 
         spark = SparkSession \
             .builder \
