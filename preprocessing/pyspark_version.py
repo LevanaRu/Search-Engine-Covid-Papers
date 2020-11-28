@@ -3,6 +3,7 @@ import pandas as pd
 import glob
 import json
 import matplotlib.pyplot as plt
+from pyspark.sql import SparkSession
 from tqdm import tqdm
 from langdetect import detect
 from langdetect import DetectorFactory
@@ -24,7 +25,7 @@ from pyspark.mllib.linalg.distributed import RowMatrix
 
 
 class preprocess_pyspark:
-    root_path = "dbfs/FileStore/kaggle/"
+    root_path = ".."
     metadata_path = "dbfs/FileStore/kaggle/metadata.csv"
 
 
@@ -190,6 +191,11 @@ class preprocess_pyspark:
 
         # change to spark
         # Enable Arrow-based columnar data transfers
+        spark = SparkSession \
+            .builder \
+            .appName("PySparkKMeans") \
+            .config("spark.some.config.option", "some-value") \
+            .getOrCreate()
         spark.conf.set("spark.sql.execution.arrow.enabled", "true")
 
         # Create a Spark DataFrame from a pandas DataFrame using Arrow
@@ -251,21 +257,21 @@ class preprocess_pyspark:
 
 
 class FileReader:
-def __init__(self, file_path):
-    with open(file_path) as file:
-        content = json.load(file)
-        self.paper_id = content['paper_id']
-            self.abstract = []
-            self.body_text = []
-            # Abstract
-            for entry in content['abstract']:
-                self.abstract.append(entry['text'])
-            # Body text
-            for entry in content['body_text']:
-                self.body_text.append(entry['text'])
-            self.abstract = '\n'.join(self.abstract)
-            self.body_text = '\n'.join(self.body_text)
-    def __repr__(self):
-        return f'{self.paper_id}: {self.abstract[:200]}... {self.body_text[:200]}...'
+    def __init__(self, file_path):
+        with open(file_path) as file:
+            content = json.load(file)
+            self.paper_id = content['paper_id']
+                self.abstract = []
+                self.body_text = []
+                # Abstract
+                for entry in content['abstract']:
+                    self.abstract.append(entry['text'])
+                # Body text
+                for entry in content['body_text']:
+                    self.body_text.append(entry['text'])
+                self.abstract = '\n'.join(self.abstract)
+                self.body_text = '\n'.join(self.body_text)
+        def __repr__(self):
+            return f'{self.paper_id}: {self.abstract[:200]}... {self.body_text[:200]}...'
 
 
