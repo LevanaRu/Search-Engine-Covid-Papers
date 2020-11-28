@@ -217,10 +217,10 @@ class topic_modelling:
         return df_covid
 
     def is_digit(self, value):
-        if not value:
+	if not value:
 	    return False
 	else: 
-		return value.isdigit()
+	    return value.isdigit()
 	
 
     def lda_optimal(self, preprocess_file = DEFAULT_PREPROCESSING_OUTPUT, cluster_df = CLUSTER_DF, maxiter = MAXITER, output_file_name = DEFAULT_OUTPUT_FILE, max_term_tagging = m):
