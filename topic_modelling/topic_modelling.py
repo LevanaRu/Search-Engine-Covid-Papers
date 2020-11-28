@@ -15,6 +15,25 @@ import pyspark.sql.types as T
 from pyspark.sql.types import *
 from pyspark.sql.functions import col
 
+class FileReader:
+    def __init__(self, file_path):
+        with open(file_path) as file:
+            content = json.load(file)
+            self.paper_id = content['paper_id']
+            self.abstract = []
+            self.body_text = []
+            # Abstract
+            for entry in content['abstract']:
+                self.abstract.append(entry['text'])
+            # Body text
+            for entry in content['body_text']:
+                self.body_text.append(entry['text'])
+            self.abstract = '\n'.join(self.abstract)
+            self.body_text = '\n'.join(self.body_text)
+        def __repr__(self):
+            return f'{self.paper_id}: {self.abstract[:200]}... {self.body_text[:200]}...'
+
+
 
 
 class topic_modelling:
@@ -198,15 +217,16 @@ class topic_modelling:
         return df_covid
 
     def is_digit(self, value):
-        if value:
-	    return value.isdigit()
-	else:
+	if not value:
 	    return False
+	else: 
+	    return value.isdigit()
+	
 
     def lda_optimal(self, preprocess_file = DEFAULT_PREPROCESSING_OUTPUT, cluster_df = CLUSTER_DF, maxiter = MAXITER, output_file_name = DEFAULT_OUTPUT_FILE, max_term_tagging = m):
 
 	filter_number_udf = udf(lambda row: [x for x in row if not is_digit(x)], ArrayType(StringType()))
-	temp = qlContext.read.parquet(preprocess_file)
+	temp = sqlContext.read.parquet(preprocess_file)
 	temp = temp.withColumn('no_number_vector_removed', filter_number_udf(col('vector_no_stopw')))
 	temp1= temp.select(temp.paper_id,explode(temp.no_number_vector_removed))
 	temp2 = temp1.filter(temp1.col != "")
