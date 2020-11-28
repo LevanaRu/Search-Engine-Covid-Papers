@@ -1,0 +1,2124 @@
+{
+    "paper_id": "4df659e1fcde506750dae8b335a33759f00093df",
+    "metadata": {
+        "title": "Robustification of Elliott's on-line EM algorithm for HMMs",
+        "authors": [
+            {
+                "first": "Christina",
+                "middle": [],
+                "last": "Erlwein",
+                "suffix": "",
+                "affiliation": {},
+                "email": "christina.erlwein@itwm.fraunhofer.depeter.ruckdeschel@itwm.fraunhofer.de"
+            },
+            {
+                "first": "Peter",
+                "middle": [],
+                "last": "Ruckdeschel",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "In this paper, we establish a robustification of an on-line algorithm for modelling asset prices within a hidden Markov model (HMM). In this HMM framework, parameters of the model are guided by a Markov chain in discrete time, parameters of the asset returns are therefore able to switch between different regimes. The parameters are estimated through an on-line algorithm, which utilizes incoming information from the market and leads to adaptive optimal estimates. We robustify this algorithm step by step against additive outliers appearing in the observed asset prices with the rationale to better handle possible peaks or missings in asset returns.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Realistic modelling of financial time series from various markets (stocks, commodities, interest rates etc.) in recent years often is achieved through hidden Markov or regime-switching models. One major advantage of regime-switching models is their flexibility to capture switching market conditions or switching behavioural aspects of market participants resulting in a switch in the volatility or mean value.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Regime-switching models were first applied to issues in financial markets through Hamilton [1989] , where he established a Markov switching AR-model to model the GNP of the U.S. His results show promising effects of including possible regime-switches into the characterisation of a financial time series. A lot of further approaches to use regime-switching models for financial time series followed, e.g. switching ARCH or switching GARCH models (see for example Cai [1994] and Gray [1996] ), amongst many other applications.",
+            "cite_spans": [
+                {
+                    "start": 82,
+                    "end": 97,
+                    "text": "Hamilton [1989]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 463,
+                    "end": 473,
+                    "text": "Cai [1994]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 478,
+                    "end": 489,
+                    "text": "Gray [1996]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Various algorithms and methods for statistical inference are applied within these model set-ups, including as famous ones as the Baum-Welch algorithm and Viterbi's algorithm for an estimation of the optimal state sequence. HMMs in Finance, both in continuous and in discrete time often utilise a filtering technique which was developed by Elliott [1994] . Adaptive filters are derived for processes of the Markov chain (jump process, occupation time process and auxiliary processes) which are in turn used for recursive optimal parameter estimates of the model parameters. This filter-based Expectation-Maximization (EM) algorithm leads to an on-line estimation of model parameters. Our model set-up is based on Elliott's filtering framework.",
+            "cite_spans": [
+                {
+                    "start": 339,
+                    "end": 353,
+                    "text": "Elliott [1994]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "This HMM can be applied to questions, which arise in asset allocation problems. An investor typically has to decide, how much of his wealth shall be invested into which asset or asset class and when to optimally restructure a portfolio. Asset allocation problems were examined in a regime-switching setting by Ang and Bekaert [2002] , where high volatility and high correlation regimes of asset returns were discovered. Guidolin and Timmermann [2007] presented an asset allocation problem within a regime-switching model and found four different possible underlying market regimes. A paper by Sass and Haussmann [2004] derives optimal trading strategies and filtering techniques in a continuous-time regime-switching model set up. Optimal portfolio choices were also discussed in Elliott and van der Hoek [1997] and Elliott and Hinz [2003] amongst others. Here, Markowitz's famous mean-variance approach (see Markowitz [1952] ) is transferred into an HMM and optimal weights are derived. A similar Markowitz based approach within an HMM was developed in Erlwein et al. [2011] , where optimal trading strategies for portfolio decisions with two asset classes are derived. Trading strategies are developed herein to find optimal portfolio decision for an investment in either growth or value stocks. Elliott's filtering technique is utilised to predict asset returns.",
+            "cite_spans": [
+                {
+                    "start": 310,
+                    "end": 332,
+                    "text": "Ang and Bekaert [2002]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 420,
+                    "end": 450,
+                    "text": "Guidolin and Timmermann [2007]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 593,
+                    "end": 618,
+                    "text": "Sass and Haussmann [2004]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 805,
+                    "end": 811,
+                    "text": "[1997]",
+                    "ref_id": null
+                },
+                {
+                    "start": 816,
+                    "end": 839,
+                    "text": "Elliott and Hinz [2003]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 909,
+                    "end": 925,
+                    "text": "Markowitz [1952]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1054,
+                    "end": 1075,
+                    "text": "Erlwein et al. [2011]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "However, most of the optimal parameter estimation techniques for HMMs in the literature only lead to reasonable results, when the market data set does not contain significant outliers. The handling of outliers is an important issue in many financial models, since market data might be unreliable at times or high peaks in asset returns, which might occur in the market from time to time shall be considered separately and shall not negatively influence the parameter estimation method. In general, higher returns in financial time series might belong to a separate regime within an HMM. This flexibility is already included in the model set-up. However, single outliers, which are not typical for any of the regimes considered, shall be handled with care, a separate regime would not reflect the abnormal data point. In this paper, we will develop a robustification of Elliot's filter-based EM-algorithm. In section 2 we will set the HMM framework, which is applied (either in a oneor multi-dimensional setting) to model asset or index returns. The general filtering technique is described in section 3. The asset allocation problem which clarifies the effect outliers can have on the stability of the filters is developed in section 4. Section 5 then states the derivation of a robustification for various steps in the filter equations. The robustification of a reference probability measure is derived as well as a robust version of the filter-based EM-algorithm. An application of the robust filters is shown in section 6 and section 7 finishes our work with some conclusions and possible future applications.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "For our problem setting we first review a filtering approach for a hidden Markov model in discrete time which was developed by Elliott [1994] . The logarithmic returns of a stock or an index follow the dynamics of the observation process y k , which can be interpreted as a discretized version of the Geometric Brownian motion, which is a standard process to model stock returns. The underlying hidden Markov chain x k cannot be directly observed. The parameters of the observation process are governed by the Markov chain and are therefore able to switch between regimes over time.",
+            "cite_spans": [
+                {
+                    "start": 127,
+                    "end": 141,
+                    "text": "Elliott [1994]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Hidden Markov model framework for asset returns"
+        },
+        {
+            "text": "We work under a probability space (\u2126, F, P ) under which x k is a homogeneous Markov chain with finite state space I = {1, . . . , N } in discrete time (k = 0, 1, 2...) . Let the state space of x k be associated with the canonical basis {e 1 , e 2 , ..., e N } \u2208 R N with e i = (0, ..., 0, 1, 0, ..., 0) \u2208 R N . The initial distribution of x 0 is known and \u03a0 = (\u03c0 ji ) is the transition probability matrix with \u03c0 ji = P (x k+1 = e j |x k = e i ). Let F x0 k = \u03c3{x 0 , ..., x k } be the \u03c3 -field generated by x 0 , ..., x k and let F x k be the complete filtration generated by F x0 k . Under the real world probability measure P, the Markov chain x has the dynamics",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hidden Markov model framework for asset returns"
+        },
+        {
+            "text": "where v k+1 := x k+1 \u2212 \u03a0x k is a martingale increment (see Theorem in Elliott [1994] ).",
+            "cite_spans": [
+                {
+                    "start": 70,
+                    "end": 84,
+                    "text": "Elliott [1994]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Hidden Markov model framework for asset returns"
+        },
+        {
+            "text": "The Markov chain x k is \"hidden\" in the log returns y k+1 of the stock price S k . Our observation process is given by",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hidden Markov model framework for asset returns"
+        },
+        {
+            "text": "where x k has finite state space and w k 's constitute a sequence of i.i.d. random variables independent of x.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hidden Markov model framework for asset returns"
+        },
+        {
+            "text": "The real-valued process y can be re-written as",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hidden Markov model framework for asset returns"
+        },
+        {
+            "text": "Note that f = (f 1 , f 2 , ..., f N ) and \u03c3 = (\u03c3 1 , \u03c3 2 , ..., \u03c3 N ) are vectors, furthermore f (x k ) = f , x k and \u03c3(x k ) = \u03c3, x k , where b, c denotes the Euclidean scalar product in R N of the vectors b and c . We assume \u03c3 i = 0. Let F y k be the filtration generated by the \u03c3(y 1 , y 2 , ..., y k ) and F k = F x k \u2228 F y k is the global filtration.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hidden Markov model framework for asset returns"
+        },
+        {
+            "text": "The following theorem (Elliott [1994] ) states that the dynamics of the underlying Markov chain can be described by martingale differences.",
+            "cite_spans": [
+                {
+                    "start": 22,
+                    "end": 37,
+                    "text": "(Elliott [1994]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Hidden Markov model framework for asset returns"
+        },
+        {
+            "text": "3 Essential Steps in Elliott's Algorithm",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hidden Markov model framework for asset returns"
+        },
+        {
+            "text": "A widely used concept in filtering applications, going back to Zakai [1969] for stochastic filtering, is a change of probability measure technique. A measure change to a reference measureP is applied here, under which filters for the Markov chain and related processes are derived. UnderP , the underlying Markov chain still has the dynamics x k+1 = \u03a0x k + v k+1 but is independent of the observation process and the observations y k are N (0, 1) i.i.d. random variables. Following the change of measure technique which was outlined in Elliott et al. [1995] the adaptive filters for the Markov chain and related processes are derived under this \"idealised\" measureP . Changing back to the real world is done by constructing P fromP through the Radon-Nikod\u0177m derivative dP",
+            "cite_spans": [
+                {
+                    "start": 63,
+                    "end": 75,
+                    "text": "Zakai [1969]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 536,
+                    "end": 557,
+                    "text": "Elliott et al. [1995]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Change of Measure"
+        },
+        {
+            "text": "where \u03c6(z) is the probability density function of a standard normal random variable Z and set \u039b k :",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Change of Measure"
+        },
+        {
+            "text": "The general filtering techniques and the filter equations which were established by Elliott [1994] for Markov chains observed in Gaussian noise are stated in this subsection. This filter-based EM-algorithm is adaptive, which enables fast calculations and filter updates. Our robustification partly keeps this adaptive structure of the algorithm, although the recursivity cannot be kept completely. In general, filters for four types of processes related to the Markov chain, namely the state space process, the jump process, the occupation time process and auxiliary processes including terms of the observation process are derived. Information on these processes can be filtered out from our observation process and can in turn be used to find optimal parameter estimates.",
+            "cite_spans": [
+                {
+                    "start": 84,
+                    "end": 98,
+                    "text": "Elliott [1994]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Filtering for general adapted processes"
+        },
+        {
+            "text": "To determine the expectation of any F\u2212 adapted stochastic process H given the filtration F y k , consider the reference probability measureP defined as P (A) = A \u039b dP . From Bayes' theorem a filter for any adapted process H is given by",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Filtering for general adapted processes"
+        },
+        {
+            "text": ". A recursive relationship between \u03b7 k (H k ) and \u03b7 k\u22121 (H k\u22121 ) has to be found, where \u03b7 0 (H 0 ) = E[H 0 ]. However, a recursive formula for the term \u03b7 k\u22121 (H k\u22121 x k\u22121 ) is found. To relate \u03b7 k (H k ) and \u03b7 k (H k x k ) we note that with 1, x k = 1",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Filtering for general adapted processes"
+        },
+        {
+            "text": "A general recursive filter for adapted processes was derived by Elliott [1994] . Suppose H l is a scalar",
+            "cite_spans": [
+                {
+                    "start": 64,
+                    "end": 78,
+                    "text": "Elliott [1994]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Filtering for general adapted processes"
+        },
+        {
+            "text": "and g are F -predictable, f is a scalar-valued function and v l = x l \u2212 \u03a0x l\u22121 . A recursive relation for \u03b7 k (H k x k ) is given by",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Filtering for general adapted processes"
+        },
+        {
+            "text": "Here, for any column vectors z and y, zy denotes the rank-one (if z = 0 and y = 0 ) matrix zy . The term \u0393 i (y k ) denotes the component-wise Radon-Nikod\u0177m derivative \u03bb i k :",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Filtering for general adapted processes"
+        },
+        {
+            "text": "Now, filters for the state of the Markov chain as well as for three related processes: the jump process, the occupation time process and auxiliary processes of the Markov chain are derived. These processes can be characterised as special cases of the general process H l .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Filtering for general adapted processes"
+        },
+        {
+            "text": "The estimator for the state x k is derived from \u03b7 k (H k x k ) by setting H k = H 0 = 1, a k = 0, b k = 0 and g k = 0. This implies that",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Filtering for general adapted processes"
+        },
+        {
+            "text": "(3.5)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Filtering for general adapted processes"
+        },
+        {
+            "text": "The first related process is the number of jumps of the Markov chain x k from state e r to state e s in time k, J",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Filtering for general adapted processes"
+        },
+        {
+            "text": ", H 0 = 0, a k = x k\u22121 , e r \u03c0 sr , b k = x k\u22121 , e r e s and g k = 0 in equation ( 3.4 ) we get",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Filtering for general adapted processes"
+        },
+        {
+            "text": "The second process O (r) k denotes the occupation time of the Markov process x , which is the length of time x spent in state r up to time k. Here,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Filtering for general adapted processes"
+        },
+        {
+            "text": "Finally, consider the auxiliary process T r k (g) , which occur in the maximum likelihood estimation of model parameters. Specifically, T (r) k (g) = k l=1 x l\u22121 , e r g(y l ), where g is a function of the form g(y) = y or g(y) = y 2 . We apply formula (3.4) and get",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Filtering for general adapted processes"
+        },
+        {
+            "text": "+\u0393 r (y k ) \u03b7 k\u22121 (x k\u22121 ), e r g(y k )\u03a0e r .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Filtering for general adapted processes"
+        },
+        {
+            "text": "(3.8)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Filtering for general adapted processes"
+        },
+        {
+            "text": "The recursive optimal estimates of J, O and T can be calculated using equation ( 3.2 ).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Filtering for general adapted processes"
+        },
+        {
+            "text": "The derived adapted filters for processes of the Markov chain can now be utilised to derive optimal parameter estimates through a filter-based EM-algorithm. The set of parameters \u03c1 , which determines the regime-switching model is",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Filter-based EM-algorithm"
+        },
+        {
+            "text": "Initial values for the EM algorithm are assumed to be given. Starting from these values updated parameter estimates are derived which maximise the conditional expectation of the log-likelihoods. The M-step of the algorithm deals with maximizing the following likelihoods:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Filter-based EM-algorithm"
+        },
+        {
+            "text": "\u2022 The likelihood in the global F -model is given by",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "M-Step"
+        },
+        {
+            "text": "\u2022 In the F y -model, where the Markov chain is not observed, we obtain",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "M-Step"
+        },
+        {
+            "text": "The maximum likelihood estimates of the model parameters can be expressed through the adapted filters. Whenever new information is available on the market, the filters are updated and, respectively, updated parameter estimates can be obtained.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "M-Step"
+        },
+        {
+            "text": "Theorem 3.1 (Optimal parameter estimates) Write\u0124 k = E[H k |F y k ] for any adapted process H. Wit\u0125 J ,\u00d4 andT denoting the best estimates for the processes J , O and T , respectively, the optimal parameter estimates\u03c0 ji ,f i and\u03c3 i are given b\u0177",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "M-Step"
+        },
+        {
+            "text": "(3.13)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "M-Step"
+        },
+        {
+            "text": "Proof T:he derivation of the optimal parameter estimates can be found in Elliott et al. [1995] .",
+            "cite_spans": [
+                {
+                    "start": 73,
+                    "end": 94,
+                    "text": "Elliott et al. [1995]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "M-Step"
+        },
+        {
+            "text": "//// Summary The filter-based EM-algorithm runs in batches of n data points ( n typically equals to a minimum of ten up to a maximum of fifty) over the given time series. The parameters are updated at the end of each batch. Elliott's Algorithm comprises the following steps (0) Find suitable starting values for \u03a0 and f , \u03c3.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "M-Step"
+        },
+        {
+            "text": "(RN) Determine the RN-derivative for the measure change toP .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "M-Step"
+        },
+        {
+            "text": "(E) Recursively, compute filters\u0134 ji 4 Outliers in Asset Allocation Problem",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "M-Step"
+        },
+        {
+            "text": "In the following sections we derive a robustification of the Algorithm 3.3 to stabilize it in the presence of outliers in the observation process. To this end let us discuss what makes an observation an outlier. First of all, outliers are exceptional events, occurring rarely, say with probability 5% -10% . Rather than captured by usual randomness, i.e., by some distributional model, they belong to what Knight [1921] refers to uncertainty: They are uncontrollable, of unknown distribution, unpredictable, their distribution may change from observation to observation, so they are non-recurrent and do not form an additional state, so cannot be used to enhance predictive power, and, what makes their treatment difficult, they often cannot be told with certainty from ideal observations.",
+            "cite_spans": [
+                {
+                    "start": 406,
+                    "end": 419,
+                    "text": "Knight [1921]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Outliers in General"
+        },
+        {
+            "text": "Still, the majority of the observations in a realistic sample should resemble an ideal (distributional) setting closely, otherwise the modeling would be questionable. Here we understand closeness as in a distributional sense, as captured, e.g., by goodness-of-fit distances like Kolmogorov, total variation or Hellinger distance. More precisely, ideally, this closeness should be compatible to the usual convergence mode of the Central Limit Theorem, i.e., with weak topology. In particular, closeness in moments is incompatible with this idea.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Outliers in General"
+        },
+        {
+            "text": "Topologically speaking, one would most naturally use balls around a certain element, i.e., the set of all distributions with a suitable distance no larger than some given radius \u03b5 > 0 to the distribution assumed in the ideal model.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Outliers in General"
+        },
+        {
+            "text": "Conceptually, the most tractable neighborhoods are given by the so-called Gross Error Model, defining a neighborhood U about a distribution F as the set of all distributions given by",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Outliers in General"
+        },
+        {
+            "text": "They can also be thought of as the set of all distributions of (realstic) random variables X re constructed as",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Outliers in General"
+        },
+        {
+            "text": "where X id is a random variable distributed according to the id eal distribution and U is an independent Bin(1, \u03b5) switching variable, which in most cases lets you see X id but in some cases replaces it by some contaminating or di storting variable X di which has nothing to do with the original situation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Outliers in General"
+        },
+        {
+            "text": "In our time dependent setup in addition to the i.i.d. situation, we have to distinguish whether the impact of an outlier is propagated to subsequent observations or not. Historically there is a common terminology due to Fox [1972] , who distinguishes innovation outliers (or IO's) and additive outliers (or AO's). Non-propagating AO's are added at random to single observations, while IO's denote gross errors affecting the innovations. For consistency with literature, we use the same terms, but use them in a wider sense: IO's stand for general endogenous outliers entering the state layer (or the Markov chain in the present context), hence with propagated distortion. As in our Markov chain, the state space is finite, IO's are much less threatening as they are in general.",
+            "cite_spans": [
+                {
+                    "start": 220,
+                    "end": 230,
+                    "text": "Fox [1972]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Time-dependent Context: Exogenous and Endogenous Outliers"
+        },
+        {
+            "text": "Correspondingly, wide-sense AO's denote general exogenous outliers which do not propagate, hence also comprise substitutive outliers or SO's as defined in a simple generalization of (4.2) to the state space context in equations (4.3)-(4.6).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Time-dependent Context: Exogenous and Endogenous Outliers"
+        },
+        {
+            "text": "for U independent of (X, Y id , Y di ) and some arbitrary distorting random variable Y di for which we assume Y di , X independent (4.4) and the law of which is arbitrary, unknown and uncontrollable. As a first step consider the set \u2202U SO (r) defined as Because of condition (4.4), in the sequel we refer to the random variables Y re and Y di instead of their respective (marginal) distributions only, while in the common gross error model, reference to the respective distributions would suffice. Condition (4.4) also entails that in general, contrary to the gross error model, L(X, Y id ) is not element of \u2202U SO (r) , i.e., not representable itself as some L(X, Y re ) in this neighborhood.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Time-dependent Context: Exogenous and Endogenous Outliers"
+        },
+        {
+            "text": "As corresponding (convex) neighborhood we define",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Time-dependent Context: Exogenous and Endogenous Outliers"
+        },
+        {
+            "text": "hence the symbol \" \u2202 \" in \u2202U SO , as the latter can be interpreted as the corresponding surface of this ball. Of course, U SO (r) contains L(X, Y id ) . In the sequel where clear from the context we drop the superscript SO and the argument r .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Time-dependent Context: Exogenous and Endogenous Outliers"
+        },
+        {
+            "text": "Due to their different nature, as a rule, IO's and AO's require different policies: As AO's are exogenous, we would like to damp their effect, while when there are IO's, something has happened in the system, so the usual goal will be to track these changes as fast as possible.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Time-dependent Context: Exogenous and Endogenous Outliers"
+        },
+        {
+            "text": "In this section we examine the robustness of the filter and parameter estimation technique. The filter technique is implemented and applied to monthly returns of MSCI index between 1994 and 2009. The MSCI World Index is one of the leading indices on the stock markets and a common benchmark for global stocks. The algorithm is implemented with batches of ten data points, therefore the adaptive filters are updated whenever ten new data points are available on the market. The recursive parameter estimates, which utilise this new information, are updated as well, the algorithm is self-tuning. Care has to be taken when choosing the initial values for the algorithm, since the EM-algorithm in its general form converges to a local maximum. In this implementation we choose the initial values with regard to mean and variance of the first ten data points. Figure 1 shows the original return series, optimal parameter estimates for the index returns as well as the one-step ahead forecast.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 856,
+                    "end": 864,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Evidence for Robustness Issue in Asset Allocation"
+        },
+        {
+            "text": "To highlight the sensitivity of the filter technique towards exogenous outliers we plant unusual high returns within the time series. Considerable SO outliers are included at time steps t = 40, 80, 130, 140. The optimal parameter estimation through the filter-based EM-algorithm of this data set with outliers can be seen in Figure 2 . The filter still finds optimal parameter estimates, although the estimates are visibly affected by the outliers. In a third step, severe outliers are planted into the observation sequence. Data points t = 40, 80, 130, 140 now show severe SO outliers as can be seen from the first panel in Figure 3 . The filters cannot run through any longer, optimal parameter estimates cannot be established in a setting with severe outliers.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 325,
+                    "end": 333,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 625,
+                    "end": 633,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Evidence for Robustness Issue in Asset Allocation"
+        },
+        {
+            "text": "In practice, asset or index return time series can certainly include outliers from time to time. This might be due to wrong prices in the system, but also due to very unlikely market turbulence for a short period of time. It has to be noted, that the type of outliers which we consider in this study does not characterise an additional state of the Markov chain. In the following, we develop robust filter equations, which can handle exogenous outliers.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Evidence for Robustness Issue in Asset Allocation"
+        },
+        {
+            "text": "To overcome effects like in Figure 3 we need more stable variants of the Elliott type filters discussed so far. This is what robust statistics is concerned with. Excellent monographs on this topic are e.g., Huber [1981] , Hampel et al. [1986] , Rieder [1994] , Maronna et al. [2006] . This section provides necessary concepts and results from robust statistics needed to obtain the optimally-robust estimators used in this article.",
+            "cite_spans": [
+                {
+                    "start": 207,
+                    "end": 219,
+                    "text": "Huber [1981]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 222,
+                    "end": 242,
+                    "text": "Hampel et al. [1986]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 245,
+                    "end": 258,
+                    "text": "Rieder [1994]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 261,
+                    "end": 282,
+                    "text": "Maronna et al. [2006]",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 28,
+                    "end": 36,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Robust Statistics"
+        },
+        {
+            "text": "The central mathematical concepts of continuity, differentiability, or closeness to singularities may in fact serve to operationalize stability quite well already. To make these available in our context, it helps to consider a statistical procedure, i.e.; an estimator, a predictor, a filter, or a test as a function of the underlying distribution. In a parametric context, this amounts to considering functionals T mapping distributions to the parameter set \u0398 . An estimator will then simply be T applied to the empirical distributionF n . For filtering or prediction, the range of such a functional will rather be the state space but otherwise the arguments run in parallel. For a notion of continuity, we have to specify a topology, and as in case of outliers, we use topologies essentially compatible with the weak topology. With these neighborhoods, we now may easily translate the notions of continuity, differentiability and closest singularity to this context: (Equi-)continuity is then called qualitative robustness [Hampel et al., 1986, Sec. 2.2 Def. 3 ], a differentiable functional with a bounded derivative is called local robust, and its derivative is called influence function (IF) 1 , compare [Hampel et al., 1986, Sec. 2 The IF reflects the infinitesimal influence of a single observation on the estimator. Under additional assumptions, many of the asymptotic properties of an estimator are expressions in the IF \u03c8 . E.g., the asymptotic variance of the estimator in the ideal model is the second moment of \u03c8 . Infinitesimally, i.e., for \u03b5 \u2192 0 , the maximal bias on U is just sup |\u03c8| , where | \u00b7 | denotes Euclidean norm. sup |\u03c8| is then also called gross error sensitivity (GES), [Hampel et al., 1986, (2.1.13) ]. Seeking robust optimality hence amounts to finding optimal IFs. To grasp the maximal bias of a functional T on a neighborhood U = U(F ; \u03b5) of radius \u03b5 , one considers the max-bias curve \u03b5 \u2192 sup G\u2208U (F ;\u03b5) |T (G) \u2212 T (F )| . The singularity of this curve closest to 0 (i.e., the ideal situation of no outliers) captures its behavior under massive deviations, or its global robustness. In robust statistics, this is called breakdown point-the maximal radius \u03b5 the estimator can cope with without producing an arbitrary large bias, see [Hampel et al., 1986 , Sec. 2.2 Def.'s 1,2] for formal definitions.",
+            "cite_spans": [
+                {
+                    "start": 1025,
+                    "end": 1062,
+                    "text": "[Hampel et al., 1986, Sec. 2.2 Def. 3",
+                    "ref_id": null
+                },
+                {
+                    "start": 1209,
+                    "end": 1237,
+                    "text": "[Hampel et al., 1986, Sec. 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 1698,
+                    "end": 1728,
+                    "text": "[Hampel et al., 1986, (2.1.13)",
+                    "ref_id": null
+                },
+                {
+                    "start": 2265,
+                    "end": 2285,
+                    "text": "[Hampel et al., 1986",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Concepts of Robust Statistics"
+        },
+        {
+            "text": "Usually, the classically optimal estimators (MLE in many circumstances) are non-robust, both locally and globally. Robust estimators on the other hand pay a certain price for this stability as expressed by an asymptotic relative efficiency (ARE) strictly lower than 1 in the ideal model, where ARE is the ratio of the two asymptotic (co)variances of the classically optimal estimator and its robust alternative.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Concepts of Robust Statistics"
+        },
+        {
+            "text": "To rank various robust procedures among themselves, other quality criteria are needed, though, summarizing the behavior of the procedure on a whole neighborhood, as in (4.1). A natural candidate for such a criterion is maximal MSE (maxMSE) on some neighborhood U around the ideal model and, for estimation context, maximal bias (maxBias) on the respective neighborhood, or, referring to famous [Hampel, 1968, Lemma 5] , trace of the ideal variance subject to a bias bound on this neighborhood. In estimation context, the respective solution are usually called OMSE (Optimal MSE estimator), MBRE (M ost B ias Robust E stimator), and OBRE (Optimally B ias Robust E stimator) 2 .",
+            "cite_spans": [
+                {
+                    "start": 394,
+                    "end": 417,
+                    "text": "[Hampel, 1968, Lemma 5]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Concepts of Robust Statistics"
+        },
+        {
+            "text": "In our context we encounter two different situations where we want to apply robust ideas: (recursive) filtering in the (E)-step and estimation in the (M)-step. While in the former situation we only add a single new observation, which precludes asymptotic arguments, in the (M)-step, the preceding application of Girsanov's theorem turns our situation into an i.i.d. setup, where each observation becomes (uniformly) asymptotically negligible and asymptotics apply in a standard form.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Concepts of Robust Statistics"
+        },
+        {
+            "text": "As a robustification of the whole estimation process in this only partially observed model would (a) lead to computationally intractable terms and (b) would drop the key feature of recursivity, we instead propose to robustify each of the steps in Elliott's algorithm separately. Doing so, the whole procedure will be robust, but in general will loose robust optimality, i.e.; contrary to multiparameter maximum likelihood, the Bellmann principle does not hold for optimal robust multi-step procedures simply because optimal clipping in several steps is not the same as joint optimal clipping of all steps. Table 1 lists all essential steps in Elliot's algorithm related to our proposed robustification approach.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 606,
+                    "end": 613,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Our Robustification of the HMM: General Strategy"
+        },
+        {
+            "text": "Initialization: Find suitable starting values for \u03a0, f , \u03c3 and x 0 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Classical setting Robust version"
+        },
+        {
+            "text": "Build N clusters on first batches Build N + 1 clusters on first batches, distribute points in outlier cluster randomly on other clusters. Use first and second moment of each Use median and MAD of clusters for cluster as initial values for f and \u03c3.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Classical setting Robust version"
+        },
+        {
+            "text": "f and \u03c3. Choose \u03a0 and x 0 according to Choose \u03a0 and x 0 according to cluster probabilities.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Classical setting Robust version"
+        },
+        {
+            "text": "cluster probabilities. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Classical setting Robust version"
+        },
+        {
+            "text": "Obtain estimates for f and \u03c3.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "M-step 1:"
+        },
+        {
+            "text": "MLE-estimates for f and \u03c3 through Likelihoods re-stated; they are expressed recursive filters O i k and T i k (g). as weighted sums of the observations y k . Recursive filters are substituted into likelihood. Robustified version of MLE through asymptotic linear estimators. Estimates updated after each batch.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "M-step 1:"
+        },
+        {
+            "text": "Estimates updated after each batch, recursivity cannot be preserved completely.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "M-step 1:"
+        },
+        {
+            "text": "M-step 2: Obtain ML-estimators \u03a0.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "M-step 1:"
+        },
+        {
+            "text": "MLE-estimation, recursive filters J ji k and Robustification through robust version of filters. O i k are substituted into likelihood. J ji k and O i k , no further observation y k has to be considered.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "M-step 1:"
+        },
+        {
+            "text": "Rec: Algorithm runs on next batch.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "M-step 1:"
+        },
+        {
+            "text": "Go to (RN) to compute the next batch.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "M-step 1:"
+        },
+        {
+            "text": "Go to (RN) to compute the next batch. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "M-step 1:"
+        },
+        {
+            "text": "So far, little has been said as to the initialization even in the non-robustified setting. Basically, all we have to do is to make sure that the EM algorithm converges. In prior applications of this algorithms (Mamon et al. [2008] and Erlwein et al. [2011] amongst others), one approach was to fill \u03a0 with entries 1/N , i.e., with uniform (and hence non-informative) distribution over all states, independent from state x 0 . As to f i and \u03c3 i , an ad hoc approach would estimate the global mean and variance over all states and then, again in a non-informative way jitter the state-individual moments, adding independent noise to it. In our preliminary experiments, it turned out that this na\u00efve approach could drastically fail in the presence of outliers, so we instead propose a more sophisticated approach which can also be applied in a classical (i.e., non-robust) setting: In a first step we ignore the time dynamics and interpret our observations as realizations of a Gaussian Mixture Model, for which we use R package mclust (Fraley and Raftery [2002] , Fraley et al. [2012] ) to identify the mixture components, and for each of these, we individually determine the moments f i and \u03c3 i . As to \u03a0 , we again assume independence of x 0 , but fill the columns according to the estimated frequencies of the mixture components. In case of the non-robust setting we would use N mixture components and for each of them determine f i and \u03c3 i by their ML estimators (assuming independent observations). For a robust approach, we use N +1 mixture components, one of them-the one with the lowest frequency-being a pure noise component capturing outliers. For each nonnoise component we retain the ML estimates for f i and \u03c3 i . The noise component is then randomly distributed amongst the remaining components, respecting their relative frequencies prior to this redistribution. We are aware of the fact that reassigning the putative outliers at random could be misleading in ideal situations (with no outliers) where one cluster could be split off into two but not necessarily so. Then in our strategy, the smaller offspring of this cluster would in part be reassigned to wrong other clusters, so this could still be worked on. On the other hand, this choice often works reasonably well, and as more sophisticated strategies are questions for model selection, we defer them to further work.",
+            "cite_spans": [
+                {
+                    "start": 210,
+                    "end": 230,
+                    "text": "(Mamon et al. [2008]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 235,
+                    "end": 256,
+                    "text": "Erlwein et al. [2011]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1033,
+                    "end": 1059,
+                    "text": "(Fraley and Raftery [2002]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1062,
+                    "end": 1082,
+                    "text": "Fraley et al. [2012]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Robustification of Step (0)"
+        },
+        {
+            "text": "Based on the f i and \u03c3 i , for each observation j and each state i , we get weights 0 \u2264 w i,j \u2264 1 , i w i,j = 1 for each j , representing the likelihood that observation j is in state i . For each i , again we determine robustified moment estimators f i , \u03c3 i as weighted medians and scaled weighted MADs (medians of absolute deviations).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Robustification of Step (0)"
+        },
+        {
+            "text": "Weighted Medians And MADs: For weights w j \u2265 0 and observations y j , the weighted median m = m(y, w) is defined as m = argmin f j w j |y j \u2212 f | , and with y j = |y j \u2212 m| , the scaled weighted MAD s = s(y, w) is defined as s = c \u22121 argmin t j w j |y j \u2212 t| , where c is a consistency factor to warrant consistent estimation of \u03c3 in case of Gaussian observations, i.e., c = argmin t E j w j |\u1ef9 j | \u2212 t for\u1ef9 j i.i.d. As to the (finite sample) breakdown point F SBP of the weighted median (and at the same time for the scaled weighted MAD), we define w 0 j = w i,j / j w j , and for each i define the ordered weights w 0 (j) such that w 0",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Robustification of Step (0)"
+        },
+        {
+            "text": "(1) \u2265 w 0 (2) \u2265 . . . \u2265 w 0 (k) . Then the FSBP in both cases is k \u22121 min{j 0 = 1, . . . , k | j0 j=1 w 0 (j0) \u2265 k/2} which (for equivariant estimators) can be shown to be the largest possible value. So using weighted medians and MADs, we achieve a decent degree of robustness against outliers. E.g., assume we have 10 observations with weights 5 \u00d7 0.05; 3 \u00d7 0.1; 0.2; 0.25 . Then we need at least three outliers (placed at weights 0.1, 0.2, 0.25 , respectively) to produce a breakdown.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Robustification of Step (0)"
+        },
+        {
+            "text": "As indicated, in this step we cannot recur to asymptotics, but rather have to appeal to a theory particularly suited for this recursive setting. In particular, the SO-neighborhoods introduced in (4.3) turn out to be helpful here.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Robustification of the E-step"
+        },
+        {
+            "text": "Consider the following optimization problem of reconstructing the ideal observation Y id by means of the realistic/possibly contaminated Y re on an SO-neighborhood.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Crucial Optimality Thm"
+        },
+        {
+            "text": "Minimax-SO problem Minimize the maximal MSE on an SO-neighborhood, i.e., find a Y re -measurable reconstruction f 0 for Y id s.t.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Crucial Optimality Thm"
+        },
+        {
+            "text": "The solution is given by ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Crucial Optimality Thm"
+        },
+        {
+            "text": "where \u03c1 > 0 ensures that P Y di 0 (dy) = 1 and",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Crucial Optimality Thm"
+        },
+        {
+            "text": "The value of the minimax risk of Problem (5.1) is",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Crucial Optimality Thm"
+        },
+        {
+            "text": "Proof : See Appendix 7.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Crucial Optimality Thm"
+        },
+        {
+            "text": "//// The optimal procedure in equation (5.2) has an appealing interpretation: It is a compromise between the (unobservable) situations that (a) one observes the ideal Y id , in which case one would use it unchanged and (b) one observes Y di , i.e.; something completely unrelated to Y id , hence one would use the best prediction for Y id (in MSE-sense) without any information, hence the unconditional expectation E Y id . The decision on how much to tend to case (a) and how much to case (b) is taken according to the (length of the) discrepancy D(Y re ) between observed signal Y re and E Y id . If this length is smaller than \u03c1 , we keep Y re unchanged, otherwise we modify E Y id by adding a clipped version of D(Y re ) .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Crucial Optimality Thm"
+        },
+        {
+            "text": "In the Girsanov-/change of measure step we recall that the corresponding likelihood ratio here is just",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Robustification of Steps (RN), (E)"
+        },
+        {
+            "text": "Apparently \u03bb s can both take values close to 0 , and, more dangerously, in particular for small values of \u03c3(x s\u22121 ) , very large values. So bounding the \u03bb s is crucial to avoid effects like in Figure 3 . A first (non-robust) remedy uses a data driven reference measure, i.e., instead of N (0, 1) , we use N (0,\u03c3 2 ) where\u03c3 is a global scale measure taken over all observations, ignoring time dependence and state-varying \u03c3 's. A robust proposal would take\u03c3 to be the MAD of all observations (tuned for consistency at the normal distribution). This leads to\u03bb",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 193,
+                    "end": 201,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Robustification of Steps (RN), (E)"
+        },
+        {
+            "text": "Eventually, in both estimation and filtering/prediction,\u03c3 cancels out as a common factor in nominator and denominator, so is irrelevant in the subsequent steps; its mere purpose is to stabilize the terms in numeric aspects.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Robustification of Steps (RN), (E)"
+        },
+        {
+            "text": "To take into account time dynamics in our robustification, we want to use Theorem 5.1, but to this end, we need second moments, which for \u03bb s need not exist. So instead, we apply the theorem to Y id = \u03bb s , which means that\u03bb s = (Y id ) 2 is robustified b\u0233",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Robustification of Steps (RN), (E)"
+        },
+        {
+            "text": "for H b (x) = x min{1, b/|x|} . Clipping height b in turn is chosen such that E\u03bb s = \u03b1 , \u03b1 = 0.95 for instance. As in the ideal situation E \u03bb s = 1 , in a last step with a consistency factor c s determined similarly to c i in the initialization step for the weighted MADs, we pass over to\u03bb 0 s = c s\u03bbs such that E\u03bb 0 s = 1 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Robustification of Steps (RN), (E)"
+        },
+        {
+            "text": "Similarly, in the remaining parts of the E-step, for each of the filtered processes generically denoted by G and the filtered one by\u011c , we could replace\u011c b\u0233",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Robustification of Steps (RN), (E)"
+        },
+        {
+            "text": "for G any of J ji k , O i k , and T i k (f ) and again suitably chosen b . It turns out though, that it is preferable to pursue another route. The aggregates T i k (f ) are used in the M-step in (3.10), but for a robustification of this step, it is crucial to be able to attribute individual influence to each of the observations, so instead we split up the terms of the filtered neg-loglikelihood into summands w i,j /\u00d4 i k [(y j \u2212 f i ) 2 /\u03c3 2 i + log \u03c3 i ] for j = 1, . . . , k , and hence we may skip a robustification of T i k (f ) . Similarly, as J ji t , O i t are filtered observations of multinomial-like variables, a robustification is of limited use, as any contribution of a single observation to these variables can at most be of absolute value 1 , so is bounded anyway. Hence in the E-step, we only robustify \u03bb s . The splitting up the aggregates T i k (f ) into summands amounts to giving up strict recursivity, as for k observations in one batch, one now has to store the values w i,j /\u00d4 i k for j = 1, . . . , k , and building up from j = 1 , at observation time j = j 0 within the batch, we construct w i,j;j0 , j = 1, . . . , j 0 from the values w i,j;j0\u22121 , j = 1, . . . , j 0 \u2212 1 , so we have a growing triangle of weight values. This would lead to increasing memory requirements, if we had not chosen to work in batches of fixed length k , which puts an upper bound onto memory needs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Robustification of Steps (RN), (E)"
+        },
+        {
+            "text": "As mentioned before, contrast to the (E)-step, in this estimation step, we may work with classical gross error neighborhoods (4.1) and with the standard i.i.d. setting.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Robustification of the (M)-Step"
+        },
+        {
+            "text": "By Bienaym\u00e9, variance then usually is O(1/n) for sample size n , while for robust estimators, the maximal bias is proportional to the neighborhood radius \u03b5 . Hence unless \u03b5 is appropriately scaled in n , for growing n , bias will dominate eventually for growing n . This is avoided in the shrinking neighborhood approach by setting \u03b5 = \u03b5 n = r/ \u221a n for some r \u2265 0 , compare Rieder [1994] . Kohl et al. [2010] sets \u03b5 = \u03b5 n = r/ \u221a n for some initial radius r \u2208 [0, \u221e) . One could see this shrinking as indicating that with growing n , diligence is increasing so the rate of outliers is decreasing. This is perhaps overly optimistic. Another interpretation is that the severeness of the robustness problem with 10% outliers at sample size 100 should not be compared with the one with 10% outliers at sample size 10000 but rather with the one with 1% outliers at this sample size.",
+            "cite_spans": [
+                {
+                    "start": 374,
+                    "end": 387,
+                    "text": "Rieder [1994]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 390,
+                    "end": 408,
+                    "text": "Kohl et al. [2010]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Shrinking Neighborhood Approach"
+        },
+        {
+            "text": "In this shrinking neighborhood setting, with mathematical rigor, optimization of the robust criteria can be deferred to the respective IFs, i.e. instead of determining the IF of a given procedure, we construct a procedure to a given (optimally-robust) IF. This is achieved by the concept of asymptotically linear estimators (ALEs), as it arises canonically in most proofs of asymptotic normality: In a smooth ( L 2 -differentiable) parametric model P = {P \u03b8 , \u03b8 \u2208 \u0398} for i.i.d observations X i \u223c P \u03b8 with open parameter domain \u0398 \u2282 R d based on the scores 3 \u039b \u03b8 and its finite Fisher information I \u03b8 = E \u03b8 \u039b \u03b8 \u039b \u03c4 \u03b8 , we define the set \u03a8 2 (\u03b8) of influence functions as the subset of L d 2 (P \u03b8 ) consisting of square integrable functions \u03c8 \u03b8 with d coordinates with E \u03b8 \u03c8 \u03b8 = 0 and E \u03b8 \u03c8 \u03b8 \u039b \u03c4 \u03b8 = I d where I d is the d -dimensional unit matrix. Then a sequence of estimators S n = S n (X 1 , . . . , X n ) is called an ALE if",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Shrinking Neighborhood Approach"
+        },
+        {
+            "text": "for some influence function \u03c8 \u03b8 \u2208 \u03a8 2 (\u03b8) . In the sequel we fix the true \u03b8 \u2208 \u0398 and suppress it from notation where clear from context. In particular, the MLE usually has influence function \u03c8 MLE = I \u22121 \u039b , while most other common estimators also have a representation (5.10) with a different \u03c8 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Shrinking Neighborhood Approach"
+        },
+        {
+            "text": "For given IF \u03c8 we may construct an ALE\u03b8 n with \u03c8 as IF by a one-step construction, often called one-step-reweighting: To given starting estimator \u03b8 0 n such that R 0 n = \u03b8 0 n \u2212 \u03b8 = o P n \u03b8 (n \u22121/4+0 ) we defin\u00ea \u03b8 n = \u03b8 0 n + 1 n n j=1 \u03c8 \u03b8 0 n (X j ) (5.11)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Shrinking Neighborhood Approach"
+        },
+        {
+            "text": "Then indeed\u03b8 n = \u03b8+ 1 n n j=1 \u03c8 \u03b8 (X j )+R n and R n = o P n \u03b8 (n \u22121/2 ) , i.e.,\u03b8 n forgets about \u03b8 0 n as to its asymptotic variance and GES; however its breakdown point is inherited from \u03b8 0 n once \u0398 is unbounded and \u03c8 is bounded. Hence for the starting estimator, we seek for \u03b8 0 n with high breakdown point. For a more detailed account on this approach, see Rieder [1994] .",
+            "cite_spans": [
+                {
+                    "start": 362,
+                    "end": 375,
+                    "text": "Rieder [1994]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Shrinking Neighborhood Approach"
+        },
+        {
+            "text": "As mentioned, coming from the E-step, not all observations y j are equally likely to contribute to state i , hence we are in a situation with weighted observations, where we may pass over to normed weights w 0 i,j = w i,j / j w i,j summing up to 1 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Shrinking Neighborhood Approach With Weighted Observations"
+        },
+        {
+            "text": "Suppressing state index i from notation here, with these weights and \u03b8 0 n the vector of weighted median and scaled weighted MAD for state i , (5.11) become\u015d",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Shrinking Neighborhood Approach With Weighted Observations"
+        },
+        {
+            "text": "for\u03b8 n again a two-dimensional ALE with location and scale coordinate and \u03c8 \u03b8 (y) = \u03c3\u03c8((y \u2212 f )/\u03c3) , at \u03b8 = (f, \u03c3) \u03c4 , is the IF of the MBRE in the one-dimensional Gaussian location and scale model at N (0, 1) ; i.e., \u03c8(y) = bY (y)/|Y (y)|, Y (y) = (y, A(y 2 \u2212 1) \u2212 a), (5.13)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Shrinking Neighborhood Approach With Weighted Observations"
+        },
+        {
+            "text": "with numerical values for A, a, b up to four digits taken from R package RobLox, Kohl [2012] , being A = 0.7917, a = \u22120.4970, b = 1.8546, (5.14)",
+            "cite_spans": [
+                {
+                    "start": 81,
+                    "end": 92,
+                    "text": "Kohl [2012]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Shrinking Neighborhood Approach With Weighted Observations"
+        },
+        {
+            "text": "Influence function \u03c8 is illustrated in Figure 4 . To warrant positivity of \u03c3 and to maintain a high breakdown point even in the presence of inliers (driving \u03c3 to essentially 0 ), for the scale component, instead of (5.12) we use the asymptotically equivalent form",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 39,
+                    "end": 47,
+                    "text": "Figure 4",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Shrinking Neighborhood Approach With Weighted Observations"
+        },
+        {
+            "text": "Using the MBRE-\u03c8 from (5.13) and (5.14) on first glance could be seen as overly cautious. Detailed simulation studies, compare e.g. Kohl and Deigner [2010] , show that for our typical batch lengths of 10-20, the MBRE also is near to optimal in the sense of Rieder et al. [2008] in the situation where nothing is known about the true outlier rate (including, of course the situation where no outliers at all occur).",
+            "cite_spans": [
+                {
+                    "start": 132,
+                    "end": 155,
+                    "text": "Kohl and Deigner [2010]",
+                    "ref_id": null
+                },
+                {
+                    "start": 257,
+                    "end": 277,
+                    "text": "Rieder et al. [2008]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Shrinking Neighborhood Approach With Weighted Observations"
+        },
+        {
+            "text": "Now, we derive robust estimators of the model parameters f i and \u03c3 i , i.e., we justify passage to weighted ALEs as in (5.12). In particular we specify the weights w 0 j = w 0 i,j therein. Recall, that the M1-step in the classical algorithm gives the optimal parameter estimates stated in Theorem 3.1. We now build ALEs, which can be achieved, when the MLEs of the parameters f i and \u03c3 i are stated as weighted sums of the observations y k .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Robustification of Steps (M1) & (M2)"
+        },
+        {
+            "text": "the optimal parameter estimatesf i and\u03c3 i are given by",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Robustification of Steps (M1) & (M2)"
+        },
+        {
+            "text": "Proof : To find the optimal estimate for f consider",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Robustification of Steps (M1) & (M2)"
+        },
+        {
+            "text": "Up to constants irrelevant for optimization, the filtered log-likelihood is then",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Robustification of Steps (M1) & (M2)"
+        },
+        {
+            "text": "Maximising the log-likelihood E[ln(\u039b * k ) | F Y k ] in f i hence leads to the optimal parameter estimate k l=1",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Robustification of Steps (M1) & (M2)"
+        },
+        {
+            "text": "In an analogue way, for \u03c3 i we define",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Robustification of Steps (M1) & (M2)"
+        },
+        {
+            "text": "and hence, again up to irrelevant terms",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Robustification of Steps (M1) & (M2)"
+        },
+        {
+            "text": "From this term, which has to be minimised for \u03c3 i we get",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Robustification of Steps (M1) & (M2)"
+        },
+        {
+            "text": "Note that (5.20) takes its minimum at the same place as",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Robustification of Steps (M1) & (M2)"
+        },
+        {
+            "text": "For the robustification of the parameter estimation (step M1) we now distinguish two approaches. The first robustification is utilized in the first run over the first batch of data and is therefore called the initialization step M1. The robust estimates of the parameters from the second batch onwards are then achieved through a weighted ALE. 2. For further batches, the weighted MBRE is obtained as a one-step construction with the parameter estimate (f 0 i , \u03c3 0 i ) from the previous batch as starting estimator and with IF \u03c8 = (\u03c8 loc , \u03c8 scale ) from (5.13), (5.14), i.e.,f",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Robustification of Steps (M1) & (M2)"
+        },
+        {
+            "text": "Proof :",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Robustification of Steps (M1) & (M2)"
+        },
+        {
+            "text": "1. Initialization: With absolute values instead of squares, (5.19) become\u015d",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Robustification of Steps (M1) & (M2)"
+        },
+        {
+            "text": "i,l is constant in l , this leads to the empirical median as unique minimizer justifying the name. For the scaled weighted MAD, the argument parallels the previous one, leading to consistency factor c i = \u03a6(3/4) for \u03a6 the cdf of N (0, 1) .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Robustification of Steps (M1) & (M2)"
+        },
+        {
+            "text": "2. M1 in further batches: Apparently, by definition, (f i ,\u03c3 i ) is an ALE, once we show that \u03c8 is square integrable, E(\u03c8) = 0 , E(\u03c8\u039b ) = I 2 . The latter two properties can be checked numerically, while by boundedness square integrability is obvious. In addition it has the necessary form of an MBRE in the i.i.d. setting as given in [Rieder, 1994, Thm 5.5.1] . To show that this also gives the MBRE in the context of weighted observations, we would need to develop the theory of ALEs for triangular schemes similar to the one in the Lindeberg Feller Theorem. This has been done, to some extent in [Ruckdeschel, 2001, Section 9 ]. In particular, for each state i , we have to assume a Noether condition excluding observations overly influential for parameter estimation in this particular state, i.e., Consider again our filtering algorithm and recall, that the filter runs over the data set in batches of roughly ten two fifty data point. To determine the ALE for our parameters, we have to calculate the weights w 0 i,l = x l\u22121 , e i / O i k . Therefore, our algorithm has to know all values ofx l from 1 to k in each batch. With this, our robustification of the algorithm cannot obtain the same recursiveness as the classical algorithm. However, since we only have to determine and save the estimates of x l in each batch, the algorithm still is numerically efficient, the additional costs are low. In general, the ALEs are fastly computed robust estimators, which lead in our case to a fast and, over batches, recursive algorithm.",
+            "cite_spans": [
+                {
+                    "start": 335,
+                    "end": 360,
+                    "text": "[Rieder, 1994, Thm 5.5.1]",
+                    "ref_id": null
+                },
+                {
+                    "start": 599,
+                    "end": 628,
+                    "text": "[Ruckdeschel, 2001, Section 9",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Robustification of Steps (M1) & (M2)"
+        },
+        {
+            "text": "The additional computational burden to store all the weights w 0 i,l arising in the robustification of the M1-step is more than paid off by the additional benefits they offer for diagnostic purposes beyond the mere EM-algorithm: They tell us which of the observations, due to their likelihood to be in state i carry more information on the respective parameters f i and \u03c3 i than others. The same goes for the terms \u03c8 \u03b8 (y l ) which capture the individual information of observation y l for the respective parameters. Even more though, the coordinates of \u03c8 \u03b8 (y j )/|\u03c8 \u03b8 (y l )| tell us how much of the information in observation y l is used for estimating f i and how much for \u03c3 i . In addition the function y \u2192 w 0 i,l \u03c8 \u03b8 (y) can be used for sensitivity analysis, telling us what happens to the parameter estimates for small changes in observation y . Finally, using the unclipped, classically optimal IF of the MLE, but evaluated at the robustly estimated parameters, we may identify outliers not fitting to the \"usual\" states.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Robustification of Steps (M1) & (M2)"
+        },
+        {
+            "text": "The classical algorithm as well as the robust version are implemented in R; we plan to release the code in form of a contributed package on CRAN at a later stage. The implementation builds up on, respectively uses contributed packages RobLox and mclust. At the time of writing we are preparing a thorough simulation study to explore our procedure in detail and in a quantitative way. For the moment, we restrict ourselves to assess the procedure in a qualitative way, illustrating how it can cope with a situation like in Figure 3 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 522,
+                    "end": 530,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Implementation and Simulation"
+        },
+        {
+            "text": "In Figure 5 , we see the paths of the robust parameter estimates for f , \u03c3 , and \u03a0 ; due to the new initialization procedure, the estimates-in particular those for \u03a0 -differ a little from those of Figure 1 . Still, all the estimators behave very reasonable and are not too far from the classical ones.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 3,
+                    "end": 11,
+                    "text": "Figure 5",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 197,
+                    "end": 205,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Implementation and Simulation"
+        },
+        {
+            "text": "In the outlier situations from Figures 2 and 3 , illustrated in Figures 6, the estimates for f and \u03c3 remain stable at large as desired. The estimates for \u03a0 however do get irritated, essentially flagging out one state as outlier state. Some more work remains to be done to better understand this and to see how to avoid this.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 31,
+                    "end": 46,
+                    "text": "Figures 2 and 3",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Implementation and Simulation"
+        },
+        {
+            "text": "Aside from this, our algorithm already achieves its goals; in particular, our procedure never breaks downcontrary to the classical one. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Implementation and Simulation"
+        },
+        {
+            "text": "In financial applications, we often have to consider the case of outliers in our data set, which can occur from time to time e.g., due to either wrong values in the financial database or unusual peaks or lows in volatile markets. Conventional parameter estimation methods cannot handle these specific data characteristics well.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "Contribution of this paper: Our contribution to this issue is two fold: First, we analyse step by step the general filter-based EM-algorithm for HMMs by Elliott [1994] and highlight, which problems can occur in case of extreme values. We extend the classical algorithm by a new technique to find initial values, taking into account the N \u2212 state setting of the HMM. In addition, for numerical reasons we use a data-driven reference measure instead of the standard normal distribution.",
+            "cite_spans": [
+                {
+                    "start": 153,
+                    "end": 167,
+                    "text": "Elliott [1994]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "Second, we have proposed a full robustification of the classical EM-algorithm. Our robustified algorithm is stable w.r.t. outliers in the observation process and is still able to estimate processes of the Markov chain as well as optimal parameter estimates with acceptable accuracy. The robustification builds up on concepts from robust statistics like SO-optimal filtering and asymptotic linear estimators. Due to the non-iid nature of the observations as apparent from the non-uniform weights w 0 i,l attributed to the observations, these concepts had to be generalized for this situation, leading to weighted medians, weighted MADs, weighted ALEs. Similarly, the SO-optimal filtering (with focus on state reconstruction) is not directly applicable for robustifying the Radon-Nikodym terms \u03bb s , where we (a) had to clean the \"observations\" themselves and (b) had to pass over to \u221a \u03bb s for integrability reasons. Our robust algorithm is computationally efficient. Although complete recursivity cannot be obtained, the algorithm runs over batches and keeps its recursivity there additionally storing the filtered values of the Markov chain. This additional burden is outweighed though by the benefits of these weights and influence function terms for diagnostic purposes. As in the original algorithm, the model parameters, which are guided by the state of the Markov chain, are updated after each batch, using a robust ALE however. The robustification therefore keeps the characteristic of the algorithm, that new information, which arises in the observation process, is included in the recent parameter update-there is no forward-backward loop.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "The forecasts of asset prices, which are obtained through the robustified parameter estimates, can be utilized to make investment decisions in asset allocation problems.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "To sum up, our forecasts are robust against additive outliers in the observation process and able to handle switching regimes occurring in financial markets.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "Outlook: It is pretty obvious how to generalize our robustification to a multivariate setting: The E-step is not affected by multivariate observations, and the initialization technique using Gaussian Mixture Models ideas already is available in multivariate settings. Respective robust multivariate scale and location estimators for weighted situations still have to be implemented, though, a candidate being a weighted variant of the (fast) MCD-estimator, compare Rousseeuw and Leroy [1987] , Rousseeuw and van Driessen [1999] .",
+            "cite_spans": [
+                {
+                    "start": 465,
+                    "end": 491,
+                    "text": "Rousseeuw and Leroy [1987]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 494,
+                    "end": 527,
+                    "text": "Rousseeuw and van Driessen [1999]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "Future work will hence translate our robustification to a multivariate setting to directly apply the algorithm to asset allocation problems for portfolio optimisation. Furthermore, investment strategies shall be examined within this robust HMM setting to enable investors a view on their portfolio, which includes possible outliers or extreme events. The implementation of the algorithms shall be part of an R package, including a thorough simulation study of the robustified algorithm and its application in portfolio optimisation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "Finally, an automatic selection criterion for the number of states to retain would be desirable which is a question of model selection, where criteria like BIC have still to be adopted for robustness.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "Financial support for C. Erlwein from Deutsche Forschungsgemeinschaft (DFG) within the project \"Regimeswitching in zeitstetigen Finanzmarktmodellen: Statistik und problemspezifische Modellwahl\" (RU-893/4-1) is gratefully acknowledged.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgement"
+        },
+        {
+            "text": "Proof to Theorem 5.1",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Proofs"
+        },
+        {
+            "text": "(1) Let us solve max \u2202U min f [. . .] first, which amounts to min \u2202U Ere[ Ere[Y id |Y re ] 2 ] . For fixed element P Y di assume a dominating \u03c3 -finite measure \u00b5 , i.e., \u00b5 P Y di , \u00b5 P Y id ; this gives us a \u00b5 -density q(y) of P Y di . Determining the joint (real) law P Y id ,Y re (d\u1ef9, dy) as P (Y id \u2208 A, Y re \u2208 B) = IA(\u1ef9) IB(y)[(1\u2212r) I(\u1ef9 = y) + rq(y)] p Y id (\u1ef9) \u00b5(d\u1ef9)\u00b5(dy) (A.1) we deduce that \u00b5(dy) -a.e.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Proofs"
+        },
+        {
+            "text": "Ere[Y id |Y re = y] = rq(y)E Y id +(1\u2212r)yp Y id (y) rq(y) + (1 \u2212 r)p Y id (y) =: a1q(y)+a2(y) a3q(y)+a4(y) (A.2)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Proofs"
+        },
+        {
+            "text": "Hence we have to minimize F (q) := |a1q(y) + a2(y)| 2 a3q(y) + a4(y) \u00b5(dy)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Proofs"
+        },
+        {
+            "text": "in M0 = {q \u2208 L1(\u00b5) | q \u2265 0, q d\u00b5 = 1} . To this end, we note that F is convex on the non-void, convex cone M = {q \u2208 L1(\u00b5) | q \u2265 0} so, for some\u03c1 \u2265 0 , we may consider the Lagrangian . So by continuity, there is some \u03c1 \u2208 (0, \u221e) with H(\u03c1) = 1 . On M0 , q d\u00b5 = 1 , butq\u03c1 = qs=\u03c1 \u2208 M0 and is optimal on M \u2283 M0 hence it also minimizes F on M0 . In particular, we get representation (5.3) and note that, independently from the choice of \u00b5 , the least favorable P Y di 0 is dominated according to P Y di 0 P Y id , i.e.; non-dominated P Y di are even easier to deal with. To this end we first verify (5.2) determining f0(y) as f0(y) = E re;P [X|Y re = y] . Writing a sub/superscript \" re; P \" for evaluation under the situation generated by P = P Y di andP for P Y di 0 , we obtain the the risk for general P as MSEre; P [f0(Y re, P )] = (1 \u2212 r) Eid Y id \u2212 f0(Y id ) 2 + r tr Cov Y id + +r EP min(|D(Y di;,q )| 2 , \u03c1 2 ) (A.4) This is maximal for any P that is concentrated on the set |D(Y di;,q )| > \u03c1 , which is true forP . Hence (A.3) follows, as for any contaminating P MSEre; P [f0(Y re; P ] \u2264 MSE re;P [f0(Y re;P )] Finally, we pass over from \u2202U to U : Let fr ,Pr denote the components of the saddle-point for \u2202U(r) , as well as \u03c1(r) the corresponding Lagrange multiplier and wr the corresponding weight, i.e., wr = wr(y) = min(1, \u03c1(r) / |D(y)|) .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Proofs"
+        },
+        {
+            "text": "Let R(f, P, r) be the MSE of procedure f at the SO model \u2202U(r) with contaminating P Y di = P . As can be seen from (5.3), \u03c1(r) is antitone in r ; in particular, asPr is concentrated on {|D(Y )| \u2265 \u03c1(r)} which for r \u2264 s is a subset of {|D(Y )| \u2265 \u03c1(s)} , we obtain R(fs,Ps, s) = R(fs,Pr, s) for r \u2264 s",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Proofs"
+        },
+        {
+            "text": "Note that R(fs, P, 0) = R(fs, Q, 0) for all P, Q -hence passage toR(fs, P, r) = R(fs, P, r) \u2212 R(fs, P, 0) is helpful-and that tr Cov Y id = Eid tr Covid[Y id |Y id ] + |D(Y id )| 2 (A.5) Abbreviatews(Y id ) = 1 \u2212 1 \u2212 ws(Y id ) 2 \u2265 0 to see that R(fs, P, r) = r Eid |D(Y id )| 2w s(Y id ) + EP min(|D(Y id )|, \u03c1(s)) 2 \u2264 \u2264 r Eid |D(Y id )| 2w s(Y id ) + \u03c1(s) 2 =R(fs,Pr, r) <R(fs,Ps, s)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Proofs"
+        },
+        {
+            "text": "Hence the saddle-point extends to U(r) ; in particular the maximal risk is never attained in the interior U(r) \\ \u2202U(r) . (5.5) follows by plugging in the results.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Proofs"
+        },
+        {
+            "text": "////",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Proofs"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "International asset allocation with regime shifts",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Bekaert",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Review of Financial Studies",
+            "volume": "15",
+            "issn": "",
+            "pages": "1137--1187",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "A Markov model of switching-regime ARCH",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cai",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "Journal of Business & Economic Statistics",
+            "volume": "12",
+            "issn": "",
+            "pages": "309--316",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Hidden Markov models: Estimation and Control",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Elliott",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Aggoun",
+                    "suffix": ""
+                },
+                {
+                    "first": "Moore",
+                    "middle": [
+                        "J B"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "Applications of Mathematics",
+            "volume": "29",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Exact adaptive filters for Markov chains observed in Gaussian noise",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Elliott",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "Automatica",
+            "volume": "30",
+            "issn": "",
+            "pages": "1399--1408",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "An application of hidden Markov models to asset allocation problems",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Elliott",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Van Der Hoek",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Finance and Stochastics",
+            "volume": "1",
+            "issn": "",
+            "pages": "229--238",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "A method for portfolio choice",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Elliott",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hinz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Applied Stochastic Models in Business and Industry",
+            "volume": "19",
+            "issn": "",
+            "pages": "1--11",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "An examination of HMM-based investment strategies for asset allocation. Applied stochastic models in business and industry",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Erlwein",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Mamon",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Davison",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "",
+            "volume": "27",
+            "issn": "",
+            "pages": "204--221",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Von Mises Calculus for Statistical Functionals",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Fernholz",
+                    "suffix": ""
+                }
+            ],
+            "year": 1983,
+            "venue": "Lecture Notes in Statistics",
+            "volume": "19",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Outliers in time series",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Fox",
+                    "suffix": ""
+                }
+            ],
+            "year": 1972,
+            "venue": "J. R. Stat. Soc., Ser. B",
+            "volume": "34",
+            "issn": "",
+            "pages": "350--363",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Model-based Clustering, Discriminant Analysis and Density Estimation",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fraley",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Raftery",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Journal of the American Statistical Association",
+            "volume": "97",
+            "issn": "",
+            "pages": "611--631",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "mclust Version 4 for R: Normal Mixture Modeling for Model-Based Clustering, Classification, and Density Estimation",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fraley",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Raftery",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Murphy",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Scrucca",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Modeling the conditional distribution of interest rates as a regime-switching process",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Gray",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "Journal of Financial Economics",
+            "volume": "42",
+            "issn": "",
+            "pages": "27--62",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Asset allocation under multivariate regime switching",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Guidolin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Timmermann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Journal of Economic Dynamics and Control",
+            "volume": "31",
+            "issn": "",
+            "pages": "3503--3544",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "A new approach to the economic analysis of nonstationary time series and the business cycle",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Hamilton",
+                    "suffix": ""
+                }
+            ],
+            "year": 1989,
+            "venue": "Econometrica: Journal of the Econometric Society",
+            "volume": "57",
+            "issn": "",
+            "pages": "357--384",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Contributions to the theory of robust estimation. Dissertation",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Hampel",
+                    "suffix": ""
+                }
+            ],
+            "year": 1968,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Robust statistics. The approach based on influence functions",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Hampel",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ronchetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Rousseeuw",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Stahel",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Robust statistics",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Huber",
+                    "suffix": ""
+                }
+            ],
+            "year": 1981,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "RobLox: Optimally robust influence curves and estimators for location and scale",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kohl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Preprocessing of gene expression data by optimally robust estimator",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kohl",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Deigner",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "BMC Bioinformatics",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Infinitesimally Robust Estimation in General Smoothly Parametrized Models",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kohl",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Rieder",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ruckdeschel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Stat. Methods Appl",
+            "volume": "19",
+            "issn": "",
+            "pages": "333--354",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Risk, Uncertainty, and Profit",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Knight",
+                    "suffix": ""
+                }
+            ],
+            "year": 1921,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Adaptive signal processing of asset price dynamics with predictability analysis",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Mamon",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Erlwein",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Gopaluni",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Information Sciences",
+            "volume": "178",
+            "issn": "",
+            "pages": "203--219",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Portfolio Selection",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Markowitz",
+                    "suffix": ""
+                }
+            ],
+            "year": 1952,
+            "venue": "The Journal of Finance",
+            "volume": "7",
+            "issn": "1",
+            "pages": "77--91",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Robust Statistics: Theory and Methods",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Maronna",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Martin",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Yohai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Robust Asymptotic Statistics",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Rieder",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "The cost of not knowing the radius",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Rieder",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kohl",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ruckdeschel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "",
+            "volume": "17",
+            "issn": "",
+            "pages": "13--40",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Robust Regression and Outlier Detection",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Rousseeuw",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Leroy",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "A fast algorithm for the minimum covariance determinant estimator",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Rousseeuw",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Van Driessen",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Technometrics",
+            "volume": "41",
+            "issn": "",
+            "pages": "212--223",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Ans\u00e4tze zur Robustifizierung des Kalman Filters",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ruckdeschel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Bayreuther Mathematische Schriften",
+            "volume": "64",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Robustness Properties of Estimators in Generalized Pareto Models",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ruckdeschel",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Horbenko",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Optimizing the terminal wealth under partial information: The drift process as a continuous time Markov chain",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sass",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Haussmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Finance and Stochastics",
+            "volume": "8",
+            "issn": "",
+            "pages": "553--577",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "On the optimal filtering of diffusion processes",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zakai",
+                    "suffix": ""
+                }
+            ],
+            "year": 1969,
+            "venue": "",
+            "volume": "11",
+            "issn": "",
+            "pages": "230--243",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Optimal parameter estimates for monthly MSCI returns between 1994 and 2009",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Optimal parameter estimates for monthly MSCI returns with planted outliers",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Filter-based EM-algorithm for observation sequence with severe outliers",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "obtained empirically for a sufficiently large sample size M , e.g., M = 10000 , setting c = 1 M M k=1 c k , c k = argmin t j w j |y j,k | \u2212 t , y j,k i.i.d. \u223c N (0, 1) .",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Influence function of the MBRE at N (0, 1) ; left panel: location part; right panel: scale part.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "The robust parameter estimates for the model parameters f i and \u03c3 i in the (1) initialization and (2) all following batches are given by 1. Replacing, for initialization, the squares by absolute values in (5.19) and in (5.21),f i and\u03c3 i are the weighted median and scaled weighted MAD, respectively, of the y l , l = 1, . . . , k with weights (w 0 i,l ) l .",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "lim k\u2192\u221e max l=1,...,k (w 0 i,l;k ) 2 / k j=1 (w 0 i,l;k ) 2 = 0 (5.24)We do not work this out in detail here, though. Robust parameter estimates for monthly MSCI returns between 1994 and 2009-analogue toFigure 1",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Robust parameter estimates for monthly MSCI with planted outliers-analogue toFigures 2 and 3",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "L\u03c1(q) := F (q) +\u03c1 q d\u00b5 for some positive Lagrange multiplier\u03c1 . Pointwise minimization in y of L\u03c1(q) gives qs(y) = 1\u2212r r ( D(y) s \u2212 1)+ p Y (y) for some constant s = s(\u03c1) = ( | E Y id | 2 +\u03c1/r) 1/2 , Pointwise in y ,qs is antitone and continuous in s \u2265 0 and lim s\u21920[\u221e] qs(y) = \u221e[0] , hence by monotone convergence, H(s) = qs(y) \u00b5(dy) too, is antitone and continuous and lim s\u21920[\u221e] H(s) = \u221e[0]",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF1": {
+            "text": "Classical algorithm setting and robustified version of each step.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "As next step we show that max \u2202U min f [. . .] = min f max \u2202U [. . .] (A.3)",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

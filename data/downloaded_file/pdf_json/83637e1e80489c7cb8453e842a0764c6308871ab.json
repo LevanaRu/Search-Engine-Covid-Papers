@@ -1,0 +1,1046 @@
+{
+    "paper_id": "83637e1e80489c7cb8453e842a0764c6308871ab",
+    "metadata": {
+        "title": "Early trends for SARS-CoV-2 infection in central and north Texas and impact on other circulating 1 respiratory viruses 2",
+        "authors": [
+            {
+                "first": "Manohar",
+                "middle": [
+                    "B"
+                ],
+                "last": "Mutnal",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Baylor Scott & White Medical Center",
+                    "location": {
+                        "addrLine": "6 South 31 st Street",
+                        "postCode": "2401, 76508",
+                        "settlement": "Temple",
+                        "region": "TX"
+                    }
+                },
+                "email": "manohar.mutnal@bswhealth.org"
+            },
+            {
+                "first": "Alejandro",
+                "middle": [
+                    "C"
+                ],
+                "last": "Arroliga",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Kimberly",
+                "middle": [],
+                "last": "Walker",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Baylor Scott & White Medical Center",
+                    "location": {
+                        "addrLine": "6 South 31 st Street",
+                        "postCode": "2401, 76508",
+                        "settlement": "Temple",
+                        "region": "TX"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Amin",
+                "middle": [],
+                "last": "Mohammad",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Baylor Scott & White Medical Center",
+                    "location": {
+                        "addrLine": "6 South 31 st Street",
+                        "postCode": "2401, 76508",
+                        "settlement": "Temple",
+                        "region": "TX"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Matthew",
+                "middle": [
+                    "M"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Brigmon",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Baylor Scott & White Medical Center",
+                    "location": {
+                        "addrLine": "8 Temple",
+                        "postCode": "2401, 76508",
+                        "settlement": "South 31 st Street",
+                        "region": "TX"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ryan",
+                "middle": [
+                    "M"
+                ],
+                "last": "Beaver",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Baylor Scott & White Medical Center",
+                    "location": {
+                        "addrLine": "8 Temple",
+                        "postCode": "2401, 76508",
+                        "settlement": "South 31 st Street",
+                        "region": "TX"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "John",
+                "middle": [
+                    "K"
+                ],
+                "last": "Midturi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Baylor Scott & White Medical Center",
+                    "location": {
+                        "addrLine": "8 Temple",
+                        "postCode": "2401, 76508",
+                        "settlement": "South 31 st Street",
+                        "region": "TX"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Arundhati",
+                "middle": [],
+                "last": "Rao",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Baylor Scott & White Medical Center",
+                    "location": {
+                        "addrLine": "6 South 31 st Street",
+                        "postCode": "2401, 76508",
+                        "settlement": "Temple",
+                        "region": "TX"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Introduction: Rapid diagnosis and isolation are key to containing the quick spread of a pandemic agent 24 like SARS-CoV-2, which has spread globally since its initial outbreak in Wuhan province in China.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "CoV-2 is novel to most parts of the world including USA and the effect on typically prevalent seasonal 26 viruses is just becoming apparent. We present our initial data on the prevalence of respiratory viruses in 27 the month of March, 2020. 28",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Methods: This is a retrospective cohort study post launching of SARS-CoV-2 testing at Baylor Scott and 29",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "White Hospital (BSWH), Temple TX. Testing for SARS-CoV-2 was performed by real-time rRT-PCR 30 assay and results were shared with State public health officials for immediate interventions. 31",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Results: More than 3500 tests were performed during the first two weeks of testing for SARS-CoV-2 and 32 identified 168 (4.7%) positive patients. Sixty-two (3.2%) of the 1,912 ambulatory patients and 106 (6.3%) 33 of the 1,659 ED/inpatients were tested positive. Higher rate of infection (6.9%) were noted in the patients 34 belonging to age group 25-34 years and least number of positive cases were noted in <25 years old (2%) 35",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "group. The TX State county specific patient demographic information was shared with respective public 36 health departments for epidemiological interventions. 37",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "In December 2019, Wuhan city, the capital of Hubei province in China, became the center of an 50 outbreak of pneumonia of unknown cause. By Jan 7, 2020, Chinese scientists had isolated a novel 51 coronavirus, severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2; previously known as 2019-52 nCoV), from these patients with virus-infected pneumonia. 1 Cases have now spread to 190 countries. As 53 of March 23, 2020 there were more than 372,000+ confirmed cases and 16,000+ deaths. 2 Although the 54 outbreak is likely to have started from a zoonotic transmission event associated with a large seafood 55 market that also traded in live wild animals, it soon became clear that efficient person-to-person 56 transmission was also occurring. 3 57",
+            "cite_spans": [
+                {
+                    "start": 356,
+                    "end": 357,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The clinical spectrum of SARS-CoV-2 infection appears to be wide, encompassing asymptomatic 58 infection, mild upper respiratory tract illness, and severe viral pneumonia with respiratory failure and 59 even death, with many patients being hospitalized with pneumonia in Wuhan and elsewhere. 4 A global 60 pandemic has erupted due to a high proportion of asymptomatic patients coupled with a high degree of 61 viral shedding, long incubation period, and late clinical manifestations. Prolific testing, therefore, 62 remains one of the most effective epidemiological interventions to stop early community spread. 63",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Unfortunately, the novelty of SARS-CoV-2 meant that no testing was immediately available making it 64 difficult for public health officials to stay ahead of the pandemic curve. in Texas State to adopt SARS-Co-V2 testing to assist state public health officials for tracing and tracking 71 patients and their immediate contacts. As the pandemic continues to spread across the nation, goal of this 72 study was to share the early clinical trends for COVID-19 in north and central regions of Texas. The aim 73 All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted May 2, 2020. . https://doi.org/10.1101/2020.04.30.20086116 doi: medRxiv preprint of this study is to encourage other laboratories to consider an early start to testing during pandemics, share 74 initial trends in this part of the world and possible impact of SARS-CoV-2 on other seasonal respiratory 75",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "viruses. This report describes the early trends of SARS-CoV-2 infections in the central and north Texas, 76 USA and impact of epidemiological interventions that may have led to the decrease in the incidence of was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. Baylor organization will be referred to as BSW hospitals (BSWH). All adult patients were prescreened 110 according to WHO and BSWH guidelines to be eligible for SARS-CoV-2 testing. Briefly, patients were 111 prescreened on BSWH web portal, phone app and/or through e-visit prior to making appointment for 112 specimen collection at one of the several designated locations. Patients were asked for travel history and 113 any other associated symptoms such as fever, cough and shortness of breath. When clinically indicated, 114 SARS-CoV-2 testing was ordered by the attending physician or by other care providers. 115",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "As BSWH laboratory continues testing, this study included data from the day testing began on 116",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "March 11, 2020 and until March 23, 2020. These two hospital systems within BSWH represent central 117 and north Texas population and are limited to these regions of Texas due to community outreach. Study 118 includes data for SARS-CoV-2 testing from these two regions and seasonal respiratory virus testing data is 119 limited to central Texas region. 120",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Epidemiological, demographic, clinical and laboratory data were extracted from electronic 122 medical records and laboratory information system. The SARS-CoV-2 primers were designed by manufacturer of the assay to detect RNA targets from 135 the SARS-CoV-2 in respiratory specimens from patients as recommended for testing by public health 136 authority guidelines. The method employs two primers for amplifying ORF1 gene and N gene from 137 SARS-CoV-2 virus and the assay includes extraction and internal controls built in the same cartridge. 138",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data collection 121"
+        },
+        {
+            "text": "Internal sample processing controls to verify sample lysis, nucleic acid extraction, and proper system and 139 reagent performance are built into each Luminex Extraction Cartridge. Human RNAase P was used as an 140 internal control. Luminex Aries offers true random-access testing, however, increased demand for testing 141 necessitated validation of a similar assay on the Luminex NxTAG platform for batched testing, this 142 method includes additional Envelope (E) gene target for SARS-CoV-2 detection. The Luminex NxTAG 143 platform offers high throughput but on a batched processing using similar primers as Luminex Aries. 144",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data collection 121"
+        },
+        {
+            "text": "Both assays had received FDA Emergency Use Authorization prior to submission of this manuscript. 145",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data collection 121"
+        },
+        {
+            "text": "Other respiratory virus testing 146 BSWH utilizes respiratory virus syndromic panel, also from Luminex, for the diagnosis of upper 147 respiratory infections. This Luminex NxTAG assay was used as previously described 6 was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 217,
+                    "end": 218,
+                    "text": "6",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data collection 121"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted May 2, 2020. was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data collection 121"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted May 2, 2020. The typical turnaround time for specimen collection to verification of test results was less than 15 hours. 183",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data collection 121"
+        },
+        {
+            "text": "Individuals were delivered a prescreening questionnaire to be eligible for testing through BSWH Table 1 . More than 75% of the patients presented in emergency department had fever and 192",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 96,
+                    "end": 103,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "SARS-CoV-2 positive cases and age distribution 184"
+        },
+        {
+            "text": "A total of 3,571 SARS-CoV-2 rRT-PCR tests were performed at BSWH laboratory, 1,912 194 specimens were received from ambulatory and/or drive-through collection sites, and 1,659 from the 195 All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "cough. 193"
+        },
+        {
+            "text": "was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "cough. 193"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted May 2, 2020. to 34 years age group (7.4%) followed by 6.9% in 55 years to 64 years age group. Data presented here 199 indicated a lower incidence (2%) among the <25 years old (Figure 4) . was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 241,
+                    "end": 251,
+                    "text": "(Figure 4)",
+                    "ref_id": null
+                }
+            ],
+            "section": "cough. 193"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted May 2, 2020. . https://doi.org/10.1101/2020.04.30.20086116 doi: medRxiv preprint ( Figure 6) . 221",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 149,
+                    "end": 158,
+                    "text": "Figure 6)",
+                    "ref_id": "FIGREF15"
+                }
+            ],
+            "section": "cough. 193"
+        },
+        {
+            "text": "This study also looked at co-infections rates from SARS-CoV-2 positive patients. We searched for 222 262 patient records that had concurrent testing requests for SARS-CoV-2 and other respiratory virus 223",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "cough. 193"
+        },
+        {
+            "text": "infections. Contrary to several other reports from other parts of the nation, this study did not notice any 224 co-infection cases with SARS-CoV-2. 225 226 All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "cough. 193"
+        },
+        {
+            "text": "was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "cough. 193"
+        },
+        {
+            "text": "The SARS-CoV-2 literature is evolving at breakneck pace, but there is a paucity of literature 228 detailing in-house testing solutions to combat the national delays in turn-around time or the shortages of 229 testing kits available. As real-time rRT-PCR is already widely deployed in diagnostic virology 230 laboratories, this study recommends any institution with molecular testing capabilities consider 231 proactively reaching out to manufacturers to improve testing capabilities and turn-around time. In the race 232 against this pandemic, real-time data empower epidemiologists and public health officials to identify, 233 track, and contain spread as much as possible. Integrating laboratory-based reporting with epidemiologic 234 surveillance registers will only further improve public health outcomes. 235",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion 227"
+        },
+        {
+            "text": "The intent of this study was not to assess the performance characters of the rRT-PCR assay for 236 the detection of SARS-CoV-2 infection. Authors are of the opinion that accurate determination of test 237 performance characters will require appropriate distribution of cohorts among the general population 238 especially in the context of virus shedding, transmission dynamics, asymptomatic carriage and specimen 239 requirements are still being debated and investigated. SARS-CoV-2 has exhibited great degree of plasticity 240 in all of the above characters hence it may take additional time and understanding to determine the 241 performance characters of the assay. 242",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion 227"
+        },
+        {
+            "text": "The literature data available at the time of the emergency were few for most USA healthcare 243 systems and above all stemming from the only experience available on the outbreak from COVID 2019. 244",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion 227"
+        },
+        {
+            "text": "The only country with published data and epidemiological or management studies was represented by the 245 Chinese outbreak. 7 However, the health system and the Chinese government represent a very different 246 model from the USA reality where healthcare is regional and private for most part, which enjoys 247 significant autonomy such as the possibilities available to try to improve and optimize diagnosis, 248 management and partnership with public health officials. In this context, BSWH ramped up efforts in 249 laboratory diagnosis and collegial collaboration with public health officials for effective epidemiological 250",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion 227"
+        },
+        {
+            "text": "All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "interventions. 251"
+        },
+        {
+            "text": "was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "interventions. 251"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted May 2, 2020. To best of authors' knowledge, this is the first report on SARS-CoV-2 testing from this part of the 272 world. BSWH laboratory would like to share this information with our readers and other laboratories that 273 early adoption of testing for pandemic diseases like COVD-19 has long-term implications in management 274 and control measures. BSWH laboratory provided test results data on both ambulatory and inpatient 275 population, and shared patient demographics with local public health officials. 276 All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "interventions. 251"
+        },
+        {
+            "text": "was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "interventions. 251"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted May 2, 2020. . https://doi.org/10.1101/2020.04.30.20086116 doi: medRxiv preprint emergency department or admitted for further evaluations. Major symptoms included were fever and 278 cough, more than 75% of the patients reported to have these symptoms. Khuwara et al 12 reported similar 279 findings in Wuhan outbreak, reporting greater than 90% and 75% of the patients exhibiting fever and 280 cough, respectively. 281",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "interventions. 251"
+        },
+        {
+            "text": "Interestingly, data mining did not yield any co-infections with SARS-CoV-2 unlike Stanford 282",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "interventions. 251"
+        },
+        {
+            "text": "Medicine data 13 . This study attributes the initial trend of not finding co-infections with SARS-CoV-2 to was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "interventions. 251"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted May 2, 2020. This study was intended to provide an initial experience of dealing with a pandemic and how 302 laboratories are required to be part of the crisis management. This study demonstrated that proactive 303 collaboration with assay manufacturers would enable laboratories to be prepared for emerging diseases 304 like COVID-19. Epidemiological interventions depend on availability of accurate diagnostic tests and 305 throughput capacity of such system during large outbreaks like SARS-CoV-2. It is also important to have a 306 well-organized plan to report the test results to public health officials to initiate counter measures to 307 control the infections. It is also imperative to build a diagnostic algorithm to include testing for other 308 seasonal respiratory viruses, especially most common viruses like Influenza and RSV, which may require 309 medical attention. 310 was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "interventions. 251"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted May 2, 2020. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "interventions. 251"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "The Novel Coronavirus Originating in Wuhan, China: Challenges for 324 Global Health Governance",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Phelan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Katz",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Gostin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "323",
+            "issn": "8",
+            "pages": "709--710",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.1097"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Clinical Features of 69 Cases with Coronavirus Disease",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wen",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "328",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/cid/ciaa272"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Clinical course and risk factors for mortality of adult inpatients with 331 COVID-19 in Wuhan, China: a retrospective cohort study",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Lancet Lond Engl",
+            "volume": "332",
+            "issn": "2020",
+            "pages": "1054--1062",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30566-3"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Clinical Evaluation of the Luminex NxTAG Respiratory 336 Pathogen Panel",
+            "authors": [
+                {
+                    "first": "Y-W",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gonsalves",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Sun",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J Clin Microbiol",
+            "volume": "54",
+            "issn": "7",
+            "pages": "1912--1914",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JCM.00482-16"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "The Novel Coronavirus: A Bird's Eye View",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Habibzadeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Stoneman",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Int J Occup Environ Med",
+            "volume": "338",
+            "issn": "2020",
+            "pages": "65--71",
+            "other_ids": {
+                "DOI": [
+                    "10.15171/ijoem.2020.1921"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Rapid viral diagnosis and ambulatory management of 340 suspected COVID-19 cases presenting at the infectious diseases referral hospital",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Amrane",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Tissot-Dupont",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Doudier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Travel Med Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.tmaid.2020.101632"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The European Virus Archive goes global: A growing resource 344 for research",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Romette",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Prat",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Gould",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Antiviral Res",
+            "volume": "158",
+            "issn": "",
+            "pages": "127--134",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.antiviral.2018.07.017"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Detection of 2019 novel coronavirus (2019-nCoV) by real-346 time RT-PCR",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Corman",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Landt",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kaiser",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eurosurveillance",
+            "volume": "25",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2807/1560-7917.ES.2020.25.3.2000045"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Molecular Diagnosis of a Novel Coronavirus",
+            "authors": [
+                {
+                    "first": "Dkw",
+                    "middle": [],
+                    "last": "Chu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Sms",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Causing an Outbreak of Pneumonia",
+            "authors": [],
+            "year": 2020,
+            "venue": "Clin Chem",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/clinchem/hvaa029"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "COVID-19: Active measures to support community-dwelling older adults. Travel 350 Med Infect Dis",
+            "authors": [
+                {
+                    "first": "K K",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "A K",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.tmaid.2020.101638"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Rates of Co-infection Between SARS-CoV-2 and 352 Other Respiratory Pathogens",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Quinn",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Pinsky",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Shah",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Brown",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.6266"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Closure of schools during an influenza pandemic",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cauchemez",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ferguson",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wachtel",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Priorities for the US Health Community Responding to COVID-356 19",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Adalja",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Toner",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Inglesby",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.3413"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Public health laboratories became backlogged, Baylor Scott and White hospital system 67 (BSWH) collaborated with the Luminex Corporation (Austin, TX USA) to implement a SARS-CoV-2 68 real-time reverse transcription polymerase chain reaction (rRT-PCR) assay using the genetic primers 69 previously used in China to help relieve the bottleneck. BSWH laboratory was one of the first laboratories 70",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "SARS-CoV-2 testing125 approved by FDA (US Federal Drug and Food Administration) under Emergency Use Authorization 127 (EUA) 5 . Briefly, all BSWH nasopharyngeal specimens were collected either by drive through collection 128 sites or from inpatients using a flocked swab in Universal or Transport Media (Copan Technologies, 129 USA). Specimens were transported at 2 -8 o C to BSWH (Temple, TX) molecular pathology laboratory 130 for processing and testing with less than 3 hours of transit time. BSWH (Temple, TX) molecular 131 pathology laboratory was responsible for SARS-CoV-2 detection in respiratory specimens by real-time 132 reverse transcription polymerase chain reaction (rRT-PCR) methods (Luminex Corporation, Austin, TX 133 USA).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "an automated extraction. This test is based on Luminex's respiratory pathogen panel 152 technology to amplify multiple targets within a single tube and is read on the Luminex MagPix 153workstation. In addition, BSWH laboratory uses standalone PCR tests for Influenza and RSV on Roche 154LIAT system (Roche molecular, Indianapolis, IN USA) or Luminex Aries and the tests performed on 155 these instruments were included in the data analysis for this study. A Chi-square test was used to assess 156 the association between the rate of infection for each virus between 2019 and 2020. Statistical 157 significance was set at p-value<0.05.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "CoV-2 using Luminex Aries system. The assay was developed and validated for FDA approval 175 under the Emergency Use Authorization on March 10 th , 2020. While BSWH EUA application was under 176 review by FDA manufacturer received FDA EUA on April 03, 2020 before this manuscript was submitted 177 hence BSWH laboratory accepted manufacturer's performance claims with limited internal verification. 178 The BSWH laboratory started patient testing on March 11, 2020 and supported all the Baylor hospitals in 179 central and north Texas regions. Data presented in figure 1 includes daily test volumes, combined from 180 both Luminex Aries and NxTAG platforms. A total of 3,571 nasopharyngeal specimens were tested until 181 March 23 rd , 2020. The north Texas region contributed 1,219 while central Texas region 2,352 specimens.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "185 web portal, phone app and/or through e-visit. The questionnaire focused on current symptoms, travel and 186 other exposure history. Eligible patients were directed to visit one of the drive through collection sites 187 established ad hoc for collection of nasopharyngeal specimen. 188 Patients with specific symptoms visiting emergency department were tested for SARS-CoV-2 and 189 were either discharged while waiting for test results for self-quarantine at home or admitted if clinical 190 findings necessitated. Clinical symptoms and underlying morbidities for limited number of ED/inpatients 191 are presented in",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "trends indicated a marked increase in the number of positive cases in the 25 years 198",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "200 Number of confirmed cases per specific county in north and central Texas, USA 201 An appropriate epidemiological intervention requires identification of patient demographics for 202 public health officials to track and trace positive cases. Therefore, it is prudent that SARS-CoV-2 testing 203 laboratories work closely with local epidemiologists for effective communication of test results. BSWH 204 had previously built an electronic bridge with Texas Department of State Health Services for instant 205 communication of all notifiable conditions. SARS-CoV-2 results were added to this electronic health 206 reporting system for an efficient communication to state epidemiologists. 207 Major metro areas, both in central and north Texas, witnessed an increased number of positive 208 cases. Dallas county (north Texas) and Travis county (central Texas) had maximum number of positive 209 cases while this manuscript was under preparation (Figure 5). 210COVID-19 impact on other circulating respiratory viruses 211As local, state, and national epidemiologic countermeasures were enacted, this study observed an 212 interesting correlation between SARS-CoV-2 positive cases and the incidence of other seasonal circulating 213 respiratory viruses during the same timeframe. Data extracted for BSWH from the CDC's National 214Respiratory and Enteric Virus Surveillance System (NREVSS) site revealed that Influenza incidence 215 declined to 8.7% in March 2020 compared to 25% in March 2019 (p-<0.0001). This declining trend over 216 the last few weeks coincides with sharp uptick in the SARS-CoV-2 incidence. This study also observed 217that Bocavirus and Parainfluenza virus infections were significantly down in March, 2020 compared to 218March, 2019 (p-<0.05). Authors did not note a similar decline in Adenovirus, common cold Coronavirus, 219 All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "because these symptoms are very similar to those of many seasonal 253 viruses, 8 BSWH laboratory implemented an outpatient screening protocols hosted on BSWH web portal 254 for appointments, phone app and e-visit sites for appropriate prescreening of individuals for targeted 255 laboratory testing. 256Real-time rRT-PCR testing for various other infections is widely deployed in most diagnostic 257 laboratories. In the case of a public health emergency, proficient diagnostic laboratories can rely on this 258 robust technology to establish new diagnostic tests within their routine services before pre-formulated 259 assays become available. In addition to information on reagents, oligonucleotides and positive controls, 260laboratories working under quality control programs need to rely on documentation of technical 261 qualification of the assay formulation as well as data from external clinical evaluation tests. 8, 9 Everything 262 listed above can be true for a laboratory-developed test, however, if commercial manufacturers design 263 assays under FDA watch then all of the above requirements can be mitigated. The available genome 264 sequence of SARS-CoV-2 has enabled several diagnostic kit manufacturers to design their primer sets for 265 real-time rRT-PCR diagnostic test builds 11 in addition to other respiratory pathogens testing. 266 BSWH worked diligently with Luminex Corporation to adopt and submit an FDA emergency use 267 authorization application of their assay for BSWH healthcare system during early phases of community 268 spread in Texas State. This early adoption of rRT-PCR assay led to improved turnaround times of SARS-269CoV-2 test results, reduced testing burden of public health laboratory, and won praise from the local 270 public health officials for efficient communication of test results for appropriate interventions.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "283 limited concurrent test ordering for other respiratory viruses in an ambulatory setting. A generic notion of 284 prohibitive cost of respiratory syndromic panels may have led to the limited ordering in outpatient testing. 285 The coronavirus disease 2019 has rapidly spread around the world, posing enormous health, 286 economic, and social challenges to societies. As there are no proven drug and vaccine treatments, 14 non-287 pharmaceutical measures are essential to slow the spread of the epidemic. 15 Social distancing (e.g., 288 cancellation of large gathering, school closures) is an essential part of public health measure for infection 289 control. 15 In line with this, many social events and activities have been cancelled or scaled-down in many 290 countries including Japan, 2 wherein there is already a high number of reported COVID-19 cases. 291 This study demonstrated and incidental correlation of decline in the other respiratory viruses such 292 as Influenza viruses typically circulating during this time of the year. This observation may be merely 293 coincidental, however, this study hypothesized that the general epidemiological measures such as social 294 distancing, cancellation of large gatherings and in general population is being extra-careful in preventing 295 SARS-CoV-2 infection may have led to the decrease in Influenza cases compared to what BSWH 296 laboratory witnessed last year around the same period of time. This study must not be intended to draw 297 any definitive conclusion on this fact, especially when data for 2019-2020 flu vaccine effectiveness is",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF13": {
+            "text": "Baylor Scott and White Memorial hospital initiated testing on March 11, 2020 following an 360 Emergency Use Authorization submission to FDA. The data shown represents more than 3500 tests were 361 performed between March 11, 2020 and March 23, 2020 for the two different regions of Texas State 362 (Central and North). 363 Ambulatory patients were prescreened through a set of COVID-19 questionnaire delivered through 365 various channels including BSWH web portal and BSWH App and/or through phone a call to be eligible 366 for testing. Data shown are number of positive patients per day in ambulatory setting. 367",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF14": {
+            "text": "Data shown are daily positives from March 11, 2020 to March 23, 2020. Nasopharyngeal 369 specimens were collected from patients presented in the emergency department and/or admitted and were 370 tested on Luminex Aries, a true random access instrument for a faster turn-around time. 371Fig 4. Data shown represent positivity rate among various age groups, also shown are number of tests 373 performed and positive results for each group. 374 Epidemiological data reporting to specific public health departments. Patient demographics were 376 extracted from the laboratory information system and segregated number of positive tests for specific 377 counties within central and north Texas regions. 378 379 All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF15": {
+            "text": "Decline in seasonal influenza cases. Following the enactment of epidemiological interventions by 380 the state of Texas, large gatherings were banned and public practicing social distancing may have led to 381 the decrease in the number of Influenza positive cases. Data shown are from March 2019 and March 2020 382for percent positive test results for each virus target. A Chi-square test was used to assess the association 383 between the rate of infection for each virus between 2019 and 2020. Statistical significance was set at p-",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF16": {
+            "text": "Mar 12-Mar 13-Mar 14-Mar 15-Mar 16-Mar 17-Mar 18-Mar 19-Mar 20-Mar 21-Mar 22-Mar 23-Mar",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF17": {
+            "text": "Fig 3. Number of positive cases in emergency department/hospitalized patients",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF19": {
+            "text": "Fig 4. Positive test distribution in the specific age group",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "This study was reviewed and approved by the Baylor Scott and White Health Institutional Review boardStudy design and participants: 106This retrospective cohort study included two cohorts of adult inpatients from Baylor Scott & 107White Medical Center in Temple (Temple, TX), representing the central Texas region, and various Baylor 108 hospitals in Dallas, TX area, representing north Texas region. For the simplicity, all hospitals within 109",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": ". The assay detects 148 All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "The copyright holder for this preprint (which this version posted May 2, 2020. . https://doi.org/10.1101/2020.04.30.20086116 doi: medRxiv preprint",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "The copyright holder for this preprint (which this version posted May 2, 2020. . https://doi.org/10.1101/2020.04.30.20086116 doi: medRxiv preprint",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "Demographic, comorbidity, symptoms, other social and past medical history of BSWH inpatient 401 All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF7": {
+            "text": ". https://doi.org/10.1101/2020.04.30.20086116 doi: medRxiv preprint",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Authors would like to thank Jeffry Hunt for help with data extraction and Courtney",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgment:"
+        }
+    ]
+}

@@ -1,0 +1,540 @@
+{
+    "paper_id": "7db91d3b8e397b2d34d266f6fc441198201f694d",
+    "metadata": {
+        "title": "",
+        "authors": [
+            {
+                "first": "Pasquale",
+                "middle": [],
+                "last": "Esposito",
+                "suffix": "",
+                "affiliation": {},
+                "email": "pasqualeesposito@hotmail.com"
+            },
+            {
+                "first": "Rodolfo",
+                "middle": [],
+                "last": "Russo",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Novella",
+                "middle": [],
+                "last": "Conti",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Valeria",
+                "middle": [],
+                "last": "Falqui",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Fabio",
+                "middle": [],
+                "last": "Massarino",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Enzo",
+                "middle": [],
+                "last": "Moriero",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Giancarlo",
+                "middle": [],
+                "last": "Peloso",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Giovanni",
+                "middle": [
+                    "Battista"
+                ],
+                "last": "Traverso",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Giacomo",
+                "middle": [],
+                "last": "Garibotto",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Francesca",
+                "middle": [],
+                "last": "Viazzi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "patients: The Genoa experience BACKGROUND The current Coronavirus Disease-19 (COVID-19) pandemic represents a global challenge for citizens, health systems, local, and national governments. Since no previous experience has prepared the scientific and medical community to face such as widespread and rapid clinical emergency, local experiences can be of help in defining management strategies. 1 In this commentary, we briefly report the approach to the management of COVID-19 in hemodialysis patients (HD), that we implemented at our Nephrology and Dialysis Unit, located in Genoa, Italy-Clinica Nefrologica Dialisi e Trapianto, Ospedale Policlinico San Martino-Italy).",
+            "cite_spans": [
+                {
+                    "start": 394,
+                    "end": 395,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Management of COVID-19 in hemodialysis"
+        },
+        {
+            "text": "COVID-19 is caused by infection of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). It is characterized by a variable clinical picture ranging from mild symptoms to severe pneumonia and multiorgan failure. 2 COVID-19 may involve adult patients of all ages, but it appears particularly severe in older subjects with preexistent health problems. 3 At the beginning of the outbreak in Italy, COVID-19 was suspected when clinical and epidemiological (i.e., people from more active areas and/or direct contact with COVID positive subjects) criteria coexisted. 4 Then, due to the spread of the disease, epidemiological criteria were excluded and now clinical criteria are considered sufficient for suspect COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 357,
+                    "end": 358,
+                    "text": "3",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "GENERAL CONSIDERATIONS"
+        },
+        {
+            "text": "Current clinical criteria for COVID-19 suspicion include fever, cough, dyspnea, myalgia, and fatigue (while less commonly other signs, like diarrhea, anosmia, and syncope have been reported). 5 In the clinical practice, diagnosis of COVID-19 is mostly made by a reverse transcription-polymerase chain reaction from nasopharyngeal swabs, while more invasive technique, such as the collection of bronchoalveolar lavage samples, have reserved to intensive care setting. However, as complemental tests, also because of the possibility of falsenegative results, serological tests are being developed and validated. 6 ",
+            "cite_spans": [
+                {
+                    "start": 192,
+                    "end": 193,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 610,
+                    "end": 611,
+                    "text": "6",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "GENERAL CONSIDERATIONS"
+        },
+        {
+            "text": "Renal patients appear at high risk for COVID-19 and related complications because most of them are old, present multiple comorbidities, and some of them may use immunosuppressive drugs (for treatment of immune diseases, transplantation, etc.). 7 Maintenance HD patients present additional risk factors, that include chronic immune dysfunction, need to go to the hospital for HD and undergo dialysis in shared rooms (so increasing the risk of contact with infected people). 8 Each dialysis unit should implement local strategies to early recognized patients affected by COVID-19, providing better available care, and prevent disease diffusion among the other patients and health staff. The individual approach should be defined according to local resources (including the availability of personal protective equipment (PPE)). 9 Dialysis patients should be instructed to stay at home while off dialysis. All the patients and medical staff should be advised to inform of fever or respiratory symptoms before arrival at the Dialysis Center by phone, while patients should avoid public transport to reach Dialysis Center.",
+            "cite_spans": [
+                {
+                    "start": 244,
+                    "end": 245,
+                    "text": "7",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 473,
+                    "end": 474,
+                    "text": "8",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 825,
+                    "end": 826,
+                    "text": "9",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "CONSIDERATIONS FOR HD PATIENTS"
+        },
+        {
+            "text": "In our Nephrology and Dialysis Unit, 260 maintenance HD patients are followed in two dialysis facilities, which have the same configuration, but different locations (the larger Unit is inside the main hospital building, while the smaller Unit is in an isolated building). The main Unit has 10 rooms with the possibility to have three additional isolated rooms, that currently have used as (a) clean room, (b) COVID-19 positive room (for suspected or confirmed patients, to be dialyzed separately), and (c) room dedicated to collect nasopharyngeal swabs. In other rooms, a minimal distance of 2 m between dialysis stations is warranted. All the rooms are sanitized after each use.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONSIDERATIONS FOR HD PATIENTS"
+        },
+        {
+            "text": "Briefly, at arrival in each Dialysis Unit, the patients wait in a communal area in sits separated by at least 1.5 m. Then, each patient individually undergoes a predialysis triage, consisting in the assessment of body temperature, individuation of symptoms or signs suggestive for COVID-19 (such as fever, cough, myalgia, diarrhea, and anosmia) and handwashing.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONSIDERATIONS FOR HD PATIENTS"
+        },
+        {
+            "text": "Suspected patients are moved to a dedicated room, where they undergo a clinical evaluation, inclusive of weighting, oxygen saturation measurement, arterial blood gas test (also to evaluate potassium level) and nasopharyngeal swab collection, by a physician provided with appropriate PEE. According to this comprehensive evaluation, the physician may decide to (a) send the patient to the emergency department to perform further evaluations; (b) send the patient back to home, postponing HD session till the availability of nasopharyngeal swab result; and (c) if it is not possible to delay the dialysis (e.g., because of hyperkalemia or excessive weight gain), to perform HD session in a separated room in the main dialysis unit, considering the patient as suspected for COVID-19, using dedicated dialysis machine and appropriate PPE.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONSIDERATIONS FOR HD PATIENTS"
+        },
+        {
+            "text": "After the dialysis, if clinically stable, with an oxygen saturation \u2265 96%, the suspected patient is considered suitable for outpatient care and sent back home, otherwise, he is sent to the Emergency Department for further evaluation. For scheduling the next HD session, we wait for the result of the nasopharyngeal swab. This management is eased by the fact that our laboratory provides the results of nasopharyngeal swabs mostly within 24 h.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONSIDERATIONS FOR HD PATIENTS"
+        },
+        {
+            "text": "If nasopharyngeal swab results positive for SARS-COV-2 infection, after the disease notification, the patient is dialyzed in a separated room, till the recovery (defined as two consecutive negative nasopharyngeal swabs).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONSIDERATIONS FOR HD PATIENTS"
+        },
+        {
+            "text": "Independently of COVID-19 status, at the end of dialysis, all the patients leave the Dialysis Center one at time. However, for both suspected and confirmed COVID-19 patients, it is mandatory to avoid public transport and organize specific transport with appropriate PPE, scheduling a complete sanitization of the vehicles. The whole procedure (triage, clinical evaluation, isolation of suspected cases) is repeated for each patient before each dialysis session. So, some patients may have multiple nasopharyngeal swabs, if clinical suspect persists, also considering the possibility of false-negative results. A similar approach has been established for patients reporting clinical symptoms while at home. In this case, we take advantage of territorial services that can perform house nasopharyngeal swab, while clinical evaluation is performed by telephone monitoring.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONSIDERATIONS FOR HD PATIENTS"
+        },
+        {
+            "text": "Finally, in COVID-19 positive patients, a nasopharyngeal swab is repeated 14 days after the diagnosis and then weekly, till recovery. Possible therapeutic approaches are discussed with infectious disease consultant. For specific procedures and preventive measures (handwashing, nasopharynx swab, use of PPE, etc.) we follow the World Health Organization (WHO) and European Renal Association-European Dialysis and Transplant Association (ERA-EDTA) recommendations. 10, 11 In the following flowcharts (Figures 1 and 2, respectively) , we reassume our current approach to COVID management in HD patients, taking into account two possible scenarios (i.e., suspected/confirmed COVID patients in dialysis facility and at home).",
+            "cite_spans": [
+                {
+                    "start": 464,
+                    "end": 467,
+                    "text": "10,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 468,
+                    "end": 470,
+                    "text": "11",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 499,
+                    "end": 530,
+                    "text": "(Figures 1 and 2, respectively)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "CONSIDERATIONS FOR HD PATIENTS"
+        },
+        {
+            "text": "On 16 April, 30 out of the 122 nasopharyngeal swabs collected resulted positive (24.5%), accounting for 17 patients (i.e., 6.5% of the total 260 patients) with a confirmed COVID-19 diagnosis. Among them, four patients (23%) were identified at home and 13 (77%) before the dialysis. In 14 of them (82%) was possible to postpone the dialysis till the availability of nasopharynx swab result. Notably, among the confirmed COVID-19 cases, three patients (17%) presented an initial negative nasopharynx swab, while they resulted positive to successive controls. In addition, based on telephone and hospital triage, other 22 patients (8.4% of the total number of patients) were suspected for COVID-19, mainly because of fever. In 16 of them, dialysis treatment was delayed, but nasopharynx swabs resulted negative, while clinical symptomatology resolved or other causes were found. Regarding clinical management, 6 out of the 17 confirmed patients (35%) needed hospitalization, of ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "GENOA EXPERIENCE: FIRST RESULTS"
+        },
+        {
+            "text": "Hemodialysis International 2020 whom 1 was admitted to ICU, while 11 (65%) were managed as outpatients.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "4"
+        },
+        {
+            "text": "Overall, six patients (35%)-five hospitalized and one outpatient-died after a mean of 8 days from diagnosis, two patients recovered after a mean of 15 days from the diagnosis, while nine patients currently remain on isolation. Interestingly, at this time, the infection rate is higher in the main dialysis Unit (14/160 patients, 8.7%) when compared with the smaller one (3/80 patients, 3.7%), probably as a consequence of the higher number of patients and dialysis unit location.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "4"
+        },
+        {
+            "text": "COVID-19 pandemic is still evolving so that it is conceivable that our way to face this situation will change over time. Many areas of uncertainness remain in the general population, such as in HD patients. For example, (a) the adequate duration and modality of isolation precautions for COVID-19 positive patients, (b) the suitability to cohort more than one patient with suspected or confirmed COVID-19, (c) the influence of structural and spatial organization of Dialysis Units on infection spread and control, and (d) the potential effects of immunomodulatory and antiviral drugs in HD patients. In any case, an ideal approach to manage COVID-19 in dialysis patients does not exist and the flexibility of the management strategies is crucial at this moment. Organizational and clinical choices should be guided by local epidemiology of the disease, local (human and equipment) resources and growing knowledge on the physiopathology of COVID-19 and its treatment.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONCLUSIONS"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Practical indications for the prevention and management of SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Rombol\u00e0",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hedemperger",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Pedrini",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "A novel coronavirus from patients with pneumonia in China",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "",
+            "pages": "727--733",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2001017"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Coronavirus covid-19 has killed more people than SARS and MERS combined, despite lower case fatality rate",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Mahase",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ",
+            "volume": "368",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmj.m641"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Development and clinical application of a rapid IgM-IgG combined antibody test for SARS-CoV-2 infection diagnosis",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yi",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "The novel coronavirus 2019 epidemic and kidneys",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Naicker",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hwang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Kidney Int",
+            "volume": "97",
+            "issn": "",
+            "pages": "824--828",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.kint.2020.03.001"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Effect of uremia on structure and function of immune system",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Vaziri",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Pahl",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Crum",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Norris",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J Ren Nutr",
+            "volume": "22",
+            "issn": "",
+            "pages": "149--156",
+            "other_ids": {
+                "DOI": [
+                    "10.1053/j.jrn.2011.10.020"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Recommendations for the prevention, mitigation and containment of the emerging SARS-CoV-2 (COVID-19) pandemic in haemodialysis centres",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Basile",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Combe",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Pizzarelli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "World Health Organization. Rational Use of Personal ProtectiveEquipment for Coronavirus Disease (COVID-19): Interim Guidance",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Management of COVID-19 in patients accessing to hemodialysis at Genoa Dialysis Unit. Sp02, oxygen saturation; HD, hemodialysis; PPE, personal protective equipment.Patients and medical staff should wear a surgical mask all the time and wash hands frequently. [Color figure can be viewed at wileyonlinelibrary.com]",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Management of COVID-19 in hemodialysis patients reporting symptoms while at home. Sp02, oxygen saturation; HD, hemodialysis; PPE, personal protective equipment. [Color figure can be viewed at wileyonlinelibrary.com] Esposito et al.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors thank all Medical Staff and Nurses of San Martino Nephrology Unit.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ACKNOWLEDGMENTS"
+        }
+    ]
+}

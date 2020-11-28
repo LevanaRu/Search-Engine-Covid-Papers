@@ -1,0 +1,454 @@
+{
+    "paper_id": "eafa1b7274b8c4e0dc725ff97a06cfb6cb52a4a6",
+    "metadata": {
+        "title": "Real-time RT-PCR in COVID-19 detection: issues affecting the results",
+        "authors": [
+            {
+                "first": "Alireza",
+                "middle": [],
+                "last": "Tahamtan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Golestan University of Medical Sciences",
+                    "location": {
+                        "settlement": "Gorgan",
+                        "country": "Iran"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Abdollah",
+                "middle": [],
+                "last": "Ardebili",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Golestan University of Medical Sciences",
+                    "location": {
+                        "settlement": "Gorgan",
+                        "country": "Iran"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Due to the rapid spread and increasing number of coronavirus disease 19 (COVID-19) cases caused by a new coronavirus, severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), rapid and accurate detection of virus and/or disease is increasingly vital to control the sources of infection and help patients to prevent the illness progression. Since December 2019, there has been considerable challenge regarding the use of nucleic acid test or clinical characteristics of infected patients as the reference standard to make a definitive diagnose of COVID-19 patients. As the early diagnosis of COVID-19 is critical for prevention and control of this pandemic, clinical characteristics cannot alone define the diagnosis of COVID-19, especially for patients presenting early-onset of symptoms.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Along with the advancement in medical diagnosis, nucleic acid detection-based approaches have become a rapid and reliable technology for viral detection. Among nucleic acid tests, the polymerase chain reaction (PCR) method is considered as the 'gold standard' for the detection of some viruses and is characterized by rapid detection, high sensitivity, and specificity. As such, real-time reverse transcriptase-PCR (RT-PCR) is of great interest today for the detection of SARS-CoV -2 due to its benefits as a specific and simple qualitative assay [1] [2] [3] . Moreover, real-time RT-PCR has adequate sensitivity to help us much for diagnosing early infection. Therefore, the 'criterion-referenced' real-time RT-PCR assay can be considered as a main method to be applied to detect the causative agent of COVID-19, SARS-CoV-2.",
+            "cite_spans": [
+                {
+                    "start": 547,
+                    "end": 550,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 551,
+                    "end": 554,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 555,
+                    "end": 558,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "An important issue with the real-time RT-PCR test is the risk of eliciting false-negative and false-positive results. It is reported that many 'suspected' cases with typical clinical characteristics of COVID-19 and identical specific computed tomography (CT) images were not diagnosed [4] . Thus, a negative result does not exclude the possibility of COVID-19 infection and should not be used as the only criterion for treatment or patient management decisions. It seems that combination of real-time RT-PCR and clinical features facilitates management of SARS-CoV-2 outbreak. Several factors have been proposed to be associated with the inconsistency of real-time RT-PCR [5] . In the following, we attempt to discuss various challenges regarding the detection of SARS-CoV -2 by real-time RT-PCR. It is expected that this could provide beneficial information for the comprehension of the limitations of the obtained results and to improve diagnosis approaches and control of the disease.",
+            "cite_spans": [
+                {
+                    "start": 285,
+                    "end": 288,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 672,
+                    "end": 675,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "It is well known that results from real-time RT-PCR using primers in different genes can be affected by the variation of viral RNA sequences. Genetic diversity and rapid evolution of this novel coronavirus have been observed in different studies [6, 7] . False-negative results may occur by mutations in the primer and probe target regions in the SARS-CoV-2 genome. Although it was attempted to design the real-time RT-PCR assay as precisely as possible based on the conserved regions of the viral genomes, variability causing mismatches between the primers and probes and the target sequences can lead to decrease in assay performance and potential false-negative results. In this regard, multiple target gene amplification could be used to avoid invalid results. Several types of SARS-CoV-2 real-time RT-PCR kit have been developed and approved rapidly, but with different quality. Importantly, the sensitivity and specificity of the real-time RT-PCR test is not 100%. All of them behind the laboratory practice standard and personnel skill in the relevant technical and safety procedures explain some of the false-negative results.",
+            "cite_spans": [
+                {
+                    "start": 246,
+                    "end": 249,
+                    "text": "[6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 250,
+                    "end": 252,
+                    "text": "7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "According to the natural history of the COVID-19 and viral load kinetics in different anatomic sites of the patients, sampling procedures largely contribute to the false-negative results. Optimum sample types and timing for peak viral load during infections caused by SARS-CoV-2 remain to be fully determined. A study has reported sputum as the most accurate sample for laboratory diagnosis of COVID-19, followed by nasal swabs, while throat swabs were not recommended for the diagnosis [8] . They also suggested the detection of viral RNAs in bronchoalveolar lavage fluid (BALF) for the diagnosis and monitoring of viruses in severe cases. However, gathering of BALF needs both a suction tool and an expert operator, in addition to being painful to the patients. While BALF samples are not practical for the routine laboratory diagnosis and monitoring of the disease, collection of other samples such as sputum, nasal swab, and throat swab is rapid, simple, and safe. To avoid inconsistent results, it would be better to use different specimen types (stool and blood) besides respiratory specimen during different stages. It is worth noting that samples should be obtained by dacron or polyester flocked swabs and should reach the laboratory as soon as possible after collection. False-negative results may occur due to the presence of amplification inhibitors in the sample or insufficient organisms in the sample rising from inappropriate collection, transportation, or handling. Viral load kinetics of SARS-CoV-2 infection have been described in two patients in Korea, suggesting a different viral load kinetics from that of previously reported other coronavirus infections [9] . In the first patient, the virus was detected from upper respiratory tract (URT) and lower respiratory tract (LRT) specimens on days 2 and 3 of symptom onset, respectively. On day 5, the viral load was increased from day 3 in the LRT specimen. However, the viral loads decreased from around day 7 in both URT and LRT specimens. Real-time RT-PCR continued to be positive at a low level until day 13 (LRT specimens) and day 14 (URT specimens). Finally, the assay became undetectable for two consecutive days from day 14 (LRT specimen) and day 15 (URT specimen), respectively. In the second patient, SARS-CoV-2 was detected in both URT and LRT specimens on day 14 of symptom onset. However, the initial viral loads were relatively lower than those of patient 1 in whom the test was performed on day 2 of symptom onset. From day 18 (URT specimen) and day 20 (LRT specimen), realtime RT-PCR became undetectable for two consecutive days, respectively. URT sample of day 25 was again positive for RdRp and E genes. However, it was interpreted as negative due to high Ct value of the RdRp gene (Ct value of 36.69). These findings indicate the different viral load kinetics of SARS-coV -2 in different patients, suggesting that sampling timing and period of the disease development play an important role in real-time RT-PCR results.",
+            "cite_spans": [
+                {
+                    "start": 487,
+                    "end": 490,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1678,
+                    "end": 1681,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Finally, the Centers for Disease Control and Prevention (CDC) has designed a SARS-CoV-2 Real-Time RT-PCR Diagnostic Panel to minimize the chance of false-positive results [10] . In accordance, the negative template control (NTC) sample should be negative, showing no fluorescence growth curves that cross the threshold line. The occurrence of false positive with one or more of the primer and probe NTC reactions is indicative of sample contamination. Importantly, the internal control should be included to help identify the specimens containing substances that may interfere with the extraction of nucleic acid and PCR amplification. Because of the several risks to patients in the event of a false-positive result, all clinical laboratories using this test must follow the standard confirmatory testing and reporting guidelines based on their proper public health authorities.",
+            "cite_spans": [
+                {
+                    "start": 171,
+                    "end": 175,
+                    "text": "[10]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In conclusion, according to the mentioned reasons, the results of real-time RT-PCR tests must be cautiously interpreted. In the case of real-time RT-PCR negative result with clinical features suspicion for COVID-19, especially when only upper respiratory tract samples were tested, multiple sample types in different time points, including from the lower respiratory tract if possible, should be tested. Importantly, combination of real-time RT-PCR and clinical features especially CT image could facilitate disease management. Proper sampling procedures, good laboratory practice standard, and using high-quality extraction and real-time RT-PCR kit could improve the approach and reduce inaccurate results.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Expert opinion"
+        },
+        {
+            "text": "This paper was not funded.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding"
+        },
+        {
+            "text": "The authors have no relevant affiliations or financial involvement with any organization or entity with a financial interest in or financial conflict with the subject matter or materials discussed in the manuscript. This includes employment, consultancies, honoraria, stock ownership or options, expert testimony, grants or patents received or pending, or royalties.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of interest"
+        },
+        {
+            "text": "Peer reviewers on this manuscript have no relevant financial relationships or otherwise to disclose.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Reviewers disclosure"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Recent advances and perspectives of nucleic acid detection for coronavirus",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ye",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jpha.2020.02.010"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "a melting curve-based multiplex RT-qPCR assay for simultaneous detection of four human coronaviruses",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Int J Mol Sci",
+            "volume": "17",
+            "issn": "11",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Simultaneous detection of severe acute respiratory syndrome, middle east respiratory syndrome, and related bat coronaviruses by real-time reverse transcription PCR",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Noh",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Yoon",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Arch Virol",
+            "volume": "162",
+            "issn": "6",
+            "pages": "1617--1623",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Combination of RT-qPCR testing and clinical features for diagnosis of COVID-19 facilitates management of SARS-CoV-2 outbreak",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jmv.25721"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Understanding the influence factors in viral nucleic acid test of 2019 novel coronavirus (2019-nCoV)",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Xi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Qihua",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Chin J Lab Med",
+            "volume": "43",
+            "issn": "",
+            "pages": "2--002",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Genetic diversity and evolution of SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Phan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Infect Genet Evol",
+            "volume": "81",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Genomic diversity of SARS-CoV-2 in Coronavirus Disease 2019 patients",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Kang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/cid/ciaa203"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Laboratory diagnosis and monitoring the viral shedding of 2019-nCoV infections. medRxiv preprint",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.02.11.20021493"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Viral Load Kinetics of SARS-CoV-2 infection in first two patients in Korea",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Ko",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Korean Med Sci",
+            "volume": "35",
+            "issn": "7",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {},
+    "back_matter": []
+}

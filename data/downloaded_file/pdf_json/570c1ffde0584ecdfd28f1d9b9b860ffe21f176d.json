@@ -1,0 +1,347 @@
+{
+    "paper_id": "570c1ffde0584ecdfd28f1d9b9b860ffe21f176d",
+    "metadata": {
+        "title": "Pooled Testing for Expanding COVID-19 Mass Surveillance",
+        "authors": [
+            {
+                "first": "Angela",
+                "middle": [
+                    "Felicia"
+                ],
+                "last": "Sunjaya",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": ";",
+                "middle": [],
+                "last": "Anthony",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Paulo",
+                "middle": [],
+                "last": "Sunjaya",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Diagnostic testing to identify patients infected with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) plays a key role to control the coronavirus disease (COVID-19) pandemic. While several countries have implemented the use of diagnostic testing in a massive scale as a cornerstone for infection control and surveillance, other countries affected by the pandemic are hampered by its limited testing capacity. Pooled testing was first introduced in the 1940s and is now used for screening in blood banks. Testing is done by pooling multiple individual samples together. Only in the case of a positive pool test would individual samples of the pool be tested, thus substantially reducing the number of tests needed. Several studies regarding their use for SARS CoV-2 have been done in the United States, Israel, and Germany. Studies have shown that an individual positive sample can still be detected in pools of up to 32 samples, and possibly even 64 samples, provided that additional polymerase chain reaction (PCR) amplification cycles are conducted with a sensitivity of 96%. Simulation studies to determine optimal pool size and pooling techniques have also been conducted. Based on these studies, pooled testing is shown to be able to detect positive samples with sufficient accuracy and can easily be used with existing equipment and personnel for population-wide screening.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "D iagnostic testing to identify patients infected with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) plays a key role to control the coronavirus disease (COVID-19) pandemic. While several countries have implemented the use of diagnostic testing in a massive scale as a cornerstone for infection control and surveillance, other countries affected by the pandemic are hampered by its limited testing capacity. 1 Diagnostic identification of all individuals infected by SARS-CoV-2, including screening asymptomatic persons in the incubation phase, is crucial to limit viral spread. Innovations supporting population-based mass testing are required.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Pooled testing was first introduced in the 1940s and is now used for screening in blood banks. 2 Testing is done by pooling multiple individual samples together, which are later tested with usual reverse transcriptase polymerase chain reaction (RT-PCR) systems. Only in the case of a positive pool test would individual samples of the pool be tested, substantially reducing the number of tests needed. 3 It requires no additional training, equipment, or materials with several studies for SARS-CoV-2 already done in the United States, 2,4 Israel, 5 and Germany. 6 Previous studies show that individual positive samples of SARS-CoV-2 can still be detected in pools of up to 32 samples, and possibly even 64 samples, provided that additional PCR amplification cycles are done. Sensitivity for a pool size of 16 samples was 96% with an estimated false negative of 10%. Pooled testing could also potentially be applied prior to ribonucleic acid (RNA) extraction, thus saving invaluable time and resources. 5 Similar results were obtained by Abdalhamid et al., which were an increase in testing capacity by at least 69% when prevalence rates are 10% or less. 4 Hogan et al. tested 2888 individual nasopharyngeal or bronchoalveolar lavage samples grouped in pools of 9 to 10. Two positive samples were identified for a positivity rate of 0.07% and only 1 false positive reading was observed. 4 In Germany, pooled testing of 1191 samples in pool sizes between 4 and 30 samples resulted in only 267 tests required to detect 23 positive individuals (positive rate of 1.93%) with all positive samples easily identified. 6 In Germany, 2 pooling techniques were compared, a \"routine high throughput\" approach where random samples are pooled together for testing or a \"door to door\" approach where groups of similar people (ie, families, neighbors, etc.) are pooled together for testing. While both approaches save substantial resources, the \"door to door\" approach was found to carry more benefit, reducing tests by 56% to 93%, whereas the \"routine high throughput\" resulted in 24% to 86% fewer tests. In low to moderate infection levels, even a pool size of 5 would reduce the number of tests needed by 5-fold (78%). In countries with infection levels over 20%, a pool size of 10 would still result in a considerable reduction in the number of tests required (up to 50%). 1 These studies showed that pooled testing is able to detect positive samples with sufficient accuracy. It is best used for population-wide screening, contact tracing, and the monitoring of essential workers and asymptomatic individuals with unidentified risk, such as in airports, versus being much less effective if used in settings with high clinical suspicion, such as patients showing symptoms.",
+            "cite_spans": [
+                {
+                    "start": 95,
+                    "end": 96,
+                    "text": "2",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 402,
+                    "end": 403,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 547,
+                    "end": 548,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 562,
+                    "end": 563,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1154,
+                    "end": 1155,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1386,
+                    "end": 1387,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1610,
+                    "end": 1611,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 2361,
+                    "end": 2362,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "While concerns exist that low positive samples such as those found in convalescent patients could escape detection with increasing pool size, additional amplification cycles could be employed to allow better detection of larger pools. 2, 5 Nevertheless, pooled testing shows great potential in increasing testing capacity with existing resources with minimal loss of accuracy.",
+            "cite_spans": [
+                {
+                    "start": 235,
+                    "end": 237,
+                    "text": "2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 238,
+                    "end": 239,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Pooled-sample analysis strategies for COVID-19 mass testing: a simulation study",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Deckert",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Barnighausen",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kyei",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Bull World Health Organ",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2471/BLT.20.257188"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Assessment of specimen pooling to conserve SARS-CoV-2 testing resources",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Abdalhamid",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Bilder",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Mccutchen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Am J Clin Pathol",
+            "volume": "153",
+            "issn": "",
+            "pages": "715--718",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Pooled sample testing for SARS-CoV-2. 2020;epub",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Bertolotti",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Deaner",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Deshpande",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Sample pooling as a strategy to detect community transmission of SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Hogan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Sahoo",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Pinsky",
+                    "suffix": ""
+                }
+            ],
+            "year": 1967,
+            "venue": "JAMA",
+            "volume": "323",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Evaluation of COVID-19 RT-qPCR test in multi-sample pools",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Yelin",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Aharony",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Tamar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/cid/ciaa531"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Pooling of samples for testing for SARS-CoV-2 in asymptomatic people",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lohse",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Pfuhl",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Berk\u00f3-G\u00f6ttel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Infect Dis",
+            "volume": "",
+            "issn": "20",
+            "pages": "30362--30365",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {},
+    "back_matter": [
+        {
+            "text": "Faculty of Medicine, Tarumanagara University, Jakarta, Indonesia (Sunjaya AF); One Med Research Institute, Jakarta, Indonesia (Sunjaya AF) and Respiratory Division, The George Institute for Global Health, UNSW Sydney, Australia (Sunjaya AP).Correspondence and reprint requests to Angela Felicia Sunjaya, Jl. Letjen S. Parman No. 1, Jakarta, Indonesia (e-mail: angela.sunjaya@onemedinstitute.com). Anthony Paulo Sunjaya, Respiratory Division, The George Institute for Global Health, UNSW, 1 King Street, Newtown, Sydney, Australia (e-mail: a.sunjaya@unsw.edu.au).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "About the Authors"
+        },
+        {
+            "text": "The authors have no conflicts of interest to declare.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of Interest Statement"
+        },
+        {
+            "text": "Both authors contributed equally to conceptualizing and drafting this manuscript.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Authors' Contribution"
+        }
+    ]
+}

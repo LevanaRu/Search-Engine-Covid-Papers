@@ -1,0 +1,831 @@
+{
+    "paper_id": "37f28c3358f098f73674a7f9724582b56b0a96b6",
+    "metadata": {
+        "title": "Stakeholder INvolvement in Generating Science; UN, United Nations; UNDRR, United Nations Office for Disaster Risk Reduction",
+        "authors": [
+            {
+                "first": ";",
+                "middle": [],
+                "last": "Health Surveillance",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Shamisen",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Serious accidents at nuclear power plants have been rare, but their stories can teach us how to prevent or mitigate the effects of future nuclear catastrophes. The accidents at the Fukushima Daiichi nuclear power plant and Chernobyl nuclear power plant occurred 9 years and 34 years ago, respectively, and there are still lessons to learn from them regarding numerous issues, including radiation exposure assessment and medical follow-up of emergency responders, evacuees and residents; decisions to lift evacuation orders; and communication with responders and stakeholders (Bazyka et al., 2016; Callen and Homma, 2017; Lester, 1983; Soffer et al., 2008) . Some of the lessons from these accidents have been extensively reviewed and taken into consideration by national and international organizations such as the International Atomic Energy Agency, the International Commission on Radiological Protection and the World Health Organisation and are reflected in published literature (Bennett et al., 2006; Carr et al., 2016; Clarke et al., 2009; IAEA, 2015a IAEA, , 2015b Nisbet et al., 2009; SGDSN, 2014). This has allowed the development of various recommendations and guidance documents targeting specific issues of radiation protection, training and communication, and socio-economic aspects, in order to prepare and improve decision making processes in the early and intermediate phases (e.g. Carr et al., 2016; IAEA, 2015b; Nisbet et al., 2009) .",
+            "cite_spans": [
+                {
+                    "start": 575,
+                    "end": 596,
+                    "text": "(Bazyka et al., 2016;",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 597,
+                    "end": 620,
+                    "text": "Callen and Homma, 2017;",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 621,
+                    "end": 634,
+                    "text": "Lester, 1983;",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 635,
+                    "end": 655,
+                    "text": "Soffer et al., 2008)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 983,
+                    "end": 1005,
+                    "text": "(Bennett et al., 2006;",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1006,
+                    "end": 1024,
+                    "text": "Carr et al., 2016;",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1025,
+                    "end": 1045,
+                    "text": "Clarke et al., 2009;",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1046,
+                    "end": 1057,
+                    "text": "IAEA, 2015a",
+                    "ref_id": null
+                },
+                {
+                    "start": 1072,
+                    "end": 1092,
+                    "text": "Nisbet et al., 2009;",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1398,
+                    "end": 1416,
+                    "text": "Carr et al., 2016;",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1430,
+                    "end": 1450,
+                    "text": "Nisbet et al., 2009)",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "However, the majority of these texts focus on technical issues and are directed towards radiation protection experts, rather than for the support of affected populations. The traditional approaches of emergency response and recovery -including evacuation, relocation and health surveillance -are largely based on dose levels. Although many recognise the importance of psychosocial or human factors, it has been difficult to adapt the approaches to better address the social, economic, ethical and psychological factors. These include the health and welfare effects that may arise from the accident, from the concerns about the presence of radiation in the environment, from the mitigation actions taken and from the information (mixed or absent) provided to the population. Changes in the ethical and legal requirements for personal data collection, use and storage raise additional challenges, particularly in the area of health surveillance and epidemiology.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The SHAMISEN project started in late 2015, at a time when some deleterious effects of evacuation and ultrasound thyroid screening in Fukushima had started to be reported. The project therefore aimed to review the lessons learned from major nuclear accidents, in particular from experiences of populations affected by the Chernobyl and Fukushima accidents, to develop recommendations for medical and health surveillance of populations affected by previous and future radiation accidents. The ultimate motivation was to minimise the negative impacts of the accident and improve the health of affected populations. The holistic WHO definition of health was used in this context, i.e. \"a state of complete physical, mental and social wellbeing and not merely the absence of disease or infirmity\" (WHO, 1948) . The Recommendations were to address in particular the following complementary aspects: dose assessment supporting all phases of an accident, including emergency response, clinical decision-making, recovery actions and health surveillance; improvement of living conditions of affected populations, engaging them and responding to their needs and minimising unnecessary anxiety; and health surveillance and, where feasible, improvement of estimates of radiation-induced risk for radiation protection and communication with affected populations.",
+            "cite_spans": [
+                {
+                    "start": 792,
+                    "end": 803,
+                    "text": "(WHO, 1948)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Main components of the SHAMISEN project"
+        },
+        {
+            "text": "To achieve this, and recognising the need for a holistic approach to accident management and health surveillance, SHAMISEN brought together a team of researchers from 18 institutions (including Radiation Protection Authorities, Universities, Research Centres and Associations) in Europe and Japan with complementary experience and a long track record in post accidental management, dosimetry, radiation protection, medical follow-up and screening, population health surveillance, health economics, epidemiology, ethics and sociology of radiation protection. The project also drew upon additional expertise from Belarus, Russia, Ukraine, Japan and the UK as well as from outside of the radiation research field and established contacts with major international organizations, including the World Health Organisation and the Nuclear Energy Agency of the Organisation for Economic Co-operation and Development.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Main components of the SHAMISEN project"
+        },
+        {
+            "text": "Details of the SHAMISEN Project are provided in the paper by Ohba and collaborators (Ohba et al., this issue) . Briefly, the approach involved in particular challenging/evaluating the effectiveness of measures taken after Chernobyl or Fukushima accidents, in particular \u2022 Systematic thyroid screening with ultrasound for early detection of potential thyroid cancer cases;",
+            "cite_spans": [
+                {
+                    "start": 84,
+                    "end": 109,
+                    "text": "(Ohba et al., this issue)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Main components of the SHAMISEN project"
+        },
+        {
+            "text": "\u2022 Criteria for evacuation and their consequences; \u2022 Measures taken to contribute to the wellbeing of affected populations and develop a radiological protection culture and resilience in affected populations;",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Main components of the SHAMISEN project"
+        },
+        {
+            "text": "\u2022 Challenges and good practice in communication and training, with the objective of regaining the trust of the population and engaging them in retaking control of their lives;",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Main components of the SHAMISEN project"
+        },
+        {
+            "text": "\u2022 Role of ethics in disaster preparedness, response and health surveillance: autonomy and dignity, respect of privacy, beneficence\u2026 \u2022 Role of health professionals in the different phases of the accident management;",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Main components of the SHAMISEN project"
+        },
+        {
+            "text": "\u2022 Cost effectiveness of the measures taken.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Main components of the SHAMISEN project"
+        },
+        {
+            "text": "All of this was brought together to develop practical recommendations for preparedness and the different phases of the accident.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Main components of the SHAMISEN project"
+        },
+        {
+            "text": "Although the SHAMISEN project was developed during a limited period of 18 months in response to the second call of the European OPERRA project, a series of key results has been achieved. The main results are several topical reports and a set of recommendations divided into five main topics (e.g., Evacuation, Communication and training, Dosimetry, Health surveillance, Epidemiology). These topics focus specifically on the health surveillance of people following a nuclear accident, combining natural and social sciences, values and practice to help health professionals, decision-makers and local stakeholders to set up protective actions and health programmes responding to the concern of affected populations. Therefore, the SHAMISEN recommendations are not intended to cover all aspects of emergency and recovery response and preparedness.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "SHAMISEN results and the way forward"
+        },
+        {
+            "text": "The formulation of the recommendations is generic enough to be applied in different countries, recognising that cultural differences will be important. The structure describes the general context and the main reasons for developing each recommendation, provides explanations on how to develop it and indicates who would be involved in the development of the recommendation. Depending on the context, specific arrangements have to be made for the implementation of these recommendations during the different phases (e.g. preparedness, early and intermediate, long-term recovery).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "SHAMISEN results and the way forward"
+        },
+        {
+            "text": "The recommendations provide advice on the values to be considered when addressing the issue at stake and what type of tools and protocols are needed rather than the tools themselves. Due to the duration of the project, it was not manageable to develop them. However, they provide a significant input for further developments for practical tools in different domains and identify the main expectations from stakeholders with regards to health surveillance in post-accident situations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "SHAMISEN results and the way forward"
+        },
+        {
+            "text": "Developed as a research project, it was not the intention to specify absolute dose criteria for the implementation of actions. Of course, discussions on the feedback experience from the management of the Chernobyl and Fukushima accidents point out some challenges associated with the use of specific dose criteria but the spirit of the recommendations is to provide indications and guidance for the decisionmakers and health professionals with regard to the choice to be made on the adoption of dose criteria for the different actions to be implemented.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "SHAMISEN results and the way forward"
+        },
+        {
+            "text": "Besides the management of the direct radiation induced health effects, the report underlines the need to develop a multidisciplinary approach to identify, measure, assess and alleviate psychological and other indirect health impacts of socio-economic and social upheavals of the consequences of the accident. For this purpose, it is recommended to promote the engagement process of local stakeholders since the preparedness phase, targeting the overall wellbeing of populations with due considerations of the ethical principles of respect for autonomy, dignity and justice.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "SHAMISEN results and the way forward"
+        },
+        {
+            "text": "This special issue of Environmental International combines a series of scientific papers and is an opportunity to emphasize the main analyses developed during the SHAMISEN project, combining advanced scientific research, analyses of feedback experience from the Chernobyl and Fukushima accidents and applying a multidisciplinary approach. Although the topics presented in this special issue have already been addressed in general in several papers, the originality of the approach adopted in the SHAMISEN project provides new insights for health surveillance issues.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "SHAMISEN results and the way forward"
+        },
+        {
+            "text": "It is worth mentioning that following the SHAMISEN project, other research projects have been launched. A first series of projects are dedicated to the development of Apps with and for citizens as recommended in the SHAMISEN project. This has notably been done with the European research project SHAMISEN SINGS as part of the EJP CONCERT as well as with an on-going project developed by Fukushima Medical University. In addition, several projects are currently under development in different countries and at the European level, that promote a citizen science approach for addressing health and radiological monitoring.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "SHAMISEN results and the way forward"
+        },
+        {
+            "text": "As an example of the multidisciplinary approach, the SHAMISEN project has identified a series of recommendations calling for further cooperation with different European Research Platforms, combining low doses effects, dosimetry, radioecology, emergency and recovery management, social sciences and humanities, and medical research.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "SHAMISEN results and the way forward"
+        },
+        {
+            "text": "These recommendations have already been considered in the development of the European joint roadmap for radiation protection research (Impens and Salomaa, 2020) , and of the strategic research agenda of different European platforms, notably NERIS on emergency and recovery (Croua\u00efl et al., 2020) .",
+            "cite_spans": [
+                {
+                    "start": 134,
+                    "end": 160,
+                    "text": "(Impens and Salomaa, 2020)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 273,
+                    "end": 295,
+                    "text": "(Croua\u00efl et al., 2020)",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Environment International 144 (2020) 106000"
+        },
+        {
+            "text": "The results of the SHAMISEN project have been presented and discussed in several national and international workshops and meetings. Recommendations are being disseminated to decision makers and radiation protection authorities for translation into strategy and policy, as well as to scientific, medical and non-expert audiences. They are now referred and used as basis of the reflections and the initiatives of national and international organizations for both preparedness (Nuclear Energy Agency, World Health Organisation, International Commission on Radiological Protection (ICRP), National committee for post-accident management (CODIRPA) in France) and the management of the Fukushima situation with a key role of the Japanese partners involved in the SHAMISEN project (Fukushima Medical University, Nagasaki University, Hiroshima University).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Environment International 144 (2020) 106000"
+        },
+        {
+            "text": "More broadly, the approach adopted in the SHAMISEN project and its results may contribute to address other hazards including natural disasters, industrial accidents or even pandemic crisis. Similarities can be emphasized with the Sendai Framework for Disaster Risk Reduction 2015-2030 (UNDRR, 2015) adopted at the 3rd UN World Conference in 2015. This framework underlines the importance of improving the understanding of disaster risk, better addressing vulnerability and hazard characteristics, strengthening risk governance, reinforcing accountability for risk management with development of preparedness, involvement of stakeholders and due considerations of resilience of health infrastructure.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Environment International 144 (2020) 106000"
+        },
+        {
+            "text": "Finally, the pandemic crisis of COVID-19 highlights a series of issues quite similar to those addressed in the SHAMISEN project: confinement versus evacuation, psycho-social aspects, communication and dialogue, organisation of the transition phases, and of course the preparation of health surveillance strategies and structures of epidemiological studies. These different issues would benefit from cross-comparison analysis and the articles presented in this special issue could certainly contribute to the reflection.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Environment International 144 (2020) 106000"
+        },
+        {
+            "text": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. from the Generalitat de Catalunya through the CERCA Program. NMBU acknowledges the support of the Research Council of Norway (RCN) through its Centres of Excellence funding scheme, project number ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of Competing Interest"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Lessons from chornobyl: considerations for strengthening radiation emergency preparedness in Ukraine",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Bazyka",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Belyi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Chumak",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Radiat. Prot. Dosim",
+            "volume": "171",
+            "issn": "",
+            "pages": "129--133",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/rpd/ncw196"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Health effects of the Chernobyl accident and special health care programmes -Report of the UN Chernobyl Forum expert group \"Health",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Bennett",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Repacholi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Carr",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Lessons learned in protection of the public for the accident at the Fukushima Daiichi nuclear power plant",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Callen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Homma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Health Phys",
+            "volume": "112",
+            "issn": "",
+            "pages": "550--559",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/HP.0000000000000666"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Using the grade approach to support the development of recommendations for public health interventions in radiation emergencies",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Carr",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Clarke",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Akl",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Schneider",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Murith",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Parrish-Sprowl",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Stenke",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Cui-Ping",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bertrand",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Miller",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Radiat. Prot. Dosim",
+            "volume": "171",
+            "issn": "",
+            "pages": "144--155",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/rpd/ncw234"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "ICRP publication 109. Application of the Commission's Recommendations for the protection of people in emergency exposure situations",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Clarke",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Valentin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Ann. ICRP",
+            "volume": "39",
+            "issn": "",
+            "pages": "1--110",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.icrp.2009.05.004"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "NERIS Roadmap on medium and long-term research on preparedness for nuclear and radiological emergency response and recovery Version 2",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Croua\u00efl",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Camps",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Raskob",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Schneider",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Preparedness and Response for a Nuclear or Radiological Emergency (No",
+            "authors": [],
+            "year": 2015,
+            "venue": "Safety Standards Series. IAEA (International Atomic Energy Agency)",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "EJP-CONCERT European Joint Programme for the Integration of Radiation Protection Research H2020",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Impens",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Salomaa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Public information during a nuclear power plant accident: lessons learned from Three Mile Island",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lester",
+                    "suffix": ""
+                }
+            ],
+            "year": 1983,
+            "venue": "Bull. N. Y. Acad. Med",
+            "volume": "59",
+            "issn": "",
+            "pages": "1080--1086",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Generic Handbook for Assisting in the Management of Contaminated Food Production Systems in Europe following a radiological emergency v2",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Nisbet",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Turcanu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Camps",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Andersson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "H\u00e4nninen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ravantaara",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Solatie",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Kostiainen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Julien",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Pupin",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ollagnon",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Papachristodoulou",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Ioannides",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Oughton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "The SHAMISEN Project: challenging historical recommendations for preparedness, response and follow-up of nuclear accidents: lessons learnt from Chernobyl and Fukushima",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ohba",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Liutsko",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Schneider",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Tanigawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Fattibene",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Laurier",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sarukhan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Barquinero",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kesminiene",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Skuterud",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Cardis",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "National response plan -Major nuclear or radiological accident",
+            "authors": [],
+            "year": 2014,
+            "venue": "SGDSN",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Population evacuations in industrial accidents: a review of the literature about four major events",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Soffer",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Schwartz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Goldberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Henenfeld",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Bar-Dayan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Prehosp. Disaster Med",
+            "volume": "23",
+            "issn": "",
+            "pages": "276--281",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "United Nations Office for Disaster Risk Reduction",
+            "authors": [],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "WHO Definition of Health. World Health Organisation",
+            "authors": [],
+            "year": 1948,
+            "venue": "WHO",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": "263856 and 223268. Thierry Schneider a,\u204e , Deborah Oughton b , Elisabeth Cardis c,d,e , a CEPN (Nuclear Protection Evaluation Centre), 28 Rue de la Redoute, 92260 Fontenay-aux-Roses, France b Centre for Environmental Radioactivity (CERAD), NMBU, \u212bs, Norway c Barcelona Institute for Global Health (ISGlobal), Barcelona, Spain d Pompeu Fabra University, Barcelona, Spain e Spanish Consortium for Research and Public Health (CIBERESP), Instituto de Salud Carlos III, Madrid, Spain E-mail address: thierry.schneider@cepn.asso.fr (T. Schneider).",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "SHAMISEN was supported by the EURATOM (European Atomic Energy Community) program of the European Commission in the framework of the OPERRA (Open Project for the European Radiation Research Area) project (FP7 grant agreement No. 604984).The authors are grateful to all partners, experts and stakeholders who participated in the project and/or contributed to the Recommendations.ISGlobal acknowledges support from the Spanish Ministry of Science, Innovation and Universities through the \"Centro de Excelencia Severo Ochoa 2019-2023\" Program (CEX2018-000806-S), and support",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        }
+    ]
+}

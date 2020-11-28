@@ -1,0 +1,4390 @@
+{
+    "paper_id": "994c4818b62a54526d903a146a0755b72efad323",
+    "metadata": {
+        "title": "Fate of the Mongooses and the Genet (Carnivora) in Mediterranean Europe: None Native, All Invasive?",
+        "authors": [
+            {
+                "first": "Philippe",
+                "middle": [],
+                "last": "Gaubert",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "UM2-CNRS-IRD-EPHE-CIRAD",
+                    "institution": "Universit\u00e9 de Montpellier",
+                    "location": {
+                        "addrLine": "Place Eug\u00e8ne Bataillon-CC 64",
+                        "postCode": "Cedex 05 34095",
+                        "settlement": "Montpellier",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "introductions are considered as a component of the Mediterranean bio-cultural heritage (Gippoliti and Amori 2006 ) . Human-mediated introductions since the end of the W\u00fcrmian glaciations (14-12 kyr ago) have deeply impacted current patterns of biodiversity in the MB (Vigne et al. 2009 ). These led to dramatic levels of endemic extinction, at the same time counterbalanced by the establishment of various allochthonous taxa (Masseti 2009 ).",
+            "cite_spans": [
+                {
+                    "start": 87,
+                    "end": 114,
+                    "text": "(Gippoliti and Amori 2006 )",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 267,
+                    "end": 285,
+                    "text": "(Vigne et al. 2009",
+                    "ref_id": "BIBREF89"
+                },
+                {
+                    "start": 425,
+                    "end": 438,
+                    "text": "(Masseti 2009",
+                    "ref_id": "BIBREF59"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The intensity of introductions signifi cantly increased from the fi rst millennium bc , following massive human migrations from eastern to western borders of the Mediterranean Sea that opened several dozens of potential routes to the humanmediated dispersal of species across the MB (Ciolek 2011 ) . Historical introductions had motives mostly related to agricultural practices (domestication, pest control) but also to more \"esthetic\" and political considerations, including entertainment, cultural exchanges and pet trade (Hughes 2003 ; Morales et al. 1995 ) . More recent introductions (twentieth to twenty-fi rst centuries) of mammals still originated from such motives (e.g., Delibes 1977 ) . Thus, the long history of introductions in the MB has resulted in serial faunal turnovers involving local extinctions of endemic fauna and serial establishments of introduced species, with new \"invaders\" regularly entering the native fauna (Cuttelod et al. 2008 ) . Assessing the impact of such introductions on the Mediterranean fauna is politically and economically crucial, but has proven a diffi cult task that may deserve a \"case-by-case\" (i.e., taxonomically and/or geographically) approach . By focusing on a group of Afro-Asian small Carnivores present in southern Europe, we intend to provide an exhaustive reassessment of their status that shall clarify their ecological impact in the MB.",
+            "cite_spans": [
+                {
+                    "start": 283,
+                    "end": 297,
+                    "text": "(Ciolek 2011 )",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 539,
+                    "end": 560,
+                    "text": "Morales et al. 1995 )",
+                    "ref_id": "BIBREF67"
+                },
+                {
+                    "start": 681,
+                    "end": 695,
+                    "text": "Delibes 1977 )",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 938,
+                    "end": 961,
+                    "text": "(Cuttelod et al. 2008 )",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Carnivores are among the most successful mammalian invaders, with species such as the domestic cat ( Felis silvestris catus ) and dog ( Canis lupus familiaris ), the American mink ( Neovison vison ), and the small Indian mongoose ( Herpestes auropunctatus ; see below) each established in more than 30 countries or islands around the world (Clout and Russell 2007 ) . Middle-sized representatives (\" mesocarnivores \") such as those above-mentioned have been pinpointed for their deleterious impacts on the native communities of Carnivores and their preys (Bonesi and Palazon 2007 ) , notably in the context of endemic fauna (Medina et al. 2011 ). In the MB, mustelids (martens, weasels, badgers) seem to have been the earliest Carnivores transported on islands (Masseti 1995 ) . This pattern is congruent with the earliest molecular estimate of transportation of weasels ca. 10 kya (Lebarbenchon et al. 2010 ) . However, given their natural, circum-Mediterranean distribution at the Pleistocene period , it is unclear whether all the mustelids present on Mediterranean islands were introduced or natural dispersers (Masseti 1995 ) .",
+            "cite_spans": [
+                {
+                    "start": 340,
+                    "end": 365,
+                    "text": "(Clout and Russell 2007 )",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 555,
+                    "end": 581,
+                    "text": "(Bonesi and Palazon 2007 )",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 624,
+                    "end": 643,
+                    "text": "(Medina et al. 2011",
+                    "ref_id": "BIBREF61"
+                },
+                {
+                    "start": 761,
+                    "end": 776,
+                    "text": "(Masseti 1995 )",
+                    "ref_id": null
+                },
+                {
+                    "start": 882,
+                    "end": 909,
+                    "text": "(Lebarbenchon et al. 2010 )",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 1115,
+                    "end": 1130,
+                    "text": "(Masseti 1995 )",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Study Model and Objectives: Status of the Mongooses and the Genet Present in Europe"
+        },
+        {
+            "text": "A contrario , the establishment of another lineage of small Carnivores including mongooses ( Herpestidae ) and genets ( Viverridae ) in Europe has traditionally been considered as more recent. Four species of herpestids and viverrids are or have recently been recorded from Mediterranean Europe and none of them has been considered native: the Indian grey mongoose Herpestes edwardsii , the small Indian mongoose H. auropunctatus , the Egyptian mongoose H. ichneumon , and the common genet Genetta genetta (Long 2003 ) . Those species are medium-sized predators naturally distributed in the tropical and subtropical zones of the Old World. They were supposedly introduced in Europe at various historical times, from the Middle Age to the twentieth century. Because such small Carnivores actively predate on species that can have a deleterious role in agriculture (e.g., rodents) or be directly harmful to humans (e.g., snakes), and also because they are commensal and can be kept as pets, they were good candidates to be spread through Mediterranean's trading and political networks. 1 Although the introductions of the Indian grey and small Indian mongooses in Europe are quite well documented, the introduction history of the Egyptian mongoose and the common genet has remained highly speculative. Importantly, it is unclear whether those four Carnivores have or had deleterious impacts on the native European fauna, and how their niches/ranges in the MB are characterized. Despite such lack of empirical data, local control operations-notably targeting mongooses in Portugal and Croatia-have been attempted with various levels of \"success\" (Hays and Conant 2007 ; Barun et al. 2011 ; Beja et al. 2009 ). In order to clarify their history of introduction and their status within the European fauna , I will (1) briefl y review the natural history of the Afro-Asian herpestids and viverrids present in the MB and their relationships with humans in their native ranges, (2) review their history of introduction, and for the lesser known species the speculations that have surrounded the factors promoting their possible introduction in Europe, (3) detail the recent enlightenments-and sometimes contradictions-brought by genetic analyses (mostly phylogeography) as to the dispersal histories of those small Carnivores, and (4) summarize their range dynamics and ecological interactions with the European fauna. In view of the reviewed evidence, I will then conclude on the expected \"invasiveness\" of those species in Europe and will eventually open a prospective on the strategies that could be adopted to improve our understanding of small Carnivores' establishments in the MB.",
+            "cite_spans": [
+                {
+                    "start": 506,
+                    "end": 518,
+                    "text": "(Long 2003 )",
+                    "ref_id": "BIBREF55"
+                },
+                {
+                    "start": 1084,
+                    "end": 1085,
+                    "text": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 1643,
+                    "end": 1666,
+                    "text": "(Hays and Conant 2007 ;",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 1667,
+                    "end": 1686,
+                    "text": "Barun et al. 2011 ;",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1687,
+                    "end": 1703,
+                    "text": "Beja et al. 2009",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Study Model and Objectives: Status of the Mongooses and the Genet Present in Europe"
+        },
+        {
+            "text": "The Indian grey mongoose occurs in the Indian subcontinent and at the eastern fringe of the Middle East ( Fig. 14 .1 ). It seems preferentially commensal with humans as it is often recorded near human settlements in central India where it frequently scavenges on carrion. The species is most common in disturbed areas, in dry secondary forests and thorn forests. It is generally diurnal, goes solitary or by mating pair and mainly feeds on small mammals, insects and reptiles (Santiapillai et al. 2000 ; Choudhury et al. 2013 ) . Litter size is 2-4 and there are 2-3 litters a year (Gilchrist et al. 2009 ).",
+            "cite_spans": [
+                {
+                    "start": 476,
+                    "end": 503,
+                    "text": "(Santiapillai et al. 2000 ;",
+                    "ref_id": "BIBREF79"
+                },
+                {
+                    "start": 504,
+                    "end": 527,
+                    "text": "Choudhury et al. 2013 )",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 582,
+                    "end": 604,
+                    "text": "(Gilchrist et al. 2009",
+                    "ref_id": "BIBREF43"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 106,
+                    "end": 116,
+                    "text": "Fig. 14 .1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Natural History of the Mongooses and the Genet in Europe and Their Relationships with Humans in Their Native Ranges"
+        },
+        {
+            "text": "The small Indian mongoose ranges from the eastern fringe of the Middle East to the Indian subcontinent and southern China (Veron et al. 2007 ; Gilchrist et al. 2009 ) (Fig. 1 4 . 2 ). The species is found in a variety of open habitats and tolerates a large degree of habitat conversion (notably in its introduced range). It seems quite resistant to persecution and is still recorded from intensely hunted and cultivated areas (Wozencraft et al. 2008 ). It goes solitary or by pair and feeds during both day and night on a wide range of items including arthropods, small mammals, birds, reptiles, frogs and crustaceans. Mean litter size is 2 (range = 1-5) and there are 2-3 litters a year (Gilchrist et al. 2009 ).",
+            "cite_spans": [
+                {
+                    "start": 122,
+                    "end": 142,
+                    "text": "(Veron et al. 2007 ;",
+                    "ref_id": "BIBREF88"
+                },
+                {
+                    "start": 143,
+                    "end": 166,
+                    "text": "Gilchrist et al. 2009 )",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 426,
+                    "end": 449,
+                    "text": "(Wozencraft et al. 2008",
+                    "ref_id": "BIBREF94"
+                },
+                {
+                    "start": 688,
+                    "end": 710,
+                    "text": "(Gilchrist et al. 2009",
+                    "ref_id": "BIBREF43"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 167,
+                    "end": 178,
+                    "text": "(Fig. 1 4 .",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Natural History of the Mongooses and the Genet in Europe and Their Relationships with Humans in Their Native Ranges"
+        },
+        {
+            "text": "Because they are natural predators of snakes , mongooses can be very popular animals in Asia, in contrast with them being viewed as pests in most parts of their introduced ranges. It is, in fact, mainly for this reason (snake killing, but also rodentkilling) that Asian mongooses have been introduced in various parts of the world (Hays and Conant 2007 ) . Archaeological evidence from Harappan sites (western Indian subcontinent; fourth to fi rst millennia bc ) supports the idea that mongooses frequented human habitations, possibly as semidomesticated animals (Lodrick 1982 ) . The \" Brahmin and the Mongoose \" is a famous folktale from India that is another token of the good consideration that the mongoose benefi ts there. It describes the impulsive killing of a loyal mongoose that had protected a baby from snakes, and thus is a warning against hasty actions (Emeneau 1940 ) . In India, the mongoose is also associated to opulence and generally represents the god of wealth in the Buddhist iconography (Lodrick 1982 ) .",
+            "cite_spans": [
+                {
+                    "start": 331,
+                    "end": 354,
+                    "text": "(Hays and Conant 2007 )",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 563,
+                    "end": 578,
+                    "text": "(Lodrick 1982 )",
+                    "ref_id": null
+                },
+                {
+                    "start": 867,
+                    "end": 882,
+                    "text": "(Emeneau 1940 )",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 1010,
+                    "end": 1025,
+                    "text": "(Lodrick 1982 )",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Natural History of the Mongooses and the Genet in Europe and Their Relationships with Humans in Their Native Ranges"
+        },
+        {
+            "text": "Small Indian mongooses were possibly introduced during the second or fi rst millennium bc in eastern Arabia and Bahrain (Uerpmann 1995 ) and were found buried in the temple of Saar (Dobney and Jaques 1994 ) where they were probably linked to religious rituals. As of today, the small Indian and the Indian grey mongooses are frequently captured and sold as pets, notably in India and Nepal. In central India, people consider the two species of mongooses to be sacred (Wozencraft et al. 2008; Choudhury et al. 2013) . Another use is made by the Jogi tribes in Pakistan, whom capture the small Indian mongoose for stage fi ghts with cobras (Gilchrist et al. 2009 ).",
+            "cite_spans": [
+                {
+                    "start": 120,
+                    "end": 136,
+                    "text": "(Uerpmann 1995 )",
+                    "ref_id": "BIBREF87"
+                },
+                {
+                    "start": 181,
+                    "end": 206,
+                    "text": "(Dobney and Jaques 1994 )",
+                    "ref_id": null
+                },
+                {
+                    "start": 467,
+                    "end": 491,
+                    "text": "(Wozencraft et al. 2008;",
+                    "ref_id": "BIBREF94"
+                },
+                {
+                    "start": 492,
+                    "end": 514,
+                    "text": "Choudhury et al. 2013)",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 638,
+                    "end": 660,
+                    "text": "(Gilchrist et al. 2009",
+                    "ref_id": "BIBREF43"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Natural History of the Mongooses and the Genet in Europe and Their Relationships with Humans in Their Native Ranges"
+        },
+        {
+            "text": "The Egyptian mongoose is widely distributed in northern and sub-Saharan Africa and the coastal Near East, avoiding deserts, high rainfall forest areas and the southern African steppe ( Fig. 1 4 .3 ) . It primarily occurs in habitats having dense understory vegetation, but is also frequent in cultivated zones. The species is generally solitary, although pairs and families of 4-6 individuals can be observed. It is mostly diurnal and has an opportunistic, omnivorous diet including small mammals, birds, Small red arrows indicate introductions on several Adriatic islands arthropods, amphibians, reptiles, fi sh, gastropods, carrion, fungi, fruit and other plant material. Mean litter size is estimated to be 3.3 (range = 1-4), and there is usually a single litter per year (Palomares 2013 ) .",
+            "cite_spans": [
+                {
+                    "start": 775,
+                    "end": 792,
+                    "text": "(Palomares 2013 )",
+                    "ref_id": "BIBREF71"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 185,
+                    "end": 198,
+                    "text": "Fig. 1 4 .3 )",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Natural History of the Mongooses and the Genet in Europe and Their Relationships with Humans in Their Native Ranges"
+        },
+        {
+            "text": "Ichneumon is derived from the ancient Greek for \"tracker,\" possibly originating from the mongoose's supposed ability to track crocodile dens and feed on their eggs. In addition to this ancient belief related to the sacred crocodiles, its capacity of preying on snakes made the Egyptian mongoose played an important part in the bestiary of the Pharaonic Egypt. Representations of the species can be found on the walls of tombs and temples in Thebes and Saqqara as early as the period of the Old Kingdom (2800-2150 bc ). The Egyptian mongoose was associated to several deities including Atum, Re and Horus. It was also sacred to Mafdet, the goddess providing protection from snakebite, and mummifi ed Egyptian mongooses were discovered inside bronze statues of the lion-headed goddess Uto. A legend relates the defeat of the thunder snake Apophis by the mongoose as the surrogate of the god Letopolis, refl ecting again the representation of the species as a benefi cial snakekiller. In Ancient Egypt and later in the Arabic culture (as late as nineth century ad ), the Egyptian mongoose was believed to alter its size between day and night, becoming very small at night (as a shrew or a mouse) and being able to kill snakes by suddenly increasing its size if captured (Stuart 1988 ) . Depictions of mongooses hold by their tail or on a leash suggest that the species was tamed in Ancient Egypt, possibly as a household pet, biocontrol agent, or hunting animal. Egyptian mongooses were kept in temples as votive offerings until the Greco-Roman times. However, they seem not to have been domesticated or bred in captivity (Osborn and Osbornova 1998 ) .",
+            "cite_spans": [
+                {
+                    "start": 1267,
+                    "end": 1281,
+                    "text": "(Stuart 1988 )",
+                    "ref_id": "BIBREF84"
+                },
+                {
+                    "start": 1619,
+                    "end": 1647,
+                    "text": "(Osborn and Osbornova 1998 )",
+                    "ref_id": "BIBREF69"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Natural History of the Mongooses and the Genet in Europe and Their Relationships with Humans in Their Native Ranges"
+        },
+        {
+            "text": "The status of the species is said to have moved from benefi cial to pest once the domestic fowl, on which it can prey, was introduced in Egypt (Osborn and Osbornova ). More likely, the arising of the domestic cat as the preferred household pet and biocontrol agent against rodents all around the MB together with the spread of monotheist religions should have brought forward the discredit on the Egyptian mongoose. There is, to date, no concrete evidence for the domestication or taming of H. ichneumon by post-Roman North African cultures, although the discovery of a tibia from Punic Sardinia ca. fi fth to fourth century bc shows that episodic, historical translocations of the species might have occurred as early as the Carthaginian period (Campanella and Wilkens 2004 ) .",
+            "cite_spans": [
+                {
+                    "start": 746,
+                    "end": 776,
+                    "text": "(Campanella and Wilkens 2004 )",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Natural History of the Mongooses and the Genet in Europe and Their Relationships with Humans in Their Native Ranges"
+        },
+        {
+            "text": "The common genet has a wide distribution in northern and sub-Saharan Africa and is also present in southern Peninsular Arabia ( Fig. 1 4 .4 ) . It avoids deserts, rainforests, dense woodlands and woodland-moist savannah mosaics, and is mostly found in open savannahs, oak forests and bushy areas with woody or rocky shelters. The species has a predisposition to live in the vicinity of human settlements . It is solitary and nocturnal, and is a generalist feeder consuming small mammals, arthropods, birds, eggs, reptiles, amphibians, fi sh, fruits, mushrooms and garbage. Mean litter size is 2-2.6 (range = 1-4), and there seems to be a single litter per year (Delibes and Gaubert 2013 ) .",
+            "cite_spans": [
+                {
+                    "start": 661,
+                    "end": 688,
+                    "text": "(Delibes and Gaubert 2013 )",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 128,
+                    "end": 141,
+                    "text": "Fig. 1 4 .4 )",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Natural History of the Mongooses and the Genet in Europe and Their Relationships with Humans in Their Native Ranges"
+        },
+        {
+            "text": "Remains of common genets associated to hunting sites were found in the Late Pleistocene of northern Africa (Ouchaou and Amani 2002 ) . Although possible associations between common genets and humans have been the subject of numerous speculations, the archaeological and historical evidence is scarce. The species was pictured in swamp scenes climbing papyrus stems -often in association with the Egyptian mongoose-on the walls of tombs and temples of Ancient Egypt (ca. 3000-2200 bc ). The common genet was seldom represented in later periods (i.e., the XVIIIth dynasty: 1600-1300 bc ). No mummies of the species have ever The upper left inset shows the potential range of the species (in red ) in southwestern Europe (Gaubert et al. 2008 ; Delibes and Gaubert 2013 ) : 1 , Portugal; 2 , Spain, 3 , France; 4 , Ibiza Isl.; 5 , Mallorca + Cabrera Isl been found in Egypt. The assertions of a large number of authors as to the use of the species as a tamed \" pre-cat \" in Egypt and later in northern Africa are not based on any concrete evidence (see Osborn and Osbornova 1998 ) .",
+            "cite_spans": [
+                {
+                    "start": 107,
+                    "end": 132,
+                    "text": "(Ouchaou and Amani 2002 )",
+                    "ref_id": "BIBREF70"
+                },
+                {
+                    "start": 718,
+                    "end": 740,
+                    "text": "(Gaubert et al. 2008 ;",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 741,
+                    "end": 767,
+                    "text": "Delibes and Gaubert 2013 )",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 1049,
+                    "end": 1076,
+                    "text": "Osborn and Osbornova 1998 )",
+                    "ref_id": "BIBREF69"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Natural History of the Mongooses and the Genet in Europe and Their Relationships with Humans in Their Native Ranges"
+        },
+        {
+            "text": "There has been some confusion around which species of mongooses were introduced worldwide. The supposed introductions of the Indian grey and the Egyptian mongooses in various parts of the world (Malaysia, Japan, Mauritius, Antilles Isl., Madagascar) are most probably confusions with other (Asian) mongooses, including H. auropunctatus (Gilchrist et al. 2009 ; Choudhury et al. 2013) . The history of introduction of the small Indian mongoose in Italy is relatively well documented. Probably in 1952, the owner of a hotel in San Felice Circeo (Central Italy) released a few mongooses-acquired from the Giardino Zoologico di Roma-in her park with the aim of removing adders. Those animals escaped during the second half of the 1950s, and a population established into nearby areas of the Circeo National Park . At the end of the 1970s, mongooses reached their maximum range, which covered ca. 15 km 2 from the whole Circeo promontory to most of the protected area south of Molella Bay (Carpaneto 1990 ; Angelici 2003 ) . The collection of a specimen of H. edwardsii from Capalbio (Tuscany), ca. 200 km northward of Circeo, shows that at least two events of introduction occurred in Italy at ca. 10 years of interval, probably from the same captive stock. The reasons for this second introduction remain unknown. However, a letter from 1966 written by the director of the Capalbio hunting estate quoted a negative advice provided by the Laboratorio di Zoologia Applicata alla Caccia (future Istituto Superiore per la Protezione e la Ricerca Ambientale) about the introduction of mongooses to control populations of adders, reinforcing the idea that using these animals to control venomous snakes was rather widespread at that time. The Indian grey mongoose is now considered extinct in Italy (Angelici 2003 ) , a unique fate among the herpestids and viverrids introduced in Europe (see below).",
+            "cite_spans": [
+                {
+                    "start": 336,
+                    "end": 360,
+                    "text": "(Gilchrist et al. 2009 ;",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 361,
+                    "end": 383,
+                    "text": "Choudhury et al. 2013)",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 984,
+                    "end": 1001,
+                    "text": "(Carpaneto 1990 ;",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1002,
+                    "end": 1017,
+                    "text": "Angelici 2003 )",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1790,
+                    "end": 1806,
+                    "text": "(Angelici 2003 )",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "History of Introductions of the Mongooses and the Genet in Europe"
+        },
+        {
+            "text": "The small Indian mongoose is considered as one of the world's 100 worst invasive species. It was introduced to many islands in the Pacifi c and Indian Oceans and the Caribbean Sea, mostly in the late nineteenth and early twentieth centuries, to control rats and poisonous snakes in sugar cane fi elds (Lowe et al. 2000 ) . The introduction of H. auropunctatus in Europe is well documented. Seven males and four females purchased in India were released in 1910 on the island of Mljet (current Croatia), formerly known as the \" island of snakes .\" At that time, the Austro-Hungarian authorities had decided to introduce wild mongooses in order to exterminate the horned viper Vipera ammodytes from the island. Given the rapid decrease in the number of snakes and the growing numbers of mongooses on Mljet Isl., the species was soon introduced on nearby islands (Korcula, Peljesac, Brac) between 1921 and 1927. Afterwards, several attempts of introduction-with various levels of success-were planned onto a series of Adriatic islands but also in the mainland of former Yugoslavia (currently Bosnia-Herzegovina and Macedonia) until the 1970s (Tvrtkovic and Krystufek 1990 ; Krystufek and Tvrtkovic 1992 ) . Interestingly, the historical record kept track of a transportation of ca. 100 mongooses from Mljet Isl. to Venezuela around 1926, thus suggesting that part of the small Indian mongooses introduced in the Caribbean Isl. originated from Europe (Tresic Pavicic 1936 ) .",
+            "cite_spans": [
+                {
+                    "start": 301,
+                    "end": 320,
+                    "text": "(Lowe et al. 2000 )",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 1138,
+                    "end": 1169,
+                    "text": "(Tvrtkovic and Krystufek 1990 ;",
+                    "ref_id": "BIBREF86"
+                },
+                {
+                    "start": 1170,
+                    "end": 1200,
+                    "text": "Krystufek and Tvrtkovic 1992 )",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 1446,
+                    "end": 1468,
+                    "text": "(Tresic Pavicic 1936 )",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "History of Introductions of the Mongooses and the Genet in Europe"
+        },
+        {
+            "text": "Conversely, the scenario of introduction of the Egyptian mongoose in Europe is highly speculative. The absence of paleontological records in southwestern Iberiathe European range of the species-and the existence of archaeological remains dated from the Arab occupation led some authors to postulate an introduction of the Egyptian mongoose associated to migrant Berber farmers between the eighth and thirteenth centuries ad (Riquelme-Cantal et al. 2008 ; Detry et al. 2011 ). However, this scenario is somewhat contradicted by the discovery of an Egyptian mongoose remain in a Carthaginian site from the fi fth to fourth centuries bc in Sardinia (Campanella and Wilkens 2004 ) , evidencing the historical transportation of the species by an earlier civilization. Besides, it has long been said that there is no evidence for the domestication or taming of H. ichneumon by North African people during historical times (Geoffroy Saint-Hilaire 1813 ). As a matter of fact, traces of manipulation or taming as could be the case with tooth abrasion, presence of associated artifacts or intentional disposal practices, have never been observed on any of the archaeological remains found in Europe.",
+            "cite_spans": [
+                {
+                    "start": 424,
+                    "end": 454,
+                    "text": "(Riquelme-Cantal et al. 2008 ;",
+                    "ref_id": "BIBREF76"
+                },
+                {
+                    "start": 455,
+                    "end": 472,
+                    "text": "Detry et al. 2011",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 646,
+                    "end": 676,
+                    "text": "(Campanella and Wilkens 2004 )",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "History of Introductions of the Mongooses and the Genet in Europe"
+        },
+        {
+            "text": "The scenario of introduction of the common genet in southwestern Europe (the species is present from southern Iberia to southwestern France and in several Balearic islands) is highly speculative and calls to earlier periods than the Arab conquest. The Greek historian Herodotus (fi fth century bc ) mentioned a \" weasel from Tartessos \" (southwestern Iberia) similar to the one found in Libya, which has been identifi ed as a common genet (Amigues 1999 ) . This led authors to suggest an early introduction of the species through the political network between the Greek colonies and the Kingdom of Tartessos. According to Posidonius (fi rst century bc ), this \"weasel\" was used in southern Iberia as a bio-control agent against rabbit proliferation (Amigues 1999 ) . The common genet was also mentioned in a faunistic list from the Gallic site of Ambrussum (southern France) as associated with domestic furniture from the third century bc (Columeau 1979 ) . However, the remains of the animal have been lost.",
+            "cite_spans": [
+                {
+                    "start": 439,
+                    "end": 454,
+                    "text": "(Amigues 1999 )",
+                    "ref_id": null
+                },
+                {
+                    "start": 749,
+                    "end": 764,
+                    "text": "(Amigues 1999 )",
+                    "ref_id": null
+                },
+                {
+                    "start": 939,
+                    "end": 955,
+                    "text": "(Columeau 1979 )",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "History of Introductions of the Mongooses and the Genet in Europe"
+        },
+        {
+            "text": "Despite such possibilities for anterior introductions, the common genet has traditionally been associated to the Arab conquerors of Europe. A legend relates that after the defeat of Moor armies near Poitiers, France (732 ad ), the King's Majordomo Charles Martel found in the loot of the defeated armies such a great quantity of furs-but also living animals-belonging to the common genet that he decided to create the \"Ordre de la Genette\" (Favyn 1620 ) . Although this order of chivalry is a total myth, this narrative long stood as the main evidence supporting the introduction of the species through Arab invasions. Such hypothesis was further supported by the fact that there is no fossil record of the species in Europe and the only known archaeological remain dates back to the Almohads-an Arab dynasty-in Portugal, at the thirteenth century ad (Morales 1994 ) .",
+            "cite_spans": [
+                {
+                    "start": 440,
+                    "end": 453,
+                    "text": "(Favyn 1620 )",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 851,
+                    "end": 866,
+                    "text": "(Morales 1994 )",
+                    "ref_id": "BIBREF65"
+                }
+            ],
+            "ref_spans": [],
+            "section": "History of Introductions of the Mongooses and the Genet in Europe"
+        },
+        {
+            "text": "The material representing the extinct Indian grey mongooses in Italy is very scarce. Only four specimens are known to be preserved in collections: three fl at skins from the early 1960s are kept at the ISPRA museum (Ozzano dell'Emilia, Italy) and one mounted specimen from the 1970s is exhibited at the museum visitors' centre of Sabaudia at Circeo NP (Angelici 2003 ) . Those represent the two distinct sites where the species was introduced, including Circeo NP and Capalbio (Tuscany), ca. 200 km north of the former. To date, a single genetic analysis based on mitochondrial DNA (mtDNA) and including the four remaining specimens of the mongooses introduced in Italy has been conducted. It clearly confi rmed the Indian grey mongoose as the species having been introduced in Italy during the twentieth century and traced the introduced pool's origin to Pakistan or India, which is the core distribution of the species in its native range. The mtDNA diversity of Italian mongooses was null, thus suggesting a very limited number of founders (Gaubert and Zenatello 2009 ) . It is likely that the low number of preserved Italian individuals will significantly limit the contribution of future genetic studies on the assessment of the species' introduction in Europe.",
+            "cite_spans": [
+                {
+                    "start": 352,
+                    "end": 368,
+                    "text": "(Angelici 2003 )",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1043,
+                    "end": 1072,
+                    "text": "(Gaubert and Zenatello 2009 )",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Dispersal Histories of the Mongooses and the Genet in Europe: What Does Genetics Say?"
+        },
+        {
+            "text": "The introduction history of the small Indian mongoose has been assessed in more details. Genetics-and notably, rapidly evolving markers such as microsatelliteshas shown its utility in tracing the introductions of the small Indian mongoose worldwide and allowed to discover new paths of transportations (Thulin et al. 2006 ; Watari et al. 2011 ). It has also provided insights into the demographic characteristics of introduced populations and potential admixture with H. edwardsii in the species' native range that may be used to better delineate the dynamics of the introduced populations (Thulin et al. 2006 ) . Despite this, no detailed genetic study has so far been conducted on the small Indian mongooses introduced in Europe. To date, only a study on the systematic status of the small Indian mongoose and the Javan mongoose H. javanicus confi rmed that the former was the species introduced in Croatia ( Veron et al. 2007 ). Thus, further genetic investigations will have to be undertaken to characterize in detail the introduction patterns of the small Indian mongoose in the Balkans.",
+            "cite_spans": [
+                {
+                    "start": 302,
+                    "end": 323,
+                    "text": "(Thulin et al. 2006 ;",
+                    "ref_id": "BIBREF85"
+                },
+                {
+                    "start": 324,
+                    "end": 342,
+                    "text": "Watari et al. 2011",
+                    "ref_id": "BIBREF92"
+                },
+                {
+                    "start": 590,
+                    "end": 611,
+                    "text": "(Thulin et al. 2006 )",
+                    "ref_id": "BIBREF85"
+                },
+                {
+                    "start": 911,
+                    "end": 928,
+                    "text": "Veron et al. 2007",
+                    "ref_id": "BIBREF88"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Dispersal Histories of the Mongooses and the Genet in Europe: What Does Genetics Say?"
+        },
+        {
+            "text": "The dispersal history of the Egyptian mongoose has been assessed by a mitochondrial analysis based on ca. 90 samples from Africa, the Middle East and Europe (Gaubert et al. 2011 ) . The results of this study radically contradicted the established idea that the Egyptian mongoose was introduced in Europe. Instead, Gaubert et al. ( 2011 ) proposed a natural crossing of the Mediterranean Sea by H. ichneumon via the Strait of Gibraltar during the Middle Pleistocene, long before the earliest (Paleolithic) human exchanges between North Africa and Europe. The strong genetic differentiation between European and North African haplogroups, the signifi cant level of genetic diversity found in Europe, and the important phenotypic differences between European and North African mongooses all pointed to a scenario of long-term in situ evolution of European populations. These molecular results supported the hypothesis that natural dispersal across the Strait of Gibraltar was possible for nonfl ying vertebrates during the Pleistocene cyclical lowering of sea levels. The swimming abilities of the Egyptian mongoose make plausible a sweepstake migration using a partially emerged shoal such as the archipelago of Cape Spartel (where the mythic city of Atlantis was possibly located) that is now 56 to 200 m below sea level (Collina-Girard 2001 ) . The long-term stability of mongooses' effective population size in Europe was supported by various genetic indices and the remarkable correspondence between the limits of the proposed ice age refugium in southwestern Iberia (Hewitt 1996 ) and the distribution of suitable ecological conditions for the species (specifi cally, low rainfall and warm temperatures; Borralho et al. 1996 ) . Niche modelling approaches have since supplied independent evidence for the long-term stability (climatic niche conservatism) of the Egyptian mongoose in southwestern Iberia (Pape\u015f et al. 2015 ) .",
+            "cite_spans": [
+                {
+                    "start": 157,
+                    "end": 179,
+                    "text": "(Gaubert et al. 2011 )",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 314,
+                    "end": 337,
+                    "text": "Gaubert et al. ( 2011 )",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 1320,
+                    "end": 1342,
+                    "text": "(Collina-Girard 2001 )",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1569,
+                    "end": 1583,
+                    "text": "(Hewitt 1996 )",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 1707,
+                    "end": 1729,
+                    "text": "Borralho et al. 1996 )",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1906,
+                    "end": 1926,
+                    "text": "(Pape\u015f et al. 2015 )",
+                    "ref_id": "BIBREF73"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Dispersal Histories of the Mongooses and the Genet in Europe: What Does Genetics Say?"
+        },
+        {
+            "text": "The introduction scenario of the common genet in Europe has been assessed by the genetic analysis of ca. 180 individuals from the native and introduced species' ranges, using mtDNA Gaubert et al. 2011 ) and more recently, microsatellite markers . The combined evidence supported multiple introductions from North Africa into Europe, including the Balearic Isl. (with three distinct introduction events on Ibiza, Mallorca and later Cabrera), southwestern Iberia (corresponding to the Tartessian Kingdom's zone of infl uence), and possibly northeastern Spain and southwestern France (secondary introduction from Iberia for the latter). Those studies suggest that the common genet was intentionally introduced in southern Iberia at a time (<300 bc) antedating the Arab invasion, possibly via Phoenicians' commercial routes. Subsequent introduction in France, longterm genetic drift, and admixture between the Iberian and French pools likely shaped the species' genetic variation currently observed in continental Europe. The mtDNA-based demographic scenario of multiple, historical introductions of common genets in Europe followed by sudden population expansion is characteristic of populations at disequilibrium Gaubert et al. 2011 ) . Such scenario was supported by niche modelling analysis through the detection of a climatic niche shift in the northern European range of the species (Pape\u015f et al. 2015 ) . Altogether, these results suggest that an exceptional combination of factors including multiple introductions, local admixture, and ecological adaptation promoted the successful spread of the common genet in continental Europe.",
+            "cite_spans": [
+                {
+                    "start": 181,
+                    "end": 200,
+                    "text": "Gaubert et al. 2011",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 1211,
+                    "end": 1232,
+                    "text": "Gaubert et al. 2011 )",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 1385,
+                    "end": 1405,
+                    "text": "(Pape\u015f et al. 2015 )",
+                    "ref_id": "BIBREF73"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Dispersal Histories of the Mongooses and the Genet in Europe: What Does Genetics Say?"
+        },
+        {
+            "text": "The number of Indian grey mongooses in Italy abruptly decreased from the early 1980s, and the species was considered extinct by 1984. A survey conducted in summer 1984 failed to recover any evidence for the presence of the mongoose (Biondi 1985 ) . Although poorly documented, it is probable that the extinction process of H. edwardsii in Italy might have taken place quickly after the species reached its maximum range between 1978 and 1980 (Carpaneto 1990 ) , possibly due to harsh winters. Mongooses were seen wandering in villages close to the Circeo promontory, apparently searching for food and shelter . The species showed a tame, diurnal behavior, consuming tourists' leftovers and accepting direct feeding from humans. Its sudden extinction in Italy fi ts with crashes observed in populations with very restricted ranges within the 25 years following their time of introduction (Duncan and Forsyth 2006 ) . Because the mitochondrial diversity among Italian individuals was null, it is reasonable to conclude that a combination of deleterious factors including low genetic diversity, restricted range, and non-adaptation to western Palearctic winter conditions was likely responsible for the extinction of the species in Italy (Gaubert and Zenatello 2009 ) . Documentation of interspecifi c competition with native Carnivores is scarce, although a dominance of the Indian grey mongoose over polecats Mustela putorius was suggested during the years of mongooses' maximal expansion. During the brief establishment of the Indian grey mongoose in Circeo NP, no impact on the density of black rats Rattus rattus was observed (Carpaneto 1990 ).",
+            "cite_spans": [
+                {
+                    "start": 232,
+                    "end": 246,
+                    "text": "(Biondi 1985 )",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 442,
+                    "end": 459,
+                    "text": "(Carpaneto 1990 )",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 887,
+                    "end": 913,
+                    "text": "(Duncan and Forsyth 2006 )",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1235,
+                    "end": 1264,
+                    "text": "(Gaubert and Zenatello 2009 )",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 1628,
+                    "end": 1643,
+                    "text": "(Carpaneto 1990",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Range Dynamics of the Mongooses and the Genet in Europe and Assessment of Their Ecological Interactions with the European Fauna"
+        },
+        {
+            "text": "The small Indian mongoose successfully established and spread in Europe, with the notable exception of the island of Brac where it went extinct for unknown reasons. The two introduction sites on the continent (Peljesac Peninsula, Bosnia-Herzegovina and Mostar, Macedonia) are supposed to be the sources of the populations having spread ca. 150 km southwards into Montenegro. At present, the European range of the species includes the thick Mediterranean vegetation of the Adriatic coast, from Skrda Isl. and the Neretva River in the north to Albania in the south (Barun et al. 2010 ; \u0106irovi\u0107 et al. 2011 ) . Given the favorable (higher) mean annual temperatures in southern Europe, the further spread of the species' range should be expected towards southern Albania and Greece (\u0106irovi\u0107 et al. 2011 ). On European islands, the small Indian mongoose can show drastic annual fl uctuations of population densities . Because the species' range in Europe is characterized by temperatures well below its previously known isothermal limit (10 \u00b0C), episodic cold winters could be the cause of such large density fl uctuations (Tvrtkovic and Krystufek 1990 ).",
+            "cite_spans": [
+                {
+                    "start": 563,
+                    "end": 583,
+                    "text": "(Barun et al. 2010 ;",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 584,
+                    "end": 605,
+                    "text": "\u0106irovi\u0107 et al. 2011 )",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 778,
+                    "end": 798,
+                    "text": "(\u0106irovi\u0107 et al. 2011",
+                    "ref_id": null
+                },
+                {
+                    "start": 1118,
+                    "end": 1147,
+                    "text": "(Tvrtkovic and Krystufek 1990",
+                    "ref_id": "BIBREF86"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Range Dynamics of the Mongooses and the Genet in Europe and Assessment of Their Ecological Interactions with the European Fauna"
+        },
+        {
+            "text": "In comparison with H. edwardsii , the small Indian mongoose shows a series of characteristics that may promote invasive success: (1) effi cient physiological mechanisms for dealing with hot and moderately cold environments; (2) aggressive behavior against direct competitors/predators such as domestic cats; and (3) wide range of deleterious pathogens, including rabies (Gaubert and Zenatello 2009 ) . The success of the small Indian mongoose as a biocontrol agent is questionable because the species is a generalist predator preying on other species than rodents and snakes (Hinton and Dunn 1967 ) . Reductions or extinctions of populations of birds, reptiles, and amphibians caused by H. auropunctatus have been reported on islands worldwide, although there is controversy over whether the small Indian mongoose has genuinely been the main culprit (Lewis et al. 2011 ; Hays and Conant 2007 ) . A secondary aspect of the deleterious impact of the species resides in its role of main reservoir for viruses (e.g., rabies) and parasites (e.g., Weil's disease) impacting wildlife and humans in several parts of the Caribbean (Hatcher et al. 2012 ; Everard and Everard 1992 ) . This latter point remains undocumented in Europe. In Croatia , the species is accused of having a deleterious impact on wild fowl, poultry and several cultivars, and so is subject to extermination campaigns led by hunting federations (Tvrtkovic and Krystufek 1990 ) . It has also been speculated that the species could have \" catastrophic consequences \" on the Balkan continental herpetofauna (\u0106irovi\u0107 et al. 2011 ). However, a study conducted on Korcula Isl. evidenced a low consumption of reptiles and amphibians by the small Indian mongoose, and in comparison a high consumption of small mammals, birds, arthropods and plants (Cavallini and Serafi ni 1995 ) . The minor representation of the herpetofauna in the mongoose's diet is actually a general trend throughout its introduced range ( Table 1 in Hays and Conant 2007 ) . On the other hand, it was observed that reptiles and amphibians were generally rare or absent from the islands occupied by the species whereas they were common on the mongoose-free island of Brac (Barun et al. 2010 ) . Unfortunately, predation of the native herpetofauna by other invasive species such as the black rat and the domestic cat has not been evaluated.",
+            "cite_spans": [
+                {
+                    "start": 370,
+                    "end": 399,
+                    "text": "(Gaubert and Zenatello 2009 )",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 575,
+                    "end": 598,
+                    "text": "(Hinton and Dunn 1967 )",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 850,
+                    "end": 870,
+                    "text": "(Lewis et al. 2011 ;",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 871,
+                    "end": 893,
+                    "text": "Hays and Conant 2007 )",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 1122,
+                    "end": 1144,
+                    "text": "(Hatcher et al. 2012 ;",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 1145,
+                    "end": 1171,
+                    "text": "Everard and Everard 1992 )",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 1408,
+                    "end": 1439,
+                    "text": "(Tvrtkovic and Krystufek 1990 )",
+                    "ref_id": "BIBREF86"
+                },
+                {
+                    "start": 1567,
+                    "end": 1587,
+                    "text": "(\u0106irovi\u0107 et al. 2011",
+                    "ref_id": null
+                },
+                {
+                    "start": 1803,
+                    "end": 1834,
+                    "text": "(Cavallini and Serafi ni 1995 )",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1978,
+                    "end": 2000,
+                    "text": "Hays and Conant 2007 )",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 2199,
+                    "end": 2219,
+                    "text": "(Barun et al. 2010 )",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1967,
+                    "end": 1974,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Range Dynamics of the Mongooses and the Genet in Europe and Assessment of Their Ecological Interactions with the European Fauna"
+        },
+        {
+            "text": "The Egyptian mongoose must have occurred in the papyrus swamps of the Nile valley at the time of Ancient Egypt. The reasons for its extinction are unknown, but were probably linked to its artifi cial maintenance as a semi-domestic animal or to the progressive disappearance of such habitat (Osborn and Osbornova 1998 ) . In Europe, suitability models predicted the expansion of the species in southern and central Spain in areas with a high rabbit abundance, thus foreseeing the existence of large regions of potential confl ict with hunting interests (Recio and Virgos 2010 ) . Climatic niche modelling outputs were less conservative and predicted most of the Iberian Peninsula as potentially suitable for the Egyptian mongoose (Pape\u015f et al. 2015 ) . Because there is no signifi cant change in the composition of the Carnivore community at the northern fringe of the European range of the species (Wilson & Mittermeier, 2009 ) , interspecifi c competition cannot be considered a limiting factor. In addition, release from biotic/historical constraints, including h abitat disruption and climate warming , could lead to local or temporary range expansion of the Egyptian mongoose, as refl ected by its recent spread into northern Portugal related to rural depopulation (Barros 2009 ). Whether this current trend can be assimilated to a colonization front and whether the recent records of the species in northwestern Spain (Balmori and Carbonell 2012 ) refl ect a genuine increase of northern dispersals will have to be evaluated.",
+            "cite_spans": [
+                {
+                    "start": 290,
+                    "end": 318,
+                    "text": "(Osborn and Osbornova 1998 )",
+                    "ref_id": "BIBREF69"
+                },
+                {
+                    "start": 552,
+                    "end": 576,
+                    "text": "(Recio and Virgos 2010 )",
+                    "ref_id": "BIBREF75"
+                },
+                {
+                    "start": 729,
+                    "end": 749,
+                    "text": "(Pape\u015f et al. 2015 )",
+                    "ref_id": "BIBREF73"
+                },
+                {
+                    "start": 898,
+                    "end": 927,
+                    "text": "(Wilson & Mittermeier, 2009 )",
+                    "ref_id": null
+                },
+                {
+                    "start": 1269,
+                    "end": 1281,
+                    "text": "(Barros 2009",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1423,
+                    "end": 1452,
+                    "text": "(Balmori and Carbonell 2012 )",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Range Dynamics of the Mongooses and the Genet in Europe and Assessment of Their Ecological Interactions with the European Fauna"
+        },
+        {
+            "text": "In northwestern Portugal, mongooses prey mostly upon mammals (especially lagomorphs) but also on reptiles and arthropods, with males preferentially consuming mammals ). In case of competition with other Carnivores, the Egyptian mongoose may modify its realized niche by having more diurnal activities (Santos et al. 2007 ) and can shift its microhabitat use (e.g., by preferentially using thicker scrubland) to prevent deadly encounters with dominant species such as the Iberian lynx Lynx pardinus (Viota et al. 2012 ) . So far, the role of H. ichneumon in carrying zoonotic diseases seems very limited. In Europe, rabies spillover infection from red foxes ( Vulpes vulpes ) was not detected (M\u00fcller et al. 2015 ) . In Portugal, a high prevalence of parvovirus DNA was detected in mongooses (58 %), potentially carrying a risk to susceptible populations at the wildlife-domestic interface and to threatened species of sympatric Carnivores (Duarte et al. 2013 ) .",
+            "cite_spans": [
+                {
+                    "start": 301,
+                    "end": 320,
+                    "text": "(Santos et al. 2007",
+                    "ref_id": "BIBREF80"
+                },
+                {
+                    "start": 498,
+                    "end": 518,
+                    "text": "(Viota et al. 2012 )",
+                    "ref_id": "BIBREF90"
+                },
+                {
+                    "start": 692,
+                    "end": 713,
+                    "text": "(M\u00fcller et al. 2015 )",
+                    "ref_id": "BIBREF68"
+                },
+                {
+                    "start": 939,
+                    "end": 960,
+                    "text": "(Duarte et al. 2013 )",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Range Dynamics of the Mongooses and the Genet in Europe and Assessment of Their Ecological Interactions with the European Fauna"
+        },
+        {
+            "text": "The common genet was probably present in the papyrus swamps of the Nile Valley further north from its current range, as suggested by remains found in the South Galala Plateau cave, Egypt, and illustrations on papyrus and in stone reliefs from the Nile Valley (Osborn and Osbornova 1998 ) . The reasons for its extinction are unknown, but were probably similar to those of the Egyptian mongoose (i.e. artifi cial maintenance by humans or progressive disappearance of the habitat). In Europe, the species has recently crossed its traditional range barriers of the Rh\u00f4ne (southeastern France) and Loire (northwestern France) rivers (Gaubert et al. 2008 ; L\u00e9ger and Ruette 2010 ) . Climatic niche modelling predicted a large portion of Europe as suitable for the species, Italy being the best candidate for a near future colonization via the Liguria-southern Piedmont corridor (Pape\u015f et al. 2015 ) .",
+            "cite_spans": [
+                {
+                    "start": 259,
+                    "end": 287,
+                    "text": "(Osborn and Osbornova 1998 )",
+                    "ref_id": "BIBREF69"
+                },
+                {
+                    "start": 629,
+                    "end": 651,
+                    "text": "(Gaubert et al. 2008 ;",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 652,
+                    "end": 675,
+                    "text": "L\u00e9ger and Ruette 2010 )",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 873,
+                    "end": 893,
+                    "text": "(Pape\u015f et al. 2015 )",
+                    "ref_id": "BIBREF73"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Range Dynamics of the Mongooses and the Genet in Europe and Assessment of Their Ecological Interactions with the European Fauna"
+        },
+        {
+            "text": "The common genet is an opportunistic Carnivore that may expand its trophic niche on the Mediterranean islands (Ibiza and Cabrera) where it is the sole mesopredator (Virg\u00f3s et al. 1999 ) . Conversely, marked trophic differentiation occurs on another island (Mallorca) where the species coexists with the pine marten Martes martes (Clevenger 1995 ) . In continental Europe, niche overlap among the common genet, the Egyptian mongoose, and other Carnivores is generally high, but subtle and dynamic (i.e., seasonal) adjustments in foraging behavior and in the use of microhabitats and main prey items seem to balance the coexistence of such small Carnivores' communities (Zabala et al. 2009 ; Lopez-Martin 2006 ; Carvalho and Gomes 2004 ; Melero et al. 2008 ; Santos-Reis et al. 2005 ; Monterroso et al. 2014 ; Zapata et al. 2007 ). The common genet eats signifi cantly more fruits than the Egyptian mongoose and shows little overlap (in terms of fruit diversity) with the other Mediterranean Carnivores . Interestingly, the invasive American mink seems to have a deleterious impact on the abundance of the common genet in northeastern Spain because of high niche overlap (Melero et al. 2012 ) .",
+            "cite_spans": [
+                {
+                    "start": 164,
+                    "end": 185,
+                    "text": "(Virg\u00f3s et al. 1999 )",
+                    "ref_id": "BIBREF91"
+                },
+                {
+                    "start": 329,
+                    "end": 346,
+                    "text": "(Clevenger 1995 )",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 668,
+                    "end": 689,
+                    "text": "(Zabala et al. 2009 ;",
+                    "ref_id": "BIBREF95"
+                },
+                {
+                    "start": 690,
+                    "end": 709,
+                    "text": "Lopez-Martin 2006 ;",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 710,
+                    "end": 735,
+                    "text": "Carvalho and Gomes 2004 ;",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 736,
+                    "end": 756,
+                    "text": "Melero et al. 2008 ;",
+                    "ref_id": "BIBREF62"
+                },
+                {
+                    "start": 757,
+                    "end": 782,
+                    "text": "Santos-Reis et al. 2005 ;",
+                    "ref_id": "BIBREF82"
+                },
+                {
+                    "start": 783,
+                    "end": 807,
+                    "text": "Monterroso et al. 2014 ;",
+                    "ref_id": "BIBREF64"
+                },
+                {
+                    "start": 808,
+                    "end": 826,
+                    "text": "Zapata et al. 2007",
+                    "ref_id": "BIBREF96"
+                },
+                {
+                    "start": 1169,
+                    "end": 1190,
+                    "text": "(Melero et al. 2012 )",
+                    "ref_id": "BIBREF63"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Range Dynamics of the Mongooses and the Genet in Europe and Assessment of Their Ecological Interactions with the European Fauna"
+        },
+        {
+            "text": "Similarly to the Egyptian mongoose, the common genet avoids suitable habitats where densities of Iberian lynxes are high, suggesting a \" mesopredator release \" when larger Carnivores competing for food and interspecies-killing disappear (Palomares and Caro 1999 ) . The role of G. genetta in carrying zoonotic diseases is unproven. Asian viverrids such as the masked palm civet Paguma larvata were identifi ed as the source of SARS cases with mild symptom in 2004 in China (Shi and Hu 2008 ) , but so far, no similar coronaviruses were detected in the common genet. On the other hand, in Portugal and southwestern France, the species suffers from a high prevalence of a host-adapted canine parvovirus ).",
+            "cite_spans": [
+                {
+                    "start": 237,
+                    "end": 263,
+                    "text": "(Palomares and Caro 1999 )",
+                    "ref_id": "BIBREF72"
+                },
+                {
+                    "start": 473,
+                    "end": 491,
+                    "text": "(Shi and Hu 2008 )",
+                    "ref_id": "BIBREF83"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Range Dynamics of the Mongooses and the Genet in Europe and Assessment of Their Ecological Interactions with the European Fauna"
+        },
+        {
+            "text": "The species of herpestids and viverrids present in Europe fall into three categories:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion on the \" Invasiveness \" of the Mongooses and the Genet in Europe"
+        },
+        {
+            "text": "(1) introduced and spreading ( G. genetta , H. auropunctatus ), (2) introduced and extinct ( H. edwardsii ), and (3) natural disperser and spreading ( H. ichneumon ).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion on the \" Invasiveness \" of the Mongooses and the Genet in Europe"
+        },
+        {
+            "text": "Usually, species introduced within the last century are considered deleterious (\"invasive\") by nature , whereas species having naturally dispersed or introduced during historical times (i.e., before 1500 ad ) have been considered as \"naturalized.\" Thus, in our case, only the introduction of the small Indian mongoose in the Balkans has been envisaged in an invasive framework.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion on the \" Invasiveness \" of the Mongooses and the Genet in Europe"
+        },
+        {
+            "text": "From the above-mentioned amount of evidence, there is weak support for a deleterious impact of herpestids and viverrids on the European fauna (except possibly on the herpetofauna of small Mediterranean islands in the case of the small Indian mongoose), notably in comparison with genuine invasive species such as the black rat and the domestic cat. In fact, the small Indian mongoose is only 11th on the list of alien species affecting native species in Europe, far behind the American mink, the domestic cat, the domestic goat, the European hedgehog Erinaceus europaeus , and rats (Genovesi et al. 2012 ) . Coexistence among native European Carnivores seems to occur through a dynamic adjustment of their niches, and there is no body of evidence to refute the fact that the mongooses and genet have fi tted this framework without disrupting the equilibrium of Carnivores' communities.",
+            "cite_spans": [
+                {
+                    "start": 582,
+                    "end": 605,
+                    "text": "(Genovesi et al. 2012 )",
+                    "ref_id": "BIBREF40"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusion on the \" Invasiveness \" of the Mongooses and the Genet in Europe"
+        },
+        {
+            "text": "My conclusions should have some impact on the way mongooses and genets are considered and managed in European countries. Indeed, the episodic, local control operations of those Carnivores-notably of mongooses in Portugal and Croatiahave been shown to be expensive, ineffi cient, and/or potentially deleterious for the rest of the Carnivores' communities, while favoring the pullulating of the species on which they prey (e.g., rabbits) (Hays and Conant 2007 ; Barun et al. 2011 ; Beja et al. 2009 ). Eradication successes of mongooses seem somehow limited to small islands up to 1.15 km 2 (Barun et al. 2011 ) , whereas extirpation from larger islands or areas might require enormous means not affordable by most governments (see Abe et al. 2006 ; Fukasawa et al. 2013 for an example on another species of mongoose in Japan).",
+            "cite_spans": [
+                {
+                    "start": 436,
+                    "end": 459,
+                    "text": "(Hays and Conant 2007 ;",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 460,
+                    "end": 479,
+                    "text": "Barun et al. 2011 ;",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 480,
+                    "end": 496,
+                    "text": "Beja et al. 2009",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 589,
+                    "end": 609,
+                    "text": "(Barun et al. 2011 )",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 730,
+                    "end": 747,
+                    "text": "Abe et al. 2006 ;",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 748,
+                    "end": 768,
+                    "text": "Fukasawa et al. 2013",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusion on the \" Invasiveness \" of the Mongooses and the Genet in Europe"
+        },
+        {
+            "text": "Predator control is a contentious issue that is becoming under the scrutiny of the general public, with sectors of the society expressing ethical and biological arguments against the killing of predators (Barun et al. 2011 ) . Instead, we suggest that the attention of governments should be focused on restoration programs including (1) large Carnivores that are natural regulators of mesocarnivore populations (Palomares and Caro 1999 ) , (2) small Carnivores' communities, and (3) their natural habitats, which all may be a safe buffer to the deleterious impacts potentially related to introduced small Carnivores ( Letnic et al. 2009 ; McDonald et al. 2007 ) .",
+            "cite_spans": [
+                {
+                    "start": 204,
+                    "end": 224,
+                    "text": "(Barun et al. 2011 )",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 411,
+                    "end": 437,
+                    "text": "(Palomares and Caro 1999 )",
+                    "ref_id": "BIBREF72"
+                },
+                {
+                    "start": 618,
+                    "end": 638,
+                    "text": "Letnic et al. 2009 ;",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 639,
+                    "end": 661,
+                    "text": "McDonald et al. 2007 )",
+                    "ref_id": "BIBREF60"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Prospective"
+        },
+        {
+            "text": "We urge ecologists to conduct long-term surveys on the population dynamics and trophic overlap of the small Indian mongoose with sympatric Carnivores and invasive species in Europe, in order to provide scientifi cally based guidelines on the attitude to adopt for the management of the species (notably on Adriatic islands). Future studies should also be directed on the benefi cial aspects of herpestids and viverrids on European ecosystems, including their role as seed dispersers and as regulators of potential pest species such as native and invasive rodents and insects.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Prospective"
+        },
+        {
+            "text": "The potential colonization fronts of the mongooses and genet in Europe provide a tremendous framework for studying the dynamics of mesopredators at disequilibrium with their environment. Yet, there is a crucial need for comparative studies in areas such as northwestern Iberia ( H. ichneumon ), northwestern and southeastern France ( G. genetta ), and the Balkans ( H. auropunctatus ) to better understand the processes behind the spread of herpestids and viverrids in Europe.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Prospective"
+        },
+        {
+            "text": "Eventually, a global perspective on the natural history of those small Carnivores in their native ranges (including reproduction strategies, interspecifi c competition with other Carnivores, and zoonotic prevalence) would help understanding their successful establishment-or not ( H. edwardsii )-in Europe, but is still lacking.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Prospective"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Reproductive responses of the mongoose ( Herpestes javanicus ), to control operations on",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Abe",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Yamada",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Handa",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Takatsuki",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Abe",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Yamashita",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Fukuda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "157--164",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Herpestes edwardsii",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Angelici",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Fauna d'Italia. Mammalia III. Carnivora-Artiodactyla. Calderini",
+            "volume": "",
+            "issn": "",
+            "pages": "201--205",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Expansion and distribution of the Egyptian mongoose ( Herpestes ichneumon ) in the Iberian Peninsula",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Balmori",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Carbonell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Galemys",
+            "volume": "24",
+            "issn": "",
+            "pages": "83--85",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Estatuto e distribui\u00e7\u00e3o do Sacarrabos ( Herpestes ichneumon ) em Portugal",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Barros",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Impact of the small Indian mongoose on native amphibians and reptiles of the Adriatic islands",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Barun",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Simberloff",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Budinski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Anim Conserv",
+            "volume": "13",
+            "issn": "6",
+            "pages": "549--555",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1469-1795.2010.00374.x"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "A review of small Indian mongoose management and eradications on islands",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Barun",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Hanson",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Campbell",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Simberloff",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Island invasives: eradication and management",
+            "volume": "",
+            "issn": "",
+            "pages": "17--25",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Predator abundance in relation to small game management in southern Portugal: conservation implications",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Beja",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gordinho",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Reino",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Loureiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Santos-Reis",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Borralho",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Eur J Wildl Res",
+            "volume": "55",
+            "issn": "3",
+            "pages": "227--238",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s10344-008-0236-1"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Quaderni del Parco, 6. Ministero Agricoltura e Foreste",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Biondi",
+                    "suffix": ""
+                }
+            ],
+            "year": 1985,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "The Mediterranean region: biological diversity in space and time",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Blondel",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Aronson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Bodiou",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Boeuf",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "The American mink in Europe: status, impacts, and control",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Bonesi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Palazon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Biol Conserv",
+            "volume": "134",
+            "issn": "4",
+            "pages": "470--483",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "The distribution of the Egyptian Mongoose Herpestes ichneumon (L.) in Portugal",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Borralho",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Rego",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Palomares",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hora",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "Mammal Rev",
+            "volume": "26",
+            "issn": "1",
+            "pages": "1--8",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Una mangusta egiziana ( Herpestes ichneumon ) dall'abitato fenicio di",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Campanella",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Wilkens",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Riv St Fen",
+            "volume": "32",
+            "issn": "1",
+            "pages": "25--48",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "The Indian Grey Mongoose ( Herpestes edwardsii ) in the Circeo National Park: a case of incidental introduction",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Carpaneto",
+                    "suffix": ""
+                }
+            ],
+            "year": 1990,
+            "venue": "Mustelid Viverrid Conserv",
+            "volume": "2",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Feeding resource partitioning among four sympatric carnivores in the Peneda-Ger\u00eas National Park (Portugal)",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Carvalho",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gomes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J Zool",
+            "volume": "263",
+            "issn": "3",
+            "pages": "275--283",
+            "other_ids": {
+                "DOI": [
+                    "10.1017/S0952836904005266"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Winter diet of the small Indian mongoose, Herpestes auropunctatus , on an Adriatic island",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Cavallini",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Serafi",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "J Mammal",
+            "volume": "76",
+            "issn": "2",
+            "pages": "569--574",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Island invasives: eradication and management",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Choudhury",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wozencraft",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Muddapa",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Yonzon",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Jennings",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Veron",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "The IUCN red list of threatened species, v. 2014.3. www.iucnredlist.org. Downloaded on 18",
+            "volume": "",
+            "issn": "",
+            "pages": "17--25",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Georeferenced historical transport/travel/communication routes and nodes",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ciolek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Small Indian mongoose Herpestes auropunctatus (Herpestidae, Carnivora): an invasive species in Montenegro",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "\u0106irovi\u0107",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Rakovi\u0107",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Milenkovi\u0107",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Paunovi\u0107",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Biol Invasions",
+            "volume": "13",
+            "issn": "2",
+            "pages": "393--399",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s10530-010-9831-7"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Seasonality and relationships of food resource use of Martes martes , Genetta genetta and Felis catus in the Balearic Islands",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Clevenger",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "Rev Ecol Terre Vie",
+            "volume": "50",
+            "issn": "",
+            "pages": "109--131",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "The invasion ecology of mammals: a global perspective",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Clout",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Russell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Wild Res",
+            "volume": "35",
+            "issn": "3",
+            "pages": "180--184",
+            "other_ids": {
+                "DOI": [
+                    "10.1071/WR07091"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "L'Atlantide devant le d\u00e9troit de Gibraltar ? Mythe et g\u00e9ologie",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Collina-Girard",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "CR Acad Sci Ser IIA Earth Planet Sci",
+            "volume": "333",
+            "issn": "4",
+            "pages": "233--240",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Sondage au sommet de la colline d'Ambrussum. Documents d",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Columeau",
+                    "suffix": ""
+                }
+            ],
+            "year": 1979,
+            "venue": "Arch\u00e9ologie M\u00e9ridionale",
+            "volume": "2",
+            "issn": "",
+            "pages": "51--52",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "The Mediterranean: a biodiversity hotspot under threat",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cuttelod",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Garc\u00eda",
+                    "suffix": ""
+                },
+                {
+                    "first": "Abdul",
+                    "middle": [],
+                    "last": "Malak",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Temple",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Katariya",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "The 2008 review of the IUCN red list of threatened species",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Europe discovers civet cats and civet",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Dannenfeldt",
+                    "suffix": ""
+                }
+            ],
+            "year": 1985,
+            "venue": "J Hist Biol",
+            "volume": "18",
+            "issn": "3",
+            "pages": "403--431",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Sobre las ginetas de la isla de Ibiza ( Genetta genetta isabelae n. ssp.)",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Delibes",
+                    "suffix": ""
+                }
+            ],
+            "year": 1977,
+            "venue": "Do\u00f1ana Acta Vertebrata",
+            "volume": "4",
+            "issn": "",
+            "pages": "139--160",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Genetta genetta Common Genet (Small-spotted Genet)",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Delibes",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gaubert",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Carnivores, Pangolins, Equids and Rhinoceroses",
+            "volume": "5",
+            "issn": "",
+            "pages": "224--229",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "The Emirate of C\u00f3rdoba (756-929 AD) and the introduction of the Egyptian mongoose ( Herpestes ichneumon ) in Iberia: the remains from Muge",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Detry",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Bicho",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Fernandes",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fernandes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Portugal. J Archeol Sci",
+            "volume": "38",
+            "issn": "12",
+            "pages": "3518--3523",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jas.2011.08.014"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Mammal distributions in the western Mediterranean: the role of human intervention",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dobson",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Mammal Rev",
+            "volume": "28",
+            "issn": "2",
+            "pages": "77--88",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Snapshot of viral Infections in wild carnivores reveals ubiquity of parvovirus and susceptibility of Egyptian mongoose to feline panleukopenia virus",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Duarte",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Henriques",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Barros",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Fagulha",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Mendon\u00e7a",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Carvalho",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Monteiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Fevereiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Basto",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Rosalino",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Barros",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Bandeira",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fonseca",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Cunha",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "PLoS One",
+            "volume": "8",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0059399"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Modelling population persistence on islands: mammal introductions in the New Zealand archipelago",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Duncan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Forsyth",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Proc R Soc B Biol Sci",
+            "volume": "273",
+            "issn": "",
+            "pages": "2969--2975",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "A classical Indian folk-tale as a reported modern event: the brahman and the mongoose",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Emeneau",
+                    "suffix": ""
+                }
+            ],
+            "year": 1940,
+            "venue": "Proc Am Philos Soc",
+            "volume": "83",
+            "issn": "3",
+            "pages": "503--513",
+            "other_ids": {
+                "DOI": [
+                    "10.2307/985117"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Mongoose rabies in the Caribbean",
+            "authors": [
+                {
+                    "first": "Cor",
+                    "middle": [],
+                    "last": "Everard",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Everard",
+                    "suffix": ""
+                }
+            ],
+            "year": 1992,
+            "venue": "Ann N Y Acad Sci",
+            "volume": "653",
+            "issn": "1",
+            "pages": "356--366",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1749-6632.1992.tb19662.x"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Histoire des ordres militaires des roys et princes\u2026 de l'institution des armes et blasons\u2026 duels, joustes et tournois et de tout ce qui concerne le faict du chevalier de l'ordre. Robert Fouet",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Favyn",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "; Le Th\u00e9\u00e2tre D&apos;honneur Et De Chevalerie",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Paris Fukasawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hashimoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tatara",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Abe",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J Appl Ecol",
+            "volume": "50",
+            "issn": "2",
+            "pages": "469--478",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/1365-2664.12058"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Ancient DNA perspective on the failed introduction of mongooses in Italy during the XXth century",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gaubert",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zenatello",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J Zool",
+            "volume": "279",
+            "issn": "",
+            "pages": "262--269",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1469-7998.2009.00614.x"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Has the common genet ( Genetta genetta ) spread into south-eastern France and Italy?",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gaubert",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Jiguet",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Bayle",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Angelici",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Ital J Zool",
+            "volume": "75",
+            "issn": "1",
+            "pages": "43--57",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Early phases of a successful invasion: mitochondrial phylogeography of the common genet ( Genetta genetta ) within the Mediterranean Basin",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gaubert",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Godoy",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Del Cerro",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Palomares",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Biol Invasions",
+            "volume": "11",
+            "issn": "",
+            "pages": "523--546",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Comparative phylogeography of two African carnivorans presumably introduced into Europe: disentangling natural versus human-mediated dispersal across the Strait of Gibraltar",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gaubert",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Machordom",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Morales",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "L\u00f3pez-Bao",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Veron",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Amin",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Barros",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Basuony",
+                    "suffix": ""
+                },
+                {
+                    "first": "Cams",
+                    "middle": [],
+                    "last": "Djagoun",
+                    "suffix": ""
+                },
+                {
+                    "first": "Do",
+                    "middle": [],
+                    "last": "Linh San",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Fonseca",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Geffen",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Ozkurt",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Cruaud",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Couloux",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Palomares",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Biogeogr",
+            "volume": "38",
+            "issn": "",
+            "pages": "341--358",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Tracing historical introductions in the Mediterranean Basin: the success story of the common genet ( Genetta genetta ) in Europe",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gaubert",
+                    "suffix": ""
+                },
+                {
+                    "first": "Del",
+                    "middle": [],
+                    "last": "Cerro",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Centeno-Cuadros",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Palomares",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Fournier",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Fonseca",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Paillat",
+                    "suffix": ""
+                },
+                {
+                    "first": "J-P",
+                    "middle": [],
+                    "last": "Godoy",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Biol Invasions",
+            "volume": "17",
+            "issn": "",
+            "pages": "1897--1913",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Alien mammals in Europe: updated numbers and trends, and assessment of the effects on biodiversity",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Genovesi",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Carnevali",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Alonzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Scalera",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Integr Zool",
+            "volume": "7",
+            "issn": "3",
+            "pages": "247--253",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1749-4877.2012.00309.x"
+                ]
+            }
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Description des mammif\u00e8res qui se trouvent en Egypte",
+            "authors": [
+                {
+                    "first": "Geoffroy",
+                    "middle": [],
+                    "last": "Saint-Hilaire",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Imprimerie Imp\u00e9riale",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Biogeographic relationships of Pliocene and Pleistocene North-western African mammals",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Geraads",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Quatern Int",
+            "volume": "212",
+            "issn": "2",
+            "pages": "159--168",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Herpestidae (Mongooses)",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Gilchrist",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Jennings",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Veron",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Cavallini",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Handbook of mammals of the world",
+            "volume": "1",
+            "issn": "",
+            "pages": "262--329",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Ancient introductions of mammals in the Mediterranean Basin and their implications for conservation",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gippoliti",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Amori",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Mammal Rev",
+            "volume": "36",
+            "issn": "1",
+            "pages": "37--48",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Disease emergence and invasions",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hatcher",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jta",
+                    "middle": [],
+                    "last": "Dick",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Dunn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Funct Ecol",
+            "volume": "26",
+            "issn": "6",
+            "pages": "1275--1287",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1365-2435.2012.02031.x"
+                ]
+            }
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Biology and impacts of Pacifi c island invasive species. 1. A worldwide review of effects of the small Indian mongoose, Herpestes javanicus (Carnivora: Herpestidae)",
+            "authors": [
+                {
+                    "first": "Wst",
+                    "middle": [],
+                    "last": "Hays",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Conant",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Pac Sci",
+            "volume": "61",
+            "issn": "1",
+            "pages": "3--16",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Some genetic consequences of ice ages, and their role in divergence and speciation",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hewitt",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "Biol J Linn Soc",
+            "volume": "58",
+            "issn": "",
+            "pages": "247--276",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Europe as consumer of exotic biodiversity: Greek and Roman times",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Hinton",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ams",
+                    "middle": [],
+                    "last": "Dunn",
+                    "suffix": ""
+                }
+            ],
+            "year": 1967,
+            "venue": "Edinburgh Hughes JD",
+            "volume": "28",
+            "issn": "1",
+            "pages": "21--31",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "New information on the introduction into Europe of the Small Indian mongoose, Herpestes auropunctatus",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Krystufek",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Tvrtkovic",
+                    "suffix": ""
+                }
+            ],
+            "year": 1992,
+            "venue": "Small Carniv Conserv",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Phylogeography of the weasel ( Mustela nivalis ) in the western-Palaearctic region: combined effects of glacial events and human movements",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lebarbenchon",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Poitevin",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Arnal",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Montgelard",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Heredity",
+            "volume": "105",
+            "issn": "",
+            "pages": "449--462",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "La r\u00e9partition de la genette en France",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "L\u00e9ger",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ruette",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Faune Sauvage",
+            "volume": "287",
+            "issn": "",
+            "pages": "16--22",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Keystone effects of an alien toppredator stem extinctions of native mammals",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Letnic",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Koch",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gordon",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Crowther",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Dickman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Proc R Soc B Biol Sci",
+            "volume": "276",
+            "issn": "",
+            "pages": "3249--3256",
+            "other_ids": {
+                "DOI": [
+                    "10.1098/rspb.2009.0574"
+                ]
+            }
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Conservation implications of small Indian mongoose ( Herpestes auropunctatus ) predation in a hotspot within a hotspot: the Hellshire Hills",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Lewis",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Van Veen",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Wilson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Jamaica. Biol Invasions",
+            "volume": "13",
+            "issn": "1",
+            "pages": "25--33",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s10530-010-9781-0"
+                ]
+            }
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Lodrick DO (1982) Man and mongoose in Indian culture",
+            "authors": [],
+            "year": null,
+            "venue": "Anthropos",
+            "volume": "77",
+            "issn": "2",
+            "pages": "191--214",
+            "other_ids": {}
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Introduced mammals of the world: their history, distribution and infl uence",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Long",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "Comparison of feeding behaviour between stone marten and common genet: living in coexistence",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lopez-Martin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Martes in carnivore communities. Alpha Wildlife",
+            "volume": "",
+            "issn": "",
+            "pages": "137--155",
+            "other_ids": {}
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "100 of the world's worst invasive alien species. A selection from the Global Invasive Species Database",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lowe",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Browne",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Boudjelas",
+                    "suffix": ""
+                },
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Poorter",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "The Invasive Species Specialist Group",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "Mammals of the Mediterranean islands: homogenisation and the loss of biodiversity",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Masseti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Mammalia",
+            "volume": "73",
+            "issn": "3",
+            "pages": "169--202",
+            "other_ids": {}
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "Decline of invasive alien mink ( Mustela vison ) is concurrent with recovery of native otters ( Lutra lutra )",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mcdonald",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "O&apos;hara",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Morrish",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Divers Distrib",
+            "volume": "13",
+            "issn": "1",
+            "pages": "92--98",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1366-9516.2006.00303.x"
+                ]
+            }
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "A global review of the impacts of invasive cats on island endangered vertebrates",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Medina",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Bonnaud",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Vidal",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Tershy",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Zavaleta",
+                    "suffix": ""
+                },
+                {
+                    "first": "Josh",
+                    "middle": [],
+                    "last": "Donlan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Keitt",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Le",
+                    "middle": [],
+                    "last": "Corre",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Horwath",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Nogales",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Glob Change Biol",
+            "volume": "17",
+            "issn": "11",
+            "pages": "3503--3510",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1365-2486.2011.02464.x"
+                ]
+            }
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "Feeding habits of three sympatric mammals in NE Spain: the American mink, the spotted genet, and the Eurasian otter",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Melero",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Palaz\u00f3n",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Bonesi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gos\u00e0lbez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Acta Theriol",
+            "volume": "53",
+            "issn": "3",
+            "pages": "263--273",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/BF03193123"
+                ]
+            }
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Evaluating the effect of American mink, an alien invasive species, on the abundance of a native community: is coexistence possible?",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Melero",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Plaza",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Santulli",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Saavedra",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gos\u00e0lbez",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ruiz-Olmo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Palaz\u00f3n",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Biodivers Conserv",
+            "volume": "21",
+            "issn": "7",
+            "pages": "1795--1809",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s10531-012-0277-3"
+                ]
+            }
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "Plasticity in circadian activity patterns of mesocarnivores in Southwestern Europe: implications for species coexistence",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Monterroso",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Alves",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ferreras",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Behav Ecol Sociobiol",
+            "volume": "68",
+            "issn": "9",
+            "pages": "1403--1417",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00265-014-1748-1"
+                ]
+            }
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "Earliest genets in Europe",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Morales",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "Nature",
+            "volume": "370",
+            "issn": "6490",
+            "pages": "512--513",
+            "other_ids": {}
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "La fauna ex\u00f3tica en la Pen\u00ednsula Ib\u00e9rica: apuntes para el estudio del coleccionismo animal en el Medievo hisp\u00e1nico",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Morales Mu\u00f1iz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Espacio Tiempo Forma Ser III Ha Medieval",
+            "volume": "13",
+            "issn": "",
+            "pages": "233--270",
+            "other_ids": {}
+        },
+        "BIBREF67": {
+            "ref_id": "b67",
+            "title": "Dromedaries in antiquity: Iberia and beyond",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Morales",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Riquelme",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Liesau",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "Anglais",
+            "volume": "69",
+            "issn": "263",
+            "pages": "368--375",
+            "other_ids": {}
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "Terrestrial rabies control in the European Union: historical achievements and challenges ahead",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "M\u00fcller",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Freuling",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wysocki",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Roumiantzeff",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Freney",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Mettenleiter",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Vet J",
+            "volume": "203",
+            "issn": "",
+            "pages": "10--17",
+            "other_ids": {}
+        },
+        "BIBREF69": {
+            "ref_id": "b69",
+            "title": "The natural history of Egypt",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Osborn",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Osbornova",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "The mammals of ancient Egypt",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF70": {
+            "ref_id": "b70",
+            "title": "Les carnivores des gisements n\u00e9olithiques et protohistoriques du nord du Maroc. Quaternaire",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Ouchaou",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Amani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "",
+            "volume": "13",
+            "issn": "",
+            "pages": "79--87",
+            "other_ids": {}
+        },
+        "BIBREF71": {
+            "ref_id": "b71",
+            "title": "Herpestes ichneumon Egyptian Mongoose (Ichneumon)",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Palomares",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Carnivores, Pangolins, Equids and Rhinoceroses. Bloomsburry",
+            "volume": "5",
+            "issn": "",
+            "pages": "306--310",
+            "other_ids": {}
+        },
+        "BIBREF72": {
+            "ref_id": "b72",
+            "title": "Interspecifi c killing among mammalian Carnivores",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Palomares",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Caro",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Am Nat",
+            "volume": "153",
+            "issn": "5",
+            "pages": "492--508",
+            "other_ids": {}
+        },
+        "BIBREF73": {
+            "ref_id": "b73",
+            "title": "Niche dynamics in the European ranges of two African carnivores refl ect their dispersal and demographic histories",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Pape\u015f",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Cuzin",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gaubert",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Biol J Linn Soc",
+            "volume": "114",
+            "issn": "",
+            "pages": "737--751",
+            "other_ids": {}
+        },
+        "BIBREF74": {
+            "ref_id": "b74",
+            "title": "Contrasting patterns of population subdivision and historical demography in three western Mediterranean lizard species inferred from mitochondrial DNA variation",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Pinho",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Harris",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ferrand",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Mol Ecol",
+            "volume": "16",
+            "issn": "6",
+            "pages": "1191--1205",
+            "other_ids": {}
+        },
+        "BIBREF75": {
+            "ref_id": "b75",
+            "title": "Predictive niche modelling to identify potential areas of confl icts between human activities and expanding predator populations: a case study of game management and the grey mongoose, Herpestes ichneumon , in Spain",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Recio",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Virgos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Wild Res",
+            "volume": "37",
+            "issn": "4",
+            "pages": "343--354",
+            "other_ids": {
+                "DOI": [
+                    "10.1071/WR09096"
+                ]
+            }
+        },
+        "BIBREF76": {
+            "ref_id": "b76",
+            "title": "The oldest mongoose of Europe",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Riquelme-Cantal",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Sim\u00f3n-Vallejo",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Palmqvist",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cort\u00e9s-S\u00e1nchez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "J Archeol Sci",
+            "volume": "35",
+            "issn": "9",
+            "pages": "2471--2473",
+            "other_ids": {}
+        },
+        "BIBREF77": {
+            "ref_id": "b77",
+            "title": "Fruit consumption by carnivores in Mediterranean Europe",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Rosalino",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Santos-Reis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Mammal Rev",
+            "volume": "39",
+            "issn": "1",
+            "pages": "67--78",
+            "other_ids": {}
+        },
+        "BIBREF78": {
+            "ref_id": "b78",
+            "title": "Sex-driven differences in Egyptian mongoose's ( Herpestes ichneumon ) diet in its northwestern European range",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Rosalino",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Santos",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Pereira",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Santos-Reis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Eur J Wildl Res",
+            "volume": "55",
+            "issn": "3",
+            "pages": "293--299",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s10344-008-0248-x"
+                ]
+            }
+        },
+        "BIBREF79": {
+            "ref_id": "b79",
+            "title": "The status of mongooses (family: Herpestidae) in Ruhuna National Park, Sri Lanka",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Santiapillai",
+                    "suffix": ""
+                },
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Silva",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dissanayake",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "J Bombay Nat Hist Soc",
+            "volume": "97",
+            "issn": "",
+            "pages": "208--214",
+            "other_ids": {}
+        },
+        "BIBREF80": {
+            "ref_id": "b80",
+            "title": "Trophic niche partitioning between two native and two exotic carnivores in SW Portugal",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Santos",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Pinto",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Santos-Reis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Web Ecol",
+            "volume": "7",
+            "issn": "1",
+            "pages": "53--62",
+            "other_ids": {
+                "DOI": [
+                    "10.5194/we-7-53-2007"
+                ]
+            }
+        },
+        "BIBREF81": {
+            "ref_id": "b81",
+            "title": "Serologic survey for canine distemper virus and canine parvovirus in free-ranging wild carnivores from Portugal",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Santos",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Almendra",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Tavares",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J Wildl Dis",
+            "volume": "45",
+            "issn": "1",
+            "pages": "221--226",
+            "other_ids": {
+                "DOI": [
+                    "10.7589/0090-3558-45.1.221"
+                ]
+            }
+        },
+        "BIBREF82": {
+            "ref_id": "b82",
+            "title": "Relationships between stone martens, genets and cork oak woodlands in Portugal",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Santos-Reis",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Santos",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Louren\u00e7o",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Marques",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Pereira",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Pinto",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "147--172",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/0-387-22691-5_7"
+                ]
+            }
+        },
+        "BIBREF83": {
+            "ref_id": "b83",
+            "title": "A review of studies on animal reservoirs of the SARS coronavirus",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Virus Res",
+            "volume": "133",
+            "issn": "1",
+            "pages": "74--87",
+            "other_ids": {}
+        },
+        "BIBREF84": {
+            "ref_id": "b84",
+            "title": "Mongoose of the Gods: the ichneumon",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Stuart",
+                    "suffix": ""
+                }
+            ],
+            "year": 1988,
+            "venue": "Afr Wildl",
+            "volume": "42",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF85": {
+            "ref_id": "b85",
+            "title": "Genetic divergence in the small Indian mongoose ( Herpestes auropunctatus ), a widely distributed invasive species",
+            "authors": [
+                {
+                    "first": "C-G",
+                    "middle": [],
+                    "last": "Thulin",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Simberloff",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Barun",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Mccracken",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Pascal",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Islam",
+                    "suffix": ""
+                }
+            ],
+            "year": 1936,
+            "venue": "Mungos na otoku Bracu. Priroda Zagreb",
+            "volume": "15",
+            "issn": "13",
+            "pages": "60--61",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1365-294X.2006.03084.x"
+                ]
+            }
+        },
+        "BIBREF86": {
+            "ref_id": "b86",
+            "title": "Small Indian mongoose Herpestes auropunctatus (Hodgson, 1836) on the Adriatic Islands of Yugoslavia",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Tvrtkovic",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Krystufek",
+                    "suffix": ""
+                }
+            ],
+            "year": 1990,
+            "venue": "Bonn Zool Beitr",
+            "volume": "41",
+            "issn": "1",
+            "pages": "3--8",
+            "other_ids": {}
+        },
+        "BIBREF87": {
+            "ref_id": "b87",
+            "title": "Early mongooses from Bahrain",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Uerpmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "Archaeozoology of the Near East II. Backhuys",
+            "volume": "",
+            "issn": "",
+            "pages": "64--71",
+            "other_ids": {}
+        },
+        "BIBREF88": {
+            "ref_id": "b88",
+            "title": "Systematic status and biogeography of the Javan and small Indian mongooses (Herpestidae, Carnivora)",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Veron",
+                    "suffix": ""
+                },
+                {
+                    "first": "M-L",
+                    "middle": [],
+                    "last": "Patou",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Pothet",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Simberloff",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Jennings",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Zool Scr",
+            "volume": "36",
+            "issn": "1",
+            "pages": "1--10",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1463-6409.2006.00261.x"
+                ]
+            }
+        },
+        "BIBREF89": {
+            "ref_id": "b89",
+            "title": "Pre-Neolithic wild boar management and introduction to Cyprus more than 11,400 years ago",
+            "authors": [
+                {
+                    "first": "J-D",
+                    "middle": [],
+                    "last": "Vigne",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zazzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J-F",
+                    "middle": [],
+                    "last": "Sali\u00e8ge",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Poplin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Guilaine",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Simmons",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Proc Natl Acad Sci U S A",
+            "volume": "106",
+            "issn": "38",
+            "pages": "16135--16138",
+            "other_ids": {
+                "DOI": [
+                    "10.1073/pnas.0905015106"
+                ]
+            }
+        },
+        "BIBREF90": {
+            "ref_id": "b90",
+            "title": "Shift in microhabitat use as a mechanism allowing the coexistence of victim and killer carnivore predators",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Viota",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rodr\u00edguez",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "L\u00f3pez-Bao",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Palomares",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Open J Ecol",
+            "volume": "2",
+            "issn": "",
+            "pages": "115--120",
+            "other_ids": {
+                "DOI": [
+                    "10.4236/oje.2012.23014"
+                ]
+            }
+        },
+        "BIBREF91": {
+            "ref_id": "b91",
+            "title": "Geographical variation in genet ( Genetta genetta L.) diet: a literature review",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Virg\u00f3s",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Llorente",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Cortes",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Mammal Rev",
+            "volume": "29",
+            "issn": "2",
+            "pages": "119--128",
+            "other_ids": {}
+        },
+        "BIBREF92": {
+            "ref_id": "b92",
+            "title": "New detection of a 30-year-old population of introduced mongoose Herpestes auropunctatus on Kyushu Island",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Watari",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Nagata",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Funakoshi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Biol Invasions",
+            "volume": "13",
+            "issn": "2",
+            "pages": "269--276",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s10530-010-9809-5"
+                ]
+            }
+        },
+        "BIBREF94": {
+            "ref_id": "b94",
+            "title": "Herpestes javanicus",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wozencraft",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Duckworth",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Choudury",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Muddapa",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Yonzon",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Kanchanasaka",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Jennings",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Veron",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "The IUCN red list of threatened species",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF95": {
+            "ref_id": "b95",
+            "title": "Testing for niche segregation between two abundant carnivores using presence-only data",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zabala",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Zuberogoitia",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Martinez-Climent",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Folia Zool",
+            "volume": "58",
+            "issn": "4",
+            "pages": "385--395",
+            "other_ids": {}
+        },
+        "BIBREF96": {
+            "ref_id": "b96",
+            "title": "Analysis of trophic structure of two carnivore assemblages by means of guild identifi cation",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zapata",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Travaini",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ferreras",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Delibes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Eur J Wildl Res",
+            "volume": "53",
+            "issn": "4",
+            "pages": "276--286",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s10344-007-0095-1"
+                ]
+            }
+        },
+        "BIBREF97": {
+            "ref_id": "b97",
+            "title": "Domestication and early agriculture in the Mediterranean Basin: origins, diffusion, and impact",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Zeder",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Proc Natl Acad Sci U S A",
+            "volume": "105",
+            "issn": "33",
+            "pages": "11597--11604",
+            "other_ids": {
+                "DOI": [
+                    "10.1073/pnas.0801317105"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Distribution of the Indian grey mongoose Herpestes edwardsii. Grey areas represent the native range of the species. Red arrow points to the location where the species was introduced in Europe. The upper left inset shows the two locations where the species was introduced ( red circles ) in Italy (Angelici 2003 ): 1 Capalbio; 2 Circeo NP",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Distribution of the small Indian mongoose Herpestes auropunctatus. Grey areas represent the native range of the species. Red arrows point to the main paths and locations where the species was introduced (Hays and Conant 2007 ; Thulin et al. 2006 ): 1 , Hawaii Isl.; 2 , Fiji Isl.; 3 , Jamaica; 4 , Puerto Rico and Lesser Antilles Isl.; 5 , Guianas; 6 , Balkans; 7 , Mafi a Isl.; 8 , Mauritius Isl.; 9 , Okinawa-Amami-Oshima Isl. The lower right inset shows the potential range (in red ) of the species in the Balkans (\u0106irovi\u0107 et al. 2011 ): 1 , Croatia; 2 , Bosnia-Herzegovina; 3 , Montenegro.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Distribution of the Egyptian mongoose Herpestes ichneumon. Grey areas represent the native range of the species. Red arrow points to the location from which the species dispersed in Europe. The upper left inset shows the potential range of the species (in red ) in Iberia (Balmori and Carbonell 2012 ): 1 , Portugal; 2 , Spain 1998",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Distribution of the common genet Genetta genetta . Grey areas represent the native range of the species. Red arrows point to the locations where the species was introduced in Europe.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

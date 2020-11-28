@@ -1,0 +1,302 @@
+{
+    "paper_id": "8aed2f46d794eca9567bff2cc6d20ba30149b0e6",
+    "metadata": {
+        "title": "Infectious Disease A sentinel COVID-19 case in Houston, Texas: Informing frontline emergency department screening and preparedness",
+        "authors": [
+            {
+                "first": "Monica",
+                "middle": [],
+                "last": "Lopez",
+                "suffix": "",
+                "affiliation": {},
+                "email": "monica.y.lopez@uth.tmc.edu"
+            },
+            {
+                "first": "Samuel",
+                "middle": [],
+                "last": "Luber",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Samuel",
+                "middle": [],
+                "last": "Prater",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Luis",
+                "middle": [],
+                "last": "Ostrosky-Zeichner",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jamie",
+                "middle": [],
+                "last": "Mccarthy",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Guillermo",
+                "middle": [],
+                "last": "Suarez",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Bentley",
+                "middle": [
+                    "J"
+                ],
+                "last": "Bobrow",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "In December 2019, a cluster of severe pneumonia cases of unknown cause was reported",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "In December 2019, a cluster of severe pneumonia cases of unknown cause was reported in Wuhan, Hubei province, China. A novel strain of coronavirus belonging to the same family of viruses that cause severe acute respiratory syndrome (SARS) and Middle East respiratory syndrome (MERS) was identified. In February 2020, cases began being identified in the United States. We describe a sentinel COVID-19 patient in Houston, Texas, who first presented on March 1, 2020. The patient did not meet criteria for a Person Under Investigation (PUI) as recommended by the Centers for Disease Control and Prevention (CDC) at the time. This case has broad implications for emergency department screening and preparedness for COVID-19 and other future infectious diseases. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "CoV-2. As its name implies, the hallmark of this condition has been described as respiratory symptoms. This case report is one of the first ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID-19 is a potentially severe respiratory infection caused by SARS-"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "COVID-19)",
+            "authors": [],
+            "year": 2019,
+            "venue": "Situation Summary of Coronavirus Disease",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Clinical characteristics of 140 patients infected with SARS-CoV-2 in Wuhan",
+            "authors": [
+                {
+                    "first": "J-J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y-Y",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. Allergy",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/all.14238"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Clinical characteristics of 50 466 hospitalized patients with 2019-nCoV infection",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Qie",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jmv.25735"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Presumed Asymptomatic Carrier Transmission of COVID-19",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Bai",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yao",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.2565"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "COVID-19: Gastrointestinal Manifestations and Potential Fecal-Oral Transmission",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Gastroenterology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1053/j.gastro.2020.02.054"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Informing frontline emergency department screening and preparedness",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lopez",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Luber",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Prater",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JACEP Open",
+            "volume": "1",
+            "issn": "",
+            "pages": "92--94",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/emp2.12068"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "confirmed cases of 2019-nCoV in the Houston area and describes several key features of this emerging outbreak that are not yet widely recognized by medical professionals or the public. The overall picture of COVID-19 is evolving rapidly with much still unknown about its spread, incubation, infectious periods, and clinical presentation. EDs are the most likely patient entry points into the healthcare system during an infectious disease pandemic such as COVID-19. EDs and practitioners must remain vigilant in screening protocols and procedures for treating possibly infected patients while concomitantly protecting their workforce and continuing to care for other sick and injured patients who continue to need care. This is challenging when details of the infection are still emerging. Our case demonstrated some attributes which delayed this patient's COVID-19 diagnosis. While our patient had traveled to Egypt, at the time of her presentation this country was not identified as a hotspot of COVID-19 and being on a cruise ship alone was underappreciated as a risk factor for exposure. Since then, being on a cruise ship has been added to the CDC's list of risk factors to help screen patients for possible testing for COVID-19; however, Egypt continues to not be on the CDC's list of high-risk destinations. 1 Additionally, our patient's lack of fever or respiratory symptoms led triage staff and emergency physicians to not consider her a PUI for COVID-19 on initial presentation. This ultimately delayed her diagnosis and resulted in an exposure at the ED. As more COVID-19 cases are reported, not surprisingly, a range of symptoms is being documented. Similar to other viruses, COVID-19 patients can present with varying symptoms involving more than 1 organ system. The CDC website reports between 11% and 75% patients present with the complaint of fatigue. 2,3 The frequency of gastrointestinal symptoms as a primary feature of COVID-19 infection suggests variations in severity and possibly transmission. Possible fecal-oral transmission of COVID-19 appears likely, even when res-",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "K E Y W O R D S atypical symptoms, Corona Virus, COVID-19, disease surveillance, emergency medicine, infectious This is an open access article under the terms of the Creative Commons Attribution-NonCommercial-NoDerivs License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non-commercial and no modifications or adaptations are made. \u25cb 2020 The Authors. JACEP Open published by Wiley Periodicals LLC on behalf of the American College of Emergency Physicians. within normal limits. No imaging studies were ordered. The patient was treated with 2 L of intravenous fluids, and magnesium and calcium were repleted. Upon repeat exam, the patient was clinically improved and was able to tolerate oral fluids. She was discharged from the ED with a presumptive diagnosis of traveler's diarrhea and prescribed 7 days of oral ciprofloxacin. On March 4, 2020, the patient returned to the same ED. In the time since her first ED visit, 2 of her travel companions had developed cough and fever triggering them to be tested for COVID-19 at another hospital and their results were pending. The local health department had notified the patient she was a close contact of the other individuals and instructed her to return to the ED for evaluation and COVID-19 testing. During this second ED visit, the patient was re-evaluated by the same resident physician. The patient was clinically improved; however, she still complained of fatigue and poor appetite, this time associated with decreased stooling. She continued to deny fever or respiratory symptoms. Vital signs and physical exam at the second ED visit were normal. Further detailed travel history revealed that she had been on a week-long cruise on the Nile River that remained within Egypt, and the patient denied any layovers or travel in other countries. Due to the",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "EDs need to be proactive about protecting staff on the frontlines of the COVID-19 pandemic. Important lessons learned from this early COVID-19 case is that in rapidly evolving situations such as this, donning PPE even when there is only a moderate suspicion for infection seems reasonable until further data are collected. Moderate suspicion is appropriate for infectious gastrointestinal symptoms and fatigue even without respiratory symptoms or fever since this indicates active infection, and this information must be combined with the history to determine indication for categorizing patients as PUIs and ordering testing. Risk stratification is a moving target which takes into account evolving suspicious symptoms and high-risk destinations along with the physician's clinical assessment. As COVID-19 infection spreads and suspicion increases, another consideration is that donning appropriate PPE will put a strain on supply of such equipment. Yet, PPE is a necessary investment in the healthcare workers on the frontline, especially because more specialized workers such as ED nurses and emergency physicians cannot be replaced easily. Without these healthcare workers, those infected with COVID-19 cannot be identified or treated appropriately for the sake of those infected individuals but also to stop the spread to the community at large. This case demonstrated that more robust screening for COVID-19 with a higher suspicion given to those with any cruise travel history, gastrointestinal complaints, or extreme fatigue, even in the absence of fever, or respiratory complaints would have been beneficial. This case changed our institution's COVID-19 screening criteria. As of March 9, 2020, our hospitals have started including gastrointestinal complaints into screening patients as well as hospital employees at risk of COVID-19 infection with the hope of further helping contain this evolving pandemic.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We acknowledge our friends and families for their unwavering support. We also acknowledge our colleagues on the frontline working diligently to combat COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ACKNOWLEDGMENTS"
+        },
+        {
+            "text": "https://orcid.org/0000-0002-5162-4281",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Monica Lopez MD"
+        }
+    ]
+}

@@ -1,0 +1,788 @@
+{
+    "paper_id": "136d068ac5d3e5abaedf3a4690b8713a5df3fc88",
+    "metadata": {
+        "title": "ARTICLE IN PRESS +Model ScienceDirect Nosocomial infection with SARS-Cov-2 within Departments of Digestive Surgery",
+        "authors": [
+            {
+                "first": "M",
+                "middle": [],
+                "last": "Luong-Nguyen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Paris University",
+                    "location": {
+                        "addrLine": "1, rue Claude Vellefaux",
+                        "postCode": "75010",
+                        "settlement": "Paris",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "H",
+                "middle": [],
+                "last": "Hermand",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Paris University",
+                    "location": {
+                        "addrLine": "1, rue Claude Vellefaux",
+                        "postCode": "75010",
+                        "settlement": "Paris",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "S",
+                "middle": [],
+                "last": "Abdalla",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Paris Sud University",
+                    "location": {
+                        "addrLine": "78"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "N",
+                "middle": [],
+                "last": "Cabrit",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "P\u00f4le des Maladies de l'Appareil Digestif, Service de Chirurgie H\u00e9patobiliaire et Pancr\u00e9atique, H\u00f4pital Beaujon",
+                    "institution": "Paris University",
+                    "location": {
+                        "addrLine": "100, boulevard du G\u00e9n\u00e9ral Leclerc, 100, boulevard G\u00e9n\u00e9ral Leclerc",
+                        "postCode": "92110, 92110",
+                        "settlement": "Clichy, Clichy",
+                        "country": "France, France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "C",
+                "middle": [],
+                "last": "Hobeika",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "P\u00f4le des Maladies de l'Appareil Digestif, Service de Chirurgie H\u00e9patobiliaire et Pancr\u00e9atique, H\u00f4pital Beaujon",
+                    "institution": "Paris University",
+                    "location": {
+                        "addrLine": "100, boulevard du G\u00e9n\u00e9ral Leclerc, 100, boulevard G\u00e9n\u00e9ral Leclerc",
+                        "postCode": "92110, 92110",
+                        "settlement": "Clichy, Clichy",
+                        "country": "France, France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "A",
+                "middle": [],
+                "last": "Brouquet",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Paris Sud University",
+                    "location": {
+                        "addrLine": "78"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "D",
+                "middle": [],
+                "last": "Go\u00e9r\u00e9",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Paris University",
+                    "location": {
+                        "addrLine": "1, rue Claude Vellefaux",
+                        "postCode": "75010",
+                        "settlement": "Paris",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "A",
+                "middle": [],
+                "last": "Sauvanet",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "P\u00f4le des Maladies de l'Appareil Digestif, Service de Chirurgie H\u00e9patobiliaire et Pancr\u00e9atique, H\u00f4pital Beaujon",
+                    "institution": "Paris University",
+                    "location": {
+                        "addrLine": "100, boulevard du G\u00e9n\u00e9ral Leclerc, 100, boulevard G\u00e9n\u00e9ral Leclerc",
+                        "postCode": "92110, 92110",
+                        "settlement": "Clichy, Clichy",
+                        "country": "France, France"
+                    }
+                },
+                "email": "alain.sauvanet@aphp."
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Introduction: The COVID-19 pandemic imposed a drastic reduction in surgical activity in order to respond to the influx of hospital patients and to protect uninfected patients by avoiding hospitalization. However, little is known about the risk of infection during hospitalization or its consequences. The aim of this work was to report a series of patients hospitalized on digestive surgery services who developed a nosocomial infection with SARS-Cov-2 virus. Methods: This is a non-interventional retrospective study carried out within three departments of digestive surgery. The clinical, biological and radiological data of the patients who developed a nosocomial infection with SARS-Cov-2 were collected from the computerized medical record. Results: From March 1, 2020 to April 5, 2020, among 305 patients admitted to digestive surgery services, 15 (4.9%) developed evident nosocomial infection with SARS-Cov-2. There were nine men and six women, with a median age of 62 years (35-68 years). All patients had comorbidities. The reasons for hospitalization were: surgical treatment of cancer (n = 5), complex emergencies (n = 5), treatment of complications linked to cancer or its treatment (n = 3), gastroplasty (n = 1), and stoma closure (n = 1). The median time from admission to diagnosis of SARS-Cov-2 infection was 34 days (5-61 days). In 12 patients (80%), the diagnosis was made after a hospital stay of more than 14 days (15-63 days). At the end of the follow-up, two patients had died, seven were hospitalized with two of them on respiratory assistance, and six patients were discharged post-hospitalization. Conclusions: The risk of SARS-Cov-2 infection during hospitalization or following digestive surgery is a real and potentially serious risk. Measures are necessary to minimize this risk in order to return to safe surgical activity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The 2019 coronavirus epidemic (COVID-19) was declared Q2 a ''global public health emergency'' by the World Health Organization (WHO) on January 30, 2020 and was classified as a pandemic on March 11, 2020 [1] . It now affects the entire population of France and impacts the entire French health system. The situation is unprecedented and calls into question the modes of care as well as the timing of interventions on surgical services, at a time when all the hospital means having been re-deployed towards the medical management of virus-infected patients. We very quickly saw hospitals transform into patient care centers for COVID-19 positive patients (COVID-19 +) that limited access to care for uninfected (COVID-19-) patients.",
+            "cite_spans": [
+                {
+                    "start": 204,
+                    "end": 207,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Most departments of digestive surgery have drastically reduced their elective surgical activity, keeping patients hospitalized who were already present before this pandemic period and for whom discharge was not possible, as well as patients requiring emergency surgery or for whom a postponement of surgery was not an option. These changes were necessary due to the extensive spread of the virus and the massive hospitalizations of infected patients. Measures within health care facilities to protect staff and hospitalized patients were taken. However, despite these measures, the risk of contracting the virus during hospitalization does not appear to be negligible and each hospitalization of a patient considered to be COVID-19-may expose him to infection with SARS-Cov-2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "An infection is said to be nosocomial if it appears during or following a hospitalization (or outpatient care) and if it was not present, nor in incubation, when the patient was admitted. These criteria are applicable to any infection. When the precise situation at admission is unknown, an interval of at least 48 hours after admission (or an interval greater than the incubation period when this is known) is a commonly accepted criterion to distinguish a nosocomial infection acquisition from community-acquired infection [2] .",
+            "cite_spans": [
+                {
+                    "start": 525,
+                    "end": 528,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Few data are available in the literature on nosocomial infection with SARS-Cov-2 in surgical departments. These infections may have a poorer prognosis than communityacquired infections, as reported by Li et al. [3] who reported nosocomial infection with SARS-Cov-2 after thoracic surgery in 13 patients, five of whom died.",
+            "cite_spans": [
+                {
+                    "start": 211,
+                    "end": 214,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The aim of this work was to report a series of patients hospitalized in digestive surgery departments who developed infection with SARS-Cov-2, in order to improve patient management during this pandemic period.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "This retrospective study as carried out in the digestive surgery departments of three university hospitals in Ilede-France. All adult patients treated in digestive surgery who developed a nosocomial infection with SARS-Cov-2 confirmed by a PCR test were included from March 1, to April 5, 2020. These dates were chosen because, in the three centers, the first diagnoses of COVID infection were made in patients between March 5 and March 7, 2020 and in caregivers between March 5, and March 9, 2020.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patients and methods"
+        },
+        {
+            "text": "Data collected included age, gender, co-morbidities (including cardiovascular and pulmonary), nutritional status, reason for admission, type of surgery, time from admission to diagnosis of SARS-Cov-2 infection, the circumstances of discovery of the infection, and the clinical course. These were abstracted from the computerized medical record.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patients and methods"
+        },
+        {
+            "text": "In two of the centers, systematic screening of patients upon admission into surgical services was implemented only from March 30, 2020 onward while in the third center, screening was carried out only in the event of suggestive symptoms or recent contact with a COVID-19 + patient.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patients and methods"
+        },
+        {
+            "text": "Visitors were limited to one person per patient on March 16, 2020 and then all visits were prohibited from March 18, 2020 onward. The wearing of surgical masks by caregivers was made mandatory beginning March 18, 2020.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patients and methods"
+        },
+        {
+            "text": "In addition to the systematic isolation of COVID-19+ patients as soon as the diagnosis was made, there were major modifications of surgical bed usage during the study period; -beds available for surgical patients of patients were decreased in association with in-transfer of suspected COVID-19-patients from other specialty wards in the same premises in two centers and out-transfer of all COVID-19patients to different premises in the third center.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patients and methods"
+        },
+        {
+            "text": "In accordance with then-current recommendations, there was no systematic screening of the healthcare providers.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patients and methods"
+        },
+        {
+            "text": "Qualitative variables were expressed as absolute numbers and as percentages. The quantitative variables were expressed as a median in view of the small number of patients.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patients and methods"
+        },
+        {
+            "text": "This work was reviewed favorably by the Research Ethics Committee of the Paris Nord Hospital Group (opinion n \u2022 XXX).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patients and methods"
+        },
+        {
+            "text": "From March 1, 2020 to April 5, 2020, 301 patients were hospitalized or admitted. Among them, 15 patients (4.9%) presented a nosocomial infection with SARS-Cov-2. The characteristics of the patients are reported in Table 1 . There were 9 men and 6 women, with a median age of 62 years Nosocomial infection with SARS-Cov-2 within Departments of Digestive Surgery 3",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 214,
+                    "end": 221,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "(35-68 years). The median BMI was 23 kg/m 2 (15-40 kg/m 2 ). Two patients were active smokers and three patients former smokers. All patients had medical co-morbidities before admission. Ten (67%) patients had or had had cancer. Cardiovascular history included hypertension (n = 4), diabetes (n = 2) and/or other cardiovascular history (n = 6). The reasons for hospitalization were: surgical treatment of cancer (n = 5), complex emergencies (n = 5), treatment of complications related to digestive cancer or its treatment (n = 3), gastroplasty (n = 1) and closure of a high output stoma (n = 1).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "Among the 11 patients who underwent surgery, all patients had at least one post-operative complication. During their hospitalization, eight of the 15 patients were admitted to the intensive care unit or to monitored care either routinely or for complications.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "The diagnosis of nosocomial SARS-Cov-2 infection was made in the 15 patients by search for viral RNA by polymerase chain reaction (PCR) testing of a nasopharyngeal swab. Testing was performed due to suggestive clinical signs (fever, n = 11; dyspnea, n = 9; diarrhea, n = 1), to direct contact with a COVID + patient (n = 2), or to the incidental discovery of pulmonary pathology on CT scan that was suggestive of COVID (n = 1). In three patients who had an initially negative PCR, persistence of clinical signs led to repetition of the test, which became positive on the second or third sample. One case was diagnosed by a positive PCR of a rectal swab. Chest CT was also performed in 13 patients, revealing the presence of specific signs of SARS-Cov-2 infection in seven (54%) patients. The time from admission to positive testing was 34 days (5-61 days). In 12 (80%) patients, the diagnosis was made when the length of hospital stay had already been more than 14 days (15-63 days).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "At the time of diagnosis, the median oxygen saturation was 94% (50-98%). After diagnosis, two patients required mechanical ventilation. Three patients underwent oxygen therapy by high concentration mask, and seven patients underwent oxygen therapy by nasal prongs or via a preexisting tracheostomy. Three patients did not require oxygen therapy.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "Laboratory findings at the time of diagnosis, showed a median lymphocyte count of 920/mm 3 (range: 200-1500/mm 3 ), a median neutrophil count of 4006/mm3 (range: 800-16000/mm 3 ), and the median C-reactive protein (CRP) was 4.3 mg/dL (1.4-21.3 mg/dL). The clinical and laboratory data regarding SARS-Cov-2 infection are summarized in Table 2 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 334,
+                    "end": 341,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "At the time of the diagnosis of COVID infection, a donot-resuscitate decision was made in eight patients (53%) based on criteria related to the length of hospital stay before the diagnosis of the infection, the general condition of the patient and the underlying pathology.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "By the end of the study, two patients died, each eight days after the diagnosis of SARS-Cov-2 infection; a 68-yearold patient died after pancreatectomy for cancer from a candidal septicemia of biliary origin refractory to antifungal treatment, and an 84-year old patient suffering from a cancer complicated by hemorrhage who was not operated, died of ventilatory failure related to the SARS-Cov-2 infection. Seven of the 13 other patients remained hospitalized: five patients were stable in a dedicated COVID-19+ medical service, including two without oxygen therapy requirements, after an interval of eight days (4-16 days) from the diagnosis of SARS-Cov-2 infection, one patient in a monitored bed after 11 days, and one patient in the intensive care unit under assisted ventilation 11 days after the diagnosis of SARS-Cov-2 infection. Six patients returned to their homes or to a convalescent home at 7, 8, 10 days from the diagnosis of COVID-19. All the characteristics of the patients and their evolution are summarized in Table 3 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1028,
+                    "end": 1035,
+                    "text": "Table 3",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Within the three surgical services, seven members of the healthcare team were diagnosed with SARS-Cov-2 infection during this same period.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "This article reports a series of patients who contracted nosocomial SARS-Cov-2 infection during their hospitalization on gastrointestinal surgery services that were officially designated as COVID-19 negative. These infections are considered nosocomial since they were diagnosed during hospitalization. However, it is possible that three of the patients in this series were asymptomatic carriers of the virus before their admission, given the time between diagnosis and admission of between five and 13 days. Likewise, the viral transmission could have been linked to community contact from outside, since isolation measures to wear a mask and prohibition of visits were not instituted until March 18, 2020.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In patients in whom the contamination necessarily took place in the hospital, the mechanism of viral spread is not clearly defined. It could be direct contamination from outside visitors, from COVID + patients (two cases highly suspected in this series), or from contamination from caregivers, since within the three teams, seven caregivers None Hospitalization working in the departments where these patients were hospitalized eventually developed SARS-Cov-2 infection. In addition, it is known that SARS-Cov-2 infection can be either asymptomatic or symptomatic, which means that there could be more than seven ''contact caregivers''. Finally, a detailed analysis of the ''contact caregivers'' is made very difficult by the very complex course of care of these patients. In fact, the majority developed complications that required admission to the ICU, and numerous imaging or interventional radiology examinations. A final possible mechanism is linked to the movement of patients within the hospital at the start of the epidemic. In fact, at two of the centers, digestive surgery patients were grouped together without being moved to premises with patients from other specialties who were considered to be COVID-19-. In the third center, all digestive surgery patients who were COVID-19-were moved in order to free up premises and staff to create dedicated areas for the hospitalization of COVID-19+ patients. In the absence of systematic screening of patients and caregivers, this could generate contamination [3] .",
+            "cite_spans": [
+                {
+                    "start": 1514,
+                    "end": 1517,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "To date, very limited data have been published concerning the potential impact of viral contamination and the interval between exposure and the surgical procedure. SARS-Cov-2 infection in a patient hospitalized on a surgical service involves both individual risk and a collective risk. Individually, SARS-Cov-2 infection puts the surgical patient at risk due to the risk of developing acute respiratory distress syndrome. We might assume that this risk is increased in a malnourished patient, who is immunocompromised, by the underlying pathology, or by the surgical procedure whose complications could require further invasive gestures. Liang et al. reported that infection was more severe (severity defined by ICU admission or death) in cancer patients (seven [39%] of 18 patients vs. 124 [8%] of 1572 patients; Fisher's exact: P = 0.0003) [4] . However, this series was made up of relatively few patients, suffering mainly (28%) from bronchopulmonary cancer, and therefore likely to have pre-existing deterioration of their respiratory function. The ''cancer'' and ''non-cancer'' groups were not comparable: the 18 patients were significantly older [median 63.1 years (SD 12.1) vs. 48.7 years (2,16)], and had a higher rate of smoking [4 (22%) of 18 patients vs. 107 (7%) of 1572 patients]; these two factors are prognostic factors for severe disease. In addition, among the 18 patients, only one patient had actually undergone surgery (adrenal), while the remainder of the patients were undergoing chemotherapy. Another series of 1,524 cancer patients by Yu et al. reported a higher risk of SARS-Cov-2 infection (OR, 2.31; 95%CI, 1.89-3.02).",
+            "cite_spans": [
+                {
+                    "start": 842,
+                    "end": 845,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Of the 12 cancer patients with SARS-Cov-2 infection, three patients (25%) died and six patients (50%) were discharged from the hospital [5] . The prognosis for SARS-Cov-2 infections after surgery is not yet clear. In the series of thoracic interventions by Li et al. [6] , the mortality rate was high (5/13) leading the authors to alert the scientific community and to postpone elective surgery interventions.",
+            "cite_spans": [
+                {
+                    "start": 136,
+                    "end": 139,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 267,
+                    "end": 270,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In our series, the patient course was variable, but respiratory failure was rare or mild at the time of diagnosis as evidenced by a mean oxygen saturation value of 94%. Our mortality was 13% (2/15), a relatively low rate given the general condition of the 15 patients affected.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Finally, the two patients who died both had a poor short-term prognosis due to their initial presentation (post-operative candida septicemia, old age and cancer complicated by hemorrhage). It is important to note that the availability of artificial ventilation has posed ethical concerns. In fact, the saturation of hospital services, particularly the ICU, has forced the medical community to make decisions as to how aggressively resuscitation maneuvers should be pursued by integrating the prognosis of the initial pathology and that linked to SARS-Cov-2 infection. In fact, despite a relatively young age, the status of half of the patients in this series was considered to ''do-notresuscitate'' at the time of diagnosis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "For the hospital community, there is a risk is of transforming a so-called COVID-19-service into a COVID-19+ service [6] . Consequently, a reliable screening test, whose result can be obtained quickly, and/or the determination of COVID-19 serological status seems necessary to ensure the absence of infection in patients admitted for surgery. During hospitalization, any clinical sign suggestive of SARS-Cov-2 infection or any contact with an infected patient or caregiver should lead to testing for an infection. Due to the low sensitivity of available tests, repeated diagnostic tests looking for viral RNA in the nasopharynx [7] or in the stool [8] may be necessary, while thoracic CT scan to look for pulmonary abnormalities [7] is another measure to help identify carrier patients, so that they can be treated in an appropriate department while protecting other patients.",
+            "cite_spans": [
+                {
+                    "start": 117,
+                    "end": 120,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 628,
+                    "end": 631,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 648,
+                    "end": 651,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 729,
+                    "end": 732,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "During this epidemic period, preventive measures were instituted to minimize the risk of contamination in hospital departments. These measures included strengthening the training of healthcare staff, increased use of hydro-alcoholic prep solutions and repeated hand washing, as well as the systematic wearing of surgical masks and gloves. At the same time, hospital visitors were restricted at first and then prohibited. Finally, systematic screening for COVID-19 at the time of patient admission to surgical departments was instituted on March 30, 2020 in two centers. However, it is clear that even systematic screening has limitations, which are linked to the viral incubation time that is still imperfectly known and to the low sensitivity (@60%) of the PCR test [7] , which does not allow formal elimination of the diagnosis of viral infection.",
+            "cite_spans": [
+                {
+                    "start": 767,
+                    "end": 770,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Hospital systems and networks, as well as each hospital, must differentiate patients with known or suspected COVID-19 infection from patients with a low probability COVID-19 infection in order to limit direct or indirect patient-topatient transmission. It is also advisable to reduce hospital stay as much as possible by taking advantage of medical and paramedical caregivers on an outpatient basis (telemedicine, home care providers).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "All these data must be taken into account before considering the eventual necessary resumption of surgical activity. Many procedures have been postponed, but postponing can be a difficult and risky measure, especially in cancer patients. We must therefore anticipate conditions that will prevail at the resumption of surgical activity and determine which parameters will allow such resumption in good safety conditions: a reduction in COVID-19 linked hospitalizations, clearly established circuits for treating COVID-19-patients, the exclusive use of single rooms, and the absence of infection in admitted patients and nursing staff, confirmed by systematic and reliable diagnostic tests which may consist of a PCR, or serology to determine immunity when it becomes available for routine use, and/or a thoracic CT. Strict compliance with aseptic techniques and nosocomial infection prevention measures should also be universal to avoid transmitting SARS-Cov-2 from an undiagnosed carrier patient [9] . This series, in which all the patients had a positive PCR proving the SARS-Cov-2 contagion, is however limited by the small number of patients (n = 15), and thus, the heterogeneity of the pathologies. Analysis suggests that SARS-Cov-2 infection appears preferentially in patients with severe co-morbidities and/or who are admitted for major digestive pathologies. The long hospital stay (mean: 34 days, range 5-61 days) increased the risk of contamination. Likewise, the incubation period of COVID-19 was heterogeneous, varying from two to 14 days [7] . The persistence of viral RNA for up to 37 days [10] , and the timing of preventive measures application make it impossible to formally confirm the nosocomial nature of SARS-Cov-2 infection in all cases diagnosed.",
+            "cite_spans": [
+                {
+                    "start": 996,
+                    "end": 999,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1550,
+                    "end": 1553,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1603,
+                    "end": 1607,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In conclusion, this is the first series of patients who developed SARS-Cov-2 infection during their hospitalization in digestive surgery services. This should be an alert for the medical and surgical community. The continuation and/or resumption of regular surgical activity within healthcare establishments must integrate this risk of nosocomial transmission during patient hospitalization.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "general-s-opening-remarks-at-the-media-briefing-on-covid",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Analyse terminologique des d\u00e9finitions donn\u00e9es \u00e0 l'infection nosocomiale et proposition d'une d\u00e9finition",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Ellenberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Rev M\u00e9d Int",
+            "volume": "26",
+            "issn": "7",
+            "pages": "572--579",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Substantial undocumented infection facilitates the rapid dissemination of novel coronavirus (SARS-CoV2)",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Pei",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Cancer patients in SARS-CoV-2 infection: a nationwide analysis in China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Oncol",
+            "volume": "21",
+            "issn": "3",
+            "pages": "335--342",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "SARS-CoV-2 Transmission in patients with cancer at a tertiary care hospital in Wuhan, China",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Ouyang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mlk",
+                    "middle": [],
+                    "last": "Chua",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA Oncol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jamaoncol.2020.0980"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Clinical and transmission characteristics of Covid-19 --a retrospective study of 25 cases from a single thoracic surgery department",
+            "authors": [
+                {
+                    "first": "Y-K",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "L-Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Curr Med Sci",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "file:/localhost/opt/grobid/grobid-home/tmp/dx.doi.org/10.1001/jamaoncol.2020.0980"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Correlation of chest CT and RT-PCR testing in Coronavirus disease 2019 (COVID-19) in China: a report of 1014 cases",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Radiology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "file:/localhost/opt/grobid/grobid-home/tmp/dx.doi.org/10.1007/s11596-020-2176-2"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Gastrointestinal symptoms of 95 cases with SARS-CoV-2 infection",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Gut",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Risk of nosocomial transmission of coronavirus disease 2019: an experience in a general ward setting in Hong Kong",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Kwong",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Hosp Infect",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "1054--62",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": "Population characteristics.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Characteristics of nosocomial SARS-Cov 2 infection.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Clinical characteristics of patients with COVID-19.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors have not supplied their declaration of compet-",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Disclosure of interest"
+        },
+        {
+            "text": "ing interest.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Q3"
+        }
+    ]
+}

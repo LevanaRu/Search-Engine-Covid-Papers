@@ -1,0 +1,1561 @@
+{
+    "paper_id": "e1540950b55ecef052bcd651fa1ac32a141a162e",
+    "metadata": {
+        "title": "The Impact of the COVID-19 Pandemic on Parkinson's Disease: Hidden Sorrows and Emerging Opportunities",
+        "authors": [
+            {
+                "first": "Rick",
+                "middle": [
+                    "C"
+                ],
+                "last": "Helmich",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Donders Institute for Brain, Cogni-tion and Behaviour",
+                    "institution": "Radboud University Medical Centre",
+                    "location": {
+                        "postBox": "PO Box 9101",
+                        "postCode": "6500 HB",
+                        "settlement": "Nijmegen, Nijmegen",
+                        "country": "The Netherlands, the Netherlands"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Bastiaan",
+                "middle": [
+                    "R"
+                ],
+                "last": "Bloem",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Donders Institute for Brain, Cogni-tion and Behaviour",
+                    "institution": "Radboud University Medical Centre",
+                    "location": {
+                        "postBox": "PO Box 9101",
+                        "postCode": "6500 HB",
+                        "settlement": "Nijmegen, Nijmegen",
+                        "country": "The Netherlands, the Netherlands"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "with PD has been addressed extensively, among others in webinars and informative websites issued by patient organizations around the globe (for examples, see [1] ). However, the potential impact of COVID-19 infections for PD patients extends well beyond these direct threats. Here, we will focus on several less visible-but also potentially grave-consequences of the COVID-19 pandemic for people living with PD, and more specifically, on how the preventive social measures to mitigate the risk of becoming infected have drastically changed the way of life for many affected persons. We also address how this crisis is already beginning to lead to new initiatives that offer help and support for patients and their near ones.",
+            "cite_spans": [
+                {
+                    "start": 158,
+                    "end": 161,
+                    "text": "[1]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The COVID-19 pandemic has profoundly changed people's normal routines, and this all happened over a very short period. Such drastic changes require a flexible adaptation to new circumstances, which is a cognitive operation that depends on normal dopaminergic functioning. A large body of literature has shown that many PD patients experience cognitive and motor inflexibility, as a result of nigrostriatal dopamine depletion that forms the pathophysiological substrate of PD [2, 3] . Furthermore, it has been hypothesized that dopamine-dependent adaptation is a requirement for successful coping that, when deficient, leads to a sense of loss of control and increased psychological stress [4] . This may explain why stress-related psychiatric symptoms such as anx-352 R.C. Helmich and B.R. Bloem / COVID-19 Impact on PD iety and depression are so common in PD, occurring in up to 30-40% of patients, even outside times of crisis [5] . Thus, the pathophysiology of PD puts patients at increased risk of chronic stress, and a further worsening of this may well be one of various hidden sorrows of the COVID-19 pandemic. Importantly, increased levels of stress during the COVID-19 pandemic may have several short-term as well as long-term adverse consequences for individuals with PD. First, increased psychological stress can temporarily worsen various motor symptoms, such as tremor, freezing of gait or dyskinesias [6] [7] [8] [9] , while it reduces the efficacy of dopaminergic medication [6] . Second, increased stress may unmask a latent hypokinetic rigid syndrome, possibly by depleting compensatory mechanisms [10, 11] . This could lead to an increase in numbers of new PD diagnoses during the pandemic. In a year from now, it might be worthwhile to investigate incidence levels of PD during this time of crisis, as compared to the period before. Third, animal studies have shown that prolonged episodes of chronic stress may worsen the rate of dopaminergic cell loss in response to a toxin [12] . Comparable studies in human patients are lacking, so it remains presently unclear whether chronic stress can actually accelerate PD. It would be interesting to test this hypothesis, in ongoing longitudinal cohort studies such as the Parkinson's Progression Markers Initiative (PPMI) [13] , the Oxford Parkinson's Disease Centre (OPDC) Discovery Cohort [14] , or the Personalized Parkinson Project (PPP) [15] , examining whether the COVID-19 crisis is associated with changes in biological or clinical progression markers of PD that hint at an acceleration of the underlying disease process. Interestingly, there are also factors that protect against the detrimental effects of stress. This has been termed \"resilience\", i.e. the ability to maintain or quickly recover mental health during and after times of adversity. Resilience is associated with personality traits such as optimism, creativity, and intelligence, as well as belief of social support and connectedness to the environment [16] . The current crisis offers opportunities to see who copes best with the current situation, versus those who experience the greatest difficulties, including the determinants of these differences. It is also good to mention the availability of specific treatments that can reduce stress, such as mindfulness-based interventions. Several recent studies have shown that mindfulness can reduce depression and anxiety, and even improve motor symptoms [17] . These courses are usually given in groups of patients, but they may also be offered through online platforms. Such web-based solutions can also provide a means to reduce social isolation, which is yet another hidden consequence of this ongoing pandemic. Children are told to avoid visits to their parents living with PD whenever possible, and grandchildren are best kept away at all. Even social contacts resulting from home-based nursing interventions are now reduced. Online solutions are again essential to diminish this feeling of social isolation, and to provide comfort and hope for people living with PD who are now grounded within their homes.",
+            "cite_spans": [
+                {
+                    "start": 475,
+                    "end": 478,
+                    "text": "[2,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 479,
+                    "end": 481,
+                    "text": "3]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 689,
+                    "end": 692,
+                    "text": "[4]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 929,
+                    "end": 932,
+                    "text": "[5]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1415,
+                    "end": 1418,
+                    "text": "[6]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1419,
+                    "end": 1422,
+                    "text": "[7]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1423,
+                    "end": 1426,
+                    "text": "[8]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1427,
+                    "end": 1430,
+                    "text": "[9]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1490,
+                    "end": 1493,
+                    "text": "[6]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1615,
+                    "end": 1619,
+                    "text": "[10,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1620,
+                    "end": 1623,
+                    "text": "11]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1996,
+                    "end": 2000,
+                    "text": "[12]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 2286,
+                    "end": 2290,
+                    "text": "[13]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 2355,
+                    "end": 2359,
+                    "text": "[14]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 2406,
+                    "end": 2410,
+                    "text": "[15]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 2992,
+                    "end": 2996,
+                    "text": "[16]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 3443,
+                    "end": 3447,
+                    "text": "[17]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Another hidden but potentially highly disconcerting consequence of the pandemic is a marked reduction in physical activities. Many people are now largely and sometimes completely stuck at home, being unable to go out for a regular walk, let alone to see their physiotherapist or attend a fitness class. Recent evidence has shown that physical exercise may attenuate clinical symptom progression in PD [18, 19] . One recent trial, the Park-in-Shape study, compared a home-based physical aerobic exercise intervention (consisting of 30-45 min of stationary cycling on a home-trainer, three times per week for 6 months) with an active control condition (consisting of 30-45 min of stretching, three times per week for 6 months) [19] . A between-group longitudinal difference of 4.2 points on the motor scores of the Unified Parkinson's Disease Rating Scale (MDS-UPDRS) was found, which was both significant and clinically relevant. Another study has shown similar effects, also emphasizing the importance of dose: more intense exercise was associated with better outcomes than moderately intense exercise [18] . It is unclear which mechanisms explain these clinical effects, and in particular whether aerobic exercise can potentially slow down disease progression of PD, or whether it is merely a symptomatic effect via stimulation of compensatory cerebral changes that balance nigrostriatal cell loss. Nevertheless, a loss of aerobic exercise during the COVID-19 pandemic may well lead to a worsening of motor symptoms in PD. Nonmotor issues such as insomnia or constipation may also worsen due to lack of physical activity. Furthermore, reduced physical exercise may contribute to increased psychological stress, thereby further aggravating the symptoms of PD, as outlined above. Promoting home-based and adequately dosed exercises, such as cycling on a stationary bicycle, is therefore more important than ever before. In this regard, a hopeful consequence of the current crisis has been the emergence of web-based exercise ini-tiatives, such as online singing, exercise or dancing classes for PD patients (for examples, see [20] ). Such interventions are not entirely new, but the current crisis has certainly accelerated their adoption by large groups of patients, paradoxically making the access to these important interventions more accessible than ever before, particularly for those living in loosely populated areas of the world.",
+            "cite_spans": [
+                {
+                    "start": 401,
+                    "end": 405,
+                    "text": "[18,",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 406,
+                    "end": 409,
+                    "text": "19]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 725,
+                    "end": 729,
+                    "text": "[19]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1102,
+                    "end": 1106,
+                    "text": "[18]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 2125,
+                    "end": 2129,
+                    "text": "[20]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Taken together, it is clear that the COVID-19 pandemic will have major consequences on our society and our way of life, and this definitely includes people living with PD. Individuals with PD are at increased risk of experiencing the negative sequelae of increased stress and reduced physical exercise, both \"hidden sorrows\" that can worsen their motor as well as non-motor symptoms. However, there are also emerging opportunities. This crisis calls for the rapid introduction of better self-management strategies that can help patients to better deal with the challenges of social distancing and the other consequences of this crisis. We believe that self-management strategies that reduce stress (e.g., mindfulness), increase coping (e.g., cognitive behavioral therapy) or increase physical exercise (e.g., home-based training programs, alone or in groups) will play an increasing role in the treatment of PD. The implementation of these interventions will have to be accelerated during this crisis, and we are beginning to see persuasive examples of this in many countries, often initiated or supported by large patient associations. Furthermore, this crisis also offers opportunities for research. The COVID-19 pandemic is an external stressor that is aligned in time for large groups of people. This provides a unique opportunity for researchers to test how the pandemic influences the course of PD in existing longitudinal cohorts, e.g., by taking advantage of wearable sensors or biological biomarkers. It also allows researchers to test which factors protect patients from the detrimental consequences of this crisis, increasing our insight in resilience in PD. As such, deleterious as the current crisis may be, it will hopefully also bring some longterm positive outcomes for the many people living with PD worldwide.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The Center of Expertise for Parkinson & Movement Disorders of the Radboud University Medical Center was supported by a center of excellence grant of the Parkinson's Foundation. Rick Helmich was supported by grants from the Netherlands Organiza-tion for Scientific Research (VENI grant, #91617077) and the Michael J. Fox Foundation (#15581 and #16048).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ACKNOWLEDGMENTS"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Increased dependence of action selection on recent motor history in Parkinson's disease",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Helmich",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Aarts",
+                    "suffix": ""
+                },
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Lange",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Bloem",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Toni",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J Neurosci",
+            "volume": "29",
+            "issn": "",
+            "pages": "6105--6113",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Cognitive deficits in Parkinson's disease: A cognitive neuroscience perspective",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Robbins",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Cools",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Mov Disord",
+            "volume": "29",
+            "issn": "",
+            "pages": "597--607",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Stress-induced plasticity and functioning of ventral tegmental dopamine neurons",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Douma",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "De Kloet",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Neurosci Biobehav Rev",
+            "volume": "108",
+            "issn": "",
+            "pages": "48--77",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "What a neurologist should know about depression in Parkinson's disease",
+            "authors": [
+                {
+                    "first": "Mhm",
+                    "middle": [],
+                    "last": "Timmer",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mhct",
+                    "middle": [],
+                    "last": "Van Beek",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Bloem",
+                    "suffix": ""
+                },
+                {
+                    "first": "Raj",
+                    "middle": [],
+                    "last": "Esselink",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Pract Neurol",
+            "volume": "17",
+            "issn": "",
+            "pages": "359--368",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Cognitive stress reduces the effect of Levodopa on Parkinson's resting tremor",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zach",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Dirkx",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Pasman",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Bloem",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Helmich",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "CNS Neurosci Ther",
+            "volume": "23",
+            "issn": "",
+            "pages": "209--215",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "The patient's perspective: The effect of levodopa on Parkinson symptoms",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zach",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dirkx",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Pasman",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Bloem",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Helmich",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Parkinsonism Relat Disord",
+            "volume": "35",
+            "issn": "",
+            "pages": "48--54",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Predictors of freezing in Parkinson's disease: A survey of 6,620 patients",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Macht",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kaussner",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "M\u00f6ller",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Stiasny-Kolster",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Eggert",
+                    "suffix": ""
+                },
+                {
+                    "first": "H-P",
+                    "middle": [],
+                    "last": "Kr\u00fcger",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ellgring",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Mov Disord",
+            "volume": "22",
+            "issn": "",
+            "pages": "953--956",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "The functional network signature of heterogeneity in freezing of gait",
+            "authors": [
+                {
+                    "first": "Ehgoetz",
+                    "middle": [],
+                    "last": "Martens",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Hall",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Georgiades",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Gilat",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Walton",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Matar",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Lewis",
+                    "suffix": ""
+                },
+                {
+                    "first": "Sjg",
+                    "middle": [],
+                    "last": "Shine",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Brain",
+            "volume": "141",
+            "issn": "",
+            "pages": "1145--1160",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Can stress trigger Parkinson's disease?",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Djamshidian",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lees",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J Neurol Neurosurg Psychiatr",
+            "volume": "85",
+            "issn": "",
+            "pages": "878--881",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Stressinduced neurological impairments in an animal model of parkinsonism",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Snyder",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Stricker",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Zigmond",
+                    "suffix": ""
+                }
+            ],
+            "year": 1985,
+            "venue": "Ann Neurol",
+            "volume": "18",
+            "issn": "",
+            "pages": "544--551",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Stress exacerbates experimental Parkinson's disease",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hemmerle",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Dickerson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Herman",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Seroogy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Mol Psychiatry",
+            "volume": "19",
+            "issn": "",
+            "pages": "638--640",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "The Parkinson's progression markers initiative (PPMI) -establishing a PD biomarker cohort",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Marek",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chowdhury",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Siderowf",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lasch",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Coffey",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Caspell-Garcia",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Simuni",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Jennings",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Tanner",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Trojanowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Shaw",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Seibyl",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Schuff",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Singleton",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kieburtz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Toga",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Mollenhauer",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Galasko",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Chahine",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Weintraub",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Foroud",
+                    "suffix": ""
+                },
+                {
+                    "first": "Tosun",
+                    "middle": [],
+                    "last": "Turgut",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Poston",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Arnedo",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Frasier",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sherer",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "The Parkinson ; Bressman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Merchant",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Poewe",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Kopil",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Naito",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dorsey",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Casaceli",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Daegele",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Albani",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Uribe",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Foster",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Long",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Seedorff",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Crawford",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Casalin",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Malferrari",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Halter",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Heathers",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Russell",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Factor",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hogarth",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Amara",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Hauser",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Stewart",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Prashad",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Taucher",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Ann Clin Transl Neurol",
+            "volume": "5",
+            "issn": "",
+            "pages": "1460--1477",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "The influence of age and gender on motor and non-motor features of early Parkinson's disease: Initial findings from the Oxford Parkinson Disease Center (OPDC) discovery cohort",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Szewczyk-Krolikowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Tomlinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Nithi",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Wade-Martins",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Talbot",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ben",
+                    "middle": [],
+                    "last": "Shlomo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mtm",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Parkinsonism Relat Disord",
+            "volume": "20",
+            "issn": "",
+            "pages": "99--105",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "The Personalized Parkinson Project: Examining disease progression through broad biomarkers in early Parkinson's disease",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Bloem",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Marks",
+                    "suffix": ""
+                },
+                {
+                    "first": "Als",
+                    "middle": [],
+                    "last": "De Lima",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Kuijf",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Van Laar",
+                    "suffix": ""
+                },
+                {
+                    "first": "Bpf",
+                    "middle": [],
+                    "last": "Jacobs",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Verbeek",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Helmich",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Van De Warrenburg",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ljw",
+                    "middle": [],
+                    "last": "Evers",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Inthout",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Van De Zande",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Snyder",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kapur",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Meinders",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "BMC Neurol",
+            "volume": "19",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "What determines resilience in patients with Parkinson's disease?",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Robottom",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Gruber-Baldini",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Reich",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Fishman",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Weiner",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Shulman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Parkinsonism Relat Disord",
+            "volume": "18",
+            "issn": "",
+            "pages": "174--177",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Effects of mindfulness yoga vs stretching and resistance training exercises on anxiety and depression for people with Parkinson disease: A randomized clinical trial",
+            "authors": [
+                {
+                    "first": "Jyy",
+                    "middle": [],
+                    "last": "Kwok",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jcy",
+                    "middle": [],
+                    "last": "Kwan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Auyeung",
+                    "suffix": ""
+                },
+                {
+                    "first": "Vct",
+                    "middle": [],
+                    "last": "Mok",
+                    "suffix": ""
+                },
+                {
+                    "first": "Cky",
+                    "middle": [],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Hyl",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "JAMA Neurol",
+            "volume": "76",
+            "issn": "",
+            "pages": "755--763",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Effect of high-intensity treadmill exercise on motor symptoms in patients with de novo Parkinson disease",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Schenkman",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Moore",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kohrt",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Hall",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Delitto",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Comella",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Josbeno",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Christiansen",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Berman",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kluger",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Melanson",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jain",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Robichaud",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Poon",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Corcos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "JAMA Neurol",
+            "volume": "75",
+            "issn": "",
+            "pages": "219--218",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Effectiveness of home-based and remotely supervised aerobic exercise in Parkinson's disease: A double-blind, randomised controlled trial",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Van Der Kolk",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "De Vries",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rpc",
+                    "middle": [],
+                    "last": "Kessels",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Joosten",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Zwinderman",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Post",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Bloem",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Lancet Neurol",
+            "volume": "18",
+            "issn": "",
+            "pages": "998--1008",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {},
+    "back_matter": [
+        {
+            "text": "The authors have no conflict of interest to report.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONFLICT OF INTEREST"
+        }
+    ]
+}

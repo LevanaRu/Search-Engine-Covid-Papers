@@ -1,0 +1,725 @@
+{
+    "paper_id": "5e219e9c6d7b0169e7cb42b1b048c6a826963122",
+    "metadata": {
+        "title": "Finding the Right Ethical Framework for PICU Resource Allocation During a Pandemic* XXX 2020 \u2022 Volume XX \u2022 Number XXX",
+        "authors": [
+            {
+                "first": "Kathryn",
+                "middle": [
+                    "E"
+                ],
+                "last": "Miller",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Division of Pediatric Critical Care Department of Pediatrics Rainbow Babies and Children's Hospital and Case Western Reserve University Cleveland",
+                    "institution": "",
+                    "location": {
+                        "region": "OH, OH"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "M",
+                "middle": [
+                    "A"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Division of Pediatric Critical Care Department of Pediatrics Rainbow Babies and Children's Hospital and Case Western Reserve University Cleveland",
+                    "institution": "",
+                    "location": {
+                        "region": "OH, OH"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Philip",
+                "middle": [],
+                "last": "Toltzis",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Division of Pediatric Critical Care Department of Pediatrics Rainbow Babies and Children's Hospital and Case Western Reserve University Cleveland",
+                    "institution": "",
+                    "location": {
+                        "region": "OH, OH"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "I n the mid-2000s, the medical community began to formulate plans to cope with the possibility that a pandemic could overwhelm the capacity to provide standard care to critically ill patients. Early allocation schemes for adults recommended using the Sequential Organ Failure Assessment (SOFA) score to divert ICU resources away from patients who were so ill that they were unlikely to benefit (1) . The goal of these schemes was to enhance population survival, a concept long embraced on the battlefield and in mass casualty scenarios. This fundamentally utilitarian argument, to maximize public health by saving the most lives, establishes decision-making at the community-level at the expense of individual autonomy (2) . Although not the only ethical principle for allocation schemes (3, 4) , all such models disquiet the modern first-world intensivist, and for a while, these considerations could be placed at the periphery of public health consciousness. With the astonishing images of coronavirus disease 2019 (COVID-19) patients vying for an inadequate supply of mechanical ventilators in first-world ICUs, however, the ethics of resource allocation resurfaced. Among COVID-19 resource allocation guidelines, the most common ethical framework, as demonstrated by the widely publicized University of Pittsburgh guideline (https://ccm.pitt.edu/?q=content/model-hospital-policyallocating-scarce-critical-care-resources-available-onlinenow), has been a utilitarian argument of saving the most lives.",
+            "cite_spans": [
+                {
+                    "start": 394,
+                    "end": 397,
+                    "text": "(1)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 719,
+                    "end": 722,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 788,
+                    "end": 791,
+                    "text": "(3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 792,
+                    "end": 794,
+                    "text": "4)",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Efforts to construct pediatric-specific schemes to allocate scarce resources have been slower to materialize, in part because it was recognized that even in a deadly pandemic, children were likely to experience low mortality rates relative to adults. Diverting resources away from pediatric patients whose demise was judged inevitable thus would not significantly free up scarce resources. Rather, prolonged use of those resources, particularly mechanical ventilators, was a more credible impediment to optimizing pediatric population survival, reasoning that ventilating one child for 12 days would be worse than ventilating three children for 4 days each, assuming all would die without any support (5) . Prediction tools for duration of resource utilization for contemporary PICU patients, however, had not been proposed until recently. We developed and validated such a tool using data derived from the Virtual PICU System database and demonstrated that its use would result in improved population survival compared with random allocation, employing a virtual pandemic modeled after the 1918-1919 Spanish influenza outbreak (6, 7); but the tool was novel and unfamiliar to the general population of pediatric intensivists. Hence, the publication by Killien et al (8) in this issue of Pediatric Critical Care Medicine using a variation of the 12-hour Pediatric Logistic Organ Dysfunction (PELOD)-2 score (9) is a welcome addition to these efforts. That score, when added to selected additional, readily accessible variables, strongly predicted use and duration of PICU resources, particularly mechanical ventilators, with an area under the receiver operating characteristic curve greater than 0.900.",
+            "cite_spans": [
+                {
+                    "start": 701,
+                    "end": 704,
+                    "text": "(5)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1253,
+                    "end": 1270,
+                    "text": "Killien et al (8)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The study by Killien et al (8) is not without limitations. PELOD-2, which was developed to assess end-organ dysfunction and mortality in the PICU, includes the presence of mechanical ventilation plus variables that would prompt mechanical ventilation (Pao 2 , Pco 2 , Glasgow Coma Scale) in its calculation (9) . Furthermore, Killien et al (8) added \"chronic mechanical ventilation\" to their final prediction tool. Because the score proposed by Killien et al (8) contains elements of its predicted outcome, its strong association with need and duration of mechanical ventilation during the child's ICU stay is rendered less compelling. Indeed, when only children not intubated at the time of the score's calculation were considered, the discriminatory power of the score was much reduced. Additional considerations, including the score's derivation from data from a single center, and the exclusion of children with primary cardiac diagnoses and neonates, further limit the generalizable predictive strength of the proposed score, as noted by the authors (8) .",
+            "cite_spans": [
+                {
+                    "start": 307,
+                    "end": 310,
+                    "text": "(9)",
+                    "ref_id": null
+                },
+                {
+                    "start": 459,
+                    "end": 462,
+                    "text": "(8)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1055,
+                    "end": 1058,
+                    "text": "(8)",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "But is the development of an accurate resource-utilization prediction tool ever achievable in the context of an evolving novel pandemic? The originally proposed SOFA score-based scheme was abandoned, for example, when its application during the influenza H1N1 epidemic revealed inadequate accuracy (10, 11) . Regarding the COVID-19 pandemic in particular, the robust database including key granular patientspecific data necessary to develop accurate prediction tools is not available. As such, the relative statistical weight of factors such as underlying comorbidities, viral load at presentation, degree of cytokine dysregulation, gender, socioeconomic background (12) (13) (14) , and factors yet unidentified cannot be calculated. Furthermore, the introduction of new therapeutic options (15) most certainly will require that any prediction tool be reassessed. These considerations highlight the fundamental weakness of all allocation schemes' utilitarian justification, namely, that we cannot know which scheme will meet the stated goal until after the fact. Deriving prediction equations to inform scarce resource allocation among such gaping unknowns is fraught with danger, particularly as it has been demonstrated that poor prediction equations can actually result in worse population survival compared with random allocation (16) .",
+            "cite_spans": [
+                {
+                    "start": 298,
+                    "end": 302,
+                    "text": "(10,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 303,
+                    "end": 306,
+                    "text": "11)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 666,
+                    "end": 670,
+                    "text": "(12)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 671,
+                    "end": 675,
+                    "text": "(13)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 676,
+                    "end": 680,
+                    "text": "(14)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1334,
+                    "end": 1338,
+                    "text": "(16)",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "It may be that we have not fully realized the value of a resource prediction tool in helping us reach some consensus on the \"one, right\" ethical mandate during a pandemic. As a pluralistic society, finding agreement among those who argue for different ethical frameworks may not be possible, but surely the principle of justice, that all casualties be treated equally, can be embraced (17) . Killien et al (8) rightly advocate for an \"ethically sound and widely accepted triage tool appropriate for clinical use\" as one of several considerations to inform resource allocation decisions. We support and applaud that their tool is \"ethically sound\" by virtue of being widely applicable. PELOD-2 is familiar to most pediatric intensivists. Furthermore, considering that hospitals will need to rapidly score all patients in need of scarce resources, training someone to score using PELOD-2, even with the variations proposed by Killien et al (8) , is feasible. Employing the same scoring method across the country satisfies the justice argument that every pediatric patient, from Alaska to Florida and from California to Maine, will be scored the same way. Although uniform use of the version of PELOD-2 proposed by Killien et al (8) will not eliminate all variation from resource allocation strategies, finding any common ground in resource triage schemes represents an important first step.",
+            "cite_spans": [
+                {
+                    "start": 385,
+                    "end": 389,
+                    "text": "(17)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 392,
+                    "end": 409,
+                    "text": "Killien et al (8)",
+                    "ref_id": null
+                },
+                {
+                    "start": 924,
+                    "end": 941,
+                    "text": "Killien et al (8)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1226,
+                    "end": 1229,
+                    "text": "(8)",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Definitive care for the critically ill during a disaster: A framework for allocation of scarce resources in mass critical care: From a Task Force for Mass Critical Care summit meeting",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Devereaux",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Dichter",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Christian",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Chest",
+            "volume": "133",
+            "issn": "",
+            "pages": "51--66",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Incorporating explicit ethical reasoning into pandemic influenza policies",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Berkman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J Contemp Health Law Policy",
+            "volume": "26",
+            "issn": "",
+            "pages": "1--19",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Too many patients\u2026A framework to guide statewide allocation of scarce mechanical ventilation during disasters",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Daugherty Biddison",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Faden",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Gwon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Chest",
+            "volume": "155",
+            "issn": "",
+            "pages": "848--854",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Who should receive life support during a public health emergency? Using ethical principles to improve allocation decisions",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "White",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Katz",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Luce",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Ann Intern Med",
+            "volume": "150",
+            "issn": "",
+            "pages": "132--138",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Task Force for Pediatric Emergency Mass Critical Care: Treatment and triage recommendations for pediatric emergency mass critical care",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Christian",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Toltzis",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Kanter",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Pediatr Crit Care Med",
+            "volume": "12",
+            "issn": "",
+            "pages": "109--119",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Pediatric triage in a severe pandemic: Maximizing survival by establishing triage thresholds",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gall",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Wetzel",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kolker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Crit Care Med",
+            "volume": "44",
+            "issn": "",
+            "pages": "1762--1768",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Evidence-based pediatric outcome predictors to guide the allocation of critical care resources in a mass casualty event",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Toltzis",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Soto-Campos",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Shelton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Pediatr Crit Care Med",
+            "volume": "16",
+            "issn": "",
+            "pages": "207--216",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Prediction of Pediatric Critical Care Resource Utilization for Disaster Triage. Pediatr Crit Care Med",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Killien",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Mills",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Errett",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Groupe Francophone de R\u00e9animation et d'Urgences P\u00e9diatriques (GFRUP): PELOD-2: An update of the PEdiatric logistic organ dysfunction score",
+            "authors": [],
+            "year": 2013,
+            "venue": "Crit Care Med",
+            "volume": "41",
+            "issn": "",
+            "pages": "1761--1773",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Task Force for Mass Critical Care; Task Force for Mass Critical Care: Triage: Care of the critically ill and injured during pandemics and disasters: CHEST consensus statement",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Christian",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Sprung",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "King",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Chest",
+            "volume": "146",
+            "issn": "",
+            "pages": "61--74",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Sequential organ failure assessment in H1N1 pandemic planning",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Shahpori",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Stelfox",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Doig",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Crit Care Med",
+            "volume": "39",
+            "issn": "",
+            "pages": "827--832",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Understanding COVID-19: What does viral RNA load really mean? Lancet Infect Dis",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Joynt",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Presenting characteristics, comorbidities, and outcomes among 5700 patients hospitalized with COVID-19 in the New York city area",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Richardson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hirsch",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Narasimhan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "The pathogenesis and treatment of the 'Cytokine Storm' in COVID-19",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Ye",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Infect",
+            "volume": "80",
+            "issn": "",
+            "pages": "607--613",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Pharmacologic treatments for coronavirus disease 2019 (COVID-19): A review",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Sanders",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Monogue",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Jodlowski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Would triage predictors perform better than first-come, firstserved in pandemic ventilator allocation?",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Kanter",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Chest",
+            "volume": "147",
+            "issn": "",
+            "pages": "102--108",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Task Force for Mass Critical Care; Task Force for Mass Critical Care: Ethical considerations: Care of the critically ill and injured during pandemics and disasters: CHEST consensus statement",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Biddison",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Berkowitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Courtney",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Chest",
+            "volume": "146",
+            "issn": "",
+            "pages": "145--155",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {},
+    "back_matter": []
+}

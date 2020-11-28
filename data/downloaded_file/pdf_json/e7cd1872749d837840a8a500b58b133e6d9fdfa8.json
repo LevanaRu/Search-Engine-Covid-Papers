@@ -1,0 +1,341 @@
+{
+    "paper_id": "e7cd1872749d837840a8a500b58b133e6d9fdfa8",
+    "metadata": {
+        "title": "Eosinophil count in coronavirus disease 2019: more doubts than answers",
+        "authors": [
+            {
+                "first": "Giuseppe",
+                "middle": [],
+                "last": "Lippi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Verona",
+                    "location": {
+                        "settlement": "Verona",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Fabian",
+                "middle": [],
+                "last": "Sanchis-Gomar",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "INCLIVA Biomedical Research Institute",
+                    "location": {
+                        "settlement": "Valencia",
+                        "country": "Spain"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Brandon",
+                "middle": [
+                    "M"
+                ],
+                "last": "Henry",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Cardiac Intensive Care Unit",
+                    "institution": "Cincinnati Children's Hospital Medical Center",
+                    "location": {
+                        "region": "Ohio",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [
+                    "Giuseppe"
+                ],
+                "last": "Lippi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "We are thankful to Roca et al. 1 for the comments on our letter on eosinopenia in coronavirus disease 2019 (COVID-19). 2 Despite the volume of data on eosinophil count in patients with COVID-19 was still limited at the time of publishing our pooled analysis, 2 two more recent meta-analyses have then become available, which will provide additional interesting insights on this association. Henry et al. pooled data of 4 different studies, totaling 347 patients, 3 and found a very modest difference of eosinophil count in COVID-19 patients with severe illness compared to those with milder disease (weighted mean difference (WMD), -0.01\u00d710 9 /L; 95% confidence interval (95%CI), -0.02 to -0.0\u00d710 9 /L), reporting also a high heterogeneity (I 2 , 74.4%).",
+            "cite_spans": [
+                {
+                    "start": 31,
+                    "end": 32,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 119,
+                    "end": 120,
+                    "text": "2",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 463,
+                    "end": 464,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In a subsequent article, Ghahramani et al. meta-analyzed the results of 5 different studies, 4 and found a modest and only marginally significant difference of eosinophil count in COVID-19 patients with severe illness compared to those with milder disease (WMD, -0.03\u00d710 9 /L; 95%CI, -0.05 to 0.00\u00d710 9 /L), reporting again a very high heterogeneity (I 2 , 86%). In both these meta-analyses, therefore, the efficiency of eosinophil count for predicting severe COVID-19 illness is seemingly marginal and not completely conclusive, as attested by the broad heterogeneity found in the currently available literature data.",
+            "cite_spans": [
+                {
+                    "start": 93,
+                    "end": 94,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "There is also another aspect that needs to be carefully considered when attempting to use the eosinophil count for purposes of risk stratification in patients with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection. Roca et al reported a mean difference of around 0.009\u00d710 9 /L in the eosinophil count between COVID-19 patients who died and those who survived, and such difference was found to be even lower in COVID-19 patients with severe illness than in those with milder disease (i.e., 0.006\u00d710 9 /L). 1 Beside the fact that both these values were found to be only marginally significant (i.e., p=0.032 and p=0.049, respectively), the differences remain largely comprised within the between-subject biologic variation of the eosinophil count, https://mc.manuscriptcentral.com/qjm which is as high as 76%. 5 Moreover, although the instrument used for obtaining the eosinophil count in patients with COVID-19 has not been clearly described by Roca et al, 1 the analytical goal of this parameter has been set at 26% 6 a threshold which almost overlaps with the differences reported by Roca et al in their study, 1 and which would hence make the significance of their data clinically ambiguous.",
+            "cite_spans": [
+                {
+                    "start": 526,
+                    "end": 527,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 829,
+                    "end": 830,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 965,
+                    "end": 972,
+                    "text": "Roca et",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In conclusion, although we would basically agree with Roca et al, that eosinopenia may play some roles in clinical progression of COVID-19, 1 the very modest difference found in COVID-19 patients with or without severe illness and the current technical drawbacks in measuring eosinophils in whole blood would persuade us that routine assessment of this parameter remains questionable in patients with COVID-19. Until the functional sensitivity and the analytical imprecision of the modern hematological analyzers will be improved, relying on the eosinophil count for therapeutic management of COVID-19 would hence remain largely unwarranted.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Eosinopenia: an early, effective, and relevant COVID-19 biomarker?",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Roca",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ventura",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Zattra",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lombardi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "QJM",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Eosinophil count in severe coronavirus disease 2019",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Lippi",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Henry",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "QJM",
+            "volume": "113",
+            "issn": "",
+            "pages": "511--512",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Hematologic, biochemical and immune biomarker abnormalities associated with severe illness and mortality in coronavirus disease 2019 (COVID-19): a meta-analysis",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Henry",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mhs",
+                    "middle": [],
+                    "last": "De Oliveira",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Benoit",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Plebani",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Lippi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Chem Lab Med",
+            "volume": "58",
+            "issn": "",
+            "pages": "1021--1028",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Laboratory features of severe vs. non-severe COVID-19 patients in Asian populations: a systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ghahramani",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Tabrizi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Lankarani",
+                    "suffix": ""
+                },
+                {
+                    "first": "Sma",
+                    "middle": [],
+                    "last": "Kashani",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Rezaei",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zeidi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eur J Med Res",
+            "volume": "25",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Desirable Biological Variation Database specifications",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Westgard",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Automated blood cell counts: state of the art",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Buttarello",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Plebani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Am J Clin Pathol",
+            "volume": "130",
+            "issn": "",
+            "pages": "104--120",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {},
+    "back_matter": []
+}

@@ -1,0 +1,2518 @@
+{
+    "paper_id": "bd54d9fb67935b02cbd73f4802c82aab63fbcce5",
+    "metadata": {
+        "title": "Differential Exon Expression in Myelin Basic Protein Transcripts During Central Nervous System (CNS) Remyelination",
+        "authors": [
+            {
+                "first": "Craig",
+                "middle": [
+                    "A"
+                ],
+                "last": "Jordan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Laboratory of Viral and Molecular Pathogenesis",
+                    "institution": "National Institutes of Health",
+                    "location": {
+                        "postCode": "20892",
+                        "settlement": "Bethesda",
+                        "region": "Maryland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Victor",
+                "middle": [
+                    "L"
+                ],
+                "last": "Friedrich",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Laboratory of Viral and Molecular Pathogenesis",
+                    "institution": "National Institutes of Health",
+                    "location": {
+                        "postCode": "20892",
+                        "settlement": "Bethesda",
+                        "region": "Maryland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Francesca",
+                "middle": [
+                    "De"
+                ],
+                "last": "Ferra",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The Wistar Institute",
+                    "location": {
+                        "postCode": "19104",
+                        "settlement": "Philadelphia",
+                        "region": "Pennsylvania"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "David",
+                "middle": [
+                    "G"
+                ],
+                "last": "Weismiller",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Kathryn",
+                "middle": [
+                    "V"
+                ],
+                "last": "Holmes",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Monique",
+                "middle": [],
+                "last": "Dubois-Dalcq",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "1. In order to characterize some of the molecular events leading to repair of myelin inthe adult central nervous system (CNS), we examined the expression of transcripts for myelin basic protein (MBP) during remyelination in the mouse. C57B1/6 mice develop a demyelinating disease when glial cells are selectively infected by the A59 strain of mouse coronavrius. The virus is spontaneously cleared from the mice by 4 weeks postinfection (WPI), a time when remyelination is starting.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "2. At 3 WPI total MBP transcripts are decreased by 75% in demyelinating lesions compared to control white matter. Using RNase protection assays and in situ hybridization with probes for particular MBP exons, we detected an increase in MBP transcripts containing exon 2 information, coincident with the earliest histological signs of remyelination.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "3. The expression of MBP transcripts containing exon 2 information was first seen clustered in the perinuclear cytoplasm of oligodendrocytes scattered within the lesions. This is reminiscent of the increased levels and perinuclear clustering of MBP transcripts containing exon 2 seen during early developmental myelina-3 0272-4340/90/03004)003506,0(~/0",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "tion. The peak abundance of exon 2-containing transcripts in the lesions was 13-fold that seen in control white matter. At later stages of remyelination, additional forms of MBP transcripts (without exon 2) increased and their distribution was more diffuse.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "4. Thus, during remyelination, preforms of MBP transcripts, which are normally present at low levels in the adult CNS, are abundantly expressed and regulated in a manner similar to that observed in developmental myelination.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "CNS myelin is formed by oiigodendrocytes, which follow a tightly regulated genetic program to syntheize, transport, and incorporate particular proteins and lipids into their plasma membrane (reviewed by Benjamins and Smith, 1984; Lemke, 1986) . These specialized membranes wrap around axons to form multilamellar myelin internodes which are required for rapid saltatory conduction of action potentials (reviewed by Ritchie and Chui, 1981; Raine, 1984; Wood and Bunge, 1984) . The gene structure and processing of transcripts for three of the four major myelin proteins, myelin basic protein (MBP), proteolipid protein (PLP), and myelin-associated glycoprotein (MAG), have been described (Zeller et al., 1984; de Ferra et al., 1985; Milner et al., 1985; Diehl et al., 1986; Arquint et aL, 1987; Popko et al., 1987; Salzer et al., 1987) . The fourth major myelin protein, 2',3'-cyclic nucleotide 3'-phosphohydrolase (CNP), has recently been sequenced from a cDNA clone (Bernier et al., 1987) . Each of these genes is present in the mammalian genome as a single copy, is highly conserved evolutionarily, and is expressed as multiple messenger RNA and protein forms (Bernier et al., 1987; Hudson et al., 1987; Lai et al., 1987) . In the case of MBP, four major transcripts are generated by alternative spicing of two of its seven exons, exons 2 and 6 (de Ferra et ai., 1985; Takahashi et al., 1985; Mentaberry et al., 1986) . Exon 2 information is present in the two transcripts which code for the 21.5-and 17-kDa basic protein isoforms and is absent from the transcripts which encode the 18.5-and 14-kD isoforms: The expression of these proteins is developmentally regulated: the exon 2-containing isoform levels peak during the initial stages of myelination and decrease thereafter (Barbarese et al., 1978 , Carson et al., 1983 , while the levels of the isoforms lacking exon 2 information increase and remain high. Similarly, MBP exon 2-containing transcripts (also referred to as preforms; see Fig. 1 ) are most abundant at the onset of myelination in developing animals and decrease thereafter (Jordan et al., 1989; Kamholz et al., 1988; de Ferra et al., in preparation) . It has been proposed that exon 2 might play a critical role in the early development stages of myelination by coding for an MBP region which may interact with myelin lipids and/or proteins and thereby direct the initial steps in myelin compaction (Kamholz et al., 1986) .",
+            "cite_spans": [
+                {
+                    "start": 203,
+                    "end": 229,
+                    "text": "Benjamins and Smith, 1984;",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 230,
+                    "end": 242,
+                    "text": "Lemke, 1986)",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 415,
+                    "end": 438,
+                    "text": "Ritchie and Chui, 1981;",
+                    "ref_id": null
+                },
+                {
+                    "start": 439,
+                    "end": 451,
+                    "text": "Raine, 1984;",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 452,
+                    "end": 473,
+                    "text": "Wood and Bunge, 1984)",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 687,
+                    "end": 708,
+                    "text": "(Zeller et al., 1984;",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 709,
+                    "end": 731,
+                    "text": "de Ferra et al., 1985;",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 732,
+                    "end": 752,
+                    "text": "Milner et al., 1985;",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 753,
+                    "end": 772,
+                    "text": "Diehl et al., 1986;",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 773,
+                    "end": 793,
+                    "text": "Arquint et aL, 1987;",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 794,
+                    "end": 813,
+                    "text": "Popko et al., 1987;",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 814,
+                    "end": 834,
+                    "text": "Salzer et al., 1987)",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 967,
+                    "end": 989,
+                    "text": "(Bernier et al., 1987)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1162,
+                    "end": 1184,
+                    "text": "(Bernier et al., 1987;",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1185,
+                    "end": 1205,
+                    "text": "Hudson et al., 1987;",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1206,
+                    "end": 1223,
+                    "text": "Lai et al., 1987)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1347,
+                    "end": 1370,
+                    "text": "(de Ferra et ai., 1985;",
+                    "ref_id": null
+                },
+                {
+                    "start": 1371,
+                    "end": 1394,
+                    "text": "Takahashi et al., 1985;",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 1395,
+                    "end": 1419,
+                    "text": "Mentaberry et al., 1986)",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1780,
+                    "end": 1803,
+                    "text": "(Barbarese et al., 1978",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1804,
+                    "end": 1825,
+                    "text": ", Carson et al., 1983",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 2095,
+                    "end": 2116,
+                    "text": "(Jordan et al., 1989;",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 2117,
+                    "end": 2138,
+                    "text": "Kamholz et al., 1988;",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 2139,
+                    "end": 2171,
+                    "text": "de Ferra et al., in preparation)",
+                    "ref_id": null
+                },
+                {
+                    "start": 2421,
+                    "end": 2443,
+                    "text": "(Kamholz et al., 1986)",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1994,
+                    "end": 2000,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Since myelin is essential to normal nervous sytem function, demyelination causes severe neurological impairment, as, for instance, in multiple sclerosis (MS) patients, in which the damage to CNS myelin usually leads to prolonged chronic dysfunction due to inadequate or incomplete CNS myelin regeneration in humans Table I ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 315,
+                    "end": 322,
+                    "text": "Table I",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "(reviewed by Silberberg, 1986) . Therefore, it is important to elucidate how CNS myelin repair proceeds at the molecular and cellular level in experimental models capable of extensive remyelination. Several demyelinating models produced experimentally by chemical, immunological, or virological agents have been used to study remyelination (reviewed by Ludwin, 1981) . In one mouse model, demyelination is induced by a coronavirus, mouse hepatitis virus strain A59 (MHV-A59). This and other M H V strains have been shown to infect and kill oligodendrocytes in vivo (Herndon et al., 1977; Knobler et al., 1981; Sorensen et al., 1981; Lavi et al., 1984a; Woyciechowska et al., 1984) . Although there is no direct evidence that MS can be caused by a virus in humans (reviewed by Silberberg, 1986) , MHV-A59 oligodendrocyte infection and subsequent demyelination mimic acute MS lesions, especially in the spinal cord (Lavi et al., 1984a; 1984b; Woyciechowska et al., 1984; Kristensson et al., 1986; Jordan et al., submitted) . Animals develop myelin lesions as well as paresis and ataxia during the first 1-3 weeks of infection. Subsequently infection subsides and is followed by remyelination and functional recovery during the next few weeks. We have initiated a series of studies on the mechanism of CNS remyelination using the MHV-A59 demyelinating model. In this study, we ask the following question: Does myelin gene expression in remyelination follow the same regulated program observed during myelination? We chose a major myelin protein gene (MBP) whose expression during development has been studied in detail to analyze transcript expression during remyelination. We observed earlier a substantial increase in MBP transcripts in the vicinity of demyelinating lesions in MHV-infected mice (Kristensson et al., 1986) . In this study we used probes specific to particular exons to analyze whether forms of MBP transcripts seen in early development were detectable in oligodendrocytes during remyelination after experimental demyelinating disease. We find that during the early stages of remyelination, exon 2-containing MBP transcripts are increased in abundance and clustered around the oligodendrocyte nucleus, just as in early myelination. These molecular changes were found in demyelinated spinal cord lesions at the earliest timesof remyelination. At later stages of remyelination, additional forms of MBP transcripts (without exon 2) increased and their distribution was diffuse throughout the cells. This indicates that during remyelination, preforms of MBP transcripts which are normally at low levels in the adult CNS are abundantly expressed and regulated in a manner similar to that observed in neonatal myelination.",
+            "cite_spans": [
+                {
+                    "start": 13,
+                    "end": 30,
+                    "text": "Silberberg, 1986)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 353,
+                    "end": 366,
+                    "text": "Ludwin, 1981)",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 565,
+                    "end": 587,
+                    "text": "(Herndon et al., 1977;",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 588,
+                    "end": 609,
+                    "text": "Knobler et al., 1981;",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 610,
+                    "end": 632,
+                    "text": "Sorensen et al., 1981;",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 633,
+                    "end": 652,
+                    "text": "Lavi et al., 1984a;",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 653,
+                    "end": 680,
+                    "text": "Woyciechowska et al., 1984)",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 776,
+                    "end": 793,
+                    "text": "Silberberg, 1986)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 913,
+                    "end": 933,
+                    "text": "(Lavi et al., 1984a;",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 934,
+                    "end": 940,
+                    "text": "1984b;",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 941,
+                    "end": 968,
+                    "text": "Woyciechowska et al., 1984;",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 969,
+                    "end": 994,
+                    "text": "Kristensson et al., 1986;",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 995,
+                    "end": 1020,
+                    "text": "Jordan et al., submitted)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1795,
+                    "end": 1821,
+                    "text": "(Kristensson et al., 1986)",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Four-week-old C57BI/6N mice were injected i.c. with 1000 plaque forming units of MHV-A59 as described previously (Kirstensson et al., 1986) . Most mice developed clinical symptoms at 4 to 21 days postinfection (as described before) including hind limb paresis. One to six weeks later, animals were anesthetized, peffused with 4% formaldehyde, and dissected to remove brains and spinal cords, which were processed for cryosectioning (Jordan et al., 1989) . Sections mounted on gelatin-coated slides were stored at -20\u00b0C and used later for Sudan black staining, immunocytochemistry, or in situ hybridization. Cryostat sections were stained with the lipophillic dye Sudan black to reveal myelin. The method is modified from that of Wood et al. (1980) and is summarized below. Cryostat sections on slides were removed from the freezer and sequentially treated with 5% sucrose in PB (20 min), 2% osmium tetroxide in the same (15 min), PBS (3 min), 50% enthanol (2 min), 70% ethanol (2 min), 0.5% Sudan black in 70% ethanol (25 min), destained in 70% ethanol (approx 2 x 5 min), PBS (3 min), and mounted under a cover glass in 80% glycerol in PBS.",
+            "cite_spans": [
+                {
+                    "start": 113,
+                    "end": 139,
+                    "text": "(Kirstensson et al., 1986)",
+                    "ref_id": null
+                },
+                {
+                    "start": 432,
+                    "end": 453,
+                    "text": "(Jordan et al., 1989)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 729,
+                    "end": 747,
+                    "text": "Wood et al. (1980)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Tissue Preparation and Histological Stains."
+        },
+        {
+            "text": "Some freshly dissected tissue slices were postfixed with glutaraldehyde followed by osmium tetroxide, dehydrated in graded ethanols, and embedded in epoxy resin. Sections 1-2/~m thick were cut on an LKB Ultrotome III and counterstained with toluidine blue. Ultrathin sections cut with the same micro-tome were stained with uranyl acetate and lead citrate and examined in a Phillips EM400T electron microscope.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Tissue Preparation and Histological Stains."
+        },
+        {
+            "text": "RNase Protection Assay. A single-stranded RNA probe complementary to MBP exons 1, 3, 4, 5, and 6 and part of exon 7 was made using the pHF43 plasmid (de Ferra et al., 1985) . The 506-bp EcoRI-Xholl fragment of pHF43 was subcloned into pSP64 digested with EcoRI and BamHI (Promega Biotec). Single-stranded RNA probe was synthesized using SP6 RNA polymerase with [o~-32p]CTP (400 Ci/mmol; 1 Ci = 37 GBq; Amersham). The probe was hybridized to mRNA purified from spinal cords of normal or infected mice (3 WPI) following the recommendations of the manufacturer (Promega Biotec). Singlestranded regions were digested with RNase A and T1, followed by denaturation of protected fragments, which were then resolved on a 6% acrylamide denaturing gel. Protected fragment bands were visualized by autoradiography and cut out, and radioactive counts determined.",
+            "cite_spans": [
+                {
+                    "start": 149,
+                    "end": 172,
+                    "text": "(de Ferra et al., 1985)",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Tissue Preparation and Histological Stains."
+        },
+        {
+            "text": "In Situ Hybridization. Synthetic oligonucleotide probes specific for MBP exon 1 (common to all mRNA forms) and MBP exon 2 (specific to mRNAs encoding the 21.5 and 17-kDa isoforms) were 3' end labeled with 35S-dATP to a specific activity of 2-3 x 108 cpm]#g as previously described (Jordan et al., 1989) . These probes were previously shown to be specific for their respective messages in CNS tissue (Jordan et al., 1989) . Uniformity of tissue preparation and probe penetration was monitored by inclusion of tissues from age-matched control animals. Additionally, probes for other myelin genes and MHV-A59 revealed different patterns of distribution and abundance of their specific transcripts when adjacent sections were analyzed (Jordan et al., submitted) . Proximate spinal cord sections were hybridized with these probes at a concentration of 1-2 x 106 cpm per 50 ~1 following previously established tissue pretreatment, hybridization, and washing conditions (Jordan et al., 1989) . The location of bound probe was visualized by coating slides with Kodak NTB2 emulsion, developing, and counterstaining with cresyl violet (Jordan et al., 1989) or direct apposition against Kodak X-OmatAR film. Actual exposure times are indicated in the figure legends.",
+            "cite_spans": [
+                {
+                    "start": 281,
+                    "end": 302,
+                    "text": "(Jordan et al., 1989)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 399,
+                    "end": 420,
+                    "text": "(Jordan et al., 1989)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 731,
+                    "end": 757,
+                    "text": "(Jordan et al., submitted)",
+                    "ref_id": null
+                },
+                {
+                    "start": 963,
+                    "end": 984,
+                    "text": "(Jordan et al., 1989)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1125,
+                    "end": 1146,
+                    "text": "(Jordan et al., 1989)",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Tissue Preparation and Histological Stains."
+        },
+        {
+            "text": "Densitometry. X-ray film autoradiograms of tissue sections, 14C standards (American Radiolabeled Chemicals, Inc., St. Louis, MO), and 35S brain paste standards (supplied by S. Young) were digitized with a Loats image analysis system (Loats, Westminster, MD), Optical density values were obtained from selected areas of sections, chosen after examination of nearby cresyl violet-or Sudan black-stained sections, and were converted to disintegrations per minute per milligram (dpm/mg) using curves generated from the standards. Background, defined as the density of probe binding over the spinal cord central canal, was subtracted from all experimental values (Jordan et al., 1989) .",
+            "cite_spans": [
+                {
+                    "start": 658,
+                    "end": 679,
+                    "text": "(Jordan et al., 1989)",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Tissue Preparation and Histological Stains."
+        },
+        {
+            "text": "Exon 2-Containing Transcripts Are Increased During Remyelination. We performed RNase protection assays for exon 2-containing forms of MBP mRNA in remyelinating tissue. Messenger RNA was prepared from spinal cords of mice 3 weeks postinfection (WPI) and age-matched controls. At this time, the demyelinated lesions occupied approximately 5-20% of the total spinal cord tissue and the first indications of remyelination: could be seen histologically in some lesions (Jordan et al., submitted) . The spinal cord RNA was hybridized with 32p-labeled anti-message sense RNA transcribed in vitro from a plasmid containing MBP exons 1, 3, 4, 5, 6, and 7 (schematized in Fig. 1 ). The RNA hybrids were digested with single-strand-specific RNase and the protected fragments were resolved on acrylamide gels. The amount of radioactivity in the bands corresponding to the 194-bp fragment derived from exon 2-containing RNAs (RNAs coding for the 21.5-and 17-kD MBP) and the 361-bp fragment derived from the small MBP transcript (coding for the 14-kD MBP) was counted. Radioactive counts were expressed as ratios of exon 2-containing/small MBP transcripts (Table I) since previous experiments had indicated that this ratio changes dramatically during normal myelination in the first few weeks after birth (Jordan et al., 1989; de Ferra et al., in preparation) . At 3 WPI, infected animals showed a 50% increase over control animals in the ratio of exon 2-containing transcripts to small MBP transcripts. Similar results were obtained from a second group of animals sacrificed at 3 WPI. The changes in this ratio suggest that MBP transcripts containing exon 2 were increased in total spinal cord mRNAs at 3 WPI. Since demyelinated lesions occupy only a fraction of the total tissue, such a relative increase might be significant but needed to be quantitated in situ.",
+            "cite_spans": [
+                {
+                    "start": 464,
+                    "end": 490,
+                    "text": "(Jordan et al., submitted)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1291,
+                    "end": 1312,
+                    "text": "(Jordan et al., 1989;",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1313,
+                    "end": 1345,
+                    "text": "de Ferra et al., in preparation)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 662,
+                    "end": 668,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 1142,
+                    "end": 1151,
+                    "text": "(Table I)",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "MBP"
+        },
+        {
+            "text": "The Increase in MBP Exon 2-Containing Transcripts Is Lesion Specific. In order to elucidate whether the relative abundance of exon 2-containing transcripts could be correlated with the topography of the demyelination and remyelination, we used probes specific for particular exons in in stiu hybridization experiments. Two synthetic~ o!igonucleotide: probes labeled with 35S dATP were used, one specific for MBP exon 1, which is present in all MBP transcripts, and one specific for exon 2, which is present only in the pre-MBP forms. These two probes of equal specific activity were, hybridized under identical conditions to proximate spinal cord sections taken from animals at various times postinfection and their binding was detected by autoradiography. Thus, an accurate comparison of exon 1-containing total transcripts (including those containing exon 2) versus exon 2-specific transcripts could beperformed on the sections. Sections from agematched mice were always included in experiments so that probe binding in myelinated and demyelinated regions of experimental sections could be directly compared to normal. Additionally, probes for other gene transcripts were utilized in parallel and served to validate uniform preparation of tissues and probe penetration (Jordan et al., submitted) . We first examined mice at 3 WPI because this was the time at which a relative increase in exon 2-containing transcripts was detected by RNase protection assays (Table I) . Demyelinated lesions were visualized by staining sections with Sudan black for myelin (arrows, Fig. 2A ) and with cresyl violet for cellular infiltrates (Fig. 2B) ; the latter coincide with regions of myelin loss. When nearby sections were hybridized with the MBP exon 1 probe, the majority of the white matter regions was found to have a moderately low level of total MBP transcripts. In contrast, total MBP transcripts were greatly reduced within areas of demyelination (Fig. 2C , long arrow), as described before (Kristensson et al., 1986) . However, clusters of transcripts could be found with both exon 1-and exon 2-specific probes in cells scattered in some demyelinating lessions (Figs. 2C, D, E, and F). Such clusters of transcripts were not seen in normal white matter regions of infected mice or in age-matched uninfected controls, where only diffused labeling was found. When regions of demyelination were examined under higher magnification, most clusters of grains for either exon 1 (Fig. 2E ) or exon 2 (Fig. 2F ) probes were found associated with cell nuclei. A similar distribution of MBP transcripts has been observed at early developmental stages of myelination (Trapp et al., 1987; Jordan et al., 1989) . The numbers of grains in exon 1-and exon 2-positive clusters within the lesion were similar.. Since the two probes were of equal specific activity, and the exon 1 probe can detect all MBP transcripts including the subset of exon 2-containing preforms, we can conclude that the great majority of MBP transcripts in oligodendrocyte cell bodies within the lesions contained exon 2.",
+            "cite_spans": [
+                {
+                    "start": 1271,
+                    "end": 1297,
+                    "text": "(Jordan et al., submitted)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1988,
+                    "end": 2014,
+                    "text": "(Kristensson et al., 1986)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 2652,
+                    "end": 2672,
+                    "text": "(Trapp et al., 1987;",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 2673,
+                    "end": 2693,
+                    "text": "Jordan et al., 1989)",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1460,
+                    "end": 1469,
+                    "text": "(Table I)",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 1567,
+                    "end": 1574,
+                    "text": "Fig. 2A",
+                    "ref_id": null
+                },
+                {
+                    "start": 1625,
+                    "end": 1634,
+                    "text": "(Fig. 2B)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1944,
+                    "end": 1952,
+                    "text": "(Fig. 2C",
+                    "ref_id": null
+                },
+                {
+                    "start": 2468,
+                    "end": 2476,
+                    "text": "(Fig. 2E",
+                    "ref_id": null
+                },
+                {
+                    "start": 2489,
+                    "end": 2497,
+                    "text": "(Fig. 2F",
+                    "ref_id": null
+                }
+            ],
+            "section": "MBP"
+        },
+        {
+            "text": "Intact white matter regions immediately adjacent to demyelinated lesions often showed substantially greater exon 1 probe binding than did regions distant from the lesions (Fig. 2C, arrowheads) . In fact, the ventral funiculus region showed the most intense probe binding found on infected tissue when analyzed quantitatively on film autoradiograms (see below). Probe binding was increased by 154% compared to normal white matter away from the lesion. This indicates that total MBP transcripts were increased near lesions (Kristensson et al., 1986) . Exon 2 binding was also increased in the same regions, but it represented only a fraction of exon 1 binding (Figs. 2C and D) . Thus, the majority of MBP transcripts at the edge of lesions is forms lacking exon 2 information.",
+            "cite_spans": [
+                {
+                    "start": 521,
+                    "end": 547,
+                    "text": "(Kristensson et al., 1986)",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 171,
+                    "end": 192,
+                    "text": "(Fig. 2C, arrowheads)",
+                    "ref_id": null
+                },
+                {
+                    "start": 658,
+                    "end": 674,
+                    "text": "(Figs. 2C and D)",
+                    "ref_id": null
+                }
+            ],
+            "section": "MBP"
+        },
+        {
+            "text": "Other M B P Transcripts Are Increased During Later Phases of Rernyelination. Exon 2-containing transcripts stayed high within lesions in animals sacrificed at 4, 5, and 6 WPI (Figs. 3C, E and F); however, the relative abundance of the different subsets of MBP transcripts changed. Figure 3A illustrates a cervical cord section from a mouse 5 WPI, stained with Sudan black to reveal areas of demyelination, where cellular infiltrates were also detected (not shown). This spinal cord section showed demyelination in the upper portion of the dorsal funiculus and in both ventral root zones; the largest lesion extended from the ventral midline halfway up the lateral column (arrows, Fig. 3A ). On 1-/~m epoxy sections, the white matter surrounding the ventral root was intensely Fig. 2 . Myelin basic protein transcripts detected in situ by exon specific probesat 3 WPI. Cervical spinal cord sections from a mouse at 3 WPI had demyelinated lesions (long arrows, A -D ) which were characterized by loss of Sudan black-stained myelin (A) and cellular infiltrates stained with cresyl violet (B). (C) In situ hybridization with the MBP exon 1 probe (which binds to all transcripts), viewed in dark-field microscopy, revealed a reduction of transcripts in the lesion (long arrow), while areas around the lesions showed increased probe binding (arrowheads) when compared to remote unaffected areas. (D) In situ hybridization with the MBP exon 2 probe indicates that this subclass of transcripts increased within the lesions and formed clusters (arrows) relative to the low level of diffuse distribution seen in remote unaffected areas. (Similar clusters are also seen in C, but different exposure times were required for C and D, which explains why the grain clusters are less apparent in C.) (E) High-power view of the lesioned area at the long arrow in C, demonstrating grains clustered around cell nuclei with the exon 1 probe (arrows). (F) High power-view of the ventral root lesion at the arrow in D. At this magnification, the subset of transcripts detected by the exon 2 probe are also seen to be associated with nuclei (arrows). Grain densities over nuclei in E and F are roughly equivalent. Bars: 500 #m for A -D ; 50 ~m for E and F. A, B, E, and F--bright-field microscopy; C and D---dark-field microscopy. Autoradiograms from emulsion-dipped specimens (19-day exposure). . In situ hybridization for total MBP transcripts with the exon 1 probe on 5 WPI tissue proximate to tissue in A and C. Note the significantly increased levels of total MBP transcripts in the ventral root lesioned areas (arrows) as compared to remote unaffected areas. Total MBP transcripts are greater than the exon 2-containing transcripts shown in C. (E) High-power view of boxed area from C. (F) Similar high-power view of exon 2-containing transcripts detected in a ventral root lesion in the spinal cord from a mouse 6WPI. Bars: 500/am for A, C, and D; 10/~m for B; 100/~m for E and F. A and B--bright-field microscopy; C, D, E, and F---dark-field microscopy of autoradiograms from emulsion-dipped specimens (17-day exposure). vacuolated (Fig. 3B) . When sections proximate to that in Fig. 3A were hybridized with the MBP exon 2 probe, ventral root zones and the upper edge of the dorsal funiculus showed increased levels of hybridization (Figs. 3C and E) . When an adjacent section was hybridized with the MBP exon 1 probe, these same regions also showed increased binding and the binding intensity with exon 1 probe was much higher than with exon 2 (arrows, Fig. 3D ), This indicates a significant contribution of non-exon 2-containing forms to the level of total MBP transcripts. Thus, additional forms of MBP transcripts (probably coding for the large and small MBP forms) were more abundant at later times after infection.",
+            "cite_spans": [
+                {
+                    "start": 776,
+                    "end": 782,
+                    "text": "Fig. 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 3318,
+                    "end": 3334,
+                    "text": "(Figs. 3C and E)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 281,
+                    "end": 290,
+                    "text": "Figure 3A",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 680,
+                    "end": 687,
+                    "text": "Fig. 3A",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 3117,
+                    "end": 3126,
+                    "text": "(Fig. 3B)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 3164,
+                    "end": 3171,
+                    "text": "Fig. 3A",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 3539,
+                    "end": 3546,
+                    "text": "Fig. 3D",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "MBP"
+        },
+        {
+            "text": "It is interesting to note that the white matter surrounding the dorsal and ventral roots appears to be a special site of activity throughout the disease. It is in this site that viral transcripts and discrete demyelinating lesions are first seen in the first week postinfection (Jordan et al., submitted) . As demonstrated above, increased MBP expression is most intense in these same ventral and dorsal root regions at 3-6 WPI (Figs. 2C, 3D ). This correlated with the observation made in thick and thin epoxy sections of a number of thin remyelinating fibers around the ventral root (Fig. 3B, 4 WPI) . Thus it is possible that ventral root regions are areas where virus is first cleared and where remyelination initiates.",
+            "cite_spans": [
+                {
+                    "start": 278,
+                    "end": 304,
+                    "text": "(Jordan et al., submitted)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 428,
+                    "end": 441,
+                    "text": "(Figs. 2C, 3D",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 585,
+                    "end": 601,
+                    "text": "(Fig. 3B, 4 WPI)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "MBP"
+        },
+        {
+            "text": "Quantitative Analysis of MBP Transcript Expression. To quantitate the relative levels of MBP transcripts, hybridized sections and radiation standards were directly apposed to X-ray film, and the resulting autoradiograms were digitized. Optical density values were obtained, compared to standards, and expressed as DPM/mg (see Methods). Figure 4 illustrates exon 2 probe autoradiograms from control, 5 WPI, and 6 WPI mouse spinal cord sections (Figs. 4A, C, and E, respectively) and their corresponding digitized computer images displayed in pseudocolor (Figs. 4B, D, and F, respectively). The film autoradiograms and digitized images showed the same localized increase in exon 2 probe binding seen in autoradiograms produced by emulsion dipping (Figs. 2 and 3) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 336,
+                    "end": 344,
+                    "text": "Figure 4",
+                    "ref_id": null
+                },
+                {
+                    "start": 745,
+                    "end": 760,
+                    "text": "(Figs. 2 and 3)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "MBP"
+        },
+        {
+            "text": "We then selected myelinated and demyelinated regions by examining sections (adjacent to hybridized sections) stained with cresyl violet or Sudan black and analyzed the amount of probe binding in these regions (Fig. 5) . As expected, the levels of exon 2-containing transcripts in myelinated regions were much lower than the total transcripts, just as seen in a control uninfected animal (control was age matched to 6 WPI). Interestingly, the levels of MBP transcripts were affected in these regions even though myelin loss was not detected. At 5 WPI exon 1 probe binding had decreased to 29% of its original value at 3 WPI (247vs 856dpm/mg; Fig. 5A ) but increased to near control levels thereafter; exon 2 probe binding was already lower than normal at 3 WPI but later increased to above control levels. These changes were reflected in the exon 2/ex0n 1 probe binding ratio shown in Fig. 5B . The relative abundance of exon 2-containing transcripts was low at 3 WPI but then increased at 5 WPI to a peak value six-fold higher than that seen in controls,",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 209,
+                    "end": 217,
+                    "text": "(Fig. 5)",
+                    "ref_id": null
+                },
+                {
+                    "start": 641,
+                    "end": 648,
+                    "text": "Fig. 5A",
+                    "ref_id": null
+                },
+                {
+                    "start": 884,
+                    "end": 891,
+                    "text": "Fig. 5B",
+                    "ref_id": null
+                }
+            ],
+            "section": "MBP"
+        },
+        {
+            "text": "In demyelinated regions, total MBP transcripts were already decreased to 25% of control levels at 3 WPI (296 vs 1170 dpm/mg) and then climbed back to 33% above control levels at 6 WPI (Fig. 5A) . The level of exon 2 binding was already high at 3 WPI and continued to increase thereafter, reaching levels 13-fold above control (465 vs 36 dpm/mg) at 6WPI (Fig. 5A ). This relative enrichment in exon 2-containing transcripts in demyelinated regions was reflected in the high ratio of exon 2/exon 1 probe binding in demyelinated regions (Fig.  5B ). This ratio peaked in demyelinating regions at 5 WPI at a level 17 times that seen in control animals (0.51 vs 0.03). Thus, the quantiative analysis confirmed and enhanced the light microscopic analysis of our in situ hybridization experiments.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 184,
+                    "end": 193,
+                    "text": "(Fig. 5A)",
+                    "ref_id": null
+                },
+                {
+                    "start": 353,
+                    "end": 361,
+                    "text": "(Fig. 5A",
+                    "ref_id": null
+                },
+                {
+                    "start": 534,
+                    "end": 543,
+                    "text": "(Fig.  5B",
+                    "ref_id": null
+                }
+            ],
+            "section": "MBP"
+        },
+        {
+            "text": "In the present study, we analyzed the expression of different MBP gene transcripts with probes specific for particular exons during remyelination in mice. Using in situ hybridization, we first found significant differences in MBP transcript distribution and abundance between demyelinating lesions, regions surrounding the lesions, and normal regions away from the lesions. Specifically, in the lesions we observed an early and dramatic increase in exon 2-containing MBP transcripts followed by a later increase in additional MBP transcripts, probably coding for the large and small MBP isoforms. This sequence of events is strikingly similar to that seen during developmental myelination in the rodent, where exon 2containing mRNA forms are expressed first and followed by the other MBP transcripts (Jordan et al., 1989; de Ferra et al., in preparation) .",
+            "cite_spans": [
+                {
+                    "start": 800,
+                    "end": 821,
+                    "text": "(Jordan et al., 1989;",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 822,
+                    "end": 854,
+                    "text": "de Ferra et al., in preparation)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The first indication of changes in the MBP RNA transcripts during remyelination came from the RNase protection studies which showed a relative increase in the subset of MBP transcripts containing exon 2 at 3 WPI. This increase seemed significant since the RNA was isolated from whole spinal cord, while the demyelinated regions occupied only 5-20% of spinal cord tissue. These results encouraged us to perform in situ hybridization experiments with exon 2and exon 1-specific probes in order to visualize the topographical distribution of early and mature MBP transcripts within lesions, around lesions, and in remote myelinated areas. These experiments clearly demonstrated that exon 2-containing transcripts were increased in the lesion even though total MBP transcripts were decreased by 75%. Scattered oligodendrocytes were found with clusters of grains around their nucleus in lesions showing early signs of remyelination. Our quantitative analysis of film autoradiograms of spinal cord sections also indicated a dramatic enrichment in the subset of transcripts containing exon 2 in lesions, peaking at 5 WPI (17-fold increase; Fig. 5B ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1132,
+                    "end": 1139,
+                    "text": "Fig. 5B",
+                    "ref_id": null
+                }
+            ],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "During later stages of remyelination, other MBP transcripts increased as indicated by the decrease in exon 2/exon 1 probe binding ratio (Fig. 5B) . Although this ratio decreased, tissue levels of exon 2-containing transcripts remained high and the distribution of all transcripts changed from a perinuclear location to a more diffuse localization. This may be due to extension of oligodendrocyte processes and/or movement of transcripts into processes during oligodendrocyte differentiation as seen during development (Zeller et al., 1985; Trapp et al., 1987) .",
+            "cite_spans": [
+                {
+                    "start": 518,
+                    "end": 539,
+                    "text": "(Zeller et al., 1985;",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 540,
+                    "end": 559,
+                    "text": "Trapp et al., 1987)",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 136,
+                    "end": 145,
+                    "text": "(Fig. 5B)",
+                    "ref_id": null
+                }
+            ],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "A likely explanation for this early increase in preforms of MBP transcripts during remyelination is that new oligodendrocytes were born in the lesions shortly before the emergence of these mRNA forms. Evidence that this is indeed the case in these remyelinating animals rests on the following observations. (1) Precursor cells of oligodendrocytes expressing the 04 antigen (Sommer and Schachner 1981; Dubois-Dalcq 1987) could be isolated from these animals in substantial numbers when remyelination was starting (Armstrong et al., 1988) . (2) Such 04 + ceils were identified in spinal cord sections of similar animals and a proportion of these cells had incorporated thymidine after a short pulse in vivo (Godfraind et al., 1988) . (3) When animals pulse labeled with thymidine at 3 WPI were allowed to survive 5 months, thymidine-labeled oligodendrocytes expressing myelin proteins were found (Godfraind et al., in preparation) . All of these results point to precursor cell involvement in the myelin repair. It is possible that these precursor cells repopulate the demyelinated regions (where oligodendrocytes are scarce) through a process of mitosis and migration and then go through their differentiation program.",
+            "cite_spans": [
+                {
+                    "start": 373,
+                    "end": 400,
+                    "text": "(Sommer and Schachner 1981;",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 401,
+                    "end": 419,
+                    "text": "Dubois-Dalcq 1987)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 512,
+                    "end": 536,
+                    "text": "(Armstrong et al., 1988)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 705,
+                    "end": 729,
+                    "text": "(Godfraind et al., 1988)",
+                    "ref_id": null
+                },
+                {
+                    "start": 894,
+                    "end": 928,
+                    "text": "(Godfraind et al., in preparation)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "A second mechanism likely to be involved in the repair of myelin (although to a lesser extent) is that surviving oligodendrocytes at the edge of the lesion are triggered to make more MBP transcripts, the majority of which does not contain exon 2. As discussed before (Kristensson et al., 1986) such an increase in transcripts could be induced by a diffusable factor, possibly generated by inflammatory cells in the lesion, such as interleukin 2 as suggested by in vitro studies (Benveniste and Merril, 1986) . In contrast, a generalized decrease in MBP transcripts was observed in the rest of the normal myelinated regions when compared to control. Such a decrease might be related to the widespread distribution of virus and/or the reactive astrocyte gliosis which occurs early in the disease (Jordan et al., submitted) .",
+            "cite_spans": [
+                {
+                    "start": 267,
+                    "end": 293,
+                    "text": "(Kristensson et al., 1986)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 478,
+                    "end": 507,
+                    "text": "(Benveniste and Merril, 1986)",
+                    "ref_id": null
+                },
+                {
+                    "start": 794,
+                    "end": 820,
+                    "text": "(Jordan et al., submitted)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "To conclude, our study clearly demonstrates that (1) a relative increase in the MBP mRNA population enriched for exon 2 constitutes an early and sensitive index of remyelination in a demyelinating disease caused by a virus in mice and (2) the sequential events of MBP expression during remyelination of lesions closely resemble the regulated expression of MBP transcripts during developmental myelination. This raises the possibility that remyelination recapitulates, at least in part, the developmental program of myelination.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "In vitro analysis of neuroglial cells isolated during demyelination and remyelination",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Armstrong",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Friedrich",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Jr",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Holmes",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dubois-Dalq",
+                    "suffix": ""
+                }
+            ],
+            "year": 1988,
+            "venue": "Soc. Neurosci. Abstr",
+            "volume": "14",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Molecular cloning and primary structure of myelin-associated glycoprotein",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Arquint",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Roder",
+                    "suffix": ""
+                },
+                {
+                    "first": "L.-S",
+                    "middle": [],
+                    "last": "Chia",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Down",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wilkinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Bayley",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Braun",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Dunn",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "Proc. Natl. Acad. Sci. USA",
+            "volume": "84",
+            "issn": "",
+            "pages": "600--604",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Accumulation of the four myelin basic proteins in mouse brain during development",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Barbarese",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Carson",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Braun",
+                    "suffix": ""
+                }
+            ],
+            "year": 1978,
+            "venue": "J. Neurochem",
+            "volume": "31",
+            "issn": "",
+            "pages": "779--782",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Metabolism of myelin",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Benjamins",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                }
+            ],
+            "year": 1984,
+            "venue": "Myelin",
+            "volume": "",
+            "issn": "",
+            "pages": "225--258",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Stimulation of oligodendroglial proliferation and maturation by interleukin-2",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Benvensite",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Merrill",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "Nature",
+            "volume": "321",
+            "issn": "",
+            "pages": "610--613",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Molecular cloning of a 2',3-cyclic nucleotide 3'-phosphodiesterase: mRNAs with different 5' ends encode the same set of proteins in nervous and lymphoid tissues",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Bernier",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Alverez",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Norgard",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Raible",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mentaberry",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Schembri",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Sabatini",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Colman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "J. Neurosci",
+            "volume": "7",
+            "issn": "",
+            "pages": "2703--2710",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Developmental regulation of myelin basic protein expression in the mouse brain",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Carson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Nielson",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Barbarese",
+                    "suffix": ""
+                }
+            ],
+            "year": 1983,
+            "venue": "Dev. Biol",
+            "volume": "96",
+            "issn": "",
+            "pages": "485--492",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Alternative splicing accounts for the four forms of myelin basic protein",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "De Ferra",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Engh",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Hudson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kamholz",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Puckett",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Molineaux",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lazzarini",
+                    "suffix": ""
+                }
+            ],
+            "year": 1985,
+            "venue": "Cell",
+            "volume": "43",
+            "issn": "",
+            "pages": "721--727",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Individual exons encode the integral membrane domains of human myelin proteolipid protein",
+            "authors": [
+                {
+                    "first": "H.-J",
+                    "middle": [],
+                    "last": "Diehl",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Schaich",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.-M",
+                    "middle": [],
+                    "last": "Budzinski",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Stoffel",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "Proc. Natl. Acad. Sci. USA",
+            "volume": "83",
+            "issn": "",
+            "pages": "9807--9811",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Characterization Of a slowly proliferative cell along the oligodendrocyte differentiation pathway",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dubois-Dalcq",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "EMBO J",
+            "volume": "6",
+            "issn": "",
+            "pages": "2587--2595",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Glial cell plasticity and remyelination following A59 mouse hepatitis virus induced demyelination",
+            "authors": [],
+            "year": null,
+            "venue": "J. Cell. Biochem. Abstr",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Regeneration of oligodendrogtia during recovery from demyelinating disease",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Herndon",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Price",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Weiner",
+                    "suffix": ""
+                }
+            ],
+            "year": 1977,
+            "venue": "Science",
+            "volume": "195",
+            "issn": "",
+            "pages": "693--694",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Aberrant splicing of proteolipid protein mRNA in the dysmyelinating jimpy mutant mouse",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Hudson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Berndt",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Puckett",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Kozak",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lazzarini",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "Proc. Natl. Acad. Sci. USA",
+            "volume": "84",
+            "issn": "",
+            "pages": "1454--1458",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "In situ hybridization analysis of myelin gene transcripts in developing mouse spinal cord",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Jordan",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Friedrich",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Jr",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dubois-Dalcq",
+                    "suffix": ""
+                }
+            ],
+            "year": 1989,
+            "venue": "J. Neurosci",
+            "volume": "9",
+            "issn": "",
+            "pages": "248--257",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Identification of three forms of human myelin basic protein by cDNA cloning",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kamholz",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "De Ferra",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Puckett",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lazzarini",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "Proc. Natl. Acad. Sci. USA",
+            "volume": "83",
+            "issn": "",
+            "pages": "4962--4966",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Organization and expression of the human myelin basic protein gene",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kamholz",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Toffenetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lazzarini",
+                    "suffix": ""
+                }
+            ],
+            "year": 1988,
+            "venue": "J. Neurosci. Res",
+            "volume": "21",
+            "issn": "",
+            "pages": "62--70",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Selective localization of wild type and mutant mouse hepatitis virus (JHM strain) antigens in CNS tissue by fluorescence, light and electron microscopy",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Knobler",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dubois-Dalcq",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Haspel",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Claysmith",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Lampert",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "B A"
+                    ],
+                    "last": "Oldstone",
+                    "suffix": ""
+                }
+            ],
+            "year": 1981,
+            "venue": "J. Neuroirnmunol",
+            "volume": "1",
+            "issn": "",
+            "pages": "81--92",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Increased levels of myelin basic protein transcripts in virus-induced demyelination",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kristensson",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Holmes",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Duchala",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Zeller",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lazzarini",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dubois-Dalcq",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "Nature",
+            "volume": "322",
+            "issn": "",
+            "pages": "544--547",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Two forms of 1B236/myelin-associated glycoprotein, a cell adhesion molecule for postnatal neural development, are produced by alternative splicing",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lai",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Brow",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.-A",
+                    "middle": [],
+                    "last": "Naxe",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Noronha",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Quarles",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Bloom",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Milner",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Stucliffe",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "Proc. Natl. Adac. Sci. USA",
+            "volume": "84",
+            "issn": "",
+            "pages": "4337--4341",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Persistence of mouse hepatitis virus A59 RNA in a slow virus demyelinating infection in mice as detected by in situ hybridization",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Lavi",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Gilden",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Highkin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Weiss",
+                    "suffix": ""
+                }
+            ],
+            "year": 1984,
+            "venue": "J. Virol",
+            "volume": "51",
+            "issn": "",
+            "pages": "563--566",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Experimental demyelination produced by the A-59 strain of mouse hepatitis virus",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Lavi",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Gilden",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wroblewska",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Rorke",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Weiss",
+                    "suffix": ""
+                }
+            ],
+            "year": 1984,
+            "venue": "Neurology",
+            "volume": "34",
+            "issn": "",
+            "pages": "597--603",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Molecular biology of the major myelin genes",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Lemke",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "TINS",
+            "volume": "9",
+            "issn": "",
+            "pages": "266--270",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Pathology of demyelination and remyelination",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Ludwin",
+                    "suffix": ""
+                }
+            ],
+            "year": 1981,
+            "venue": "Advances in Neurology: Demyelinating Diseases",
+            "volume": "",
+            "issn": "",
+            "pages": "123--168",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Small basic proteins of myelin from central and peripheral nervous systems are encoded by the same gene",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mentaberry",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Adesnik",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Atchison",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Norgard",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Alvarez",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Sabatini",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Colman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "Proc. Natl. Acad. Sci. USA",
+            "volume": "83",
+            "issn": "",
+            "pages": "1111--1114",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Nucteotide sequences of two mRNAs for rat brain myelin proteolipid protein",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Milner",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lai",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.-A",
+                    "middle": [],
+                    "last": "Nave",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Lenoir",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ogata",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Sutcliffe",
+                    "suffix": ""
+                }
+            ],
+            "year": 1985,
+            "venue": "Cell",
+            "volume": "42",
+            "issn": "",
+            "pages": "931--939",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Myelin deficient mice: Expression of myelin basic protein and generation of mice with varying levels of myelin",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Popko",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Puckett",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Lai",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Shine",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Readhead",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Takahashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Hunt",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Iii",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Sidman",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Hood",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "Cell",
+            "volume": "48",
+            "issn": "",
+            "pages": "713--721",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Morphology of myelin and myelination",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Raine",
+                    "suffix": ""
+                }
+            ],
+            "year": 1984,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "1--50",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Distribution of sodium and potassium channels in mammalian myelinated nerve",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ritchie",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Chiu",
+                    "suffix": ""
+                }
+            ],
+            "year": 1981,
+            "venue": "Advances in Neurology: Demyelinating Diseases",
+            "volume": "31",
+            "issn": "",
+            "pages": "329--342",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "The amino acid sequences of the myelin-associated glycoprotein: Homology to the immunoglobulin gene super family",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Salzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Holmes",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Colman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "J. Cell Biol",
+            "volume": "1114",
+            "issn": "",
+            "pages": "957--965",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Pathogenesis of demyelination",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Silberberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "99--1111",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Monoclonal antibodies (O1 and 04) to oligodendrocyte cell surfaces: An immunocytological study in the central nervous system",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Sommer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Schachner",
+                    "suffix": ""
+                }
+            ],
+            "year": 1981,
+            "venue": "Dev. Biol",
+            "volume": "",
+            "issn": "",
+            "pages": "83--311",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "In vivo and in vitro models of demyelinating diseases",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Sorensen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Coulter-Mackie",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Percy",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Dales",
+                    "suffix": ""
+                }
+            ],
+            "year": 1981,
+            "venue": "Adv. Exp. Med. Biol",
+            "volume": "142",
+            "issn": "",
+            "pages": "271--286",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Cloning and characterization of the myelin basic protein gene from mouse: One gene can encoded both 14 kd and 18.5 kd MBPs by alternate use of exons",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Takahashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Roach",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Teplow",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Prusiner",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Hood",
+                    "suffix": ""
+                }
+            ],
+            "year": 1985,
+            "venue": "Cell",
+            "volume": "42",
+            "issn": "",
+            "pages": "139--148",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Spatial segregation of mRNA encoding myelin-specific proteins",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Trapp",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Moeuch",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Pulley",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Barbosa",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "T6nekoon",
+                    "suffix": ""
+                },
+                {
+                    "first": "Griffith",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "Proc. Natl. Acad. Sci. USA",
+            "volume": "84",
+            "issn": "",
+            "pages": "7773--7777",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "The biology of the oligodendrocyte",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Wood",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Bunge",
+                    "suffix": ""
+                }
+            ],
+            "year": 1984,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "1--46",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Evidence that axons are mitogenic for oligodendrocytes isolated from adult animals",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Wood",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Bunge",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "Nature",
+            "volume": "320",
+            "issn": "",
+            "pages": "756--758",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Acute and subacute demyelination induced by mouse hepatitis virus strain A59 in C3H mice",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Woyciechowska",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Trapp",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Patrick",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Shekarchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Leinikki",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Sever",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Holmes",
+                    "suffix": ""
+                }
+            ],
+            "year": 1984,
+            "venue": "J. Exp. Pathol",
+            "volume": "1",
+            "issn": "",
+            "pages": "295--306",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Characterization of mouse myelin basic protein messenger RNAs with a myelin basic protein cDNA clone",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Zeller",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hunkeler",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Campagnoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sprague",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lazzarini",
+                    "suffix": ""
+                }
+            ],
+            "year": 1984,
+            "venue": "Proc. Natl. Acad. Aci",
+            "volume": "81",
+            "issn": "",
+            "pages": "18--21",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "The timely expression of myelin basic protein gene in cultured rat brain oligodendrocytes is independent of continuous neuronal influences",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Zeller",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Behar",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Dubois-Dalcq",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lazzarini",
+                    "suffix": ""
+                }
+            ],
+            "year": 1985,
+            "venue": "Jr. Neurosci",
+            "volume": "5",
+            "issn": "",
+            "pages": "2955--2962",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Myelin basic protein transcripts detected 5-6 weeks postinfection. (A) Sudan black staining of myelin in a cervical cord section 5 WPI showing large lesions in the dorsal funiculus and both ventral root zones (arrows). (B) One-micron Epon section illustrating the ventral root zone (equivalent to area at the arrow in A) of a 4-WPI spinal cord, showing root fibers with thinly remyelinated axons and one thickly myelinated axon, surrounded by regions with large vacuoles. (C) In situ hybridization with MBP exon 2 probe at 5 WPI on a section proximate to those in A and D. Note the increased expression of exon 2-containing transcripts within lesioned regions (arrows) relative to myelinated regions. (D)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "X-ray film autoradiograms and digitized computer images for probe quantitation. X-ray film autoradiograms of spinal cords hybridized with MBP exon 2 probe (A, C, and E) were digitized, quantitated for optical densities in lesioned and control regions, and converted to pseudocolor computer images (B, D, and F). (A, B) Control spinal cord images from a mouse, age matched to 6 WPI; (C, D) 5-WPI mouse spinal cord images, equivalent to the autoradiogram from an emulsion-dipped section inFig. 3C; (E, F) 6-WPI mouse spinal cord images, equivalent to the autoradiogram from an emulsion-dipped section inFig. 3F. Colored optical density bar scale applies to B, D, and F. Quantitative analysis of MBP exon-specific probe binding. (A) Binding for exon 1 probe (open symbols) and exon 2 probe (filled symbols) from myelinated regions (left) or demyelinated regions (right) of infected spinal cord sections. Points represent duplicate readings from each of two sections, with the SE indicated by the vertical bar on all points. Values from a control animal (age matched to 6 WPI) are indicated for exon 1 (open arrows) and exon 2 (filled arrows). (B) The probe binding ratio (exon 2/exon 1) was calculated for the myelinated regions (filled symbols), demyelinated regions (open symbols) of infected spinal cord sections, and uninfected control sections (filled arrow). Myelinated regions of infected mice were distant from lesions and lacked both myelin loss and cellular infiltrates. All values were quantitated from the same film autoradiogram (15-day exposure).",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Fig. 1. RNase protection with the four MBP transcript species yields specific fragments. The MBP gene is composed of seven exons and encodes at least",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Relative Amounts of MBP Transcripts at 3 Weeks Postinfection a",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We thank Drs. S. Young for use of the Loats image analysis system and R. Lazzarini for support and assistance during these studies. The excellent technical assistance of Toni Scheiner and Ray Rusten is acknowledged.This study was supported in part by Grant R07403 from the Uniformed Services University of the Health Sciences. The opinions or assertions contained herein are the private views of the authors and are not to be construed as official or reflecting the views of the Department of Defense or the Uniformed Services University of the Health Science.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ACKNOWLEDGMENTS"
+        }
+    ]
+}

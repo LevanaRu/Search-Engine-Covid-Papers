@@ -1,0 +1,2324 @@
+{
+    "paper_id": "0df16a7612da3ade3841ae494c7ed00b0f19986a",
+    "metadata": {
+        "title": "ARTICLE IN PRESS G Model of Pages 5 Nutrition clinique et m\u00e9tabolisme xxx (2020) xxx-xxx ScienceDirect Revue g\u00e9n\u00e9rale Vitamine D et risque des infections respiratoires aigu\u00ebs : grippe et COVID-19 Vitamin D and risk of acute respiratory infections: Influenza and COVID-19",
+        "authors": [
+            {
+                "first": "Naima",
+                "middle": [],
+                "last": "Taqarort",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "universit\u00e9 Ibn Zohr",
+                    "location": {
+                        "settlement": "Agadir",
+                        "country": "Maroc"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Smail",
+                "middle": [],
+                "last": "Chadli",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Institut sup\u00e9rieur des professions infirmi\u00e8res et techniques de sant\u00e9",
+                    "institution": "",
+                    "location": {
+                        "settlement": "Agadir",
+                        "country": "Maroc"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Le risque \u00e9pid\u00e9miologique principal des \u00e9pid\u00e9mies des virus des infections respiratoires aigu\u00ebs ( N. Taqarort, S. Chadli / Nutrition clinique et m\u00e9tabolisme xxx (2020) xxx-xxx SARS-CoV-2 (2019) entra\u00eenant la maladie COVID-19 en est l'illustration. Cette derni\u00e8re entra\u00eene une crise sanitaire mondiale, augmentant la morbidit\u00e9 et la mortalit\u00e9, avec de plus un fort impact socio-\u00e9conomique. Les connaissances scientifiques sur les vitamines et min\u00e9raux essentiels se sont acc\u00e9l\u00e9r\u00e9es depuis une d\u00e9cennie et, la compr\u00e9hension de leurs r\u00f4les dans la gen\u00e8se de nombreuses maladies s'est consid\u00e9rablement transform\u00e9e. La connaissance du r\u00f4le de la vitamine D a ainsi grandement progress\u00e9. \u00c0 c\u00f4t\u00e9 de ses effets classiques, sur le m\u00e9tabolisme phosphocalcique et osseux, la vitamine D a des effets non classiques. Plusieurs associations ont pu \u00eatre montr\u00e9es entre un d\u00e9ficit en vitamine D et un nombre important de pathologies. Ceci est une probl\u00e9matique de sant\u00e9 publique importante car un d\u00e9ficit en vitamine D peut engendrer des r\u00e9percussions non n\u00e9gligeables pour la sant\u00e9. Parmi celles-ci on note la susceptibilit\u00e9 aux infections respiratoires aigu\u00ebs et l'\u00e9volution plus d\u00e9favorable de certaines infections chroniques. Le but de cette mise au point est d'examiner les connaissances actuelles \u00e0 propos de l'influence de la vitamine D sur le risque des infections respiratoires aigu\u00ebs virales (\u00e9pid\u00e9mies d'influenza et pand\u00e9mie COVID-19).",
+            "cite_spans": [
+                {
+                    "start": 96,
+                    "end": 97,
+                    "text": "(",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Les infections respiratoires aigu\u00ebs virales repr\u00e9sentent une part importante de la morbidit\u00e9 et de la mortalit\u00e9. Bien qu'elles puissent \u00eatre class\u00e9es selon les syndromes cliniques (par exemple rhume, bronchiolite, pneumonie), elles peuvent aussi \u00eatre cat\u00e9goris\u00e9es selon les virus responsables (par exemple : influenza) [1] . Les facteurs saisonniers et climatiques, ainsi que le mode de vie et l'\u00e9tat nutritionnel, sont parmi les facteurs de risque connus des infections respiratoires aigu\u00ebs virales.",
+            "cite_spans": [
+                {
+                    "start": 319,
+                    "end": 322,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Infections respiratoires aigu\u00ebs virales : grippe et COVID-19"
+        },
+        {
+            "text": "La grippe, li\u00e9e au virus influenza, est une infection virale aigu\u00eb des voies respiratoires survenant par vagues \u00e9pid\u00e9miques, principalement durant la saison froide, entre d\u00e9cembre et mars. Elle fait donc partie du cours normal de l'hiver dans les zones temp\u00e9r\u00e9es. Les virus de la grippe p\u00e9n\u00e8trent dans l'h\u00f4te via les muqueuses des voies respiratoires sup\u00e9rieures, au niveau du rhinopharynx, ou via les muqueuses oculaires pour certaines souches. La grippe se caract\u00e9rise, en cas de pr\u00e9sentation typique, par l'apparition brusque d'un certain nombre de sympt\u00f4mes : la fi\u00e8vre, la toux s\u00e8che, des myalgies, des arthralgies, des c\u00e9phal\u00e9es, des frissons, une anorexie, une asth\u00e9nie, une pharyngite et/ou une rhinite [2] .",
+            "cite_spans": [
+                {
+                    "start": 711,
+                    "end": 714,
+                    "text": "[2]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Infections respiratoires aigu\u00ebs virales : grippe et COVID-19"
+        },
+        {
+            "text": "Les virus de la grippe sont des agents infectieux, probablement les seuls capables, ann\u00e9es apr\u00e8s ann\u00e9es, de traverser les pays et les territoires. Les virus de la grippe sont des virus envelopp\u00e9s \u00e0 g\u00e9nome acide ribonucl\u00e9ique (ARN), de la famille des Orthomyxoviridae. Ces virus \u00e9voluent tr\u00e8s rapidement par \u00e9mergence de mutations. L'accumulation de ces mutations est responsable de l'\u00e9volution des souches. Il existe trois types de virus influenza infectant l'homme : A, B et C. Un quatri\u00e8me type, D, a r\u00e9cemment \u00e9t\u00e9 d\u00e9couvert chez l'animal (bovins et porcins). Les virus de type A infectent l'homme et de nombreux animaux. Quelques sous-types de A ont franchi la barri\u00e8re des esp\u00e8ces chez lesquels ils \u00e9taient pr\u00e9sents, engendrant des pand\u00e9mies chez l'homme. Le virus A/H1N1 par exemple, dit saisonnier, continue d'\u00eatre \u00e0 l'origine de plusieurs centaines de milliers de d\u00e9c\u00e8s chaque ann\u00e9e. La face cach\u00e9e des virus de la grippe a \u00e9t\u00e9 d\u00e9crite par Gon\u00e7 alves et al. [3] .",
+            "cite_spans": [
+                {
+                    "start": 965,
+                    "end": 968,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Infections respiratoires aigu\u00ebs virales : grippe et COVID-19"
+        },
+        {
+            "text": "Le risque \u00e9pid\u00e9miologique principal des virus des infections respiratoires aigu\u00ebs est donc la survenue de pand\u00e9mie qui peut entra\u00eener une crise sanitaire, pouvant augmenter la morbidit\u00e9 et la mortalit\u00e9, avec un impact socio-\u00e9conomique. Une pand\u00e9mie est une \u00e9pid\u00e9mie non limit\u00e9e dans l'espace qui se propage tr\u00e8s rapidement sur plusieurs continents. Elle appara\u00eet suite \u00e0 une modification g\u00e9n\u00e9tique majeure d'un sous-type de virus, pour lequel la majorit\u00e9 de la population est immunologiquement na\u00efve. La pand\u00e9mie, \u00e9mergente, de coronavirus 2019 (COVID-19) est provoqu\u00e9e par le nouveau virus (\u00e0 ARN) du SARS-CoV-2, de la famille des Coronaviridae. Bien que le virus responsable de COVID-19 et le virus de la grippe saisonni\u00e8re soient tr\u00e8s diff\u00e9rents, ils causent des sympt\u00f4mes en partie similaires, avec n\u00e9anmoins des sp\u00e9cificit\u00e9s r\u00e9cemment d\u00e9crites, notamment en termes de s\u00e9v\u00e9rit\u00e9 et d'atteintes mono (pulmonaire)-ou multi-syst\u00e9miques immunologiquement m\u00e9di\u00e9s (\u00ab orage cytokinique \u00bb). L'apparition des foyers de COVID-19 a \u00e9t\u00e9 not\u00e9e pour la premi\u00e8re fois en Chine, \u00e0 Wuhan, en d\u00e9cembre 2019. Au niveau mondial, il y a \u00e0 ce jour (chiffres au 12/05/2020) plus de 4,2 millions de contaminations et plus de 286 000 d\u00e9c\u00e8s dans 209 pays ou territoires. Avec la propagation rapide du coronavirus SARS-CoV-2, les connaissances sur les caract\u00e9ristiques de ce virus et de la maladie COVID-19 \u00e9voluent tr\u00e8s rapidement et les pays du monde entier participent \u00e0 la lutte contre ce nouveau virus. La transmission se fait principalement par les gouttelettes et les a\u00e9rosols produits par une personne infect\u00e9e lorsqu'il tousse, \u00e9ternue ou parle. Le virus peut \u00e9galement \u00eatre transmis par les contacts avec des surfaces contamin\u00e9es, via les mains, d'o\u00f9 l'importance des mesures barri\u00e8res lors des \u00e9pid\u00e9mies (port de masque, lavage/d\u00e9sinfection des mains. . .) [4] .",
+            "cite_spans": [
+                {
+                    "start": 1844,
+                    "end": 1847,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Infections respiratoires aigu\u00ebs virales : grippe et COVID-19"
+        },
+        {
+            "text": "Depuis une d\u00e9cennie, la compr\u00e9hension du r\u00f4le des micronutriments essentiels dans la gen\u00e8se de nombreuses maladies s'est consid\u00e9rablement transform\u00e9e. Les donn\u00e9es autour de la vitamine D ont nettement augment\u00e9 ces derni\u00e8res ann\u00e9es. L'insuffisance en vitamine D est fr\u00e9quente, relativement m\u00e9connue, et touche toutes les tranches d'\u00e2ge des populations. On consid\u00e8re qu'un milliard de personnes \u00e0 travers le monde seraient concern\u00e9es et, 50 % \u00e0 80 % des personnes \u00e2g\u00e9es pr\u00e9senteraient un tel d\u00e9ficit [5] [6] [7] . Ceci constitue un probl\u00e8me de sant\u00e9 publique important car un d\u00e9ficit en vitamine D peut engendrer des r\u00e9percussions non n\u00e9gligeables pour la sant\u00e9 [8] .",
+            "cite_spans": [
+                {
+                    "start": 498,
+                    "end": 501,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 502,
+                    "end": 505,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 506,
+                    "end": 509,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 660,
+                    "end": 663,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Vitamine D"
+        },
+        {
+            "text": "La vitamine D est une substance st\u00e9rolique liposoluble. Elle est apport\u00e9e par de rares sources alimentaires et plus de 90 % des besoins sont fournis par l'exposition habituelle au soleil. Il est int\u00e9ressant de signaler que la vitamine D produite par la peau a une demi-vie environ deux fois plus longue que la vitamine D ing\u00e9r\u00e9e [9] . La peau peut synth\u00e9tiser la vitamine D sous l'effet des rayonnements ultraviolet. Ces UV (B) r\u00e9agissent avec le 7-d\u00e9hydrocholest\u00e9rol (pr\u00e9curseur de cholest\u00e9rol) pour produire la pr\u00e9-vitamine D 3 , qui est isom\u00e9ris\u00e9e en vitamine D 3 (chol\u00e9calcif\u00e9rol). La biosynth\u00e8se continue au niveau h\u00e9patique par l'hydroxylation en 25-hydroxyvitamine D 3 (25-(OH)D) (correspond \u00e0 la forme de r\u00e9serve) et se termine au niveau r\u00e9nal par l'hydroxylation en 1-25-dihydroxyvitamine D 3 (1-25-(OH) 2 D) (la forme active). Les caract\u00e9ristiques et les fonctions physiologiques de la vitamine D sont bien d\u00e9crites [10] .",
+            "cite_spans": [
+                {
+                    "start": 329,
+                    "end": 332,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 926,
+                    "end": 930,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Vitamine D"
+        },
+        {
+            "text": "Le param\u00e8tre biologique qui d\u00e9finit si un patient a ou non une insuffisance en vitamine D, est la concentration s\u00e9rique de 25-(OH)D 3 (la forme de r\u00e9serve). Les r\u00e9sultats de diff\u00e9rentes approches utilis\u00e9es pour \u00e9tablir les valeurs de r\u00e9f\u00e9rences sont coh\u00e9rents et consid\u00e8rent qu'une concentration inf\u00e9rieure \u00e0 20 ng/mL (soit 50 nmol/L) correspond \u00e0 un d\u00e9ficit en vitamine D (c'est-\u00e0-dire ce qu'il faut \u00e9viter pour toute la population). L'insuffisance en vitamine D (c'est-\u00e0-dire ce qu'il faut \u00e9viter pour \u00ab au moins \u00bb un certain nombre de patients) correspond \u00e0 une concentration de 20 \u00e0 30 ng/mL (soit 50-75 nmol/L) [11] .",
+            "cite_spans": [
+                {
+                    "start": 616,
+                    "end": 620,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Vitamine D"
+        },
+        {
+            "text": "La connaissance du r\u00f4le de la vitamine D a progress\u00e9 de mani\u00e8re consid\u00e9rable. La forme active (1-25-(OH) 2 D) est maintenant davantage consid\u00e9r\u00e9e comme une hormone que comme une vitamine ayant un r\u00f4le purement sur les m\u00e9tabolismes phosphocalcique et osseux. Elle est une hormone (synth\u00e8se \u00e0 un site, passage dans le sang et actions biologiques sur des effecteurs \u00e0 distance) \u00e0 implication sur la \u00ab sant\u00e9 int\u00e9grale \u00bb (anti-inflammatoire, anti-cancer, protecteur cardiovasculaire et anti-infectieux) [12] [13] [14] . En effet, les r\u00e9cepteurs \u00e0 la vitamine D (VDR) sont pr\u00e9sents dans la plupart des tissus (syst\u00e8me immunitaire, syst\u00e8me cardio-vasculaire, poumon, rein, pancr\u00e9as, intestin, cerveau, os ou muscles), ce qui explique les effets extra-osseux de la vitamine D sur la fonction du tissu ou de l'organe o\u00f9 ils ont \u00e9t\u00e9 d\u00e9tect\u00e9s. \u00c0 l'heure actuelle, l'expression g\u00e9nique de 3 % du g\u00e9nome, soit plus de 900 g\u00e8nes, est concern\u00e9e par les effets du complexe 1-25-(OH) 2 D/VDR, dont certains participent \u00e0 la pathog\u00e9nie des maladies auto-immunes, de cancers ou de l'hypertension art\u00e9rielle. De plus, la mise en \u00e9vidence de la 1-\u2423 hydroxylase dans certaines cellules extrar\u00e9nales, permettant ainsi une synth\u00e8se locale de 1-25(OH) 2 D, soutient \u00e9galement l'int\u00e9r\u00eat croissant des effets extra-osseux de la vitamine D. Il n'est donc pas \u00e9tonnant que plusieurs associations ont pu \u00eatre montr\u00e9es entre un d\u00e9ficit en vitamine D et un nombre important de pathologies (les maladies cardiovasculaires [15] , l'hypertension art\u00e9rielle [16] , le diab\u00e8te [17] , les cancers [18] , les maladies inflammatoires ou dysimmunitaires [asthme [19] , scl\u00e9rose en plaques [20] , psoriasis [21] , polyarthrite rhumato\u00efde [22] , lupus \u00e9ryth\u00e9mateux [23] ]) et les infections (tuberculose [24] , \u00e9pisodes oto-rhino-laryngologiques hivernaux [25] ).",
+            "cite_spans": [
+                {
+                    "start": 498,
+                    "end": 502,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 503,
+                    "end": 507,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 508,
+                    "end": 512,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1489,
+                    "end": 1493,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1522,
+                    "end": 1526,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1540,
+                    "end": 1544,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1559,
+                    "end": 1563,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1621,
+                    "end": 1625,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1648,
+                    "end": 1652,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1665,
+                    "end": 1669,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1696,
+                    "end": 1700,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1722,
+                    "end": 1726,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1761,
+                    "end": 1765,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1813,
+                    "end": 1817,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Vitamine D"
+        },
+        {
+            "text": "Il y a pr\u00e8s d'un si\u00e8cle, l'aspect curatif des rayons solaires fut reconnu par le m\u00e9decin Danois, Niels Finsen (1860-1904). Sa d\u00e9couverte partit du fait que les chats se recroquevillent confortablement au soleil. Le prix Nobel lui fut attribu\u00e9 en 1903, pour ses travaux sur le traitement de la tuberculose par l'exposition au soleil. De m\u00eame, l'hypoth\u00e8se d'Edgar Hope-Simpson (1981) [26] explique la saisonnalit\u00e9 remarquable de l'influenza par un stimulus saisonnier associ\u00e9 aux rayons de soleil. Ce stimulus affecte la pathog\u00e9nicit\u00e9 de la grippe A. Le m\u00e9tabolisme de la vitamine D, dont les niveaux de substrat sont faibles pendant la saison de la grippe, agirait comme un syst\u00e8me hormonal st\u00e9ro\u00efdien saisonnier ayant un impact sur le syst\u00e8me immunitaire humain. La vitamine D pourrait \u00eatre reconnue comme ce stimulus saisonnier. Il est en effet bien connu qu'il existe une saisonnalit\u00e9 \u00e0 la grippe qui correspond bien \u00e0 la baisse saisonni\u00e8re des niveaux de vitamine D [27] .",
+            "cite_spans": [
+                {
+                    "start": 382,
+                    "end": 386,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 969,
+                    "end": 973,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Vitamine D et risque des infections par le virus de la grippe et par celui de la maladie COVID-19"
+        },
+        {
+            "text": "\u00c0 c\u00f4t\u00e9 de ses effets classiques, la vitamine D a d'autres effets moins connus et un large \u00e9ventail d'activit\u00e9. Ceci a conduit plusieurs \u00e9quipes \u00e0 \u00e9tudier les relations entre la vitamine D et les infections respiratoires aigu\u00ebs. Dans la litt\u00e9rature, des donn\u00e9es convaincantes lient le d\u00e9ficit en vitamine D, d'une part, \u00e0 la susceptibilit\u00e9 aux infections aigu\u00ebs et, d'autre part, \u00e0 l'\u00e9volution plus d\u00e9favorable de certaines infections chroniques [14] , [25] . La vitamine D interviendrait dans le risque infectieux pour ses effets sur l'immunit\u00e9 inn\u00e9e et adaptative. Au niveau du syst\u00e8me immunitaire, deux propri\u00e9t\u00e9s sont connues : d'une part, la vitamine D inhibe la prolif\u00e9ration lymphocytaire T [28] et, d'autre part, les macrophages peuvent synth\u00e9tiser la vitamine D [29] . En effet, la vitamine D freine les m\u00e9diateurs pro-inflammatoires et stimule les cellules du syst\u00e8me immunitaires, monocytes et macrophages, qui s'en servent dans leur lutte contre les processus infectieux. Expos\u00e9es \u00e0 un agent infectieux, les monocytes et les macrophages sur-expriment le r\u00e9cepteur de type Toll \u00ab Toll-like receptor \u00bb, le VDR et la 1-\u2423-hydroxylase. L'activation du VDR induit \u00e0 la fois une diminution des cytokines pro-inflammatoires (tumor necrosis factor-\u02db, interleukine-1, interf\u00e9ron-) et une augmentation des cytokines anti-inflammatoires (notamment interleukine-10). La 1-25-(OH) 2 D, produite au niveau local, va activer les macrophages en entra\u00eenant le m\u00e9canisme d'autophagie et le processus de synth\u00e8se de peptides antimicrobiens, en particulier la cath\u00e9licidine [30] , qui est impliqu\u00e9e dans la d\u00e9fense de premi\u00e8re ligne de l'organisme contre un agent pathog\u00e8ne [31] . Les peptides antimicrobiens sont consid\u00e9r\u00e9s comme des antibiotiques naturels, et qui vont contribuer \u00e0 d\u00e9truire l'agent infectieux dans les infections bact\u00e9riennes et r\u00e9duire le risque des infections de la grippe [25] et possiblement au virus causant la maladie COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 445,
+                    "end": 449,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 452,
+                    "end": 456,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 697,
+                    "end": 701,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 770,
+                    "end": 774,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 1564,
+                    "end": 1568,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 1664,
+                    "end": 1668,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1884,
+                    "end": 1888,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Vitamine D et risque des infections par le virus de la grippe et par celui de la maladie COVID-19"
+        },
+        {
+            "text": "La grippe survient chaque ann\u00e9e par vagues \u00e9pid\u00e9miques. L'insuffisance en vitamine D est tr\u00e8s fr\u00e9quente et sousdiagnostiqu\u00e9e [5, 6] , surtout en l'absence d'ensoleillement dans les pays de l'h\u00e9misph\u00e8re Nord. En Norv\u00e8ge, le nombre \u00e9lev\u00e9 de d\u00e9c\u00e8s dus \u00e0 la grippe saisonni\u00e8re annuelle et \u00e0 la pneumonie est li\u00e9 aux faibles niveaux en vitamine D [32] . Aux \u00c9tats-Unis, une \u00e9tude de cohorte chez des adultes en bonne sant\u00e9 a montr\u00e9 que des concentrations plasmatiques de 25-(OH)D 3 d'au moins 38 ng/mL \u00e9taient associ\u00e9es \u00e0 un risque d'infection respiratoire virale divis\u00e9 par deux [33] . De m\u00eame, chez des jeunes Finlandais volontaires (18-28 ans), un essai randomis\u00e9 a montr\u00e9 un effet pr\u00e9ventif de la suppl\u00e9mentation en vitamine D contre les infections des voies respiratoires [34] . Dans un autre essai randomis\u00e9, en double aveugle, comparant des suppl\u00e9ments de vitamine D (1 200 UI/jour) \u00e0 un placebo chez des \u00e9coliers japonais (6-15 ans) durant la saison froide (d\u00e9cembre \u00e0 mars), les auteurs [35] sugg\u00e8rent que la suppl\u00e9mentation en vitamine D pendant l'hiver pourrait r\u00e9duire l'incidence de la grippe A, en particulier dans des sous-groupes sp\u00e9cifiques d'\u00e9coliers ayant un diagnostic ant\u00e9rieur d'asthme ou de crise d'asthme. Un d\u00e9ficit en vitamine D pr\u00e9dispose les enfants aux infections respiratoires [35] . Lorsqu'on vaccine des volontaires contre la grippe, leur r\u00e9ponse immunitaire est meilleure en \u00e9t\u00e9 qu'en hiver. Le d\u00e9ficit en vitamine D d\u00e9clenche ainsi une augmentation du risque infectieux et une moindre r\u00e9ponse aux vaccinations [36] . Dans un autre travail, o\u00f9 il a \u00e9t\u00e9 mesur\u00e9 le statut vitaminique, la fonction pulmonaire et les infections respiratoires chez des adultes britanniques (de plus de 45 ans), les auteurs ont montr\u00e9 une association lin\u00e9aire entre le statut en vitamine D et les infections saisonni\u00e8res et la fonction pulmonaire. Chaque augmentation de 10 nmol/L de la vitamine D \u00e9tait associ\u00e9e \u00e0 un risque d'infection inf\u00e9rieur de 7 % [37] . Chez les personnes \u00e2g\u00e9es, dont 50 % \u00e0 80 % pr\u00e9sentent un d\u00e9ficit en vitamine D, il existe une augmentation de la susceptibilit\u00e9 de d\u00e9velopper de graves complications de la grippe. Cela est en partie d\u00fb \u00e0 l'affaiblissement du syst\u00e8me immunitaire, qui devient moins efficace pour lutter contre les infections avec l'\u00e2ge [5] [6] [7] .",
+            "cite_spans": [
+                {
+                    "start": 125,
+                    "end": 128,
+                    "text": "[5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 129,
+                    "end": 131,
+                    "text": "6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 342,
+                    "end": 346,
+                    "text": "[32]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 575,
+                    "end": 579,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 772,
+                    "end": 776,
+                    "text": "[34]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 991,
+                    "end": 995,
+                    "text": "[35]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 1302,
+                    "end": 1306,
+                    "text": "[35]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 1539,
+                    "end": 1543,
+                    "text": "[36]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 1959,
+                    "end": 1963,
+                    "text": "[37]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 2284,
+                    "end": 2287,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 2288,
+                    "end": 2291,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 2292,
+                    "end": 2295,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Vitamine D et risque des infections par le virus de la grippe et par celui de la maladie COVID-19"
+        },
+        {
+            "text": "Une \u00e9quipe australienne, dans une m\u00e9ta-analyse (\u00e9tudes cast\u00e9moins, \u00e9tudes transversales et \u00e9tudes de cohorte), a analys\u00e9 la relation entre la vitamine D et les infections respiratoires aigu\u00ebs. Les r\u00e9sultats ont montr\u00e9 une relation inverse entre la concentration plasmatique de la vitamine D, d'une part, au risque d'infections respiratoires aigu\u00ebs et, d'autre part, \u00e0 la s\u00e9v\u00e9rit\u00e9 de ces infections [38] . Dans une autre m\u00e9ta-analyse des essais randomis\u00e9s en double aveugle contre placebo, les auteurs ont indiqu\u00e9 que la suppl\u00e9mentation en vitamine D \u00e9tait associ\u00e9e \u00e0 un risque moindre d'infection respiratoire aigu\u00eb. De plus, la diminution du risque d'infection a \u00e9t\u00e9 observ\u00e9e chez les sujets recevant une suppl\u00e9mentation quotidienne ou hebdomadaire en vitamine D, mais pas chez ceux qui recevaient une dose mensuelle ou trimestrielle. Il est sugg\u00e9r\u00e9 qu'une suppl\u00e9mentation quotidienne ou hebdomadaire en vitamine D serait plus efficace dans la pr\u00e9vention des infections respiratoires aigu\u00ebs lorsque la concentration plasmatique de 25-(OH)D 3 est inf\u00e9rieure \u00e0 25 nmol/L que lorsqu'elle est sup\u00e9rieure ou \u00e9gale \u00e0 cette valeur [39] .",
+            "cite_spans": [
+                {
+                    "start": 398,
+                    "end": 402,
+                    "text": "[38]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 1125,
+                    "end": 1129,
+                    "text": "[39]",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Vitamine D et risque des infections par le virus de la grippe et par celui de la maladie COVID-19"
+        },
+        {
+            "text": "Toutes ces donn\u00e9es soutiennent l'hypoth\u00e8se que la vitamine D agit comme un protecteur contre les infections respiratoires aigu\u00ebs, bien qu'il ne soit pas bien \u00e9tabli par quels m\u00e9canismes d'actions dominants ceci intervient. Dans une revue tr\u00e8s r\u00e9cente, les auteurs sugg\u00e8rent que le d\u00e9ficit en vitamine D pourrait aussi \u00eatre un facteur de risque pour la survenue et la gravit\u00e9 de l'infection de la maladie COVID-19 [40] . Cette \u00e9quipe californienne estime que les preuves soutenant le r\u00f4le de la vitamine D dans la r\u00e9duction du risque de COVID-19 comprennent, d'une part, que la pand\u00e9mie COVID-19 s'est produite en hiver dans l'h\u00e9misph\u00e8re nord, \u00e0 un moment o\u00f9 les concentrations de 25-(OH)D 3 sont les plus faibles et, d'autre part, que la morbidit\u00e9 est faible dans l'h\u00e9misph\u00e8re sud [40] [41] [42] , qui est en p\u00e9riode de fin d'\u00e9t\u00e9. De plus, deux constats sont associ\u00e9s \u00e0 une concentration plus faible en 25-(OH)D 3 : d'une part, le d\u00e9ficit en vitamine D contribue aux infections respiratoires aigu\u00ebs et, d'autre part, le taux de l\u00e9talit\u00e9 d\u00fb au COVID-19 augmente avec l'\u00e2ge et avec les comorbidit\u00e9s associ\u00e9es (maladies chroniques) [40] . Dans un travail r\u00e9cent, bas\u00e9 uniquement sur les pays Europ\u00e9ens afin de limiter les biais de confusion (latitude, etc.), des corr\u00e9lations n\u00e9gatives entre les niveaux moyens de vitamine D dans chaque pays et le nombre de cas de COVID-19 et en particulier la mortalit\u00e9, ont \u00e9t\u00e9 observ\u00e9es. Les niveaux de vitamine D sont tr\u00e8s bas dans la population \u00e2g\u00e9e, qui \u00e9tait \u00e9galement la plus vuln\u00e9rable face au COVID-19 [43] .",
+            "cite_spans": [
+                {
+                    "start": 413,
+                    "end": 417,
+                    "text": "[40]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 781,
+                    "end": 785,
+                    "text": "[40]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 786,
+                    "end": 790,
+                    "text": "[41]",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 791,
+                    "end": 795,
+                    "text": "[42]",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 1129,
+                    "end": 1133,
+                    "text": "[40]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 1543,
+                    "end": 1547,
+                    "text": "[43]",
+                    "ref_id": "BIBREF42"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Vitamine D et risque des infections par le virus de la grippe et par celui de la maladie COVID-19"
+        },
+        {
+            "text": "Une suppl\u00e9mentation en vitamine D, pour obtenir un taux circulant sup\u00e9rieur \u00e0 30 ng/mL, surtout en hiver, est n\u00e9cessaire pour de nombreuses personnes. Plusieurs \u00e9tudes observationnelles et essais cliniques ont indiqu\u00e9 que l'exposition au soleil ou la suppl\u00e9mentation en vitamine D r\u00e9duisait le risque de grippe et pourrait \u00e9galement le faire pour le COVID-19. Une suppl\u00e9mentation permettant d'obtenir des concentrations d'au moins 40-50 ng/mL (100-125 nmol/L) peut aider \u00e0 r\u00e9duire les infections hospitali\u00e8res [44, 45] . Wimalawansa [46] a sugg\u00e9r\u00e9 d'utiliser des doses de vitamine D de 200 000 \u00e0 300 000 UI en une seule dose orale (quatre \u00e0 six capsules de 50 000 UI) pour renforcer le syst\u00e8me immunitaire. La prise peut \u00eatre r\u00e9p\u00e9t\u00e9e apr\u00e8s une semaine pour reconstituer rapidement les r\u00e9serves corporelles de vitamine D, ce qui pourrait r\u00e9duire le risque et la gravit\u00e9 de COVID-19. Sur le plan s\u00e9curit\u00e9 d'emploi, une suppl\u00e9mentation mensuelle avec 100 000 UI de vitamine D3 n'augmente pas significativement le risque de calculs r\u00e9naux ou d'hypercalc\u00e9mie [47] .",
+            "cite_spans": [
+                {
+                    "start": 510,
+                    "end": 514,
+                    "text": "[44,",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 515,
+                    "end": 518,
+                    "text": "45]",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 533,
+                    "end": 537,
+                    "text": "[46]",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 1054,
+                    "end": 1058,
+                    "text": "[47]",
+                    "ref_id": "BIBREF46"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Vitamine D et risque des infections par le virus de la grippe et par celui de la maladie COVID-19"
+        },
+        {
+            "text": "La suppl\u00e9mentation en vitamine D pourrait donc r\u00e9duire le risque de survenue et de gravit\u00e9 de l'infection de la maladie COVID-19. La gestion de la pand\u00e9mie de coronavirus, le COVID-19, encourage donc \u00e0 s'assurer que la population \u00e0 risque ne souffre pas de d\u00e9ficit en vitamine D. L'\u00e9valuation du statut en vitamine D et le maintien des niveaux s\u00e9riques optimaux doivent \u00eatre envisag\u00e9s pour toute personne \u00e0 risque de COVID-19 : personnes \u00e2g\u00e9es, sujets atteints de diab\u00e8te, personne souffrant d'asthme mod\u00e9r\u00e9 \u00e0 s\u00e9v\u00e8re, personnes immunod\u00e9prim\u00e9es, personnes souffrantes d'ob\u00e9sit\u00e9 [48] . Grant et al. [40] ont propos\u00e9 que toutes personnes \u00e0 risque de COVID-19 et en particulier le personnel hospitalier, devrait b\u00e9n\u00e9ficier d'un traitement par 10 000 IU par jour de la vitamine D pendant quelques semaines pour augmenter rapidement les concentrations s\u00e9riques de la vitamine D, suivie de 5 000 UI par jour. L'objectif de la suppl\u00e9mentation devrait \u00eatre d'augmenter les niveaux de la concentration s\u00e9rique de 25-(OH)D 3 au-dessus de 40 \u00e0 60 ng/mL [40] .",
+            "cite_spans": [
+                {
+                    "start": 577,
+                    "end": 581,
+                    "text": "[48]",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 597,
+                    "end": 601,
+                    "text": "[40]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 1041,
+                    "end": 1045,
+                    "text": "[40]",
+                    "ref_id": "BIBREF39"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Vitamine D et risque des infections par le virus de la grippe et par celui de la maladie COVID-19"
+        },
+        {
+            "text": "Jusqu'\u00e0 pr\u00e9sent, aucun traitement sp\u00e9cifique pouvant traiter le COVID-19 et la pand\u00e9mie caus\u00e9e par le virus du SARS-CoV-2 n'a \u00e9t\u00e9 prouv\u00e9 scientifiquement. La n\u00e9cessit\u00e9 d'agir rapidement justifie la r\u00e9utilisation des m\u00e9dicaments existants, dont certains pourraient donner l'espoir de contribuer \u00e0 ma\u00eetriser la pand\u00e9mie de COVID-19. L'hypoth\u00e8se que la vitamine D constitue un traitement adjuvant opportun pour intervenir, doit \u00eatre envisag\u00e9e. La recommandation d'une suppl\u00e9mentation large, peu on\u00e9reuse, bien tol\u00e9r\u00e9e et sans effet n\u00e9faste avec des doses m\u00eame \u00e9lev\u00e9es, visant \u00e0 r\u00e9duire la survenue et/ou la gravit\u00e9 de COVID-19 m\u00e9rite ainsi \u00e0 notre sens d'\u00eatre s\u00e9rieusement consid\u00e9r\u00e9e [49] . Il serait \u00e9galement raisonnable de consid\u00e9rer une suppl\u00e9mentation en vitamine D chez les personnes \u00e0 risque de carence en raison de leur confinement \u00e0 domicile. Ainsi, une suppl\u00e9mentation ou une exposition au soleil \u00ab \u00e0 sa fen\u00eatre \u00bb, une alimentation \u00e9quilibr\u00e9e et un exercice physique seraient logiques pour la sant\u00e9 globale, physique et mentale, pendant cette crise du COVID-19 [50] .",
+            "cite_spans": [
+                {
+                    "start": 681,
+                    "end": 685,
+                    "text": "[49]",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 1068,
+                    "end": 1072,
+                    "text": "[50]",
+                    "ref_id": "BIBREF49"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Vitamine D et risque des infections par le virus de la grippe et par celui de la maladie COVID-19"
+        },
+        {
+            "text": "La place de la vitamine D dans la protection des personnes \u00e0 risque ou dans la prise en charge des infections de la grippe et de COVID-19, a donn\u00e9 des r\u00e9sultats potentiellement encourageants. La vitamine D interviendrait dans le risque des infections respiratoires aigu\u00ebs virales pour ses effets sur l'immunit\u00e9 inn\u00e9e et adaptative comme indiqu\u00e9 plus haut. Cependant, des \u00e9tudes suppl\u00e9mentaires sont n\u00e9cessaires pour \u00e9lucider les m\u00e9canismes d'action principaux possibles de la vitamine D dans la lutte contre ces infections virales. De plus, il manque encore des recherches consistantes permettant d'objectiver une relation de cause \u00e0 effet, pour pouvoir donner des indications sur la suppl\u00e9mentation n\u00e9cessaire pour r\u00e9duire le risque des infections virales respiratoires aigu\u00ebs, grippe et COVID-19. Il reste \u00e9galement \u00e0 d\u00e9finir, en toute rigueur, l'effet pr\u00e9ventif de la vitamine D par des \u00e9tudes d'intervention contre placebo portant sur les \u00e9v\u00e8nements majeurs et les d\u00e9c\u00e8s de causes COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Vitamine D et risque des infections par le virus de la grippe et par celui de la maladie COVID-19"
+        },
+        {
+            "text": "La vitamine D est impliqu\u00e9e dans la \u00ab sant\u00e9 int\u00e9grale \u00bb et doit \u00eatre consid\u00e9r\u00e9e comme l'un des facteurs essentiels qui soutiennent la lutte contre certaines maladies. Les biais d'interpr\u00e9tation des \u00e9tudes d'observation sur la survenue d'infections aigu\u00ebs respiratoires doivent \u00eatre lev\u00e9s. Plusieurs donn\u00e9es soutiennent le r\u00f4le de la vitamine D, qui agit comme un protecteur contre les infections respiratoires aigu\u00ebs. Cependant, des \u00e9tudes suppl\u00e9mentaires sont indispensables pour \u00e9lucider les m\u00e9canismes d'action principaux de la vitamine D dans la lutte contre les infections virales et montrer un impact pr\u00e9ventif significatif, par des \u00e9tudes interventionnelles randomis\u00e9es, sur la morbidit\u00e9 et la mortalit\u00e9, tout particuli\u00e8rement pour le COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "L'\u00e9valuation du statut en vitamine D et le maintien des niveaux s\u00e9riques optimaux doivent \u00eatre envisag\u00e9s pour toute personne \u00e0 risque de COVID-19. Une suppl\u00e9mentation quotidienne ou hebdomadaire en vitamine D pourrait permettre de r\u00e9duire le risque de survenue d'une infection respiratoire aigu\u00eb virale, notamment hivernale. L'utilisation de la vitamine D dans l'approche m\u00e9dicamenteuse pour diminuer le risque de COVID-19 m\u00e9rite d'\u00eatre consid\u00e9r\u00e9e.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "Les auteurs d\u00e9clarent ne pas avoir de liens d'int\u00e9r\u00eats.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "D\u00e9claration de liens d'int\u00e9r\u00eats"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Infections respiratoires aigu\u00ebs virales des voies a\u00e9riennes inf\u00e9rieures",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Brouard",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Flammang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Tran",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dina",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vabret",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "EMC-P\u00e9diatrie",
+            "volume": "13",
+            "issn": "3",
+            "pages": "1--11",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Que se cache-t-il derri\u00e8re la grippe",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Gon\u00e7 Alves",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Kaiser",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Forum Med Suisse",
+            "volume": "19",
+            "issn": "",
+            "pages": "181--187",
+            "other_ids": {
+                "DOI": [
+                    "10.4414/fms.2019.08066"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Flamb\u00e9e de maladie \u00e0 coronavirus 2019 (COVID-19)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "file:/localhost/opt/grobid/grobid-home/tmp/dx.doi.org/10.4414/fms.2019.08066"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Vitamin D deficiency",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Holick",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "N Engl J Med",
+            "volume": "357",
+            "issn": "",
+            "pages": "266--81",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Severe vitamin D deficiency in Swiss hip fracture patients",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Bischoff-Ferrari",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Can",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Staehelin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Bone",
+            "volume": "42",
+            "issn": "3",
+            "pages": "597--602",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Before and after hip fracture, vitamin D deficiency may not be treated sufficiently",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Maier",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Sidelnikov",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Dawson-Hughes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Osteoporos Int",
+            "volume": "24",
+            "issn": "11",
+            "pages": "2765--73",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "La vitamine D : de la physiologie \u00e0 la pratique",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Souberbielle",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "La Lettre du gyn\u00e9cologue",
+            "volume": "375",
+            "issn": "",
+            "pages": "8--12",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Human plasma transport of vitamin D after its endogenous synthesis",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Haddad",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Matsuoka",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Hollis",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wortsman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "J Clin Invest",
+            "volume": "91",
+            "issn": "",
+            "pages": "2552--2557",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Overview of general physiologic features and functions of vitamin D",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Deluca",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Am J Clin Nutr",
+            "volume": "80",
+            "issn": "",
+            "pages": "1689--96",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Actualit\u00e9s sur la vitamine D",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Souberbielle",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "D304",
+            "volume": "21",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1051/ocl/2013059"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Immunoregulation by 1,25-dihydroxyvitamin D3: basic concepts",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Van Etten",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Mathieu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J Steroid Biochem Mol Biol",
+            "volume": "97",
+            "issn": "",
+            "pages": "93--101",
+            "other_ids": {
+                "DOI": [
+                    "file:/localhost/opt/grobid/grobid-home/tmp/dx.doi.org/10.1051/ocl/2013059"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Vitamin D: A millenium perspective",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Holick",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "J Cell Biochem",
+            "volume": "88",
+            "issn": "",
+            "pages": "296--307",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Update in vitamin D",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Adams",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hewison",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J Clin Endocrinol Metab",
+            "volume": "95",
+            "issn": "",
+            "pages": "471--479",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Serum 25-hydroxyvitamin D and the risk of cardiovascular disease: dose-response meta-analysis of prospective studies",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Am J Clin Nutr",
+            "volume": "105",
+            "issn": "",
+            "pages": "810--819",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "25-Hydroxyvitamin D deficiency is independently associated with cardiovascular disease in the Third national health and nutrition examination survey",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kendrick",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Targher",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Smits",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chonchol",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Atherosclerosis",
+            "volume": "205",
+            "issn": "",
+            "pages": "255--60",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Intake of vitamin D and risk of type 1 diabetes: a birth-cohortstudy",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Hypp\u00f6nen",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "L\u00e4\u00e4r\u00e4",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Reunanen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "J\u00e4rvelin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Virtanen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "The Lancet",
+            "volume": "358",
+            "issn": "",
+            "pages": "1500--1503",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Calcium, vitamin D and cancer",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Peterlik",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Grant",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Cross",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Anticancer Res",
+            "volume": "29",
+            "issn": "",
+            "pages": "3687--98",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Enhanced production of IL-17A in patients with severe asthma is inhibited by 1\u2423,25-dihydroxyvitamin D3 in a glucocorticoid-independent fashion",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Nanzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Chambers",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Ryanna",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Allergy Clin Immunol",
+            "volume": "132",
+            "issn": "",
+            "pages": "297--304",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Vitamin D: a natural inhibitor of multiple sclerosis",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Hayes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Proc Nutr Soc",
+            "volume": "59",
+            "issn": "",
+            "pages": "531--536",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Prediction and prevention of autoimmune skin disorders",
+            "authors": [
+                {
+                    "first": "A-L",
+                    "middle": [],
+                    "last": "Nancy",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yehuda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Arch Dermatol Res",
+            "volume": "301",
+            "issn": "",
+            "pages": "57--64",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Vitamin D intake is inversely associated with rheumatoid arthritis: results from the Iowa Women's Health Study",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Merlino",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Curtis",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Mikuls",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Cerhan",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Criswell",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Saag",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Arthritis Rheum",
+            "volume": "50",
+            "issn": "",
+            "pages": "72--79",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Vitamin D in systemic lupus erythemato-sus",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kamen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Aranow",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Curr Opin Rheumatol",
+            "volume": "20",
+            "issn": "",
+            "pages": "532--539",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Vitamin D and solar ultraviolet radiation in the risk and treatment of tuberculosis",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Ralph",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lucas",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Norval",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Lancet Infect Dis",
+            "volume": "13",
+            "issn": "",
+            "pages": "77--88",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Toll-like receptor triggering of a vitamin D-mediated human antimicrobial response",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Stenger",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wenzel",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Krutzik",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Science",
+            "volume": "311",
+            "issn": "",
+            "pages": "1770--1773",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "The role of season in the epidemiology of influenza",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Hope-Simpson",
+                    "suffix": ""
+                }
+            ],
+            "year": 1981,
+            "venue": "Epidemiol Infect",
+            "volume": "86",
+            "issn": "",
+            "pages": "35--47",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Epidemic influenza and vitamin D",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cannell",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Vieth",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Umhau",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Holick",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Grant",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Madronich",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Epidemiol Infect",
+            "volume": "134",
+            "issn": "6",
+            "pages": "1129--1169",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Inhibition of T lymphocyte mito-genesis by 1.25-dihydroxyvitamin D3 (calcitriol)",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Rigby",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Stacy",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Fanger",
+                    "suffix": ""
+                }
+            ],
+            "year": 1984,
+            "venue": "J Clin Invest",
+            "volume": "74",
+            "issn": "",
+            "pages": "1451--1456",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Metabolism of 25-hydroxyvitamin D3 by cultured pulmonary alveolar macrophages in sarcoidosis",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Adams",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Sharma",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Gacad",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Singer",
+                    "suffix": ""
+                }
+            ],
+            "year": 1983,
+            "venue": "J Clin Invest",
+            "volume": "72",
+            "issn": "",
+            "pages": "1856--60",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "La vitamine D induit ex vivo une production dose-d\u00e9pendante de cath\u00e9licidine par les cellules mononucl\u00e9\u00e9es du sang p\u00e9riph\u00e9rique. Nutrition clinique et m\u00e9tabolisme",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Talvas",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Martinroche",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Lanchais",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Roug\u00e9",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Goncalves-Mendes",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Vasson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "31",
+            "issn": "",
+            "pages": "250--251",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.nupar.2017.06.077"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Vitamin Ddirected rheostatic regulation of monocyte antibacterial responses",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Adams",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Chun",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Lagishetty",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Gombart",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J Immunol",
+            "volume": "182",
+            "issn": "",
+            "pages": "4289--95",
+            "other_ids": {
+                "DOI": [
+                    "file:/localhost/opt/grobid/grobid-home/tmp/dx.doi.org/10.1016/j.nupar.2017.06.077"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Influenza, solar radiation and vitamin D",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Moan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dahlback",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Juzeniene",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Dermato-Endocrinol",
+            "volume": "1",
+            "issn": "",
+            "pages": "307--316",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Serum 25-Hydroxyvitamin D and the incidence of acute viral respiratory tract infections in healthy adults",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Sabetta",
+                    "suffix": ""
+                },
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Petrillo",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Cipriani",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "PLoS ONE",
+            "volume": "5",
+            "issn": "6",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Vitamin D supplementation for the prevention of acute respiratory tract infection: a randomized, double-blinded trial among young Finnish men",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Laaksi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Ruohola",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Mattila",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Auvinen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ylikomi",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Pihlajam\u00e4ki",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J Infect Dis",
+            "volume": "202",
+            "issn": "",
+            "pages": "809--823",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Randomized trial of vitamin D supplementation to prezent seasonal influenza A in schoolchildren",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Urashima",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Segawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Okazaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kurihara",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wada",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ida",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Am J Clin Nutr",
+            "volume": "91",
+            "issn": "",
+            "pages": "1255--60",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Vitamin D deficiency is associated with poor response to active hepatitis B immunisation in patients with chronic kidney disease",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Zitt",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Sprenger-M\u00e4hra",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Knoll",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Neyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Lhotta",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Vaccine",
+            "volume": "30",
+            "issn": "",
+            "pages": "931--936",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Vitamin D status has a linear association with seasonal infections and lung function in British adults",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Berry",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hesketh",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Power",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Hypp\u00f6nen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Br J Nutr",
+            "volume": "106",
+            "issn": "",
+            "pages": "1433--1473",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Acute Respiratory Tract Infection and 25-Hydroxyvitamin D concentration: a systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Pham",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rahman",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Majidi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Int J Environ Res Public Health",
+            "volume": "16",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Vitamin D supplementation to prevent acute respiratory infections: individual participant data meta-analysis",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Martineau",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Jolliffe",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Greenberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Health Technol Assess",
+            "volume": "23",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Evidence that vitamin D supplementation could reduce risk of influenza and COVID-19 infections and death",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Grant",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Lahore",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Mcdonnell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nutrients",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/nu12040988"
+                ]
+            }
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Editorial: low population mortality from COVID-19 in countries south of latitude 35 degrees North supports vitamin D as a factor determining severity",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Rhodes",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Subramanian",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Laird",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Kenny",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Aliment Pharmacol Ther",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "file:/localhost/opt/grobid/grobid-home/tmp/dx.doi.org/10.3390/nu12040988"
+                ]
+            }
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Does vitamin D status impact mortality from SARS-CoV-2 infection?",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Marik",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Kory",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Varon",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Med Drug Discov 2020:100041",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "file:/localhost/opt/grobid/grobid-home/tmp/dx.doi.org/10.1111/apt.15777"
+                ]
+            }
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "The role of vitamin D in the prevention of coronavirus disease 2019 infection and mortality",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Ilie",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Stefanescu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Aging Clin Exp Res",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "file:/localhost/opt/grobid/grobid-home/tmp/dx.doi.org/10.1016/j.medidd.2020.100041"
+                ]
+            }
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Association between preoperative 25-hydroxyvitamin D level and hospital-acquired infections following Roux-en-Y gastric bypass surgery",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Quraishi",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Bittner",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Blum",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hutter",
+                    "suffix": ""
+                },
+                {
+                    "first": "Camargo",
+                    "middle": [],
+                    "last": "Jr",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "JAMA Surg",
+            "volume": "149",
+            "issn": "",
+            "pages": "112--120",
+            "other_ids": {
+                "DOI": [
+                    "file:/localhost/opt/grobid/grobid-home/tmp/dx.doi.org/10.1007/s40520-020-01570-8"
+                ]
+            }
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Association between preoperative levels of 25-hydroxyvitamin D and hospital-acquired infections after hepatobiliary surgery: a prospective study in a third-level hospital",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Laviano",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sanchez Rubio",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Gonzalez-Nicolas",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Palacian",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lopez",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Gilaberte",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "PLoS ONE",
+            "volume": "15",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Global epidemic of coronavirus-COVID-19: what we can do to minimze risksl",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wimalawansa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eur J Biomed Pharm Sci",
+            "volume": "7",
+            "issn": "",
+            "pages": "432--440",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Monthly high-dose vitamin D supplementation does not increase kidney stone risk or serum calcium: results from a randomized controlled trial",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Malihi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Cmm",
+                    "middle": [],
+                    "last": "Lawes",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Waayer",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Toop",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Am J Clin Nutr",
+            "volume": "109",
+            "issn": "",
+            "pages": "1578--87",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "COVID-19), people who are at higher risk for severe illness",
+            "authors": [],
+            "year": 2019,
+            "venue": "Centers for Disease Control and Prevention. Coronavirus Disease",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "COVID-19 and vitamin D-is there a link and an opportunity for intervention?",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Jakovac",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Am J Physiol Endocrinol Metab",
+            "volume": "318",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Editorial: low population mortality from COVID-19 in countries south of latitude 35 degrees North-supports vitamin D as a factor determining severity. Authors' reply",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Garg",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Al-Ani",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Mitchell",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Hendy",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Christensen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Aliment Pharmacol Ther",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/apt.15796"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "influenza A/H5N1, 2004 ; A/H1N1, 2009 ; A/H7N9, 2013 ; coronavirus SARS-CoV, 2003 et MERS-CoV, 2012) est la survenue d'une pand\u00e9mie \u00e9mergente dont le https://doi.org/10.1016/j.nupar.2020.05.003 0985-0562/\u00a9 2020 Soci\u00e9t\u00e9 francophone nutrition clinique et m\u00e9tabolisme (SFNCM). Publi\u00e9 par Elsevier Masson SAS. Tous droits r\u00e9serv\u00e9s.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

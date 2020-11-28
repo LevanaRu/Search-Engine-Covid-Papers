@@ -1,0 +1,1902 @@
+{
+    "paper_id": "5ea98ab0b1e038a936fcda575f363d4eb1c729a6",
+    "metadata": {
+        "title": "Quality control of multiplex antibody detection in samples from large-scale surveys: the example of malaria in Haiti",
+        "authors": [
+            {
+                "first": "Lotus",
+                "middle": [
+                    "L"
+                ],
+                "last": "Van Den Hoogen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {
+                        "settlement": "London",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jacquelin",
+                "middle": [],
+                "last": "Pr\u00e9sum\u00e9",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Laboratoire National de Sant\u00e9 Publique",
+                    "institution": "",
+                    "location": {
+                        "settlement": "Port-au-Prince",
+                        "country": "Haiti"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Romilus",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Laboratoire National de Sant\u00e9 Publique",
+                    "institution": "",
+                    "location": {
+                        "settlement": "Port-au-Prince",
+                        "country": "Haiti"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Gina",
+                "middle": [],
+                "last": "Mond\u00e9lus",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Laboratoire National de Sant\u00e9 Publique",
+                    "institution": "",
+                    "location": {
+                        "settlement": "Port-au-Prince",
+                        "country": "Haiti"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Tamara",
+                "middle": [],
+                "last": "Elism\u00e9",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Laboratoire National de Sant\u00e9 Publique",
+                    "institution": "",
+                    "location": {
+                        "settlement": "Port-au-Prince",
+                        "country": "Haiti"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Nuno",
+                "middle": [],
+                "last": "Sep\u00falveda",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {
+                        "settlement": "London",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Gillian",
+                "middle": [],
+                "last": "Stresman",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {
+                        "settlement": "London",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Thomas Druetz",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Tulane University School of Public Health & Tropical Medicine",
+                    "location": {
+                        "settlement": "New Orleans",
+                        "region": "Louisiana",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ruth",
+                "middle": [
+                    "A"
+                ],
+                "last": "Ashton",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Tulane University School of Public Health & Tropical Medicine",
+                    "location": {
+                        "settlement": "New Orleans",
+                        "region": "Louisiana",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Vena",
+                "middle": [],
+                "last": "Joseph",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Tulane University School of Public Health & Tropical Medicine",
+                    "location": {
+                        "settlement": "New Orleans",
+                        "region": "Louisiana",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Thomas",
+                "middle": [
+                    "P"
+                ],
+                "last": "Eisele",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Tulane University School of Public Health & Tropical Medicine",
+                    "location": {
+                        "settlement": "New Orleans",
+                        "region": "Louisiana",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Karen",
+                "middle": [
+                    "E S"
+                ],
+                "last": "Hamre",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Michelle",
+                "middle": [
+                    "A"
+                ],
+                "last": "Chang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jean",
+                "middle": [
+                    "F"
+                ],
+                "last": "Lemoine",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Kevin",
+                "middle": [
+                    "K A"
+                ],
+                "last": "Tetteh",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {
+                        "settlement": "London",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jacques",
+                "middle": [],
+                "last": "Boncy",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Laboratoire National de Sant\u00e9 Publique",
+                    "institution": "",
+                    "location": {
+                        "settlement": "Port-au-Prince",
+                        "country": "Haiti"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Alexandre",
+                "middle": [],
+                "last": "Existe",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Laboratoire National de Sant\u00e9 Publique",
+                    "institution": "",
+                    "location": {
+                        "settlement": "Port-au-Prince",
+                        "country": "Haiti"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Chris",
+                "middle": [],
+                "last": "Drakeley",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {
+                        "settlement": "London",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Eric",
+                "middle": [],
+                "last": "Rogier",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Measuring antimalarial antibodies can estimate transmission in a population. to compare outputs, standardized laboratory testing is required. Here we describe the in-country establishment and quality control (QC) of a multiplex bead assay (MBA) for three sero-surveys in Haiti. Total IgG data against 21 antigens were collected for 32,758 participants. Titration curves of hyperimmune sera were included on assay plates, assay signals underwent 5-parameter regression, and inspection of the median and interquartile range (IQR) for the y-inflection point was used to determine assay precision. The medians and IQRs were similar for Surveys 1 and 2 for most antigens, while the IQRs increased for some antigens in Survey 3. Levey-Jennings charts for selected antigens provided a pass/fail criterion for each assay plate and, of 387 assay plates, 13 (3.4%) were repeated. Individual samples failed if IgG binding to the generic glutathione-S-transferase protein was observed, with 659 (2.0%) samples failing. An additional 455 (1.4%) observations failed due to low bead numbers (<20/analyte). The final dataset included 609,438 anti-malaria IgG data points from 32,099 participants; 96.6% of all potential data points if no Qc failures had occurred. the MBA can be deployed with high-throughput data collection and low interplate variability while ensuring data quality.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Measurement of antibody responses to malaria at the population-level can describe recent and historical transmission patterns 1-4 and is informative for malaria research and program policies 5-7 . Antibodies can be quantitatively measured by a variety of techniques including the enzyme-linked immunosorbent assay (ELISA) and multiplex bead assays (MBAs). The latter allows the simultaneous detection of antibodies to multiple antigenic targets and has been utilized now for Plasmodium serology for over a decade 8 . Since the advent of Plasmodium-specific MBAs, numerous assay optimisation and implementation studies 9-17 , as well as epidemiological application studies 18-21 , have been published by various groups.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "In generating responses to many antigens simultaneously, MBAs have the advantage of reducing needed reagent quantities, sample volume, and time in the laboratory compared to the ELISA 8,9 . Assays of any type require controls or standards to assess variability across runs or batches and to compare research studies, and with a broad panel of antigens in the MBA, it is potentially difficult to find standards for all targets being assayed. Recently, standardization using curves of known concentrations of total human IgG has been suggested, but this was problematic in showing insufficient reproducibility between operators 13 . Moreover, these do not allow for the assessment of antigen-specific responses which are important for quality control in assessing the stability of www.nature.com/scientificreports www.nature.com/scientificreports/ specific antibodies over time. In-house pools of hyperimmune sera are commonly employed for serological studies, and recently, a World Health Organization (WHO) reference Plasmodium falciparum (Pf) serological standard has been developed by the National Institute for Biological Standards and Control (NIBSC) 22 . This standard has previously been tested in a MBA panel of 40 malarial and non-malarial antigens 15 .",
+            "cite_spans": [
+                {
+                    "start": 1155,
+                    "end": 1157,
+                    "text": "22",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1257,
+                    "end": 1259,
+                    "text": "15",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Previous studies on the application and validation of the MBA have shown its correlation with ELISA 8,10,12,17,23 , stability and reproducibility of coupled beads 10, 12, 16, 24 , use of detection antibodies for Ig classes 15 and IgG subclasses 11,15 , as well as consistency between mono-versus multiplex results 10, 12, [15] [16] [17] . Although intra-and inter-assay variability for antimalarial antibodies have been discussed before 10, 13, 14, 16, 25 , and analytical methodologies have been evaluated to determine inter-assay variability 24,26,27 , few have formally assessed variability in large-scale population surveys (i.e., studies involving thousands to tens of thousands of samples over time) 16 . Here, we discuss the in-country establishment and quality control process for multiplex antimalarial antibody (IgG) detection for multiple large-scale malaria surveys performed in Haiti in 2017.",
+            "cite_spans": [
+                {
+                    "start": 163,
+                    "end": 166,
+                    "text": "10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 167,
+                    "end": 170,
+                    "text": "12,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 171,
+                    "end": 174,
+                    "text": "16,",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 175,
+                    "end": 177,
+                    "text": "24",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 314,
+                    "end": 317,
+                    "text": "10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 318,
+                    "end": 321,
+                    "text": "12,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 322,
+                    "end": 326,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 327,
+                    "end": 331,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 332,
+                    "end": 336,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 437,
+                    "end": 440,
+                    "text": "10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 441,
+                    "end": 444,
+                    "text": "13,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 445,
+                    "end": 448,
+                    "text": "14,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 449,
+                    "end": 452,
+                    "text": "16,",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 453,
+                    "end": 455,
+                    "text": "25",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 706,
+                    "end": 708,
+                    "text": "16",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "(2020) 10:1135 | https://doi.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Assay throughput. Dried blood spots (DBS) were collected in three cross-sectional surveys in central and southwestern Haiti in 2017 28 . IgG antibody responses were successfully collected across 21 antigens (Table 1; 17 P. falciparum antigens, 2 non-P. falciparum Plasmodium antigens and 2 non-malarial antigens) using a multiplex bead assay (MBA; see methods and 29 ). From all collected survey samples that were processed at the Haitian national laboratory, minor loss of field samples was found due to data management issues (e.g., incorrect barcodes due to accidental typing while scanning barcodes in the laboratory or no blood sample recorded/collected in the field) or loss of DBS between field collection and laboratory assessment ( Table 2) . Thus, the majority of samples provided data appropriate for analyses: 99.2% (5,956/6,006) for Survey 1; 99.6% (21,801/21,891) for Survey 2; and 99.3% (5,001/5,034) for Survey 3. Laboratory work involved 71 assay plates over five weeks for Survey 1; 257 plates over nine weeks for Survey 2; and 59 plates over four weeks for Survey 3. Together these represent 32,758 participant samples processed over an eighteen-week period. After removal of median fluorescence intensity (MFI) data across all analytes for samples with missing or high responses to the generic glutathione-S-transferase (GST, n = 659, 2.0%; Supplementary Fig. 1 ), 5,898 samples passed QC in Survey 1 (99.0% of those received at the laboratory); 21,234 samples in Survey 2 (97.4%); and 4,967 samples in Survey 3 (99.3%). Removal of single analytes' datapoints due to low bead counts accounted for additional minor loss of data (n = 455 observations, 0.07% of all observations). Following these QC checks, there were 673,624 unique IgG observations across the 21 included antigens ( Table 2 ).",
+            "cite_spans": [
+                {
+                    "start": 132,
+                    "end": 134,
+                    "text": "28",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 364,
+                    "end": 366,
+                    "text": "29",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 862,
+                    "end": 877,
+                    "text": "(21,801/21,891)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 207,
+                    "end": 216,
+                    "text": "(Table 1;",
+                    "ref_id": null
+                },
+                {
+                    "start": 741,
+                    "end": 749,
+                    "text": "Table 2)",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 1361,
+                    "end": 1381,
+                    "text": "Supplementary Fig. 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 1802,
+                    "end": 1809,
+                    "text": "Table 2",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "was created using country-wide DBS samples from individuals with confirmed malaria (n = 63) previously collected during healthcare visits. A 6-point, 5-fold titration curve of the HP standard starting at 1:200 was included on every plate, while one using the WHO Pf 10/198 NIBSC standard 22 was included on one plate per day (starting at 1:100). The highest concentrations of both the HP and the NIBSC positive control standard curves showed robust IgG responses for nearly all of the included Pf antigens (Fig. 1) . Generally higher MFI responses were seen in the NIBSC standard, likely due in part to the higher serum concentration. The lowest MFI responses were recorded to the HRP2 and Hyp2 antigens in both standards (median MFI < 500 before log-transformation).",
+            "cite_spans": [
+                {
+                    "start": 288,
+                    "end": 290,
+                    "text": "22",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 506,
+                    "end": 514,
+                    "text": "(Fig. 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Robust responses for both positive control standards. A Haitian positive serum control pool (HP)"
+        },
+        {
+            "text": "inter-plate variability. Levey-Jennings plots of IgG responses of the third point of the HP standard curve are shown in Fig. 2 . Values on assay plates that fell outside of the 2 standard deviation (SD) range of mean responses for two out of three highly immunogenic antigens (GLURP-R2, PfAMA-1 and PfMSP-1 19 ) were selected to be repeated: 2 plates in Survey 1, 9 plates in Survey 2, and 2 plates in Survey 3 (13/387 total assay plates, 3.4%). Upon repetition, all 13 of these assay plates passed the QC check and provided useable serological data. When comparing 2 to 5 parameter logistic regression fits for standard curves values, the 5-parameter logistic regression fit showed the smallest sum of squared errors for the HP curve for the majority of antigens and plates (\u226588%; Supplementary Table 1 ) and thus was used for all standard curves for further analysis. HP standard curves per survey are shown in Fig. 3 for all antigens except HRP2 and Hyp2 (which were unable to be fitted to curves), and curves for the NIBSC standard are shown in Supplementary Fig. 2 . Inspection of the median and IQR of the y-inflection point was used to assess within and between survey variation in standard curves (Fig. 4) . The median and length of the IQR of y-inflection points was similar for Survey 1 and Survey 2 for most antigens; except for a smaller recorded Survey 2 median for MSP2_CH150/9 (i.e., below the 25 th percentile of Survey 1) as well as a larger Survey 2 IQR for PfMSP-1 19 , MSP2_CH150/9, SBP1 and to a lesser extent MSP2_Dd2. The length of the IQR for y-inflection points was generally highest in Survey 3. While for most antigens the median Survey 3 y-inflection point was similar to Survey 1 and 2, a smaller Survey 3 median (i.e., below the 25 th percentile of Survey 2) was recorded for MSP2_CH150/9, MSP2_Dd2, GEXP18 and borderline for SBP1. Standard curves for Pf, P. vivax (Pv) and P. malariae (Pm) MSP-1 19 antigens with the HP and NIBSC standard are shown in Supplementary Fig. 3 .",
+            "cite_spans": [
+                {
+                    "start": 307,
+                    "end": 309,
+                    "text": "19",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1927,
+                    "end": 1929,
+                    "text": "19",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 120,
+                    "end": 126,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 796,
+                    "end": 803,
+                    "text": "Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 913,
+                    "end": 919,
+                    "text": "Fig. 3",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1049,
+                    "end": 1069,
+                    "text": "Supplementary Fig. 2",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1205,
+                    "end": 1213,
+                    "text": "(Fig. 4)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1983,
+                    "end": 2003,
+                    "text": "Supplementary Fig. 3",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Robust responses for both positive control standards. A Haitian positive serum control pool (HP)"
+        },
+        {
+            "text": "In this study set in Haiti, we described the in-country establishment and quality control of an MBA simultaneously detecting IgG responses to 17 P. falciparum recombinant antigens and peptides and 4 additional non-P. falciparum antigens. Laboratory antibody measurements were collected for 32,758 participant samples across three surveys in eighteen weeks. Results for only 0.2-0.5% of the participants for each of the three surveys had to be removed due to high GST responses (i.e., evidence for non-specific IgG binding). The data collected for the remaining participants represent 545,683 P. falciparum serological data points of which only 414 (0.08%) had to be removed due to well-specific errors such as low bead counts. The quality control to assess the inter-plate precision of the assay was based on a specifically created positive control standard of RDT positive Haitians with high titers of anti-Pf antibodies (Haitian hyperimmune sera pool: HP). The rationale for creation of the HP standard was that it would most accurately represent seroresponses of the Haitian populace to the locally circulating P. falciparum parasites. In addition, we included the WHO Pf 10/198 NIBSC reference standard on one plate per day to compare for consistency among days 22 . The MBA was implemented in this setting as a high-throughput tool enabling rapid turnaround of antibody measurements for malaria epidemiological surveys.",
+            "cite_spans": [
+                {
+                    "start": 1266,
+                    "end": 1268,
+                    "text": "22",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Inter-plate variability was assessed using Levey-Jennings plots which showed no trends in loss or gain of IgG responses in the HP standard over time. Minor plate-to-plate variation in MFI values was observed during assay processing, and could have been caused by inter-technician variability, pipetting errors or fluctuations in laboratory temperatures and/or incubation time during assay processing. For this specific study, plate values that fell outside the mean +/\u22122 SD of responses in the third point of the HP standard curve (i.e., the third point in the six-point dilution series of the HP standard) for two out of three highly immunogenic targets were repeated as www.nature.com/scientificreports www.nature.com/scientificreports/ previously described by others 16 . Using multiple targets for this selection compared to one target avoids rejecting a plate due to well-specific errors such as low bead counts or pipetting errors. This multi-antigen methodology also allows for pragmatic selection of truly problematic assay plates, since comprehensive errors (i.e., adding wrong amounts of detection reagents, improper incubation time) would affect all antigens' MFI readings on the entire plate and decreased or elevated signals would be seen throughout the whole antigen panel. www.nature.com/scientificreports www.nature.com/scientificreports/ Inter-plate variability was further assessed using 5-parameter logistic regression for standard curves on each plate 26, 30 . Inspection of the median and IQR of the y-inflection point was used to assess within and between survey variation in standard curves. The median y-inflection points were similar for Survey 1 and Survey 2 for most antigens with narrow IQRs, and the length of the IQR for y-inflection points was generally highest in Survey 3. For four of the included targets, the standard curves revealed a loss of reactivity over time (MSP2_Dd2, MSP2_ CH150/9, GEXP18 and SBP1). As beads were coupled in one batch at the start of Survey 1 to exclude variations between bead batches, the loss in reactivity may be explained by these antigens covalently bound to the microbeads as being less stable after long-term storage, or degradation or loss of binding capacity of the IgG antibodies in the HP standard. Therefore, comparison of results among the three surveys for these targets should be interpreted with caution and future use of these antigens would need to optimise storage and binding conditions.",
+            "cite_spans": [
+                {
+                    "start": 770,
+                    "end": 772,
+                    "text": "16",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1472,
+                    "end": 1475,
+                    "text": "26,",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 1476,
+                    "end": 1478,
+                    "text": "30",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The application of the WHO Pf 10/198 NIBSC standard to the MBA was recently described by Ubillos et al. where they showed robust IgG responses to 23 antigens, 20 of which were previously described malarial antigenic targets 15 . Here, we reported IgG antibody responses in this reference standard to 14 novel recombinant malarial antigens of which 12 showed robust responses (IgG against Hyp2 and HRP2 did not). Antibody responses to Pf-, Pv-and Pm-MSP-1 19 antigens were similar to those described when the reference standard was developed and tested on ELISA by showing high titers for the Pf-and Pm-MSP-1 19 targets, and negligible IgG against PvMSP-1 19 22 . By adding this WHO Pf 10/198 NIBSC standard to one plate per day alongside the newly developed hyperimmune pool of Haitian sera on every plate, we were able to confirm the presence or absence of trends over time in antigen-specific results. However, standard curves from this NIBSC standard pool were more variable between plates and surveys. This could partly be explained by the smaller sample size (i.e., less curves were run for the entire study), stability of the sera over time, or potentially this standard may be more sensitive to day-to-day variations in incubation times during assay processing.",
+            "cite_spans": [
+                {
+                    "start": 224,
+                    "end": 226,
+                    "text": "15",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 455,
+                    "end": 457,
+                    "text": "19",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 608,
+                    "end": 610,
+                    "text": "19",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 655,
+                    "end": 660,
+                    "text": "19 22",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Others have shown that combining antibody responses to multiple targets more accurately reflects recent malaria infection than to one antigen though at small increments 4, 31, 32 . The fact that this study showed that multiplex antimalarial antibody data could be collected accurately at scale aids in ensuring representation of the variation in human immune responses. Additional longitudinal studies collecting multiplex antimalarial antibody data following natural infections across varied settings are needed to identify which antigens best reflect exposure histories.",
+            "cite_spans": [
+                {
+                    "start": 169,
+                    "end": 171,
+                    "text": "4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 172,
+                    "end": 175,
+                    "text": "31,",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 176,
+                    "end": 178,
+                    "text": "32",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In this study, we have described the successful in-country establishment of the MBA with highly efficient throughput and acceptable inter-plate variability for well-characterised malaria antigenic targets in Haiti. This assay allows for rapid assessment of the exposure history of populations which can directly inform malaria www.nature.com/scientificreports www.nature.com/scientificreports/ stratification and targeting of interventions. However, inter-plate variability was considerable for some of the newly described targets with lower immunogenicity. IgG antibodies to these targets are perhaps more sensitive to long-term storage, fluctuations in laboratory temperatures and/or incubation time during assay processing. Future work should focus on further optimisation of international assay standards and standardized quality assurance/quality control metrics for multiplex antibody detection assays.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Study population. Three cross-sectional surveys were conducted in 2017 in Haiti: two in the Artibonite valley of central Haiti (Survey 1 in May-Jun and Survey 2 in Jul-Oct with a two-week pause due to hurricanes), and one in Grand' Anse department in south-western Haiti (Survey 3 in Nov-Dec). In 2017, malaria incidence in the Grand' Anse department was estimated at 18.1 per 1,000 inhabitants while this was 0.6 per 1,000 in Artibonite (source: National Malaria Control Program, PNCM, Haiti). Survey design and enrollment procedures have been described elsewhere 28 . The number of participants providing a blood sample in each survey included, Survey 1: 6,006 participants, Survey 2: 21,891 and Survey 3: 5,034. In the former two surveys, finger-prick capillary blood was collected in microtubes (Safe-T-Fill Capillary Blood Collection Systems: EDTA, RAM Scientific Inc.) and pipetted on Whatman 903 cards (GE Healthcare) within 24 hours, whereas in the latter survey, blood was spotted directly onto the Whatman 903 cards at point-of-contact. In all surveys, cards were dried overnight and packed the next day in individual bags with silica gel. These dried blood spots (DBS) were kept at room temperature and were transported to the national laboratory (Laboratoire National de Sant\u00e9 Publique, LNSP) in Port-au-Prince once per week where they were stored at 4 \u00b0C until processed. Participants were also tested with a rapid diagnostic test (RDT, SD Bioline Malaria Antigen Pf.; 05FK50) and treated according to national guidelines if positive 28 . . MFI values were converted to proportions using the minimum and maximum MFI value for all standard curves across all antigens (2.07 and 11.17 respectively). For each plate and antigen, standard curves were fitted using 5-parameter logistic regression. Standard curves were only fitted if the non-log-transformed MFI of at least one of the dilution points was larger than 100. Using the curve parameters, MFI values were predicted across a sequence of 200 values of standard curve concentrations for each of the plates. Standard curves per survey were plotted using the generalized additive model method and the interquartile range is shown in vertical lines at each of the dilution steps of the standard curve. For antigen abbreviations see Table 1 , malaria antigens are ordered from top left to bottom right by median responses as shown in Fig. 1 . In addition to malarial antigens, results for tetanus toxoid (tt) are shown. (2020) 10:1135 | https://doi.org/10.1038/s41598-020-57876-0 www.nature.com/scientificreports www.nature.com/scientificreports/ Antigen coupling to beads. Antigens were covalently coupled to unique bead regions as previously described by Rogier et al. 19, 29 . In addition to the malarial antigen panel, the glutathione-S-transferase (GST) protein was included as a generic antigen to correct for potential non-specific binding. In addition, this served as an internal control as many of the recombinant malaria antigens were GST fused. Tetanus toxoid (TT, Massachusetts Biologic Laboratories) was included to act as an internal positive control as vaccinated Haitians would show responses to this target. Antigen characteristics and details on antigen to bead coupling conditions are depicted in Table 1 .",
+            "cite_spans": [
+                {
+                    "start": 565,
+                    "end": 567,
+                    "text": "28",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1547,
+                    "end": 1549,
+                    "text": "28",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 2732,
+                    "end": 2735,
+                    "text": "19,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 2736,
+                    "end": 2738,
+                    "text": "29",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 2294,
+                    "end": 2301,
+                    "text": "Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 2395,
+                    "end": 2401,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 3277,
+                    "end": 3284,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Methods"
+        },
+        {
+            "text": "Assay standards. A Haitian positive serum control pool (HP) was created using country-wide DBS samples from RDT positive individuals collected during healthcare visits. Blood spots from 63 participants with high responses to a range of Pf antigens were combined and eluted in Buffer B (phosphate-buffered saline (PBS) containing 0.5% BSA, 0.05% Tween 20, 0.02% sodium azide, 0.5% polyvinyl alcohol, 0.1% casein, 0.8% polyvinylpyrrolidone and 0.5% w/v E. coli extract) to a whole blood dilution of 1:50 which corresponds to serum dilution of approximately 1:100. The approximate serum concentration is used to indicate the dilution factor throughout the remainder of this report. A 6-point titration curve of the Haitian hyperimmune sera was created in bulk, stored at 4 \u00b0C and used on each assay plate. The first point of this HP curve was a dilution of 1:100 and titrated by 5-fold, meaning the second point was 1:500 up to the sixth point at 312,500. The WHO Pf 10/198 NIBSC standard 22 was eluted in 1.0 ml of dH20 (1:5 serum concentration, 100 units) and diluted further in Buffer B. As with the HP curve, a 6-point curve (starting at 1:50) of 5-fold dilutions was prepared in bulk for use throughout the whole study and stored at 4 \u00b0C. As samples and controls were diluted 1:2 into assay plates (see below), final starting concentrations for the first points of the titration curves were 1:200 (HP) and 1:100 (NIBSC) and remaining dilution points in titration curves followed accordingly. Unlike the HP curve, the NIBSC standard curve was only run on a single assay plate every day. In addition, two blanks (buffer B only) were run on each plate.",
+            "cite_spans": [
+                {
+                    "start": 986,
+                    "end": 988,
+                    "text": "22",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "Multiplex bead assay. Sample preparation and the MBA for data collection have been described elsewhere 29 . Briefly, blood elution for each sample was completed by taking one 3 mm spot from the centre of a DBS and eluting overnight in 173 \u00b5l of buffer B to create a 1:100 serum dilution for each sample. Samples were sealed in holding plates for storage at 4 \u00b0C and tested within three weeks of blood elution. For the assay, a mixture of all bead regions was prepared by adding 6 \u00b5l per coupled bead region (62,500 beads/antigen/plate) in 5 ml of Buffer A (PBS containing 0.5% BSA, 0.05% Tween-20, 0.02% sodium azide) for each plate. The bead mixture was mixed using a serological pipette and 50 \u00b5l was added to each well of a 96-well BioPlex Pro plate (Bio-Rad). Plates were placed on handheld magnetic separators (Luminex Corporation) and washed two times with wash buffer (PBS containing 0.05% Tween-20). After removing plates from the separator, 50 \u00b5l of reagent mixture in Buffer A (1:500 Table 1 , malaria antigens are ordered by median responses as shown in Fig. 1 www.nature.com/scientificreports www.nature.com/scientificreports/ biotinylated anti-human IgG, Southern Biotech; 1:625 biotinylated anti-human IgG 4 , Southern Biotech; and 1:200 Streptavidin conjugated to phycoerythrin, Invitrogen) was added to each well followed by 50 \u00b5l of eluted blood sample. Plates were incubated on a shaker overnight at room temperature at 600 rpm protected from light. The next day, plates were washed three times and 100 \u00b5l PBS was added to resuspend beads. Plates were shaken lightly for 30 minutes and read with the MAGPIX machine (Millipore) using Bio-Plex Manager MP (Bio-Rad) software with a target of 50 beads/antigen/well. Median fluorescence intensity (MFI) was recorded for each sample and corrected for background reactivity by subtracting blank values on each plate (Buffer B only) by antigen (MFI corrected for background, hereafter: MFI). Results were exported to Excel workbooks by plate.",
+            "cite_spans": [
+                {
+                    "start": 103,
+                    "end": 105,
+                    "text": "29",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 994,
+                    "end": 1001,
+                    "text": "Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 1065,
+                    "end": 1071,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Methods"
+        },
+        {
+            "text": "Statistical analyses. All statistical analyses were performed in R Studio version 3.3.3 33 . Participant samples with GST MFI levels above a threshold of 1,000 were excluded from further analyses as evidence of non-specific binding. All MFI values were log transformed with MFI values smaller than background responses replaced with the median background values for all antigens (background non-log transformed MFI of 7.90; interquartile range: 6.70-8.90). The value of the third point of the HP standard curve of each plate was plotted in Levey-Jennings charts. Plates that fell outside of the mean +/\u22122 standard deviations (SD) for two out of three highly immunogenic antigens (GLURP-R2, AMA-1 and MSP-1 19 ) were repeated 16 . Logistic regression curves were fitted to standard curve values per plate using the nplr package in R Studio 34 , which compares 2 to 5 parameter logistic regression fits and selects the fit with the smallest sum of squared errors. Logistic regression was only fit if no more than one value of the standard curve was missing and at least one of the recorded MFI values was >4.61 (i.e., MFI 100 before log-transformation). MFI values were first converted to proportions using the minimum and maximum MFI values for all standard curves across all antigens (2.07 and 11.17, respectively). The 5-parameter logistic regression is given below:",
+            "cite_spans": [
+                {
+                    "start": 88,
+                    "end": 90,
+                    "text": "33",
+                    "ref_id": null
+                },
+                {
+                    "start": 706,
+                    "end": 708,
+                    "text": "19",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 725,
+                    "end": 727,
+                    "text": "16",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "where B and T are the bottom and top asymptotes, b and xmid are the Hill slope and the x-coordinate at the inflection point and s is an asymmetry coefficient. In 4-parameter logistic regression, the s parameter is forced to be 1, while 3-or 2-parameter logistic regression force B and T to be 0 and 1, respectively. Curve parameters were recorded for each plate as well as a sequence of 200 predicted MFI values across standard curve concentrations to represent the fitted curves.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "ethics approval and consent to participate. Survey . All participants provided informed written consent or assent and blood collection adhered to the approved protocols. All research was performed in accordance with relevant guidelines and regulations.",
+            "cite_spans": [
+                {
+                    "start": 44,
+                    "end": 50,
+                    "text": "Survey",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Methods"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Rapid assessment of malaria transmission using age-specific sero-conversion rates",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Stewart",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "PLoS ONE",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Estimating medium-and long-term trends in malaria transmission by using serological markers of malaria exposure",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Drakeley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Proc. Natl. Acad. Sci. USA",
+            "volume": "102",
+            "issn": "",
+            "pages": "5108--5113",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Serology: a robust indicator of malaria transmission intensity?",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Corran",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Coleman",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Riley",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Drakeley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Trends Parasitol",
+            "volume": "23",
+            "issn": "",
+            "pages": "575--582",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Novel serologic biomarkers provide accurate estimates of recent Plasmodium falciparum exposure for individuals and communities",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Helb",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Proc. Natl. Acad. Sci. USA",
+            "volume": "112",
+            "issn": "",
+            "pages": "4438--4447",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "malERA: An updated research agenda for characterising the reservoir and measuring transmission in malaria elimination and eradication",
+            "authors": [],
+            "year": 2017,
+            "venue": "malERA Refresh Consultative Panel on Characterising the Reservoir and Measuring Transmission",
+            "volume": "14",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Research priorities for the development and implementation of serological tools for malaria surveillance",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Elliott",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Integrated Serologic Surveillance of Population Immunity and Disease Transmission",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Arnold",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Scobie",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Priest",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lammie",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Emerging Infect. Dis",
+            "volume": "24",
+            "issn": "",
+            "pages": "1188--1194",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Multiplex assay for simultaneous measurement of antibodies to multiple Plasmodium falciparum antigens",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Fouda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Clin. Vaccine Immunol",
+            "volume": "13",
+            "issn": "",
+            "pages": "1307--1313",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "A multiplex assay for the simultaneous detection of antibodies against 15 Plasmodium falciparum and Anopheles gambiae saliva antigens",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Ambrosino",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Malar. J",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "A semi-automated multiplex high-throughput assay for measuring IgG antibodies against Plasmodium falciparum erythrocyte membrane protein 1 (PfEMP1) domains in small volumes of plasma",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "K K"
+                    ],
+                    "last": "Cham",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Malar. J",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Naturally-acquired humoral immune responses against the N-and C-termini of the Plasmodium vivax MSP1 protein in endemic regions of Brazil and Papua New Guinea using a multiplex assay",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fernandez-Becerra",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Malar. J",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Standardization and validation of a cytometric bead assay to assess antibodies to multiple Plasmodium falciparum recombinant antigens",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Ondigo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Malar. J",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Development of a high-throughput flexible quantitative suspension array assay for IgG against multiple Plasmodium falciparum antigens",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Ubillos",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Campo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Jim\u00e9nez",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Doba\u00f1o",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Malaria Journal",
+            "volume": "17",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Analysis of factors affecting the variability of a quantitative suspension bead array assay measuring IgG to multiple Plasmodium antigens",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Ubillos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "PLOS ONE",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Optimization of incubation conditions of Plasmodium falciparum antibody multiplex assays to measure IgG, IgG1-4, IgM and IgE using standard and customized reference pools for sero-epidemiological and vaccine studies",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Ubillos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Malaria Journal",
+            "volume": "17",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Implementation and application of a multiplex assay to detect malaria-specific antibodies: a promising tool for assessing malaria transmission in Southeast Asian pre-elimination areas",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kerkhof",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Malaria Journal",
+            "volume": "14",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Optimization of a magnetic bead-based assay (MAGPIX \u00ae -Luminex) for immune surveillance of exposure to malaria using multiple Plasmodium antigens and sera from different endemic settings",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Varela",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Malar. J",
+            "volume": "17",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Serological markers to measure recent changes in malaria at population level in Cambodia",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kerkhof",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Malar. J",
+            "volume": "15",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Evaluation of Immunoglobulin G Responses to Plasmodium falciparum and Plasmodium vivax in Malian School Children Using Multiplex Bead Assay",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Rogier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Am. J. Trop. Med. Hyg",
+            "volume": "96",
+            "issn": "",
+            "pages": "312--318",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Estimation of recent and long-term malaria transmission in a population by antibody testing to multiple Plasmodium falciparum antigens",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Ondigo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J. Infect. Dis",
+            "volume": "210",
+            "issn": "",
+            "pages": "1123--1132",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Assessment of exposure to Plasmodium falciparum transmission in a low endemicity area by using multiplex fluorescent microsphere-based serological assays",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Sarr",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Parasit Vectors",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "The establishment of a WHO Reference Reagent for anti-malaria (Plasmodium falciparum) human serum",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Bryan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Malaria Journal",
+            "volume": "16",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Comparative analysis of IgG responses to Plasmodium falciparum MSP1p19 and PF13-DBL1\u03b11 using ELISA and a magnetic bead-based duplex assay (MAGPIX \u00ae -Luminex) in a Senegalese meso-endemic community",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Perraut",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Malar. J",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Optimisation and standardisation of a multiplex immunoassay of diverse Plasmodium falciparum antigens to assess changes in malaria transmission using sero-epidemiology",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Wellcome Open Res",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Development of a new platform for neglected tropical disease surveillance",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lammie",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "International Journal for Parasitology",
+            "volume": "42",
+            "issn": "",
+            "pages": "797--800",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "drLumi: An open-source package to manage data, calibrate, and conduct quality control of multiplex bead-based immunoassays data analysis",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Sanz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "PLOS ONE",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "An analytical approach to reduce between-plate variation in multiplex assays that measure antibodies to Plasmodium falciparum antigens",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Fang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Malar. J",
+            "volume": "16",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Conventional and High-Sensitivity Malaria Rapid Diagnostic Test Performance in Two Transmission Settings: Haiti",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Rogier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/infdis/jiz525"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "High-throughput malaria serosurveillance using a one-step multiplex bead assay",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Rogier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Malar. J",
+            "volume": "18",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "The five-parameter logistic: A characterization and comparison with the four-parameter logistic",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Gottschalk",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Dunn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Analytical Biochemistry",
+            "volume": "343",
+            "issn": "",
+            "pages": "54--65",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Environmental risk factors and exposure to the zoonotic malaria parasite Plasmodium knowlesi across northern Sabah, Malaysia: a population-based cross-sectional survey. The Lancet Planetary Health",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Fornace",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "3",
+            "issn": "",
+            "pages": "179--186",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Development and validation of serological markers for detecting recent exposure to Plasmodium vivax infection",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Longley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/481168"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "nplr: N-Parameter Logistic Regression. R package version 0",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Commo",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Bot",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "1--7",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "etramps, a new Plasmodium falciparum gene family coding for developmentally regulated and highly charged membrane proteins located at the parasite-host cell interface",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Spielmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J P"
+                    ],
+                    "last": "Fergusen",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.-P",
+                    "middle": [],
+                    "last": "Beck",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Mol. Biol. Cell",
+            "volume": "14",
+            "issn": "",
+            "pages": "1529--1544",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Characterisation of two novel proteins from the asexual stage of Plasmodium falciparum, H101 and H103",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Pearce",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Mills",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Triglia",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Cowman",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Anders",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Mol. Biochem. Parasitol",
+            "volume": "139",
+            "issn": "",
+            "pages": "141--151",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Bead-based immunoassay allows sub-picogram detection of histidine-rich protein 2 from Plasmodium falciparum and estimates reliability of malaria rapid diagnostic tests",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Rogier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "PLoS ONE",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Multiplex serology for impact evaluation of bed net distribution on burden of lymphatic filariasis and four species of human malaria in northern Mozambique",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Plucinski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "PLoS Negl Trop Dis",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "High levels of serum antibodies to merozoite surface protein 2 of Plasmodium falciparum are associated with reduced risk of clinical malaria in coastal Kenya",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Polley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Vaccine",
+            "volume": "24",
+            "issn": "",
+            "pages": "4233--4246",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Human antibody response to Plasmodium falciparum merozoite surface protein 2 is serogroup specific and predominantly of the immunoglobulin G3 subclass",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Taylor",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Robinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Mcbride",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Riley",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "Infect. Immun",
+            "volume": "63",
+            "issn": "",
+            "pages": "4382--4388",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Fine mapping of an epitope recognized by an invasion-inhibitory monoclonal antibody on the malaria vaccine candidate apical membrane antigen 1",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Collins",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J. Biol. Chem",
+            "volume": "282",
+            "issn": "",
+            "pages": "7431--7441",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Antigenicity and immunogenicity of recombinant glutamate-rich protein of Plasmodium falciparum expressed in Escherichia coli",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Theisen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Vuust",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gottschau",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jepsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "H\u00f8gh",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "Clin. Diagn. Lab. Immunol",
+            "volume": "2",
+            "issn": "",
+            "pages": "30--34",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Expression of the 19-kilodalton carboxy-terminal fragment of the Plasmodium falciparum merozoite surface protein-1 in Escherichia coli as a correctly folded protein",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Burghaus",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Holder",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "Mol. Biochem. Parasitol",
+            "volume": "64",
+            "issn": "",
+            "pages": "165--169",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Antibodies to PfSEA-1 block parasite egress from RBCs and protect against malaria infection",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Raj",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Science",
+            "volume": "344",
+            "issn": "",
+            "pages": "871--877",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Specificity of the IgG antibody response to Plasmodium falciparum, Plasmodium vivax, Plasmodium malariae, and Plasmodium ovale MSP119 subunit proteins in multiplexed serologic assays",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Priest",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Malar. J",
+            "volume": "17",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Full-length Plasmodium falciparum circumsporozoite protein administered with long-chain poly(I\u00b7C) or the Toll-like receptor 4 agonist glucopyranosyl lipid adjuvant-stable emulsion elicits potent antibody and CD4+ T cell immunity and protection in mice",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kastenm\u00fcller",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Infect. Immun",
+            "volume": "81",
+            "issn": "",
+            "pages": "789--800",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Development and host cell modifications of Plasmodium falciparum blood stages in four dimensions",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gr\u00fcring",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Nat Commun",
+            "volume": "2",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Levey-Jennings charts of antibody responses in the standard of Haitian hyperimmune sera pool across all plates per survey. MFI: Median fluorescence intensity; values were corrected for background reactivity of blank responses and natural log transformed. HP: Haitian hyperimmune sera pool (for details see main text). Responses in the third dilution point of the curve (serum concentration of 1:5,000) per plate are shown across three surveys. The mean plus/minus two times the standard deviation of responses in the third dilution point of the curve per survey and antigen are shown in dashed red lines. Scientific RepoRtS | (2020) 10:1135 | https://doi.org/10.1038/s41598-020-57876-0",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Average standard curves of the standard of Haitian hyperimmune sera pool for each survey. MFI: Median fluorescence intensity; values were corrected for background reactivity of blank responses and natural log transformed. HP: Haitian hyperimmune sera pool (for details see main text)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Median and interquartile range of predicted y-inflection points of standard curves per survey using the standard of the Haitian hyperimmune sera pool. Median (shapes) and interquartile range (vertical lines) of the predicted y-inflection points from standard curves across all plates using 5-parameter logistic regression are shown per survey. For antigen (x-axis) acronyms see",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Table 1. Characteristics of multiplex bead assay antigen panel for three malaria transmission surveys in Haiti. *Associated with recent Pf exposure as described in ref. 4 . Conc.: concentration. iRBC: infected red blood cell. PVM: parasitophorous vacuole membrane. kDa: k ilodalton. Pf: Plasmodium falciparum. Pv: Plasmodium vivax. Pm: Plasmodium malariae. N/A: not applicable. (2020) 10:1135 | https://doi.org/10.1038/s41598-020-57876-0",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Number of samples and observations for which Immunoglobulin G (IgG) antibody responses were successfully collected using a multiplex bead assay across three malaria transmission surveys in Haiti.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": ". In addition to malarial antigens, results for tetanus toxoid (tt) are shown (right side of dashed vertical black line).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "1 and Survey 3 were approved by the LSHTM Research Ethics Committee (10393), Tulane Institutional Review Board (794709) and the National Bioethics Committee in Haiti (1516-30). The Center for Global Health Associate Director of Science reviewed and approved the protocol for ethical compliance for CDC's level of engagement. Survey 2 was approved by CDC Institutional Review Board (6821), LSHTM Research Ethics Committee (10466) and the National Bioethics Committee in Haiti (1516-29 and 1617-31)",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors would like to thank all the survey participants and field data collection teams. In addition, we would like to acknowledge Ito Journel for his support at LNSP. This study was conducted by the Malaria Zero Alliance ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": "The authors declare no competing interests.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "competing interests"
+        },
+        {
+            "text": "Supplementary information is available for this paper at https://doi.org/10.1038/s41598-020-57876-0.Correspondence and requests for materials should be addressed to L.L.vd.H.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Additional information"
+        },
+        {
+            "text": "Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Reprints and permissions information is available at www.nature.com/reprints."
+        }
+    ]
+}
