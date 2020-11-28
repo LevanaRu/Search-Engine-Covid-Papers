@@ -218,7 +218,7 @@ class topic_modelling:
 
     def is_digit(self, value):
         if value:
-	    return value.isdigit()
+	    return (value.isdigit())
 	return False
 
     def lda_optimal(self, preprocess_file = DEFAULT_PREPROCESSING_OUTPUT, cluster_df = CLUSTER_DF, maxiter = MAXITER, output_file_name = DEFAULT_OUTPUT_FILE, max_term_tagging = m):
