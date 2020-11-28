@@ -26,7 +26,9 @@ from pyspark.mllib.linalg.distributed import RowMatrix
 
 class preprocess_pyspark:
     root_path = ".."
-    metadata_path = "dbfs/FileStore/kaggle/metadata.csv"
+    metadata_path = "../data/metadata.csv"
+    DEFAULT_INPUT_PATH = "../data/"
+    DEFAULT_OUTPUT_FILE = "preprocessing_output_0_7.csv"
 
 
     def get_breaks(self, content, length):
@@ -62,7 +64,7 @@ class preprocess_pyspark:
         })
 
         # json
-        all_json = glob.glob(f"{self.root_path}/**/*.json", recursive=True)
+        all_json = glob.glob(f"{self. DEFAULT_INPUT_PATH}/**/*.json", recursive=True)
 
         dict_ = {'paper_id': [], 'doi': [], 'abstract': [], 'body_text': [], 'authors': [], 'title': [], 'journal': [],
                  'abstract_summary': []}
@@ -252,6 +254,7 @@ class preprocess_pyspark:
 
         # Project the rows to the linear space spanned by the top 4 principal components.
         projected = mat.multiply(pc)
+        projected.toPandas().to_csv(f"{self.DEFAULT_OUTPUT_FILE}")
 
         return projected
 
