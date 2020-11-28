@@ -1,0 +1,3941 @@
+{
+    "paper_id": "ee44ad6e40fdc932fbf9b48ae93aa6fad9030a11",
+    "metadata": {
+        "title": "Racial and Gender-Based Differences in COVID-19",
+        "authors": [
+            {
+                "first": "Zisis",
+                "middle": [],
+                "last": "Kozlakidis",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Poornima",
+                "middle": [],
+                "last": "Ramanan",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jian-Min",
+                "middle": [],
+                "last": "Jin",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jonathan",
+                "middle": [],
+                "last": "Kopel",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Texas Tech University Health Sciences Center",
+                    "location": {
+                        "settlement": "Lubbock",
+                        "region": "TX",
+                        "country": "United States"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Abhilash",
+                "middle": [],
+                "last": "Perisetti",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Ali",
+                "middle": [],
+                "last": "Roghani",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Texas Tech University Health Sciences Center",
+                    "location": {
+                        "settlement": "Lubbock",
+                        "region": "TX",
+                        "country": "United States"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Muhammad",
+                "middle": [],
+                "last": "Aziz",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The University of Toledo",
+                    "location": {
+                        "settlement": "Toledo",
+                        "region": "OH",
+                        "country": "United States"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Mahesh",
+                "middle": [],
+                "last": "Gajendran",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Texas Tech University",
+                    "location": {
+                        "addrLine": "Health Sciences Center El Paso, El Paso, TX, United States, 5 The Wright",
+                        "settlement": "Scranton",
+                        "region": "PA",
+                        "country": "United States"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Hemant",
+                "middle": [],
+                "last": "Goyal",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "The novel coronavirus disease is caused by severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2). The first reported case of COVID-19 was in December 2019 in Wuhan, China. The disease has continued to spread globally and was classified as a pandemic in March by the World Health Organization. Coronaviruses belong to a family of single-stranded RNA viruses, which cause several respiratory, gastrointestinal, hepatic, and neurologic diseases (1) (2) (3) . Similar to the viruses causing Severe Acute Respiratory Syndrome (SARS) and Middle East Respiratory Syndrome (MERS), the SARS-CoV-2 is the seventh coronavirus (CoV) identified that can infect humans (2, 4, 5) . Patients infected with SARS-CoV-2 have an incubation period of 3-14 days with a mean period of 5 days (1, 5, 6) . The most common symptoms of COVID-19 include fever, cough, fatigue, and bleeding (2, 4, 5, (7) (8) (9) (10) (11) . Other symptoms include taste changes, headache, abdominal pain, diarrhea, and gastrointestinal bleeding (2, 4, 5, (7) (8) (9) (10) (11) . If left untreated, COVID-19 can lead to pneumonia, acute respiratory distress syndrome (ARDS), and acute respiratory failure resulting in death (1, 5, 6) . The number one risk factor for severe disease is age with the severity increasing with the presence of comorbidities, such as heart and lung diseases (1, 5, 6) . However, the effects of gender and ethnicity on SARS-CoV-2 infection rates and severity remain an area of active investigation.",
+            "cite_spans": [
+                {
+                    "start": 449,
+                    "end": 452,
+                    "text": "(1)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 453,
+                    "end": 456,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 457,
+                    "end": 460,
+                    "text": "(3)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 662,
+                    "end": 665,
+                    "text": "(2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 666,
+                    "end": 668,
+                    "text": "4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 669,
+                    "end": 671,
+                    "text": "5)",
+                    "ref_id": null
+                },
+                {
+                    "start": 776,
+                    "end": 779,
+                    "text": "(1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 780,
+                    "end": 782,
+                    "text": "5,",
+                    "ref_id": null
+                },
+                {
+                    "start": 783,
+                    "end": 785,
+                    "text": "6)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 869,
+                    "end": 872,
+                    "text": "(2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 873,
+                    "end": 875,
+                    "text": "4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 876,
+                    "end": 878,
+                    "text": "5,",
+                    "ref_id": null
+                },
+                {
+                    "start": 879,
+                    "end": 882,
+                    "text": "(7)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 883,
+                    "end": 886,
+                    "text": "(8)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 887,
+                    "end": 890,
+                    "text": "(9)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 891,
+                    "end": 895,
+                    "text": "(10)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 896,
+                    "end": 900,
+                    "text": "(11)",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1007,
+                    "end": 1010,
+                    "text": "(2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1011,
+                    "end": 1013,
+                    "text": "4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1014,
+                    "end": 1016,
+                    "text": "5,",
+                    "ref_id": null
+                },
+                {
+                    "start": 1017,
+                    "end": 1020,
+                    "text": "(7)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1021,
+                    "end": 1024,
+                    "text": "(8)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1025,
+                    "end": 1028,
+                    "text": "(9)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1029,
+                    "end": 1033,
+                    "text": "(10)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1034,
+                    "end": 1038,
+                    "text": "(11)",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1185,
+                    "end": 1188,
+                    "text": "(1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 1189,
+                    "end": 1191,
+                    "text": "5,",
+                    "ref_id": null
+                },
+                {
+                    "start": 1192,
+                    "end": 1194,
+                    "text": "6)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1347,
+                    "end": 1350,
+                    "text": "(1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 1351,
+                    "end": 1353,
+                    "text": "5,",
+                    "ref_id": null
+                },
+                {
+                    "start": 1354,
+                    "end": 1356,
+                    "text": "6)",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "The original clinical reports from China suggested that the COVID-19 virus infected both men and women equally; further studies suggested that sex differences exist in both mortality and infection susceptibility for SARS-CoV-2 (12, 13) . From a socioeconomic perspective, school closures force more women with families to provide informal care for their immediate families, which limits women's work and economic opportunities for advancement (13) . These differences are further compounded by the unique physical, sanitary, and security needs of women in quarantine conditions compared to men (13) . Furthermore, data from the Centers for Disease Control (CDC) suggest that ethnic differences between COVID-19 patients may influence susceptibility and mortality. However, the mechanism for such differences remains mostly unknown (14) . Another theory for these differences is related to differences in the expression of angiotensin-converting enzyme 2 (ACE2) receptors, which is the primary receptor for viral entry into the cells. In this article, we aim to elaborate on the effect of gender and ethnic backgrounds on COVID-19 infection and related mortality.",
+            "cite_spans": [
+                {
+                    "start": 227,
+                    "end": 231,
+                    "text": "(12,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 232,
+                    "end": 235,
+                    "text": "13)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 443,
+                    "end": 447,
+                    "text": "(13)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 594,
+                    "end": 598,
+                    "text": "(13)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 831,
+                    "end": 835,
+                    "text": "(14)",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "The first cases of COVID-19 that occurred in China indicated the presence of gender differences (13) . Initial reports estimated that 60% of COVID-19 patients were male (13) . A study examining 799 patients in the Tongji Hospital in Wuhan, China found that of 113 COVID-19 deaths, 27% were female, and 73% were male (15) . The authors concluded that the fatality rate was higher in men, possibly due to an increased prevalence of cardiopulmonary disease and smoking (15) . Men were also more likely to develop heightened systemic inflammation, multi-organ dysfunction, and cardiac injury (15) . A similar study of 54 deceased COVID-19 patients in South Korea showed that 61% of the patients were male.",
+            "cite_spans": [
+                {
+                    "start": 96,
+                    "end": 100,
+                    "text": "(13)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 169,
+                    "end": 173,
+                    "text": "(13)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 316,
+                    "end": 320,
+                    "text": "(15)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 466,
+                    "end": 470,
+                    "text": "(15)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 588,
+                    "end": 592,
+                    "text": "(15)",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Studies With Male Predominance"
+        },
+        {
+            "text": "A subsequent study examining 155 consecutive patients with confirmed COVID-19 in Zhongnan Hospital of Wuhan University found that 56% of the patients were male (16) . A multivariate analysis performed in this study showed that male sex was a significant risk factor (OR: 2.206, 95% CI: 1.012-4.809) for prolonged (>14 days) COVID-19 symptoms (16) . However, since 49% of these patients had chronic diseases, the authors believed that older male patients might have an increased risk for COVID-19, resulting in longer hospital stays and slow recovery (16) . Similarly, another study showed that the male gender was a significant factor for COVID-19 infection on logistic regression analysis, with elderly male patients being at higher risk for the virus (17) . Another study examined 46 deceased COVID-19 patients and found that men accounted for 67% of the fatalities (18) . However, higher mortality in males could be a reflection of increased risk and prevalence of COVID-19 among male patients rather than being correlated with the male gender (18) . A study examining 133 COVID-19 patients in Wuhan China, reported a similar male-predominance (58% male vs. 42% female) of COVID-19 infections (19) . The study found that male patients were more likely than females (odds ratio: 3.24; 95% CI: 1.31-8.02) to shed the COVID-19 (20) . Specifically, male patients continued to shed the COVID-19 virus for 18 days, while females shed the virus for 15.2 days (19) .",
+            "cite_spans": [
+                {
+                    "start": 160,
+                    "end": 164,
+                    "text": "(16)",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 342,
+                    "end": 346,
+                    "text": "(16)",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 550,
+                    "end": 554,
+                    "text": "(16)",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 753,
+                    "end": 757,
+                    "text": "(17)",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 868,
+                    "end": 872,
+                    "text": "(18)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1047,
+                    "end": 1051,
+                    "text": "(18)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1196,
+                    "end": 1200,
+                    "text": "(19)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1327,
+                    "end": 1331,
+                    "text": "(20)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1455,
+                    "end": 1459,
+                    "text": "(19)",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Studies With Male Predominance"
+        },
+        {
+            "text": "Given the potential gender disparity, a recent study examined 4,880 COVID-19 patients who either had respiratory symptoms or close contact with a COVID-19 patients in Wuhan, China using quantitative RT-PCR (qRT-PCR) from nasopharyngeal samples. The study found no significant gender differences in the sample, which included 2,251 (46%) male and 2,629 (54%) female patients (17) . However, 36.71% of females and 40.43% of males tested positive for COVID-19; furthermore, the positive rate of COVID-19 diagnosis using qRT-PCR was higher in males than females (17) . Similarly, the positive rate for COVID-19 diagnosis also increased from 24.9 to 61.81% between younger and older patients (17) . A recent study from COVID-19 patients in China showed that both the severity and mortality rates were worse among men than women (21) . Specifically, men were over two times more likely to die from COVID-19 than women (21) .",
+            "cite_spans": [
+                {
+                    "start": 374,
+                    "end": 378,
+                    "text": "(17)",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 558,
+                    "end": 562,
+                    "text": "(17)",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 687,
+                    "end": 691,
+                    "text": "(17)",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 823,
+                    "end": 827,
+                    "text": "(21)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 912,
+                    "end": 916,
+                    "text": "(21)",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Studies With Male Predominance"
+        },
+        {
+            "text": "Although the first reports in China showed a predominance of male COVID-19 patients, recent studies suggest that females may be at higher risk for COVID-19. The Korean Society of Infectious Diseases collected data on 4,212 COVID-19 patients, which showed that 37.7% were males while 62.3% were female (22) . These results are in contrast to Chinese data, which estimated \u223c51% of COVID-19 patients were male (22) . The authors suggest the difference may reflect differences in social activities from different countries; in South Korea, the largest social age group are in their 20s. Furthermore, contact tracing of the COVID-19 outbreak in South Korea suggested that female practitioners of the Daegu religious sect may have contributed to the COVID-19 outbreak. Therefore, gender disparities in COVID-19 may reflect social and cultural differences between different countries (22) . In a similar study in Qingdao City, China, examining 44 COVID-19 patients showed that 66% were female. The female predominance reported in this study was likely due to the small sample size during the early stages of the COVID-19 epidemic (23) .",
+            "cite_spans": [
+                {
+                    "start": 301,
+                    "end": 305,
+                    "text": "(22)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 407,
+                    "end": 411,
+                    "text": "(22)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 877,
+                    "end": 881,
+                    "text": "(22)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1123,
+                    "end": 1127,
+                    "text": "(23)",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Studies With Female Predominance"
+        },
+        {
+            "text": "A larger study from the Zhejiang Province of China examined the gender distribution of COVID-19 patients in young and elderly patients (24) . Young patient populations showed no significant difference in gender distribution (54% male 46% female). In contrast, the elderly (>60 years) COVID-19 patients were predominately female (43% male vs. 57% female) (24) .",
+            "cite_spans": [
+                {
+                    "start": 135,
+                    "end": 139,
+                    "text": "(24)",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 354,
+                    "end": 358,
+                    "text": "(24)",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Studies With Female Predominance"
+        },
+        {
+            "text": "The differences in gender distribution are likely from increased medical comorbidities reported among elderly patients (older vs. younger groups: 55.15 vs. 21.93%) (24) . Lastly, a multicenter European study examining 417 COVID-19 patients showed a higher proportion of COVID-19 patients were female (63%) than male (37%) (25) . Interestingly, the study also found that female COVID-19 patients were more likely than males to be affected by olfactory and gustatory dysfunctions (25) . It is unknown what biological process may be involved in female patients exhibiting a proportion of sensory dysfunction related to COVID-19 (25) .",
+            "cite_spans": [
+                {
+                    "start": 164,
+                    "end": 168,
+                    "text": "(24)",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 322,
+                    "end": 326,
+                    "text": "(25)",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 478,
+                    "end": 482,
+                    "text": "(25)",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 625,
+                    "end": 629,
+                    "text": "(25)",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Studies With Female Predominance"
+        },
+        {
+            "text": "Despite some studies showing gender differences in the incidence and case fatality rate in COVID-19 patients, a growing number of studies show no gender differences in SARS-CoV-2 infections. A study in Jiangsu Province, China, examined 80 patients with COVID-19 who found that men (49%) and women (51%) were equally affected (26) . The authors of the study noted that the lack of gender differences could be related to the small sample size or the mode of transmission during the early stages of the pandemic (26) . A similar study involving 135 patients, an equal distribution between men (53%) and women (47%) were noted with an average age of 47 years (27) .",
+            "cite_spans": [
+                {
+                    "start": 325,
+                    "end": 329,
+                    "text": "(26)",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 509,
+                    "end": 513,
+                    "text": "(26)",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 655,
+                    "end": 659,
+                    "text": "(27)",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Studies With No Gender Predominance"
+        },
+        {
+            "text": "A study involving patients on a Japanese cruise ship found that among the 634 people who tested positive for COVID-19, 49% of cases were female and 51% male (20) . The cases were from a total of 28 countries, including Japan (270 cases), the United States (88 cases), China (58 cases; including 30 from Hong Kong), Philippines (54 cases), Canada (51 cases), and Australia (49 cases) (20) . Given the assortment of different ethnic groups in close proximity, this study suggests that COVID-19 infection rates may not depend on gender but may be reflective of underlying health status, comorbidities, and social factors within a given population.",
+            "cite_spans": [
+                {
+                    "start": 157,
+                    "end": 161,
+                    "text": "(20)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 383,
+                    "end": 387,
+                    "text": "(20)",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Studies With No Gender Predominance"
+        },
+        {
+            "text": "Despite the rapid spread of the disease, the COVID-19 outbreak has revealed unique challenges for both men and women. For pregnant women infected with COVID-19, there are reports of fetal distress, preterm delivery, and intrauterine virus transmission in the third trimester; however, the lack of information has produced much uncertainty concerning the overall health of the mother and fetus exposed to COVID-19 (28) . Therefore, pregnant women are treated aggressively if exposed to COVID-19 and remain a vulnerable risk group to the COVID-19 virus (28) . Furthermore, pregnant women face additional challenges with work, childrearing, and maternal services, which further increase the risk of exposure to COVID-19 (28) . Women may also have limited access to acute and emergency reproductive services forcing many women to travel long distances to safe medical facilities or have their child delivered at home in developing countries (28) . In addition, cesarean sections and abortion care are also limited due to staff shortages and increased risk of COVID-19 infections in surgical wards (28) . In poorer countries, these limitations are further compounded by the limited access to routine clinical care for contraceptive counseling or other reproductive health services (28) .",
+            "cite_spans": [
+                {
+                    "start": 413,
+                    "end": 417,
+                    "text": "(28)",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 551,
+                    "end": 555,
+                    "text": "(28)",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 717,
+                    "end": 721,
+                    "text": "(28)",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 937,
+                    "end": 941,
+                    "text": "(28)",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1093,
+                    "end": 1097,
+                    "text": "(28)",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1276,
+                    "end": 1280,
+                    "text": "(28)",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Reproductive and Psychological Challenges of COVID-19 on Females"
+        },
+        {
+            "text": "As a result, the females are associated with a more significant psychological impact leading to higher levels of stress, anxiety, and depression (29, 30) . A study following the outbreak in Wuhan, China, found that the level of post-traumatic stress syndrome (PTSS) was 7% in women (21.9%) who reported higher negative alterations in mood and hyper-arousal than men (14.6%) (30) . A survey conducted by the Kaiser Family Foundation in the US telephone interviewed 1,126 adults to determine the differences in men and women responding to the COVID-19 pandemic (31) . The survey found that more women than men worry that they or someone in their family will get sick from the coronavirus (68 vs. 56%) or are concerned about losing income due to a workplace closure or reduced hours (50 vs. 42%) (31) . In addition, more women compared to men worry that they would put themselves at risk of exposure to coronavirus because they cannot afford to stay home and miss work (39 and 31%). Women also reported having more part-time jobs than men (13 vs. 9%) and worried more than men about whether they would be able to afford testing or treatment for coronavirus if they need it (40 vs. 31%) (31) . Given the increased stress reported in this survey, women were also asked questions about their mental health. The survey found that more women (16%) than men (11%) felt that worry or stress related to COVID-19 would have a significantly negative impact on their mental health. Furthermore, four in 10 women (36%) and three in 10 men (27%) felt worried or stressed about how coronavirus has had some impact on their mental health (31) .",
+            "cite_spans": [
+                {
+                    "start": 145,
+                    "end": 149,
+                    "text": "(29,",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 150,
+                    "end": 153,
+                    "text": "30)",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 374,
+                    "end": 378,
+                    "text": "(30)",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 559,
+                    "end": 563,
+                    "text": "(31)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 793,
+                    "end": 797,
+                    "text": "(31)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1183,
+                    "end": 1187,
+                    "text": "(31)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1620,
+                    "end": 1624,
+                    "text": "(31)",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Reproductive and Psychological Challenges of COVID-19 on Females"
+        },
+        {
+            "text": "Despite the emotional challenges faced by women, women reported taking more precautions to reduce their exposure and spread of COVID-19 compared to men. The survey found that more women compared to men say they decided not to travel or changed travel plans (47 vs. 37%), or reported canceling plans to attend large gatherings (43 vs. 36%). Furthermore, women were more likely than men to stock food, household supplies, or prescription medications (39 vs. 30%), and planned to stay at home instead of going to work, school, or other regular activities (30 vs. 22%). In this respect, women may act as a safety net and an essential component for maintaining social distancing with their families and society at large by balancing several responsibilities. Studies show that women play an essential role in the stages of public health management, including planning, decision-making, and emergency response systems (32) . Furthermore, women are the primary caregiver for the young, the elderly, and sick in most households and healthcare facilities (32) . Despite this, women remain underrepresented in most political and healthcare organizations (32) . Specifically, political and healthcare organizations with a higher representation of women had a lower number of COVID-19 cases and hospitalizations (32) . Without a longterm policy response, including more female representation, these issues will persist long after the COVID-19 pandemic has passed.",
+            "cite_spans": [
+                {
+                    "start": 912,
+                    "end": 916,
+                    "text": "(32)",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1046,
+                    "end": 1050,
+                    "text": "(32)",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1144,
+                    "end": 1148,
+                    "text": "(32)",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1300,
+                    "end": 1304,
+                    "text": "(32)",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Reproductive and Psychological Challenges of COVID-19 on Females"
+        },
+        {
+            "text": "Current epidemiological data on COVID-19 suggests that minority groups may also be more susceptible to COVID-19 infections (14) . A study conducted by the CDC and the COVID-19-Associated Hospitalization Surveillance Network during March 2020 examined 1,482 hospitalized patients across 14 states in the US (14) . The study found that 54 and 46% of hospitalized patients were male and female, respectively (14) . Furthermore, the COVID-19-associated hospitalization rates were higher among males than among females (5.1 vs. 4.1 per 100,000 population) (14) . Furthermore, CDC and COVID-19-Associated Hospitalization Surveillance Network examined 580 of the 1,482 COVID-19 patients with race/ethnicity data and found that 45.0% were Caucasian, 33% African-American, 8% Hispanic, 5% Asian, <1% American Indian/Alaskan Native, and 7.9% were of other or unknown race (14) . These results are impressive since 33% of hospitalized patients were African American even though they constitute 13% of the United States (US) population. In contrast, 8% of hospitalized patients were Hispanics, who make up 18% of the US population, and 45% of hospitalized COVID-19 patients were Caucasian, who make 76% of the US population.",
+            "cite_spans": [
+                {
+                    "start": 123,
+                    "end": 127,
+                    "text": "(14)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 306,
+                    "end": 310,
+                    "text": "(14)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 405,
+                    "end": 409,
+                    "text": "(14)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 551,
+                    "end": 555,
+                    "text": "(14)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 862,
+                    "end": 866,
+                    "text": "(14)",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "RACE AND COVID-19 INFECTION"
+        },
+        {
+            "text": "However, the study noted racial distributions of hospitalized COVID-19 varied state by state depending on the population of interest (14) . Furthermore, minority populations, such as African Americans, are more likely to have diabetes, hypertension, obesity, asthma, and heart disease, which increases their risk of contracting COVID-19. The CDC and COVID-19-Associated Hospitalization Surveillance Network reported that 89% of hospitalized COVID-19 patients had some form of a preexisting condition. Specifically, 50% of hospitalized patients had hypertension, 48% had obesity, 35% had chronic lung diseases, 28% had diabetes mellitus, and 28% had cardiovascular disease (14) . A previous study examining cytomegalovirus (CMV) among different socioeconomic groups in the US found that a reduced socioeconomic status was associated with a more inferior cell-mediated immunity (33) . The study suggested that patients with a lower socioeconomic status predispose them to reduced access to medical care, multiple comorbidities, poor diet, and life stressors that could weaken their immune system.",
+            "cite_spans": [
+                {
+                    "start": 133,
+                    "end": 137,
+                    "text": "(14)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 672,
+                    "end": 676,
+                    "text": "(14)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 876,
+                    "end": 880,
+                    "text": "(33)",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "RACE AND COVID-19 INFECTION"
+        },
+        {
+            "text": "Given that many minority populations have higher proportions of patients with low socioeconomic status, this may be a contributing factor to the higher prevalence of COVID-19 infections (33) (34) (35) . Current COVID-19 guidelines encourage clinicians to perform preventive measures, such as social distancing, respiratory hygiene, and wearing face coverings in public settings, to protect older adults and persons with underlying medical conditions (14) . There may exist some racial disparity in COVID-19 infections, given the data published on SARS infections (36) . A previous study examining polymorphisms in mannose-binding lectin (MBL) genes found that MBL gene polymorphisms were associated with increased susceptibility to SARS-CoV infection (36) . Further data collection and research are needed to determine if a racial disparity exists with COVID-19 and which socioeconomic and biological factors are involved.",
+            "cite_spans": [
+                {
+                    "start": 186,
+                    "end": 190,
+                    "text": "(33)",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 191,
+                    "end": 195,
+                    "text": "(34)",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 196,
+                    "end": 200,
+                    "text": "(35)",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 450,
+                    "end": 454,
+                    "text": "(14)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 563,
+                    "end": 567,
+                    "text": "(36)",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 751,
+                    "end": 755,
+                    "text": "(36)",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "RACE AND COVID-19 INFECTION"
+        },
+        {
+            "text": "Although few studies have examined the biological mechanisms underlying ethnic differences of COVID-19 infection susceptibility, a recent study noted that ACE2 expression could vary among Asians (significantly higher) compared to African Americans and Caucasians (37) . Though this might explore susceptibility patterns among different ethnicities, larger studies are needed to validate these. Therefore, it remains open whether gender or ethnic differences exist with the expression of ACE2, and ultimately, the pathogenesis of COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 263,
+                    "end": 267,
+                    "text": "(37)",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "ref_spans": [],
+            "section": "RACE AND COVID-19 INFECTION"
+        },
+        {
+            "text": "The major limitation in determining whether gender or ethnic differences exist for COVID-19 patients is the lack of pre-clinical and clinical studies. The significant studies for documenting the epidemiological data for COVID-19 patients were from Wuhan, China. Only two studies included data outside of Wuhan, China, and these data sets were located in Asian countries (Japan and Korea). Therefore, there is a significant bias in the ethnic group represented in these samples. Besides, the limited number of patients diagnosed with COVID-19 may be much higher than reported, given the lack of systematic testing during the initial stages of the outbreak. Furthermore, patients presenting with mild symptoms of cough, fever, and headache may have been misdiagnosed with influenza rather than COVID-19. Given the rapid changes in this pandemic, the data on infection rate, morbidity, and mortality between male and female COVID-19 patients will likely improve with larger sample sizes and greater distribution of age and ethnic backgrounds.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "RACE AND COVID-19 INFECTION"
+        },
+        {
+            "text": "Although the precise mechanism of gender differences in COVID-19 remains unknown, previous studies provide insights into possible mechanisms. Previous studies have shown females have increased resistance to viral, bacterial, fungal, and parasitic organisms than males (38) . Specifically, females are less susceptible to microbial infections by mounting a higher innate immune response than males (39, 40) . Women produce a higher expression of the inflammatory and cytotoxic proteins, including interferon-g (IFN-g), lymphotoxin b (LTb), granzyme A (GZMA), interleukin-12 receptor b2 (IL12Rb2), and granulysin (GNLY) (39) . Furthermore, female patients are less likely to produce extreme immune responses to bacterial or viral infections than male patients leading to sepsis. A study examining gender differences in sepsis patients found that male patients have higher circulating levels of TNF-\u03b1 than female patients, which are correlated with a worse prognosis (41) . Female sepsis patients were protected from sepsis due to the increased production of the immunosuppressive cytokine IL-10 (41). Specifically, female patients produce lower levels of inflammatory mediators and increase the production of immunosuppressive molecules to reduce systemic inflammation. The protection of females to microbial and viral affections is attributed to the protection provided by the X chromosome and sex hormones, which modulate the innate and adaptive immunity (38) . In contrast, males are at higher risk of developing cancers as opposed to females who have a higher risk of autoimmune diseases (38) .",
+            "cite_spans": [
+                {
+                    "start": 268,
+                    "end": 272,
+                    "text": "(38)",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 397,
+                    "end": 401,
+                    "text": "(39,",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 402,
+                    "end": 405,
+                    "text": "40)",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 618,
+                    "end": 622,
+                    "text": "(39)",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 964,
+                    "end": 968,
+                    "text": "(41)",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 1455,
+                    "end": 1459,
+                    "text": "(38)",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 1590,
+                    "end": 1594,
+                    "text": "(38)",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": "PUTATIVE MECHANISMS FOR GENDER DIFFERENCES AMONG COVID-19 PATIENTS"
+        },
+        {
+            "text": "Estrogen has been well-documented as a positive stimulator of the immune response, particularly with increasing the activity and proliferation of T-cells (42) . Estrogen suppresses the immune system by reducing the production of IL-1\u03b2, IL-6, and TNF by monocytes (43) . Estrogen also reduces the expression of nitric oxide synthase, which impairs chemotaxis of neutrophils (44, 45) . Furthermore, estrogen increases the expression of Tolllike Receptor 4 (TLR4) and CD14 expression on macrophages and the differentiation and activation of dendritic cells (38) . Lastly, estrogen increases humoral responses from B lymphocytes producing more antibodies in females than males through enhancing IgG and IgM antibodies (38) .",
+            "cite_spans": [
+                {
+                    "start": 154,
+                    "end": 158,
+                    "text": "(42)",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 263,
+                    "end": 267,
+                    "text": "(43)",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 373,
+                    "end": 377,
+                    "text": "(44,",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 378,
+                    "end": 381,
+                    "text": "45)",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 554,
+                    "end": 558,
+                    "text": "(38)",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 714,
+                    "end": 718,
+                    "text": "(38)",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Hormonal Effect"
+        },
+        {
+            "text": "Testosterone shows several immunosuppressive functions by reducing cytokine production and proliferation of lymphocytes (38) . It increases neutrophil activation in non-infectious states while reducing the expression of TLR4 (38) . It reduces IgM and IgG production directly and by reducing the production of IL-6 by monocytes (38) . As a result, men with higher testosterone levels have been reported to have lower titers of antibodies after vaccination compared to women who have lower testosterone levels (38) . Therefore, the levels of testosterone and estrogen between men and women could predispose individuals to different levels of severity in COVID-19 symptoms.",
+            "cite_spans": [
+                {
+                    "start": 120,
+                    "end": 124,
+                    "text": "(38)",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 225,
+                    "end": 229,
+                    "text": "(38)",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 327,
+                    "end": 331,
+                    "text": "(38)",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 508,
+                    "end": 512,
+                    "text": "(38)",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Hormonal Effect"
+        },
+        {
+            "text": "Women are less susceptible to viral infections than men due to their mounting of more robust immune responses. A study comparing HIV-1 infections in men and women showed that untreated HIV-1 infected women had 40% less circulating viral RNA and greater activation in CD8 + T cells than men (46, 47) . Similar studies with Hepatitis B and C viruses, HIV, Hantavirus, West Nile Virus infections, and influenza viruses showed that men were more susceptible than females to viral infections (48) . However, the study also found that the hyperactive response in female immune systems to viral infections may increase symptom severity and pathological effects than observed in male patients (49) . The authors hypothesized that effect could result from an increase in the production of cytokines, chemokines, and interferons in females than males (50) . Following the elimination of the viral infection, females maintain elevated immune responses that can increase the risk of post-infection complications compared to men (50) . Given these disparities in viral symptoms, female patients infected with COVID-19 may experience more long-term complications than men. Further investigation into the immune response to COVID-19 between male and female patients will be needed.",
+            "cite_spans": [
+                {
+                    "start": 290,
+                    "end": 294,
+                    "text": "(46,",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 295,
+                    "end": 298,
+                    "text": "47)",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 487,
+                    "end": 491,
+                    "text": "(48)",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 685,
+                    "end": 689,
+                    "text": "(49)",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 841,
+                    "end": 845,
+                    "text": "(50)",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 1016,
+                    "end": 1020,
+                    "text": "(50)",
+                    "ref_id": "BIBREF49"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Infection Susceptibility"
+        },
+        {
+            "text": "It remains uncertain whether there are gender differences in the expression of ACE2 receptor, which is the protein involved in the first step of viral entry for COVID-19 (51) . ACE-2 is a type-1 transmembrane metallo-carboxypeptidase that regulates blood pressure through the renin-angiotensin systems (RAS) (52) . The ACE-2 degrades Angiotensin II to generate Angiotensin 1-7, thereby negatively regulating RAS (53, 54) . Although ACE-2 is expressed mostly in the vascular endothelial cells, the renal tubular epithelium, and in Leydig cells in the testes, ACE-2 has also been detected in several other organs and tissues, such as the nasopharynx, lung, stomach, small intestine, colon, lymph nodes, thymus, bone marrow, spleen, liver, kidney, and brain (55, 56) .",
+            "cite_spans": [
+                {
+                    "start": 170,
+                    "end": 174,
+                    "text": "(51)",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 308,
+                    "end": 312,
+                    "text": "(52)",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 412,
+                    "end": 416,
+                    "text": "(53,",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 417,
+                    "end": 420,
+                    "text": "54)",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 755,
+                    "end": 759,
+                    "text": "(55,",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 760,
+                    "end": 763,
+                    "text": "56)",
+                    "ref_id": "BIBREF55"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Gender Differences in ACE2"
+        },
+        {
+            "text": "In vivo studies suggest that ACE2 expression in the kidney is higher in males than females due to the presence of testosterone and estrogen regulatory activities on post-transcriptional and post-translational mechanisms on ACE2 expression (57, 58) . However, the same study examining rat lung ACE-2 expression also showed a decreased expression of ACE-2 with increasing rat age (59) . Furthermore, there was no difference observed in the ACE2 expression in the heart and lungs of both rats and mice (60, 61) . Interestingly, the expression of ACE2 changes through the life-span of female rats through fluctuations in estradiol (E 2 ); in particular, the expression of ACE2 increases significantly during pregnancy (62) . Together, these studies suggest a combination of social and biological differences (e.g., ACE-2 expression) in pregnant female patients may predispose them to COVID19. Medical comorbidities with ACE-2 expression may also explain the increased susceptibility of pregnant female patients to COVID-19. However, further histological and pathology studies are needed to examine the influence of age and gender on the expression of lung ACE-2 and the risk of patients for COVID-19 infection.",
+            "cite_spans": [
+                {
+                    "start": 239,
+                    "end": 243,
+                    "text": "(57,",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 244,
+                    "end": 247,
+                    "text": "58)",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 378,
+                    "end": 382,
+                    "text": "(59)",
+                    "ref_id": "BIBREF58"
+                },
+                {
+                    "start": 499,
+                    "end": 503,
+                    "text": "(60,",
+                    "ref_id": "BIBREF59"
+                },
+                {
+                    "start": 504,
+                    "end": 507,
+                    "text": "61)",
+                    "ref_id": "BIBREF60"
+                },
+                {
+                    "start": 714,
+                    "end": 718,
+                    "text": "(62)",
+                    "ref_id": "BIBREF61"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Gender Differences in ACE2"
+        },
+        {
+            "text": "Currently, smaller sample sizes or cases are being reported in the literature to assess the gender and ethnic differences of COVID-19 patients (63) . Furthermore, the lack of systematic testing across the world limits the accuracy of epidemiological data for the distribution of COVID-19 patients. Second, the morbidity and mortality rates for gender and ethnic groups should be stratified in future epidemiological studies on COVID-19 to assess the differences in healthcare interventions and outcomes for each group (63) . Third, there needs to be an increase in scientific and pathological studies assessing the expression and activity of ACE-2 to identify which patient populations are most at risk. Currently, there have been few studies investigating ACE-2 expression in COVID-19 patients and whether ACE-2 inhibitors may provide therapeutic benefit. Further genetic and biomedical studies are needed to determine if other biomarkers exist for evaluating susceptible populations and guiding patient management. This information would provide clinicians a broader perspective of the biological, social, and economic factors influencing the susceptibility and management of COVID-19 patients.",
+            "cite_spans": [
+                {
+                    "start": 143,
+                    "end": 147,
+                    "text": "(63)",
+                    "ref_id": "BIBREF62"
+                },
+                {
+                    "start": 518,
+                    "end": 522,
+                    "text": "(63)",
+                    "ref_id": "BIBREF62"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Gender Differences in ACE2"
+        },
+        {
+            "text": "There is a greater need to focus on the unique challenges male patients face with the COVID-19 pandemic (64) . A recent study showed that there was a 29% reduction in men seeking medical treatment for ST-segment elevation myocardial infarction during the COVID-19 pandemic; in contrast, there was no change in women hospitalized (64) . It is believed that the association of cardiovascular illness among men with COVID-19 may cause male patients to be reluctant in seeking medical attention for cardiovascular illness (64) . Furthermore, the co-existence of COVID-19 symptoms may mask the symptoms of a heart attack among male patients (64) . Male patients are also known to have a higher treatmentseeking threshold due to the prevalence of male stoicism and self-reliance (64) . Therefore, physicians may be required to investigate other medical conditions in addition to COVID-19 to avoid under-diagnosing potential devastating medical conditions, such as heart disease, among male COVID-19 patients.",
+            "cite_spans": [
+                {
+                    "start": 104,
+                    "end": 108,
+                    "text": "(64)",
+                    "ref_id": "BIBREF63"
+                },
+                {
+                    "start": 329,
+                    "end": 333,
+                    "text": "(64)",
+                    "ref_id": "BIBREF63"
+                },
+                {
+                    "start": 518,
+                    "end": 522,
+                    "text": "(64)",
+                    "ref_id": "BIBREF63"
+                },
+                {
+                    "start": 636,
+                    "end": 640,
+                    "text": "(64)",
+                    "ref_id": "BIBREF63"
+                },
+                {
+                    "start": 773,
+                    "end": 777,
+                    "text": "(64)",
+                    "ref_id": "BIBREF63"
+                }
+            ],
+            "ref_spans": [],
+            "section": "GAPS IN KNOWLEDGE"
+        },
+        {
+            "text": "The current epidemiological data suggests that men are more affected than women by the COVID-19 virus (65) . However, these studies are limited by location, sample size, and other potential biases in the population examined. Different clinical studies have given conflicting reports on the male or female predominance of COVID-19 infections. This discrepancy is likely due to the lack of large-scale epidemiological studies, socioeconomic disparities, or other confounders on the prevalence of pre-existing conditions in different countries. Recent epidemiological data from 38 countries showed a male predominance in COVID-19 infections, which increased in older age demographics. Furthermore, the case fatality rate was 1.7 times higher in men than females (65) . The authors of the study suggested that differences in sex hormones, sex chromosomes, genetic polymorphisms, and epigenetic modifications between males and females may impact immune responses (65) . Specifically, the authors reported that the ACE-2 receptor is located on the X chromosome and is down-regulated by increased estrogen levels (65) . However, the expression of ACE-2 seems to increase with age and with the menstrual cycle of female mice. Therefore, it is possible that the increased expression of ACE-2 expression in elderly and pregnant patients may increase their risk for COVID-19. In general, the increased estrogen in females reduces their chance of viral infections from increase macrophage/neutrophil/dendritic cell activity, humoral response, and T-cell function compared to males. It is believed that the increased immune response in females reduces their susceptibility to COVID-19. The biological mechanism behind these differences also needs further elucidation.",
+            "cite_spans": [
+                {
+                    "start": 102,
+                    "end": 106,
+                    "text": "(65)",
+                    "ref_id": "BIBREF64"
+                },
+                {
+                    "start": 759,
+                    "end": 763,
+                    "text": "(65)",
+                    "ref_id": "BIBREF64"
+                },
+                {
+                    "start": 958,
+                    "end": 962,
+                    "text": "(65)",
+                    "ref_id": "BIBREF64"
+                },
+                {
+                    "start": 1106,
+                    "end": 1110,
+                    "text": "(65)",
+                    "ref_id": "BIBREF64"
+                }
+            ],
+            "ref_spans": [],
+            "section": "GAPS IN KNOWLEDGE"
+        },
+        {
+            "text": "As the COVID-19 pandemic spreads, the differences between male and female mortality and infectivity remains an area of active investigation. The current literature suggests that men tend to have a higher risk of severe infection and mortality related to COVID-19. It is believed that elevated estrogen levels in female COVID-19 patients may reduce the severity and mortality of COVID-19 deaths through an elevation in the innate and humoral response. Furthermore, pre-clinical studies suggest that ACE-2 expression may increase the susceptibility of COVID-19 in pregnant patients. Similarly, the severity and mortality with COVID-19 differ between different ethnic groups. Although genetic polymorphisms associated with COVID-19 susceptibility among ethnic groups remains unknown, the increase in medical comorbidities and lack of access to care are significant contributors to increased COVID-19 mortality in these communities. As the pandemic continues to spread, African American and Hispanic communities have shown increased rates of infection and hospitalization compared to Caucasian populations. These differences are likely due to a higher prevalence of diabetes, hypertension, obesity, asthma, and heart disease in minority groups.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONCLUSION"
+        },
+        {
+            "text": "Further research is required to understand the molecular and pathophysiological mechanisms underlying these ethnic disparities in COVID-19 infection and severity. It remains unknown though whether genetic polymorphisms in ACE-2 expression or other genes may be involved in the gender or ethnic disparities to COVID-19 infection. Furthermore, the role of ACE-2 expression in male and female COVID-19 patients remains unknown. Pre-clinical studies show no difference in ACE-2 expression between male and female murine models. Additional studies are needed to evaluate whether expression levels of ACE-2 in the lung correlated with the severity or susceptibility of COVID-19 in human subjects. In the meantime, policies for reducing the spread of COVID-19 should take into consideration the unique challenges among men and women, including social, emotional, physical, and economic security.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONCLUSION"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "The SARS-CoV-2 outbreak: what we know",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Infect Dis",
+            "volume": "94",
+            "issn": "",
+            "pages": "44--52",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ijid.2020.03.004"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "The epidemiology and pathogenesis of coronavirus disease (COVID-19) outbreak",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Rothan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Byrareddy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Autoimmun",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jaut.2020.102433"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Clinical insights into the gastrointestinal manifestations of COVID-19",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kopel",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Perisetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gajendran",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Boregowda",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Goyal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Digest Dis Sci",
+            "volume": "65",
+            "issn": "",
+            "pages": "1932--1941",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s10620-020-06362-8"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "What we know so far: COVID-19 current clinical knowledge and research",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lake",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Med (Lond)",
+            "volume": "20",
+            "issn": "",
+            "pages": "124--131",
+            "other_ids": {
+                "DOI": [
+                    "10.7861/clinmed.2019-coron"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "The COVID-19 epidemic",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Velavan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Meyer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Trop Med Int Health",
+            "volume": "25",
+            "issn": "",
+            "pages": "278--80",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/tmi.13383"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "COVID-19 and gastrointestinal endoscopies: current insights and emergent strategies",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Perisetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gajendran",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Boregowda",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Bansal",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Goyal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Digest Endosc",
+            "volume": "32",
+            "issn": "",
+            "pages": "715--737",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/den.13693"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Gastrointestinal bleeding in patients with severe SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gadiparthi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Perisetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Sayana",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Tharian",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Inamdar",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Korman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Am J Gastroenterol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.14309/ajg.0000000000000719"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Putative mechanisms of diarrhea in COVID-19",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Perisetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gajendran",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Goyal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Gastroenterol Hepatol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cgh.2020.06.008"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Taste changes (Dysgeusia) in COVID-19: a systematic review and metaanalysis",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Aziz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Perisetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lee-Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gajendran",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Bansal",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Goyal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Gastroenterology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1053/j.gastro.2020.05.003"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Gastrointestinal symptoms and outcomes in hospitalized COVID-19 patients",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ramachandran",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Onukogu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ghanta",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gajendran",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Perisetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Goyal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1159/000509774"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "COVID-19: the gendered impacts of the outbreak",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wenham",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Morgan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "846--854",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30526-2"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "COVID-19 patients' clinical characteristics, discharge rate, and fatality rate of meta-analysis",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J Med Virol",
+            "volume": "92",
+            "issn": "",
+            "pages": "577--83",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jmv.25757"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Hospitalization rates and characteristics of patients hospitalized with laboratory-confirmed coronavirus disease 2019-COVID-NET, 14 states",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Garg",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Whitaker",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "O&apos;halloran",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Cummings",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Holstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "MMWR Morb Mortal Weekly Rep",
+            "volume": "69",
+            "issn": "",
+            "pages": "458--64",
+            "other_ids": {
+                "DOI": [
+                    "10.15585/mmwr.mm6915e3"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Clinical characteristics of 113 deceased patients with coronavirus disease 2019: retrospective study",
+            "authors": [],
+            "year": 2020,
+            "venue": "BMJ",
+            "volume": "368",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmj.m1091"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Clinical characteristics of refractory COVID-19 pneumonia in Wuhan, China",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Mo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xing",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/cid/ciaa270"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Positive rate of RT-PCR detection of SARS-CoV-2 infection in 4880 cases from one hospital in",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Lv",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Chim Acta",
+            "volume": "505",
+            "issn": "",
+            "pages": "172--177",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cca.2020.03.009"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Clinical features of deaths in the novel coronavirus epidemic in China",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Leung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Rev Med Virol",
+            "volume": "30",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/rmv.2103"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Factors associated with prolonged viral RNA shedding in patients with COVID-19",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Yi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ding",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/cid/ciaa351"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Estimating the asymptomatic proportion of coronavirus disease 2019 (COVID-19) cases on board the Diamond Princess cruise ship",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Mizumoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kagaya",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zarebski",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Chowell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eurosurveillance",
+            "volume": "25",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2807/1560-7917.ES.2020.25.10.2000180"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Gender differences in patients with COVID-19: focus on severity and mortality",
+            "authors": [
+                {
+                    "first": "Jin J-M",
+                    "middle": [],
+                    "last": "Bai",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X-F",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "D-M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fpubh.2020.00152"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Report on the epidemiological features of coronavirus disease 2019 (COVID-19) outbreak in the Republic of Korea from",
+            "authors": [],
+            "year": 2020,
+            "venue": "Korea Centers for Disease Control and Prevention",
+            "volume": "35",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3346/jkms.2020.35.e112"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Epidemiological characteristics on the clustering nature of COVID-19 in Qingdao City, 2020: a descriptive analysis",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Jia",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1017/dmp.2020.59"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Analysis of epidemiological and clinical features in older patients with corona virus disease 2019 (COVID-19) out of Wuhan",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lian",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jin",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Hao",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cai",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Infect Dis",
+            "volume": "382",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/cid/ciaa242"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Olfactory and gustatory dysfunctions as a clinical presentation of mild-to-moderate forms of the coronavirus disease (COVID-19): a multicenter European study",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Lechien",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Chiesa-Estomba",
+                    "suffix": ""
+                },
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Siati",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Horoi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Le",
+                    "middle": [],
+                    "last": "Bon",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Rodriguez",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eur Archiv Otorhinolaryngol",
+            "volume": "277",
+            "issn": "",
+            "pages": "2251--61",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00405-020-05965-1"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Clinical characteristics of imported cases of coronavirus disease 2019 (COVID-19) in Jiangsu province: a multicenter descriptive study",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/cid/ciaa199"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Clinical features and treatment of COVID-19 patients in northeast Chongqing",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "92",
+            "issn": "",
+            "pages": "797--806",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jmv.25783"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "COVID-19: What implications for sexual and reproductive health and rights globally? Sexual Reprod Health Matters",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hussein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "28",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/26410397.2020.1746065"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Immediate psychological responses and associated factors during the initial stage of the 2019 coronavirus disease (COVID-19) epidemic among the general population in China",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Ho",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Environ Res Public Health",
+            "volume": "17",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/ijerph17051729"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Prevalence and predictors of PTSS during COVID-19 outbreak in China hardest-hit areas: gender differences matter",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Jia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Shang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Psychiatry Res",
+            "volume": "287",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.psychres.2020.112921"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Coronavirus: A Look at Gender Differences in Awareness and Actions. Kaiser Family Foundation-Women's Health Policy",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Frederiksen",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Gomez",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Salganicoff",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Ranji",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Gender equity and public health outcomes: the COVID-19 experience",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sharma",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Adithipyangkul",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Hosie",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Bus Res",
+            "volume": "116",
+            "issn": "",
+            "pages": "193--201",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jbusres.2020.05.031"
+                ]
+            }
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Socioeconomic differentials in immune response",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Dowd",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Aiello",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Epidemiology",
+            "volume": "20",
+            "issn": "",
+            "pages": "902--910",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/EDE.0b013e3181bb5302"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Socioeconomic inequalities in health. No easy solution",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Adler",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "J Am Med Assoc",
+            "volume": "269",
+            "issn": "",
+            "pages": "3140--3145",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.269.24.3140"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Socioeconomic status, pathogen burden and cardiovascular disease risk",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Steptoe",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Shamaei-Tousi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gylfe",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Henderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bergstrom",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Marmot",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Heart",
+            "volume": "93",
+            "issn": "",
+            "pages": "1567--70",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/hrt.2006.113993"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Association between Mannose-binding lectin gene polymorphisms and susceptibility to severe acute respiratory syndrome coronavirus infection",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhi",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhai",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J Infect Dis",
+            "volume": "192",
+            "issn": "",
+            "pages": "1355--61",
+            "other_ids": {
+                "DOI": [
+                    "10.1086/491479"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Single-cell RNA expression profiling of ACE2, the putative receptor of Wuhan 2019-nCov. Cold Spring Harbor Lab",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zuo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.01.26.919985"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Sexual dimorphism in innate immunity",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jaillon",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Berthenet",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Garlanda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Clin Rev Allergy Immunol",
+            "volume": "56",
+            "issn": "",
+            "pages": "308--329",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s12016-017-8648-x"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Stronger inflammatory/cytotoxic T-cell response in women identified by microarray analysis",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hewagama",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Patel",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yarlagadda",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Strickland",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Richardson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Genes Immunity",
+            "volume": "10",
+            "issn": "",
+            "pages": "509--525",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/gene.2009.12"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Sexual dimorphism in innate immune responses to infectious organisms",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Marriott",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Huet-Hudson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Immunol Res",
+            "volume": "34",
+            "issn": "",
+            "pages": "177--92",
+            "other_ids": {
+                "DOI": [
+                    "10.1385/IR:34:3:177"
+                ]
+            }
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Gender differences in human sepsis",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Schr\u00f6der",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Archiv Surg",
+            "volume": "133",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/archsurg.133.11.1200"
+                ]
+            }
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Estrogen receptor \u03b1 contributes to T cell-mediated autoimmune inflammation by promoting T cell activation and proliferation",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Mohammad",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Starskaia",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Nagy",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Yatkin",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "V\u00e4\u00e4n\u00e4nen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Sci Signal",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/scisignal.aap9415"
+                ]
+            }
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "17\u03b2-Estradiol utilizes the estrogen receptor to regulate CD16 expression in monocytes",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Kramer",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Winger",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Kramer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Mol Cell Endocrinol",
+            "volume": "279",
+            "issn": "",
+            "pages": "16--25",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.mce.2007.08.014"
+                ]
+            }
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Estrogen stimulates neuronal nitric oxide synthase protein expression in human neutrophils",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Garc\u00eda-Dur\u00e1n",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "De Frutos",
+                    "suffix": ""
+                },
+                {
+                    "first": "D\u00edaz-Recasens",
+                    "middle": [],
+                    "last": "Jn",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Garc\u00eda-G\u00e1lvez",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Jim\u00e9nez",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mont\u00f3n",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Circ Res",
+            "volume": "85",
+            "issn": "",
+            "pages": "1020--1026",
+            "other_ids": {
+                "DOI": [
+                    "10.1161/01.RES.85.11.1020"
+                ]
+            }
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Effects of sex hormones on chemotaxis of human peripheral polymorphonuclear leukocytes and monocytes",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Miyagi",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Aoyama",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Morishita",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Iwamoto",
+                    "suffix": ""
+                }
+            ],
+            "year": 1992,
+            "venue": "J Periodontol",
+            "volume": "63",
+            "issn": "",
+            "pages": "28--32",
+            "other_ids": {
+                "DOI": [
+                    "10.1902/jop.1992.63.1.28"
+                ]
+            }
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Sex drives dimorphic immune responses to viral infections",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ghosh",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Klein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Immunol",
+            "volume": "198",
+            "issn": "",
+            "pages": "1782--90",
+            "other_ids": {
+                "DOI": [
+                    "10.4049/jimmunol.1601166"
+                ]
+            }
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Initial plasma HIV-1 RNA levels and progression to AIDS in women and men",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Sterling",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Vlahov",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Astemborski",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Hoover",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Margolick",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Quinn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "N Engl J Med",
+            "volume": "344",
+            "issn": "",
+            "pages": "720--725",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJM200103083441003"
+                ]
+            }
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "The effects of hormones on sex differences in infection: from genes to behavior",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Klein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Neurosci Biobehav Rev",
+            "volume": "24",
+            "issn": "",
+            "pages": "627--665",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0149-7634(00)00027-0"
+                ]
+            }
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "The influence of sex and gender on the immune response",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Oertelt-Prigione",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Autoimmun Rev",
+            "volume": "11",
+            "issn": "",
+            "pages": "479--85",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.autrev.2011.11.022"
+                ]
+            }
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Sex influences immune responses to viruses, and efficacy of prophylaxis and treatments for viral diseases",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Klein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Bioessays",
+            "volume": "34",
+            "issn": "",
+            "pages": "1050--1059",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/bies.201200099"
+                ]
+            }
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Evidence for gastrointestinal infection of SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Shan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Gastroenterology",
+            "volume": "158",
+            "issn": "",
+            "pages": "1831--1834",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.02.17.20023721"
+                ]
+            }
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Angiotensin-I-converting enzyme and its relatives",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Riordan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Genome Biol",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/gb-2003-4-8-225"
+                ]
+            }
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Trilogy of ACE2: a peptidase in the renin-angiotensin system, a SARS receptor, and a partner for amino acid transporters",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kuba",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Imai",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ohto-Nakanishi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Penninger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Pharmacol Ther",
+            "volume": "128",
+            "issn": "",
+            "pages": "119--147",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.pharmthera.2010.06.003"
+                ]
+            }
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Angiotensin-converting enzyme 2 (ACE2) is a key modulator of the renin angiotensin system in health and disease",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Tikellis",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Thomas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Int J Pept",
+            "volume": "2012",
+            "issn": "",
+            "pages": "1--8",
+            "other_ids": {
+                "DOI": [
+                    "10.1155/2012/256294"
+                ]
+            }
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "A novel coronavirus associated with severe acute respiratory syndrome",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Ksiazek",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Erdman",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Goldsmith",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Zaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Peret",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Emery",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "N Engl J Med",
+            "volume": "348",
+            "issn": "",
+            "pages": "1953--66",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa030781"
+                ]
+            }
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Quantitative mRNA expression profiling of ACE 2, a novel homologue of angiotensin converting enzyme",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Harmer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gilbert",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Borman",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Clark",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "FEBS Lett",
+            "volume": "532",
+            "issn": "",
+            "pages": "107--117",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0014-5793(02)03640-2"
+                ]
+            }
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "Sex differences in renal angiotensin converting enzyme 2 (ACE2) activity are 17\u03b2-oestradioldependent and sex chromosome-independent",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ji",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Arnold",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Biol Sex Differ",
+            "volume": "1",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/2042-6410-1-6"
+                ]
+            }
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Postnatal ontogeny of angiotensin receptors and ACE2 in male and female rats",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Sampson",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Moritz",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Denton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Gender Med",
+            "volume": "9",
+            "issn": "",
+            "pages": "21--32",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.genm.2011.12.003"
+                ]
+            }
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "Age-and genderrelated difference of ACE2 expression in rat lung",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xudong",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Junzhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Xingxiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Furong",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yanrong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Life Sci",
+            "volume": "78",
+            "issn": "",
+            "pages": "2166--71",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.lfs.2005.09.038"
+                ]
+            }
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "Tissue-specific regulation of ACE/ACE2 and AT1/AT2 receptor gene expression by oestrogen in apolipoprotein E/oestrogen receptor-\u03b1 knock-out mice",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Brosnihan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Hodgin",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Smithies",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Maeda",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gallagher",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Exp Physiol",
+            "volume": "93",
+            "issn": "",
+            "pages": "658--64",
+            "other_ids": {
+                "DOI": [
+                    "10.1113/expphysiol.2007.041806"
+                ]
+            }
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "Sex differences in circulating and renal angiotensins of hypertensive mRen(",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Pendergrass",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Pirro",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Westwood",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ferrario",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Brosnihan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Chappell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Am J Physiol Heart Circ Physiol",
+            "volume": "295",
+            "issn": "",
+            "pages": "10--20",
+            "other_ids": {
+                "DOI": [
+                    "10.1152/ajpheart.01277.2007"
+                ]
+            }
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "Enhanced renal immunocytochemical expression of ANG-(1-7) and ACE2 during pregnancy",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Brosnihan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Laa",
+                    "middle": [],
+                    "last": "Neves",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Joyner",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Averill",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Chappell",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sarao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Hypertension",
+            "volume": "42",
+            "issn": "",
+            "pages": "749--53",
+            "other_ids": {
+                "DOI": [
+                    "10.1161/01.HYP.0000085220.53285.11"
+                ]
+            }
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "Covid-19 worldwide: we need precise data by age group and sex urgently",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Bhopal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ",
+            "volume": "369",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmj.m1366"
+                ]
+            }
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Influence of age and gender on arrival of patients with ST-segment elevation acute myocardial infarction to tertiary centers during COVID-19 pandemic. Experience of Madrid, Spain, STEMI network (Codigo Infarto Madrid)",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Moreno",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Alonso",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Caballero",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Del Corral",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "El\u00edzaga",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Asenjo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Am J Emerg Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ajem.2020.06.013"
+                ]
+            }
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "Considering how biological sex impacts immune responses and COVID-19 outcomes",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Scully",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Haverfield",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Ursin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Tannenbaum",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Klein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Rev Immunol",
+            "volume": "20",
+            "issn": "",
+            "pages": "442--449",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41577-020-0348-8~"
+                ]
+            }
+        }
+    },
+    "ref_entries": {},
+    "back_matter": [
+        {
+            "text": "AP and HG: conception and design. JK: first draft. All authors: literature review, critical revision and editing, and final approval.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "AUTHOR CONTRIBUTIONS"
+        },
+        {
+            "text": "The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.Copyright \u00a9 2020 Kopel, Perisetti, Roghani, Aziz, Gajendran and Goyal. This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of Interest:"
+        }
+    ]
+}

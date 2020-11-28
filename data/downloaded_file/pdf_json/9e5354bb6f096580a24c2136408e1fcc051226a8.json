@@ -1,0 +1,2550 @@
+{
+    "paper_id": "9e5354bb6f096580a24c2136408e1fcc051226a8",
+    "metadata": {
+        "title": "Analysis of Possible Intermediate Hosts of the New Coronavirus SARS-CoV-2",
+        "authors": [
+            {
+                "first": "Santhamani",
+                "middle": [],
+                "last": "Ramasamy",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Souvik",
+                "middle": [],
+                "last": "Ghosh",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Shu",
+                "middle": [],
+                "last": "Yuan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sichuan Agricultural University",
+                    "location": {
+                        "settlement": "Chengdu",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yuan",
+                "middle": [
+                    "S"
+                ],
+                "last": "Jiang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Si-Cong",
+                "middle": [],
+                "last": "Jiang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Chengdu Kanghong Pharmaceutical Group Co., Ltd",
+                    "institution": "",
+                    "location": {
+                        "settlement": "Chengdu",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zi-Lin",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Medical University of the Air Force",
+                    "location": {
+                        "settlement": "Xi'an",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Since infections with the new pneumonia virus (SARS-CoV-2) were first reported in China, the epidemic has spread rapidly. Now the virus has spread beyond China, and international exportation into most countries in the world is occurring. To date, the source(s) and complete route of transmission of the virus have not been clarified.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Four recent articles analyzed the whole-genome sequence of SARS-CoV-2 and constructed phylogenetic trees (1) (2) (3) (4) . It is believed that the virus belongs to the betacoronavirus genus, and the SARS-CoV-2 cluster is situated with the groups of SARS (Severe Acute Respiratory Syndromes)/SARS-like coronaviruses, with fruit bat coronavirus HKU9-1 as the immediate outgroup (2) . A recent study pointed out that the similarity between SARS-CoV-2 and BatCoV RaTG13, a virus strain isolated from Rhinolophus yunnanensis, was as high as 96.2% (3) . Bats are therefore the most probable source of the virus. Bats can carry many kinds of viruses without becoming ill in response to them (5, 6) . There is a huge natural coronavirus pool in bats that sometimes spreads to humans. For example, the Ebola virus originated from the Angora dog bat (Mops condylurus, a fruit-eating bat), although its intermediate host is still unknown (7) . The MERS (Middle East Respiratory Syndrome) virus originated from the Egyptian tomb bat (Taphozous perforatus) and was transmitted to the dromedary camel (Camelus dromedarius) before going on to infect humans [ Figure 1 ; (8) (9) (10) (11) (12) ].",
+            "cite_spans": [
+                {
+                    "start": 105,
+                    "end": 108,
+                    "text": "(1)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 109,
+                    "end": 112,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 113,
+                    "end": 116,
+                    "text": "(3)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 117,
+                    "end": 120,
+                    "text": "(4)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 376,
+                    "end": 379,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 542,
+                    "end": 545,
+                    "text": "(3)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 684,
+                    "end": 687,
+                    "text": "(5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 688,
+                    "end": 690,
+                    "text": "6)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 927,
+                    "end": 930,
+                    "text": "(7)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1155,
+                    "end": 1158,
+                    "text": "(8)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1159,
+                    "end": 1162,
+                    "text": "(9)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1163,
+                    "end": 1167,
+                    "text": "(10)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1168,
+                    "end": 1172,
+                    "text": "(11)",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1173,
+                    "end": 1177,
+                    "text": "(12)",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1144,
+                    "end": 1152,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "SARS-CoV-2 IS A BAT-DERIVED BETACORONAVIRUS"
+        },
+        {
+            "text": "Fruit bats are rarely found in Hubei province, but horseshoe bats (Rhinolophus) are widely distributed there and are likely to be the source of the virus. But how does Rhinolophus spread SARS-CoV-2 to humans? Some intermediate host(s) may be involved. A recent study suggests that SARS-CoV-2 may be derived from the homologous recombination of a bat coronavirus with a snake coronavirus (13) . They compared the relative synonymous codon usage (RSCU) bias of the viral genome with its possible hosts and found that the RSCU bias of SARS-CoV-2 is most close to that of snakes (13) . However, in that study, the numbers of codons of the two snakes were several orders of magnitude lower than those of other species. This kind of comparison may be inappropriate. In addition, betacoronavirus has never been detected in snakes (14) . The host range of a certain coronavirus is relatively narrow. For example, the SARS-like coronavirus reported in Rhinolophus hupehensis during 2005 could not infect human cells (15) . The authors of the above report continuously searched bat coronaviruses in China for the subsequent 8 years until, in 2013, they found a SARS-like coronavirus isolate WIV1 in Yunnan province that could infect cells from both humans and other mammals (16) . Even if a super-highly contagious betacoronavirus strain emerges, it may not cross over mammals to infect snakes, tortoises (17), or birds. Furthermore, wild snakes were in hibernation in winter and are unlikely to act as the intermediate hosts.",
+            "cite_spans": [
+                {
+                    "start": 387,
+                    "end": 391,
+                    "text": "(13)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 575,
+                    "end": 579,
+                    "text": "(13)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 823,
+                    "end": 827,
+                    "text": "(14)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1007,
+                    "end": 1011,
+                    "text": "(15)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1264,
+                    "end": 1268,
+                    "text": "(16)",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "SNAKES AND BIRDS MAY NOT BE THE INTERMEDIATE HOSTS"
+        },
+        {
+            "text": "Studies on SARS indicated that the palm civet (Paguma larvata) may be an intermediate host. In fact, before the outbreak of SARS, civet feeding became popular in many parts of China. Bat SARSlike coronavirus may have infected palm civets by accident in a Yunnan civet-farm. The virus-carrying civets may then have been sold to Guangdong province. The virus may have further spread and mutated in palm civets on the market, resulting in a highly contagious SARS virus, which infected humans in 2003 [ Figure 1 ; (18) (19) (20) ]. However, in the case of SARS-CoV-2, the first patient and 12 of the 40 later cases had no link to the wild animal market in Wuhan (21, 22) . Therefore, the animals usually seen in the market, such as palm civets, are unlikely to be the original intermediate hosts of the virus.",
+            "cite_spans": [
+                {
+                    "start": 511,
+                    "end": 515,
+                    "text": "(18)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 516,
+                    "end": 520,
+                    "text": "(19)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 521,
+                    "end": 525,
+                    "text": "(20)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 659,
+                    "end": 663,
+                    "text": "(21,",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 664,
+                    "end": 667,
+                    "text": "22)",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 500,
+                    "end": 508,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "PALM CIVET AND OTHER CARNIVOROUS ANIMALS ARE UNLIKELY TO BE THE INTERMEDIATE HOSTS"
+        },
+        {
+            "text": "The identity of the full-length spike (S) glycoprotein between palm civet SARS coronavirus [AY515512.1; (23)] and SARS-CoV isolated from humans (AH012999.2) is 98.0%, while the S glycoprotein identity between SARS-CoV and SARS-CoV-2 (YP_009724390.1) is only 75.4%, also indicating that palm civets are the intermediate hosts of SARS-CoV but not SARS-CoV-2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "PALM CIVET AND OTHER CARNIVOROUS ANIMALS ARE UNLIKELY TO BE THE INTERMEDIATE HOSTS"
+        },
+        {
+            "text": "Like palm civets, other animals usually seen in the market may also be not the intermediate hosts, such as hog badgers, dog badgers, coyotes, and raccoon dogs. A recent study showed that SARS-CoV-2 replicates poorly in dogs, pigs, chickens, and ducks, but ferrets and cats are permissive to infection (24) . However, cats and dogs may usually be infected with alphacoronaviruses, not betacoronavirus (14) . To define the possible roles of domesticated animals in SARS-CoV-2 transmission, further investigations are required.",
+            "cite_spans": [
+                {
+                    "start": 301,
+                    "end": 305,
+                    "text": "(24)",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 400,
+                    "end": 404,
+                    "text": "(14)",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "PALM CIVET AND OTHER CARNIVOROUS ANIMALS ARE UNLIKELY TO BE THE INTERMEDIATE HOSTS"
+        },
+        {
+            "text": "Xiao et al. (25) recently reported betacoronavirus in pangolins. However, the statement of \"as close as 99%\" that made in their press release for the pangolin virus was misleading because the full-length genome similarity between the pangolin virus and SARS-CoV-2 is only 90.3%. A high similarity of 99% has been found within the \"E\" region (25) . However, viruses from other species are also very similar in this region. Lam et al. (26) also reported several genome sequences of coronaviruses isolated in Malayan pangolins. Although a high similarity of 97.4% has been found within the receptor-binding domain, the full-length genome similarities between the pangolin coronaviruses and SARS-CoV-2 (85.5-92.4%) are much lower than that between BatCoV RaTG13 and SARS-CoV-2 (96.2%). Additionally, in the phylogenetic tree, the pangolin CoV cluster is situated outside the clade of human CoV and Rhinolophus CoV (25, 26) . Viruses from the direct intermediate host should be closer to humans than to bats. Moreover, the highest similarity between pangolin coronaviruses and SARS-CoV-2 is only 92.4% (26) , indicating that there is a large genetic distance that needs decades of evolution. Andersen et al. (27) further found that neither pangolin CoV nor the BatCoV RaTG13 carries the polybasic cleavage site insertion that is required for human ACE2 receptor binding. Thus, SARS-CoV-2 does not seem to be the result of the recombination of a pangolin virus with a bat virus (28) .",
+            "cite_spans": [
+                {
+                    "start": 12,
+                    "end": 16,
+                    "text": "(25)",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 341,
+                    "end": 345,
+                    "text": "(25)",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 422,
+                    "end": 437,
+                    "text": "Lam et al. (26)",
+                    "ref_id": null
+                },
+                {
+                    "start": 910,
+                    "end": 914,
+                    "text": "(25,",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 915,
+                    "end": 918,
+                    "text": "26)",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 1097,
+                    "end": 1101,
+                    "text": "(26)",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 1203,
+                    "end": 1207,
+                    "text": "(27)",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 1472,
+                    "end": 1476,
+                    "text": "(28)",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "PANGOLIN MAY NOT BE THE DIRECT INTERMEDIATE HOST"
+        },
+        {
+            "text": "Moreover, China's pangolins are on the brink of extinction, and almost no wild pangolin could be caught. Such a low population density makes it almost impossible that it is an intermediate host. Lam et al. (26) suggested that pangolins should be removed from wet markets to prevent zoonotic transmission. However, pangolins have long been banned from sale, and pangolins could not be seen in the market. It would have been almost impossible for the first generation of patients to come into contact with living pangolins.",
+            "cite_spans": [
+                {
+                    "start": 195,
+                    "end": 210,
+                    "text": "Lam et al. (26)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "PANGOLIN MAY NOT BE THE DIRECT INTERMEDIATE HOST"
+        },
+        {
+            "text": "Betacoronavirus can infect Artiodactyla and Perissodactyla animals, such as swine, cattle, horses, camels, etc. In 2018, researchers identified a pathogen causing acute lethal diarrhea of piglets in a pig-farm in Guangdong, which was a new type of batderived Swine Acute Diarrhea Syndrome coronavirus (SADS-CoV), although the virus did not transmit to humans (29) . They did indeed observe Rhinolophus flying around the pig-farm, and the bat feces may be the transmission media [ Figure 1 ; (29) ].",
+            "cite_spans": [
+                {
+                    "start": 359,
+                    "end": 363,
+                    "text": "(29)",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 491,
+                    "end": 495,
+                    "text": "(29)",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 480,
+                    "end": 488,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "LIVESTOCK MAY NOT BE THE INTERMEDIATE HOSTS"
+        },
+        {
+            "text": "Malaysia's Nipah virus (NiV) has a similar transmission path. Local people built pig farms next to bat habitats. Bats that were carrying the virus ate fruit and dropped virus-polluted fruit parts into the pig pens. Through this route, NiV infected swine and then infected humans [ Figure 1 ; (30) ]. However, livestock infected with coronaviruses would show serious symptoms and even death, and yet there have been no recent reports of acute diseases in livestock in Wuhan, though the possibility of asymptomatic infection cannot be ruled out.",
+            "cite_spans": [
+                {
+                    "start": 292,
+                    "end": 296,
+                    "text": "(30)",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 281,
+                    "end": 289,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "LIVESTOCK MAY NOT BE THE INTERMEDIATE HOSTS"
+        },
+        {
+            "text": "During animal selection, the viral genome should make some adaptations to the host, such as changes in the relative synonymous codon usage (RSCU) bias. Ji et al. (13) interestingly indicated that, among all possible mammal hosts, the RSCU bias of SARS-CoV-2 is most close to that of Marmota (a rodent species), which may indicate rodents as the intermediate hosts. The two endemic human coronaviruses, HCoV-OC43 and HCoV-HKU1, have been suggested to have originated from rodents (31) . Besides, young mice (4-6 weeks old) do not develop illness following SARS infections, while older (12-14 months old) mice develop clinical illness and pneumonitis but do not subsequently die (32, 33) . This suggests that one or more rodent species may be the intermediate hosts in which the virus was circulating and mutating (34) .",
+            "cite_spans": [
+                {
+                    "start": 162,
+                    "end": 166,
+                    "text": "(13)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 479,
+                    "end": 483,
+                    "text": "(31)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 677,
+                    "end": 681,
+                    "text": "(32,",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 682,
+                    "end": 685,
+                    "text": "33)",
+                    "ref_id": null
+                },
+                {
+                    "start": 812,
+                    "end": 816,
+                    "text": "(34)",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [],
+            "section": "RODENTS MAY PLAY AN IMPORTANT ROLE IN THE VIRAL TRANSMISSION"
+        },
+        {
+            "text": "The ecological niche overlap between the city mouse and the Rhinolophus (active in the mountains) is low. Given that both rats and bats are widely distributed around the world, the single-point outbreak centered on Wuhan cannot be reasonably explained. Bamboo rats are widely cultured in China. However, they eat bamboo roots and stems, grass shots, and so on, which have no overlap with the ecological niche of Rhinolophus. We have noticed that a large number of squirrels have been released in Wuhan since 2013, and a park for wild squirrels has been built in Wuhan. Both wild squirrels and Rhinolophus are active in mountain forests, and their ecological niches overlap to some extent. People usually treat squirrels as pets and feed them without any protection. They might transmit SARS-CoV-2 through saliva or by accidental biting during feeding. Although no coronavirus has been isolated from squirrels so far, the lymphocytic choriomeningitis virus and some lyssaviruses have been reported in Sciuridae animals (35) , implying a zoonotic transmission capability from squirrels.",
+            "cite_spans": [
+                {
+                    "start": 1018,
+                    "end": 1022,
+                    "text": "(35)",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [],
+            "section": "RODENTS MAY PLAY AN IMPORTANT ROLE IN THE VIRAL TRANSMISSION"
+        },
+        {
+            "text": "Hamsters were found as suitable laboratory animals for SARS-CoV-2 as it causes disease and pathology in them that is somewhat close to the effects in human (36) . This requires further study.",
+            "cite_spans": [
+                {
+                    "start": 156,
+                    "end": 160,
+                    "text": "(36)",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "RODENTS MAY PLAY AN IMPORTANT ROLE IN THE VIRAL TRANSMISSION"
+        },
+        {
+            "text": "Andersen et al. (27) proposed two theories of the origins of SARS-CoV-2: selection in an animal host or cryptic adaptation to humans. It is possible that a progenitor to SARS-CoV-2 jumped from a non-human animal (bat or some intermediate host) to humans (directly or indirectly), with its genomic features (like the polybasic cleavage site and O-linked glycans) acquired through adaptation during subsequent human-tohuman transmission. However, cryptic adaptation in humans (for example, that of seasonal influenza) should result in widespread outbreaks, not a single-point outbreak. Furthermore, there should be a lot of intermediate types of viruses between the progenitor virus and the current SARS-CoV-2, whereas there are only 120 substitution sites (0.41%) found in eight coding sequences of the SARS-CoV-2 viral genome. The genomic variation of SARS-CoV-2 is still very low, and no intermediate types such as are proposed above have been found (37) .",
+            "cite_spans": [
+                {
+                    "start": 16,
+                    "end": 20,
+                    "text": "(27)",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 951,
+                    "end": 955,
+                    "text": "(37)",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "ref_spans": [],
+            "section": "SELECTION IN AN ANIMAL HOST VS. CRYPTIC ADAPTATION TO HUMANS"
+        },
+        {
+            "text": "Putting aside the human adaptation theory, the animal selection theory suggests that SARS-Cov-2 have been circulating in one or more animal species before human infection. For a precursor virus to acquire the genomic features suitable for human ACE2 receptor binding, an animal host would likely have to have a high population density to allow natural selection to proceed efficiently (27) . It is interesting to note that rodent betacoronaviruses have the polybasic cleavage site (38) . Considering the above, surveillance and whole genomic analysis of CoVs from rodents are important to elucidate whether these species have any role in the transmission cycle of the virus and to detect the emergence of possible recombinants involving CoVs from these species and those from bats. However, there is not yet any evidence on the role of rodents or squirrels as intermediate hosts.",
+            "cite_spans": [
+                {
+                    "start": 385,
+                    "end": 389,
+                    "text": "(27)",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 481,
+                    "end": 485,
+                    "text": "(38)",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": "SELECTION IN AN ANIMAL HOST VS. CRYPTIC ADAPTATION TO HUMANS"
+        },
+        {
+            "text": "SY conceptualized the analysis and wrote the original draft. S-CJ and Z-LL reviewed and edited the manuscript. All authors have read and agreed to the published version of the manuscript.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "AUTHOR CONTRIBUTIONS"
+        },
+        {
+            "text": "This work was funded by the Supporting Program of Sichuan Agricultural University.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "FUNDING"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A new coronavirus associated with human respiratory disease in China",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Song",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "579",
+            "issn": "",
+            "pages": "265--274",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2008-3"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Evolution of the novel coronavirus from the ongoing Wuhan outbreak and modeling of its spike protein for risk of human transmission",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Sci China Life Sci",
+            "volume": "63",
+            "issn": "",
+            "pages": "457--60",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s11427-020-1637-5"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "579",
+            "issn": "",
+            "pages": "270--273",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2012-7"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "A novel coronavirus from patients with pneumonia in China",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "",
+            "pages": "727--760",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2001017"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Comparative analysis of bat genomes provides insight into the evolution of flight and immunity",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Cowled",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Bishop-Lilly",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Fang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Science",
+            "volume": "339",
+            "issn": "",
+            "pages": "456--60",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.1230835"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Host and viral traits predict zoonotic spillover from mammals",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Olival",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Hosseini",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Zambrana-Torrelio",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ross",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Bogich",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Daszak",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Nature",
+            "volume": "546",
+            "issn": "",
+            "pages": "646--50",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nature22975"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Investigating the zoonotic origin of the West African Ebola epidemic",
+            "authors": [
+                {
+                    "first": "Mar\u00ed",
+                    "middle": [],
+                    "last": "Sa\u00e9z",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Weiss",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Nowak",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Lapeyre",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Zimmermann",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "D\u00fcx",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "EMBO Mol Med",
+            "volume": "7",
+            "issn": "",
+            "pages": "17--23",
+            "other_ids": {
+                "DOI": [
+                    "10.15252/emmm.201404792"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Close relative of human Middle East respiratory syndrome coronavirus in bat",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Ithete",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Stoffberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Corman",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Cottontail",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Richards",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Schoeman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "South Africa. Emerg Infect Dis",
+            "volume": "19",
+            "issn": "",
+            "pages": "1697--1706",
+            "other_ids": {
+                "DOI": [
+                    "10.3201/eid1910.130946"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Middle East respiratory syndrome coronavirus in bats, Saudi Arabia",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Memish",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Mishra",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Olival",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Fagbo",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Kapoor",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Epstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Emerg Infect Dis",
+            "volume": "19",
+            "issn": "",
+            "pages": "1819--1842",
+            "other_ids": {
+                "DOI": [
+                    "10.3201/eid1911.131172"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Middle East respiratory syndrome coronavirus neutralising serum antibodies in dromedary camels: a comparative serological study",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Reusken",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Haagmans",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "M\u00fcller",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gutierrez",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Godeke",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Meyer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Lancet Infect Dis",
+            "volume": "13",
+            "issn": "13",
+            "pages": "70164--70170",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S1473-3099(13)70164-6"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Evidence for camel-to-human transmission of MERS coronavirus",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Azhar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "El-Kafrawy",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Farraj",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hassan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Al-Saeed",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hashem",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "N Engl J Med",
+            "volume": "370",
+            "issn": "",
+            "pages": "2499--505",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa1401505"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Middle East respiratory syndrome coronavirus in dromedary camels: an outbreak investigation",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Haagmans",
+                    "suffix": ""
+                },
+                {
+                    "first": "Al",
+                    "middle": [],
+                    "last": "Dhahiry",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Reusken",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Raj",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Galiano",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Myers",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Lancet Infect Dis",
+            "volume": "14",
+            "issn": "",
+            "pages": "140--145",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S1473-3099(13)70690-X"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Cross-species transmission of the newly identified coronavirus 2019-nCoV",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Ji",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zai",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "92",
+            "issn": "",
+            "pages": "433--473",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jmv.25682"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Carstens EB editors. Virus Taxonomy: Ninth Report of the International Committee on Taxonomy of Viruses",
+            "authors": [
+                {
+                    "first": "Amq",
+                    "middle": [],
+                    "last": "King",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Lefkowitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Adams",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "806--834",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Bats are natural reservoirs of SARS-like coronaviruses",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Epstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Science",
+            "volume": "310",
+            "issn": "",
+            "pages": "676--685",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.1118391"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Isolation and characterization of a bat SARS-like coronavirus that uses the ACE2 receptor",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ge",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Chmura",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Epstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Nature",
+            "volume": "503",
+            "issn": "",
+            "pages": "535--543",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nature12711"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Composition and divergence of coronavirus spike proteins and host ACE2 receptors predict potential intermediate hosts of SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "92",
+            "issn": "",
+            "pages": "595--601",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jmv.25726"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Molecular evolution of the SARS coronavirus during the course of the SARS epidemic in China",
+            "authors": [
+                {
+                    "first": "Sars Molecular Epidemiology",
+                    "middle": [],
+                    "last": "Chinese",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Consortium",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Science",
+            "volume": "303",
+            "issn": "",
+            "pages": "1666--1675",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.1092002"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Cross-host evolution of severe acute respiratory syndrome coronavirus in palm civet and human",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Tu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lei",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Proc Natl Acad Sci",
+            "volume": "102",
+            "issn": "",
+            "pages": "2430--2435",
+            "other_ids": {
+                "DOI": [
+                    "10.1073/pnas.0409608102"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Discovery of a rich gene pool of bat SARS-related coronaviruses provides new insights into the origin of SARS coronavirus",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Zeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ge",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "PLoS Pathog",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.ppat.1006698"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kok",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "To",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Chu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "514--537",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30154-9"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "497--506",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30183-5"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Isolation and characterization of viruses related to the SARS coronavirus from animals in southern China",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Zhuang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Cheung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Science",
+            "volume": "302",
+            "issn": "",
+            "pages": "276--284",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.1087139"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Susceptibility of ferrets, cats, dogs, and other domesticated animals to SARS-coronavirus 2",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wen",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zhong",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "368",
+            "issn": "",
+            "pages": "1016--1036",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.abb7015"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Isolation of SARS-CoV-2-related coronavirus from Malayan pangolins",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Zou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2313-x"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Identifying SARS-CoV-2 related coronaviruses in Malayan pangolins",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Lam",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Shum",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Tong",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Ni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Liao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2169-0"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "The proximal origin of SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Andersen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rambaut",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Lipkin",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Holmes",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Garry",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Med",
+            "volume": "26",
+            "issn": "",
+            "pages": "450--452",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41591-020-0820-9"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Probable pangolin origin of SARS-CoV-2 associated with the COVID-19 outbreak",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Curr Biol",
+            "volume": "30",
+            "issn": "",
+            "pages": "1346--51",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cub.2020.03.022"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Fatal swine acute diarrhoea syndrome caused by an HKU2-related coronavirus of bat origin",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Lan",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nature",
+            "volume": "556",
+            "issn": "",
+            "pages": "255--263",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-018-0010-9"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Agricultural intensification, priming for persistence and the emergence of Nipah virus: a lethal bat-borne zoonosis",
+            "authors": [
+                {
+                    "first": "Jrc",
+                    "middle": [],
+                    "last": "Pulliam",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Epstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dushoff",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Rahman",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bunning",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Jamaluddin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J R Soc Interface",
+            "volume": "9",
+            "issn": "",
+            "pages": "89--101",
+            "other_ids": {
+                "DOI": [
+                    "10.1098/rsif.2011.0223"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Hosts and sources of endemic human coronaviruses",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Corman",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Muth",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Niemeyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Drosten",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Adv Virus Res",
+            "volume": "100",
+            "issn": "",
+            "pages": "163--88",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/bs.aivir.2018.01.001"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Aged BALB/c mice as a model for increased severity of severe acute respiratory syndrome in elderly humans",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Roberts",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Paddock",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Vogel",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Butler",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Subbarao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J Virol",
+            "volume": "79",
+            "issn": "",
+            "pages": "5833--5841",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.79.9.5833-5838.2005"
+                ]
+            }
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "A mouse-adapted SARS-coronavirus causes disease and mortality in BALB/c mice",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Roberts",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Deming",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Paddock",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yount",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Vogel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "PLoS Pathog",
+            "volume": "3",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.ppat.0030005"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "From mice to monkeys, animals studied for coronavirus answers",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cohen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "368",
+            "issn": "",
+            "pages": "221--223",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.368.6488.221"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "A review of zoonotic infection risks associated with the wild meat trade in Malaysia",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Cantlay",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ingram",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Meredith",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "14",
+            "issn": "",
+            "pages": "361--88",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s10393-017-1229-x"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Simulation of the clinical and pathological manifestations of Coronavirus Disease 2019 (COVID-19) in golden Syrian hamster model: implications for disease pathogenesis and transmissibility",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Poon",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin. Infect. Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/cid/ciaa325"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Decoding evolution and transmissions of novel pneumonia coronavirus using the whole genomic data. chinaXiv",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Corlett",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.12074/202002.00033"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Murine coronavirus with an extended host range uses heparan sulfate as an entry receptor",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "De Haan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Te Lintelo",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Bosch",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Haijema",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Rottier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J Virol",
+            "volume": "79",
+            "issn": "",
+            "pages": "14451--14457",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.79.22.14451-14456.2005"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Transmission paths of bat-borne viral diseases. MERS: Egyptian tomb bat \u2192 dromedary camel \u2192 humans; SARS: horseshoe bats \u2192 palm civets \u2192 humans; SADS: horseshoe bats \u2192 swine; SARS-CoV-2: horseshoe bats \u2192 unknown intermediate host \u2192 humans; Nipah virus (NiV): fruit bats \u2192 swine \u2192 humans; Ebola virus: Angora dog bat (Mops condylurus) \u2192 unknown intermediate host \u2192 humans.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We thank Dr. Yiwen Peng (retired physician) for helpful discussions about the possible roles of mouse and yellow-bellied weasel in the viral transmission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ACKNOWLEDGMENTS"
+        }
+    ]
+}

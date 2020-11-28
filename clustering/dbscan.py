@@ -15,14 +15,14 @@ from pathlib import Path
 class DBSCAN_clustering:
 
     #DEFAULT_PREPROCESSING_OUTPUT = "{}/preprocessing_output_0_7.csv".format(Path(os.getcwd()).parent)
-    DEFAULT_PREPROCESSING_OUTPUT = "../preprocessing/preprocessing_output_0_7.csv"
+    DEFAULT_PREPROCESSING_OUTPUT = "data/preprocessing_output.csv"
 
     """Optimal Parameters Obtained for DBSCAN
     """
     DEFAULT_OPTIMAL_EPS = 1.1
 
 
-    DEFAULT_OUTPUT_FILE = "dbscan_output.csv"
+    DEFAULT_OUTPUT_FILE = "data/dbscan_output.csv"
 
     
     def dbscan_optimal(self, preprocess_file = DEFAULT_PREPROCESSING_OUTPUT, optimal_eps = DEFAULT_OPTIMAL_EPS, output_file_name = DEFAULT_OUTPUT_FILE):

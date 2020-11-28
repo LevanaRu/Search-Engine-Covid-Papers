@@ -1,0 +1,595 @@
+{
+    "paper_id": "b314ee4f0d78ecaff2a89fb000e7c4f9f4640301",
+    "metadata": {
+        "title": "",
+        "authors": []
+    },
+    "abstract": [
+        {
+            "text": "Nature reviews | Immunology SARS-CoV-2 and SARS-CoV share 79.6% sequence identity, use the same entry receptor (ACE2) and cause similar acute respiratory syndromes. As such, key insights from studies of the immune response to SARS-CoV should be considered when developing vaccines for SARS-CoV-2. Crucially, although antibody titres are generally used as correlates of protection, high antibody titres and early seroconversion are reported to correlate with disease severity in patients with SARS 1 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The quality and quantity of the antibody response dictates functional outcomes. High-affinity antibodies can elicit neutralization by recognizing specific viral epitopes (Fig.1a) . Neutralizing antibodies are defined in vitro by their ability to block viral entry, fusion or egress. In vivo, neutralizing antibodies can function without additional mediators, although the Fc region is required for neutralization of influenza virus 2 . In the case of SARS-CoV, viral docking on ACE2 on host cells is blocked when neutralizing antibodies, for example, recognize the receptor-binding domain (RBD) on the spike (S) protein 3 . S protein-mediated viral fusion can be blocked by neutralizing antibodies targeting the heptad repeat 2 (HR2) domain 3 . In addition, neutralizing antibodies can interact with other immune components, including complement, phagocytes and natural killer cells. These effector responses can aid in pathogen clearance, with engagement of phagocytes shown to enhance antibody-mediated clearance of SARS-CoV 4 . However, in rare cases, pathogen-specific antibodies can promote pathology, resulting in a phenomenon known as antibody-dependent enhancement (ADE).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 170,
+                    "end": 178,
+                    "text": "(Fig.1a)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Although antibodies are generally protective and beneficial, the ADE phenomenon is documented for dengue virus and other viruses. In SARS-CoV infection, ADE is mediated by the engagement of Fc receptors (FcRs) expressed on different immune cells, including monocytes, macrophages and B cells 5, 6 . Pre-existing SARS-CoV-specific antibodies may thus promote viral entry into FcR-expressing cells (Fig. 1b) . This process is independent of ACE2 expression and endosomal pH and proteases, suggesting distinct cellular pathways of ACE2-mediated and FcR-mediated viral entry 6 . There is no evidence that ADE facilitates the spread of SARS-CoV in infected hosts. In fact, infection of macrophages through ADE does not result in productive viral replication and shedding 7 . Instead, internalization of virus-antibody immune complexes can promote inflammation and tissue injury by activating myeloid cells via FcRs 5 . Virus introduced into the endosome through this pathway will likely engage the RNA-sensing Toll-like receptors (TLRs) TLR3, TLR7 and TLR8 (Fig. 1c) . Uptake of SARS-CoV through ADE in macrophages led to elevated production of TNF and IL-6 (reF. 5 ). In mice infected with SARS-CoV, ADE was associated with decreased levels of the anti-inflammatory cytokines IL-10 and TGF\u03b2 and increased levels of the pro-inflammatory chemokines CCL2 and CCL3 (reF. 8 ). Furthermore, immunization of non-human primates with a modified vaccinia Ankara (MVA) virus encoding the full-length S protein of SARS-CoV promoted activation of alveolar macrophages, leading to acute lung injury 9 .",
+            "cite_spans": [
+                {
+                    "start": 292,
+                    "end": 294,
+                    "text": "5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 295,
+                    "end": 296,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 571,
+                    "end": 572,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 766,
+                    "end": 767,
+                    "text": "7",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1159,
+                    "end": 1160,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1363,
+                    "end": 1364,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 396,
+                    "end": 405,
+                    "text": "(Fig. 1b)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1052,
+                    "end": 1061,
+                    "text": "(Fig. 1c)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Antibody-dependent enhancement"
+        },
+        {
+            "text": "Multiple factors determine whether an antibody neutralizes a virus and protects the host or causes ADE and acute inflammation. These include the specificity, concentration, affinity and isotype of the antibody. Viral vector vaccines encoding SARS-CoV S protein and nucleocapsid (N) protein provoke anti-S and anti-N IgG in immunized mice, respectively, to a similar extent. However, upon re-challenge, N protein-immunized mice show significant upregulation of pro-inflammatory cytokine secretion, increased neutrophil and eosinophil lung infiltration, and more severe lung pathology 8 . Similarly, antibodies targeting different epitopes on the S protein may vary in their potential to induce neutralization or ADE. For example, antibodies reactive to the RBD domain or the HR2 domain of the S protein induce better protective antibody responses in non-human",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Protective versus pathogenic antibodies"
+        },
+        {
+            "text": "The potential danger of suboptimal antibody responses in COVID-19",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Protective versus pathogenic antibodies"
+        },
+        {
+            "text": "Akiko Iwasaki 1,2 \u2709 and Yexin Yang 1 There is a desperate need for effective therapies and vaccines for SARS-CoV-2 to mitigate the growing economic crisis that has ensued from societal lockdown. Vaccines are being developed at an unprecedented speed and are already in clinical trials, without preclinical testing for safety and efficacy. Yet, safety evaluation of candidate vaccines must not be overlooked.",
+            "cite_spans": [
+                {
+                    "start": 30,
+                    "end": 36,
+                    "text": "Yang 1",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Protective versus pathogenic antibodies"
+        },
+        {
+            "text": "www.nature.com/nri primates, whereas antibodies specific for other S protein epitopes can induce ADE 10 . In vitro data suggest that for cells expressing FcRs, ADE occurs when antibody is present at a low concentration but dampens at the high-concentration range. Meanwhile, increasing antibody concentrations promotes SARS-CoV neutralization by blocking viral entry into host cells 6 . For other viruses, high-affinity antibodies capable of blocking receptor binding tend to not induce ADE.",
+            "cite_spans": [
+                {
+                    "start": 101,
+                    "end": 103,
+                    "text": "10",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 383,
+                    "end": 384,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Protective versus pathogenic antibodies"
+        },
+        {
+            "text": "In the 'multiple hit' model of neutralization, the virus-blocking effect correlates with the number of antibodies coating the virion, which is collectively affected by antibody concentration and affinity 11 . Monoclonal antibodies with higher affinity for the envelope (E) protein of West Nile Virus (WNV) induced better protection in mice receiving a lethal dose of WNV 11 . For a given concentration of antibody and a specific targeting domain, the stoichiometry of antibody engagement on a virion is dependent on the strength of interaction between antibody and antigen. ADE is induced when the stoichiometry is below the threshold for neutralization. Therefore, higher affinity antibodies can reach that threshold at a lower concentration and mediate better protection 11 .",
+            "cite_spans": [
+                {
+                    "start": 204,
+                    "end": 206,
+                    "text": "11",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 371,
+                    "end": 373,
+                    "text": "11",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 773,
+                    "end": 775,
+                    "text": "11",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Protective versus pathogenic antibodies"
+        },
+        {
+            "text": "Antibody isotypes control their effector functions. IgM is considered more pro-inflammatory as it activates complement efficiently. IgG subclasses modulate immune responses via the engagement of different FcRs. Most Fc\u03b3Rs signal through ITAMs, but Fc\u03b3RIIb contains an ITIM on its cytoplasmic tail that mediates an anti-inflammatory response. Ectopic expression of Fc\u03b3RIIa and Fc\u03b3RIIb, but not of Fc\u03b3RI or Fc\u03b3RIIIa, induced ADE of SARS-CoV infection 6 . Allelic polymorphisms in Fc\u03b3RIIa are associated with SARS pathology, and individuals with an Fc\u03b3RIIa isoform that binds to both IgG1 and IgG2 were found to develop more severe disease than individuals with Fc\u03b3RIIa that only binds to IgG2 (reF. 12 ).",
+            "cite_spans": [
+                {
+                    "start": 449,
+                    "end": 450,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 697,
+                    "end": 699,
+                    "text": "12",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Protective versus pathogenic antibodies"
+        },
+        {
+            "text": "It is crucial to determine which vaccines and adjuvants can elicit protective antibody responses to SARS-CoV-2. Previous studies have shown that the immunization of mice with inactivated whole SARS-CoV 13 , the immunization of rhesus macaques 9 with MVA-encoded S protein and the immunization of mice with DNA vaccine encoding full-length S protein 14 could induce ADE or eosinophil-mediated immunopathology to some extent, possibly owing to low quality and quantity of antibody production. Additionally, we need to consider whether a vaccine is safe and effective in aged hosts. For instance, double-inactivated SARS-CoV vaccine failed to induce neutralizing antibody responses in aged mice 13 . Furthermore, although an alum-adjuvanted double-inactivated SARS-CoV vaccine elicited higher antibody titres in aged mice, it skewed the IgG subclass toward IgG1 instead of IgG2, which was associated with a T helper 2 (T H 2)-type immune response, enhanced eosinophilia and lung pathology 13 . By contrast, studies in mice showed that subunit or peptide vaccines that focus the antibody response against specific epitopes within the RBD of the S protein conferred protective antibody responses 3 . In addition, live attenuated SARS-CoV vaccine induced protective immune responses in aged mice 15 mucosal IgA in the lung and reduced lung pathology upon challenge with SARS-CoV 3 .",
+            "cite_spans": [
+                {
+                    "start": 692,
+                    "end": 694,
+                    "text": "13",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1191,
+                    "end": 1192,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1290,
+                    "end": 1292,
+                    "text": "15",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Vaccine approaches"
+        },
+        {
+            "text": "There are now multiple vaccine candidates (including nucleic acid vaccines, viral vector vaccines and subunit vaccines) in the preclinical and clinical trial stages as researchers and institutes from all over the world come together to accelerate the development of a SARS-CoV-2 vaccine. Recent studies of antibody responses in patients with COVID-19 have associated higher titres of anti-N IgM and IgG at all time points following the onset of symptoms with a worse disease outcome 16 . Moreover, higher titres of anti-S and anti-N IgG and IgM correlate with worse clinical readouts and older age 17 , suggesting potentially detrimental effects of antibodies in some patients. However, 70% of patients who recovered from mild COVID-19 had measurable neutralizing antibodies that persisted upon revisit to the hospital 18 . Thus, insights gained from studying the antibody features that correlate with recovery as opposed to worsening of disease will inform the type of antibodies to assess in vaccine studies. We argue that ADE should be given full consideration in the safety evaluation of emerging candidate vaccines for SARS-CoV-2. In addition to vaccine approaches, monoclonal antibodies could be used to tackle this virus. Unlike vaccine-induced antibodies, monoclonal antibodies can be engineered with molecular precision. Safe and effective neutralizing antibodies could be produced on a mass-scale for delivery to populations across the world in the coming months.",
+            "cite_spans": [
+                {
+                    "start": 483,
+                    "end": 485,
+                    "text": "16",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 819,
+                    "end": 821,
+                    "text": "18",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Concluding remarks"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Anti-SARS-CoV IgG response in relation to disease severity of severe acute respiratory syndrome",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "J. Clin. Virol",
+            "volume": "35",
+            "issn": "",
+            "pages": "179--184",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Broadly neutralizing anti-influenza antibodies require Fc receptor engagement for in vivo protection",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Dilillo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J. Clin. Invest",
+            "volume": "126",
+            "issn": "",
+            "pages": "605--610",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "The spike protein of SARS-CoV -a target for vaccine and therapeutic development",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Nat. Rev. Microbiol",
+            "volume": "7",
+            "issn": "",
+            "pages": "226--236",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Phagocytic cells contribute to the antibody-mediated elimination of pulmonary-infected SARS coronavirus",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Yasui",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Virology",
+            "volume": "454",
+            "issn": "",
+            "pages": "157--168",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Antibody-dependent SARS coronavirus infection is mediated by antibodies against spike proteins",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Biochem. Biophys. Res. Commun",
+            "volume": "451",
+            "issn": "",
+            "pages": "208--214",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Anti-severe acute respiratory syndrome coronavirus spike antibodies trigger infection of human immune cells via a pH-and cysteine protease-independent Fc\u03b3R pathway",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Jaume",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J. Virol",
+            "volume": "85",
+            "issn": "",
+            "pages": "10582--10597",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Antibody-dependent enhancement of SARS coronavirus infection and its role in the pathogenesis of SARS",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Yip",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Hong Kong Med. J",
+            "volume": "22",
+            "issn": "",
+            "pages": "25--31",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Prior immunization with severe acute respiratory syndrome (SARS)-associated coronavirus (SARS-CoV) nucleocapsid protein causes severe pneumonia in mice infected with SARS-CoV",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Yasui",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "J. Immunol",
+            "volume": "181",
+            "issn": "",
+            "pages": "6337--6348",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Anti-spike IgG causes severe acute lung injury by skewing macrophage responses during acute SARS-CoV infection",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "JCI Insight",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Immunodominant SARS coronavirus epitopes in humans elicited both enhancing and neutralizing effects on infection in non-human primates",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "ACS Infect. Dis",
+            "volume": "2",
+            "issn": "",
+            "pages": "361--376",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Structural insights into the mechanisms of antibody-mediated neutralization of flavivirus infection: implications for vaccine development",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Pierson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Cell Host Microbe",
+            "volume": "4",
+            "issn": "",
+            "pages": "229--238",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Influence of Fc\u03b3RIIA and MBL polymorphisms on severe acute respiratory syndrome",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Yuan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Tissue Antigens",
+            "volume": "66",
+            "issn": "",
+            "pages": "291--296",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "A double-inactivated severe acute respiratory syndrome coronavirus vaccine provides incomplete protection in mice and induces increased eosinophilic proinflammatory pulmonary response upon challenge",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bolles",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J. Virol",
+            "volume": "85",
+            "issn": "",
+            "pages": "12201--12215",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Evasion of antibody neutralization in emerging severe acute respiratory syndrome coronaviruses",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "102",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "A live, impaired-fidelity coronavirus vaccine protects in an aged, immunocompromised mouse model of lethal disease",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Graham",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Nat. Med",
+            "volume": "18",
+            "issn": "",
+            "pages": "1820--1826",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Viral kinetics and antibody responses in patients with COVID-19",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.24.20042382"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Global profiling of SARS-CoV-2 specific IgG/IgM responses of convalescents using a proteome microarray",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.20.20039495"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Neutralizing antibody responses to SARS-CoV-2 in a COVID-19 recovered patient cohort and their implications",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.30.20047365"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": ". Routes of vaccine administration can further affect vaccine efficacy. Compared with the intramuscular route, intranasal administration of a recombinant adeno-associated virus vaccine encoding SARS-CoV RBD induced significantly higher titres of Potential outcomes of antibody response to coronavirus. a | In antibody-mediated viral neutralization, neutralizing antibodies binding to the receptor-binding domain (RBD) of the viral spike protein, as well as other domains, prevent virus from docking onto its entry receptor, ACE2. b | In antibody-dependent enhancement of infection, low quality , low quantity , non-neutralizing antibodies bind to virus particles through the Fab domains. Fc receptors (FcRs) expressed on monocytes or macrophages bind to Fc domains of antibodies and facilitate viral entry and infection. c | In antibody-mediated immune enhancement, low quality , low quantity , non-neutralizing antibodies bind to virus particles. Upon engagement by the Fc domains on antibodies, activating FcRs with ITAMs initiate signalling to upregulate pro-inflammatory cytokines and downregulate anti-inflammatory cytokines. Immune complexes and viral RNA in the endosomes can signal through Toll-like receptor 3 (TLR3), TLR7 and/or TLR8 to activate host cells, resulting in immunopathology.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors thank H. W. Virgin, A. Arvin, J. Bloom and R. Medzhitov for helpful discussions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": "The authors contributed equally to all aspects of the article.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Author contributions"
+        },
+        {
+            "text": "The authors declare no competing interests.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Competing interests"
+        }
+    ]
+}

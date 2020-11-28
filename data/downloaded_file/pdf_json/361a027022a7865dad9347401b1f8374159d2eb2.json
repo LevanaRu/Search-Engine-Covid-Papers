@@ -1,0 +1,4776 @@
+{
+    "paper_id": "361a027022a7865dad9347401b1f8374159d2eb2",
+    "metadata": {
+        "title": "O R I G I NA L A RT I C L E A SIMPLE MODEL EXPLAINS THE DYNAMICS OF PREFERENTIAL HOST SWITCHING AMONG MAMMAL RNA VIRUSES",
+        "authors": [
+            {
+                "first": "Jennifer",
+                "middle": [
+                    "Hoyal"
+                ],
+                "last": "Cuthill",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Sydney",
+                    "location": {
+                        "postCode": "2006",
+                        "settlement": "Sydney",
+                        "region": "New South Wales",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Michael",
+                "middle": [
+                    "A"
+                ],
+                "last": "Charleston",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Sydney",
+                    "location": {
+                        "postCode": "2006",
+                        "settlement": "Sydney",
+                        "region": "New South Wales",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "A growing number of studies support a tendency toward preferential host switching, by parasites and pathogens, over relatively short phylogenetic distances. This suggests that a host switch is more probable if a potential host is closely related to the original host than if it is a more distant relative. However, despite its importance for the health of humans, livestock, and wildlife, the detailed dynamics of preferential host switching have, so far, been little studied. We present an empirical test of two theoretical models of preferential host switching, using observed phylogenetic distributions of host species for RNA viruses of three mammal orders (primates, carnivores, and ungulates). The analysis focuses on multihost RNA virus species, because their presence on multiple hosts and their estimated ages of origin indicate recent host switching. Approximate Bayesian computation was used to compare observed phylogenetic distances between hosts with those simulated under the theoretical models. The results support a decreasing sigmoidal model of preferential host switching, with a strong effect from increasing phylogenetic distance, on all three studied host phylogenies. This suggests that the dynamics of host switching are fundamentally similar for RNA viruses of different mammal orders and, potentially, a wider range of coevolutionary systems.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Viruses with RNA genomes are major agents of infectious disease in humans Holmes and Rambaut 2004) , livestock, and wildlife (Cleaveland et al. 2001 ). Therefore, the study of their infection dynamics is important for human health (Jones et al. 2008) , livestock economics, and environmental conservation (Cleaveland et al. 2001 ). However, we still know relatively little about the evolutionary factors affecting host identity and range (the type and number of host species exploited) among viruses (Longdon et al. 2011) , and pathogens and parasites in general (Perlman and Jaenike 2003) . RNA viruses are widely distributed among mammal species, suggesting an ancient origin (Holmes 2008) . Furthermore, it has recently been shown that RNA viruses have left \"fossils\" dating to millions of years ago, in the form of endogenous viral elements integrated into host genomes (reviewed by Holmes 2011) . Previously, matching phylogenetic branching patterns for some extant RNA viruses and their hosts had been thought to suggest a similarly ancient history for living viral strains, characterized by cospeciation with their hosts over hundreds of thousands, to millions, of years (reviewed by Holmes 2003) . However, the majority of RNA viruses appear to have high rates of mutation, indicating an age in the order of hundreds of years for most extant virus taxa below the family level (Holmes 2003 (Holmes , 2008 .",
+            "cite_spans": [
+                {
+                    "start": 74,
+                    "end": 98,
+                    "text": "Holmes and Rambaut 2004)",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 125,
+                    "end": 148,
+                    "text": "(Cleaveland et al. 2001",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 231,
+                    "end": 250,
+                    "text": "(Jones et al. 2008)",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 305,
+                    "end": 328,
+                    "text": "(Cleaveland et al. 2001",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 500,
+                    "end": 521,
+                    "text": "(Longdon et al. 2011)",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 563,
+                    "end": 589,
+                    "text": "(Perlman and Jaenike 2003)",
+                    "ref_id": "BIBREF60"
+                },
+                {
+                    "start": 678,
+                    "end": 691,
+                    "text": "(Holmes 2008)",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 887,
+                    "end": 899,
+                    "text": "Holmes 2011)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1191,
+                    "end": 1203,
+                    "text": "Holmes 2003)",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 1384,
+                    "end": 1396,
+                    "text": "(Holmes 2003",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 1397,
+                    "end": 1411,
+                    "text": "(Holmes , 2008",
+                    "ref_id": "BIBREF39"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "This apparent discrepancy can be explained by a model of \"preferential host switching\" (Charleston and Robertson 2002) , in which a virus is more likely to successfully colonize a new host species if this is a close relative of the original host than if it is a more distant relative (for similar concepts in the earlier literature, see Jermy 1984; Menken 1996, e.g.) . In this model, switches to phylogenetically distant hosts are possible, but are considered less probable than switches between more closely related host species. Such preferential host switching is expected because barriers to infection will depend on the physiological similarity between original and potential host species (Poulin 2005) ; factors that can depend strongly on host phylogeny. This is, in turn, because phylogenetic distance represents a general proxy for physiological and ecological similarity, due to the evolutionary inheritance of traits such as suitability for parasite replication (Ohishi et al. 2010) , immune defenses (Longdon et al. 2011 ), nutrient quality (Poulin and Mouillot 2003; Poulin 2005) , and body size (Clayton et al. 2003a; Bush and Clayton 2006) . ( We acknowledge that species-specific differences in pathogen susceptibility are likely to lead to natural variation around this overall trend, e.g., Harder and Osterhaus 1997; Poulin and Mouillot 2003; Poulin 2005.) In some cases preferential host switching may also be promoted by phylogenetic covariance in the opportunity for infection, for example, if recently diverged host species tend to have overlapping geographic ranges (Poulin and Mouillot 2003; Davies and Pedersen 2008 ; but see also Daszak et al. 2001) .",
+            "cite_spans": [
+                {
+                    "start": 87,
+                    "end": 118,
+                    "text": "(Charleston and Robertson 2002)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 333,
+                    "end": 348,
+                    "text": "see Jermy 1984;",
+                    "ref_id": null
+                },
+                {
+                    "start": 349,
+                    "end": 367,
+                    "text": "Menken 1996, e.g.)",
+                    "ref_id": null
+                },
+                {
+                    "start": 695,
+                    "end": 708,
+                    "text": "(Poulin 2005)",
+                    "ref_id": "BIBREF61"
+                },
+                {
+                    "start": 974,
+                    "end": 994,
+                    "text": "(Ohishi et al. 2010)",
+                    "ref_id": "BIBREF58"
+                },
+                {
+                    "start": 1013,
+                    "end": 1033,
+                    "text": "(Longdon et al. 2011",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 1054,
+                    "end": 1080,
+                    "text": "(Poulin and Mouillot 2003;",
+                    "ref_id": "BIBREF62"
+                },
+                {
+                    "start": 1081,
+                    "end": 1093,
+                    "text": "Poulin 2005)",
+                    "ref_id": "BIBREF61"
+                },
+                {
+                    "start": 1110,
+                    "end": 1132,
+                    "text": "(Clayton et al. 2003a;",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1133,
+                    "end": 1155,
+                    "text": "Bush and Clayton 2006)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1158,
+                    "end": 1159,
+                    "text": "(",
+                    "ref_id": null
+                },
+                {
+                    "start": 1309,
+                    "end": 1335,
+                    "text": "Harder and Osterhaus 1997;",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 1336,
+                    "end": 1361,
+                    "text": "Poulin and Mouillot 2003;",
+                    "ref_id": "BIBREF62"
+                },
+                {
+                    "start": 1362,
+                    "end": 1375,
+                    "text": "Poulin 2005.)",
+                    "ref_id": "BIBREF61"
+                },
+                {
+                    "start": 1590,
+                    "end": 1616,
+                    "text": "(Poulin and Mouillot 2003;",
+                    "ref_id": "BIBREF62"
+                },
+                {
+                    "start": 1617,
+                    "end": 1641,
+                    "text": "Davies and Pedersen 2008",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1657,
+                    "end": 1676,
+                    "text": "Daszak et al. 2001)",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Since preferential host switching was proposed for primate lentiviruses (Charleston and Robertson 2002) , it has been suggested as a general characteristic of viral infection dynamics (Holmes 2008) and as a wider evolutionary phenomenon: documented in phylogenetic studies of fleas (Siphonaptera, Insecta) (Krasnov et al. 2004) , jumping plant-lice (Psylloidea, Insecta) (Percy et al. 2004) , and brood-parasitic indigobirds (Vidua, Passeriformes) (Sorenson et al. 2004) ; and in experimental studies of sigma viruses (Longdon et al. 2011) , Spiroplasma bacteria (Tinsley and Majerus 2007), lice (Phthiraptera, Insecta) (Clayton et al. 2003a) , and nematodes (Allantonematidae, Tylenchida) (Perlman and Jaenike 2003) . However, the detailed dynamics of preferential host switching have been relatively little studied. In particular, theoretical models describing the probability of host switching with genetic distance between potential hosts (Charleston and Robertson 2002; Engelst\u00e4dter and Hurst 2006) have not previously been tested empirically, and the extent to which similar parameters of preferential host switching hold across different host phylogenies has not, until now, been investigated.",
+            "cite_spans": [
+                {
+                    "start": 72,
+                    "end": 103,
+                    "text": "(Charleston and Robertson 2002)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 184,
+                    "end": 197,
+                    "text": "(Holmes 2008)",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 306,
+                    "end": 327,
+                    "text": "(Krasnov et al. 2004)",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 371,
+                    "end": 390,
+                    "text": "(Percy et al. 2004)",
+                    "ref_id": "BIBREF59"
+                },
+                {
+                    "start": 448,
+                    "end": 470,
+                    "text": "(Sorenson et al. 2004)",
+                    "ref_id": "BIBREF67"
+                },
+                {
+                    "start": 518,
+                    "end": 539,
+                    "text": "(Longdon et al. 2011)",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 620,
+                    "end": 642,
+                    "text": "(Clayton et al. 2003a)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 690,
+                    "end": 716,
+                    "text": "(Perlman and Jaenike 2003)",
+                    "ref_id": "BIBREF60"
+                },
+                {
+                    "start": 943,
+                    "end": 974,
+                    "text": "(Charleston and Robertson 2002;",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 975,
+                    "end": 1003,
+                    "text": "Engelst\u00e4dter and Hurst 2006)",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Two possible models of preferential host switching will be considered here. Both models have been proposed before now (Charleston and Robertson 2002; Engelst\u00e4dter and Hurst 2006) , but it has not previously been possible to test or compare them using real host-pathogen association data. The first, exponential, model is based on the simple notion that a parasite or pathogen colonizing a new host will have reduced fitness on that host if it represents a dissimilar physiological environment to that of its original host (as introduced above). The second, sigmoidal, model derives from the idea that there will be a certain tolerance of pathogens to new environments, within which they may remain optimally or near-optimally fit, but beyond which the combination of multiple factors' deviation from the environment to which the parasite has adapted will become too much and fitness will rapidly decline. These two models can neatly be described by an exponential and half of a Gaussian (sigmoidal) function, respectively (see eq. 2, below). A potential example of a pathogen with a phylogenetically restricted, tolerable host range and infrequent host switches beyond this range (as predicted by the sigmoidal host-switching model) is Influenza A virus. This is apparently more easily transmitted between bird species (the reservoir hosts) than to other animals, due to adaptation of virus subtypes to hostspecific surface receptors (Webster et al. 1992; Dugan et al. 2008; Band\u00edn and Dopazo 2011; Gambaryan et al. 2012 ). On the other hand, a pathogen that appears to show an immediate reduction in infectivity with increasing phylogenetic distance from the original host (as predicted by the exponential host-switching model) is measles virus, MV. For this virus, frequency of wild transmission appears considerably higher among humans, the natural hosts, than to nonhuman primates (de Swart 2009) and, even more so, to other mammals such as rodents (D\u00f6rig et al. 1994; Wyde et al. 2000) .",
+            "cite_spans": [
+                {
+                    "start": 118,
+                    "end": 149,
+                    "text": "(Charleston and Robertson 2002;",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 150,
+                    "end": 178,
+                    "text": "Engelst\u00e4dter and Hurst 2006)",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 1434,
+                    "end": 1455,
+                    "text": "(Webster et al. 1992;",
+                    "ref_id": "BIBREF78"
+                },
+                {
+                    "start": 1456,
+                    "end": 1474,
+                    "text": "Dugan et al. 2008;",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1475,
+                    "end": 1498,
+                    "text": "Band\u00edn and Dopazo 2011;",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1499,
+                    "end": 1520,
+                    "text": "Gambaryan et al. 2012",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 1953,
+                    "end": 1972,
+                    "text": "(D\u00f6rig et al. 1994;",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1973,
+                    "end": 1990,
+                    "text": "Wyde et al. 2000)",
+                    "ref_id": "BIBREF83"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Evolutionary histories of host-pathogen association have often been investigated using cophylogenetic analysis (comparisons of host and pathogen phylogenies, e.g., Charleston and Robertson 2002) . However, potential reconstruction of historical host switches using this method is complicated by the finding that both cospeciation and preferential host switching predict similar branching patterns between host and pathogen phylogenies (Charleston and Robertson 2002) . Current methods of cophylogenetic analysis (implemented in programs such as TreeMap (Charleston and Robertson 2002) and Jane (Conow et al. 2010) ) are designed to test hypotheses of cospeciation, and the reconstructions they produce are expected to decrease in optimality as the actual incidence of cospeciation declines (Percy et al. 2004) . To overcome the above complications, this study takes an alternative approach, and reconstructs the dynamics of preferential host switching among 38 recorded \"multihost\" RNA viruses of mammals, on phylogenies of their primate, carnivore, and ungulate hosts.",
+            "cite_spans": [
+                {
+                    "start": 164,
+                    "end": 194,
+                    "text": "Charleston and Robertson 2002)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 435,
+                    "end": 466,
+                    "text": "(Charleston and Robertson 2002)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 553,
+                    "end": 584,
+                    "text": "(Charleston and Robertson 2002)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 594,
+                    "end": 613,
+                    "text": "(Conow et al. 2010)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 790,
+                    "end": 809,
+                    "text": "(Percy et al. 2004)",
+                    "ref_id": "BIBREF59"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Multihost pathogens use multiple host species, often as definitive hosts on which they are able to complete their life cycle and reproduce (Banks and Paterson 2005 ) (here, the term \"pathogen\" is used for simplicity, though the arguments apply to both pathogens and parasites). Although most pathogens are likely to experience some level of species barrier (giving reduced infectivity among individuals of an unusual host species), the majority of pathogens may have the potential to infect multiple host species . Two alternative evolutionary processes have generally been suggested to explain the presence of a pathogen species on multiple hosts (Banks and Paterson 2005) . One process involves association by evolutionary descent, in which divergent host species inherit a pathogen that does not, itself, speciate (referred to, e.g., as failure to speciate (Johnson et al. 2003; Banks and Paterson 2005; Clayton et al. 2003b) or to diverge (Conow et al. 2010) ). The other process involves association by colonization, in which one parasite population switches host, but does not speciate from a population maintained on the original host (which we refer to here as incomplete host switching, after Clayton et al. 2003b ). Failure to speciate and incomplete host switching are comparable to the cophylogenetic events for singlehost parasites of, respectively, cospeciation (which involves association by descent; but with parasite speciation) and host switching (which involves association by colonization; but with either parasite speciation or extinction of the parasite population on the original host (Clayton et al. 2003b) ). However, we note that currently available cophylogenetic methods are able to fully reconstruct only one of these theoretical events for multihost parasites (failure to speciate, which can be reconstructed by the software package Jane 3 (Conow et al. 2010) ). For extant RNA viruses, failure to speciate is ruled out by their young age relative to their host species (as implied by current estimates of substitution rates for the majority of RNA viruses (Holmes 2003) and discussed below). This leaves host switching-in this case incomplete, that is, without virus speciation-as the most probable evolutionary mechanism for the spread of a given RNA virus species to multiple host species. The distribution of RNA viruses on the phylogenies of their mammal hosts, therefore, provides a record of host-switching dynamics that allows us to test alternative theoretical models of preferential host switching.",
+            "cite_spans": [
+                {
+                    "start": 139,
+                    "end": 163,
+                    "text": "(Banks and Paterson 2005",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 648,
+                    "end": 673,
+                    "text": "(Banks and Paterson 2005)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 860,
+                    "end": 881,
+                    "text": "(Johnson et al. 2003;",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 882,
+                    "end": 906,
+                    "text": "Banks and Paterson 2005;",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 907,
+                    "end": 928,
+                    "text": "Clayton et al. 2003b)",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 943,
+                    "end": 962,
+                    "text": "(Conow et al. 2010)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1202,
+                    "end": 1222,
+                    "text": "Clayton et al. 2003b",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1608,
+                    "end": 1630,
+                    "text": "(Clayton et al. 2003b)",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1870,
+                    "end": 1889,
+                    "text": "(Conow et al. 2010)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 2087,
+                    "end": 2100,
+                    "text": "(Holmes 2003)",
+                    "ref_id": "BIBREF39"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "To achieve this, approximate Bayesian computation (ABC) is used to test the fit of the two models of preferential host switching to the observed distributions of multihost RNA viruses on the phylogenies of their mammal hosts (primates, carnivores, and terrestrial ungulates). This method is also used to estimate the value of a parameter describing the decay in the probability of hostswitching success with increasing phylogenetic distance between current and potential hosts (details below). The results support a decreasing sigmoidal (Gaussian) function for the probability of a successful host switch given phylogenetic distance, with a strong effect from phylogenetic distance between species on the host phylogeny.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Records of host species exploited by RNA viruses were taken from the Global Mammal Parasite Database (GMPD) (Nunn and Alitzer 2005) , a large compilation of wild host-parasite/pathogen associations documented in the scientific literature. This database covers three major mammal groups: nonhuman primates, carnivores, and terrestrial ungulates. Corresponding host phylogenies, of Primates, Carnivora and Cetartiodactyla, were downloaded from the 10kTrees project (Arnold et al. 2010) , which provides up-to-date Bayesian phylogenies for these mammal orders. For each order, the 50% majority rule consensus of 10,000 phylogenies sampled from the Bayesian Markov Chain Monte Carlo (MCMC) tree search (excluding burn-in), was used in our main analyses (for details of phylogenetic reconstruction methods see Arnold et al. 2010) . A second analysis, which used 1000 phylogenies sampled from the MCMC chain (again excluding burn-in), was conducted to test whether the results were robust to phylogenetic uncertainty (details below). The dataset of host associations was then restricted to those RNA virus species recorded on more than one host species represented in a 10kTrees phylogeny.",
+            "cite_spans": [
+                {
+                    "start": 108,
+                    "end": 131,
+                    "text": "(Nunn and Alitzer 2005)",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 463,
+                    "end": 483,
+                    "text": "(Arnold et al. 2010)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 805,
+                    "end": 824,
+                    "text": "Arnold et al. 2010)",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DATA SOURCES"
+        },
+        {
+            "text": "Some extant RNA viruses have been suggested to have unusually low substitution rates and old evolutionary origins, making cospeciation with their host species a possibility (reviewed by Holmes 2003) and potentially introducing failure to speciate as an explanation for the host distribution of widespread parasites. Of these, one (simian foamy virus, see Switzer et al. 2005) appeared in the primary dataset. Because this study is concerned with the dynamics of host switching (rather than \"failure to speciate\" events), this virus was excluded from the final dataset. Had there been any unidentified failures to speciate, among the multihost viruses that were included in our analyses, they could potentially bias our conclusions. However, host-virus associations over the time scales of mammal species divergence (generally, in the order of millions of years, e.g., dos Reis et al. 2012) have been rejected or considered less probable than recent host switches for the remaining viruses in our dataset.",
+            "cite_spans": [
+                {
+                    "start": 186,
+                    "end": 198,
+                    "text": "Holmes 2003)",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 355,
+                    "end": 375,
+                    "text": "Switzer et al. 2005)",
+                    "ref_id": "BIBREF68"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DATA SOURCES"
+        },
+        {
+            "text": "These comprised: the caliciviruses reptilian crotalus-1, feline calicivirus, and San Miguel sea lion virus (Smith et al. 1998; Etherington et al. 2006) ; the coronaviruses canine coronavirus, and feline infectious peritonitis (Gorbalenya 2008) ; the retroviruses feline leukemia virus, feline immunodeficiency virus, and simian T-lymphotropic virus-1 and -L (Van Brussel et al. 1999; Switzer et al. 2006; L\u00f3pez et al. 2009; Roelke et al. 2009 ); rabies virus (Jackson and Charleston 2004) ; the morbilliviruses measles virus, canine distemper virus, phocine distemper virus, and dolphin morbillivirus (Harder and Osterhaus 1997; Haffar et al. 1999; Furuse et al. 2010; Kosakovsky Pond 2011, though see Ohishi et al. 2010) ; vaccinia virus (Tryland et al. 1998 ); footand-mouth disease virus (Tully and Fares 2008) ; the orbiviruses bluetongue virus and epizootic hemorrhagic disease virus (Biek 2007; Carpi and Holmes 2010) ; chikungunya virus (Volk et al. 2010) ; the alphaviruses mayaro virus and semliki forest virus (Gould et al. 2010; Forrester et al. 2012 Worobey 2007, 2009) , the orthobunyaviruses Bakau and Bunyamwera, although these have been relatively little studied (Yakondo et al. 2007; Lambert and Lanciotti 2008) ; human respiratory syncytial virus (K\u00f6ndgen et al. 2008; Gaunt et al. 2011 ); human parainfluenza virus-3 (Collins 2010); rotavirus A (Ghosh et al. 2011) ; and the rubulaviruses human parainfluenza virus-2 and -5, although the age and evoloutionary origins of such paramyxoviruses require further study (Drexler et al. 2012) .",
+            "cite_spans": [
+                {
+                    "start": 107,
+                    "end": 126,
+                    "text": "(Smith et al. 1998;",
+                    "ref_id": "BIBREF66"
+                },
+                {
+                    "start": 127,
+                    "end": 151,
+                    "text": "Etherington et al. 2006)",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 226,
+                    "end": 243,
+                    "text": "(Gorbalenya 2008)",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 358,
+                    "end": 383,
+                    "text": "(Van Brussel et al. 1999;",
+                    "ref_id": "BIBREF74"
+                },
+                {
+                    "start": 384,
+                    "end": 404,
+                    "text": "Switzer et al. 2006;",
+                    "ref_id": "BIBREF69"
+                },
+                {
+                    "start": 405,
+                    "end": 423,
+                    "text": "L\u00f3pez et al. 2009;",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 424,
+                    "end": 442,
+                    "text": "Roelke et al. 2009",
+                    "ref_id": "BIBREF65"
+                },
+                {
+                    "start": 459,
+                    "end": 488,
+                    "text": "(Jackson and Charleston 2004)",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 601,
+                    "end": 628,
+                    "text": "(Harder and Osterhaus 1997;",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 629,
+                    "end": 648,
+                    "text": "Haffar et al. 1999;",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 649,
+                    "end": 668,
+                    "text": "Furuse et al. 2010;",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 669,
+                    "end": 721,
+                    "text": "Kosakovsky Pond 2011, though see Ohishi et al. 2010)",
+                    "ref_id": null
+                },
+                {
+                    "start": 739,
+                    "end": 759,
+                    "text": "(Tryland et al. 1998",
+                    "ref_id": "BIBREF72"
+                },
+                {
+                    "start": 791,
+                    "end": 813,
+                    "text": "(Tully and Fares 2008)",
+                    "ref_id": "BIBREF73"
+                },
+                {
+                    "start": 889,
+                    "end": 900,
+                    "text": "(Biek 2007;",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 901,
+                    "end": 923,
+                    "text": "Carpi and Holmes 2010)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 944,
+                    "end": 962,
+                    "text": "(Volk et al. 2010)",
+                    "ref_id": "BIBREF76"
+                },
+                {
+                    "start": 1020,
+                    "end": 1039,
+                    "text": "(Gould et al. 2010;",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 1040,
+                    "end": 1061,
+                    "text": "Forrester et al. 2012",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1062,
+                    "end": 1081,
+                    "text": "Worobey 2007, 2009)",
+                    "ref_id": "BIBREF80"
+                },
+                {
+                    "start": 1179,
+                    "end": 1200,
+                    "text": "(Yakondo et al. 2007;",
+                    "ref_id": "BIBREF85"
+                },
+                {
+                    "start": 1201,
+                    "end": 1228,
+                    "text": "Lambert and Lanciotti 2008)",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 1265,
+                    "end": 1286,
+                    "text": "(K\u00f6ndgen et al. 2008;",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 1287,
+                    "end": 1304,
+                    "text": "Gaunt et al. 2011",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1364,
+                    "end": 1383,
+                    "text": "(Ghosh et al. 2011)",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1533,
+                    "end": 1554,
+                    "text": "(Drexler et al. 2012)",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DATA SOURCES"
+        },
+        {
+            "text": "The final dataset of 228 host-virus associations is shown in the Supporting Information (Table S1 ). Numbers of multihost RNA virus species recorded for the three mammal orders were 22 for the primates, 12 for carnivores, and 4 for terrestrial ungulates. The effectiveness of the ABC method given these different virus sample sizes was tested by cross-validation, as detailed below.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 88,
+                    "end": 97,
+                    "text": "(Table S1",
+                    "ref_id": null
+                }
+            ],
+            "section": "DATA SOURCES"
+        },
+        {
+            "text": "We considered a number of potential sources of sampling bias in the recorded distributions of multihost RNA viruses on their host phylogeny. One potential problem for the identification of multihost viruses, and multihost parasites in general, is the accurate designation of species (e.g., Van Regenmortel 2011). For example, lumping of distinct parasite populations with different hosts into a single species might lead to overestimation of the number of host species exploited. To minimize this possible effect, the dataset was screened to ensure all included viruses were classified to the species level. We also note that the recent age of origin inferred for the majority of extant RNA viruses (Holmes 2003) suggests that any distinct strains, incorrectly lumped within the same species, would still represent very closely related lineages that achieved their current host range by host switches (the subject of this study).",
+            "cite_spans": [
+                {
+                    "start": 699,
+                    "end": 712,
+                    "text": "(Holmes 2003)",
+                    "ref_id": "BIBREF39"
+                }
+            ],
+            "ref_spans": [],
+            "section": "SAMPLING CONSIDERATIONS"
+        },
+        {
+            "text": "Another potential sampling issue is that relevant host-parasite associations, present in the wild, might not be recorded in the database (Nunn and Alitzer 2005) . To test for such sampling bias, we measured sampling effort for each species of virus, or host, included in the dataset and checked for a relationship with the number of recorded hosts. As in previous studies of host range (e.g., Nunn et al. 2004 ), we estimated sampling effort using the number of citations for a given species in a comprehensive database of published articles, in this case the Web of Science (Web of Knowledge 2012). The number of citations for each virus was non-normally distributed for the viruses of primates and carnivores (primates: Shapiro-Wilk W = 0.317, P < 0.0001; carnivores: W = 0.676, P = 0.0005; ungulates: W = 0.982, P = 0.911). Similarly, the average number of citations per host (calculated for each multihost virus) was non-normally distributed for primates (primates: W = 0.812, P = 0.0008; carnivores: W = 0.946, P = 0.588; ungulates: W = 0.996, P = 0.987). Therefore, nonparametric Spearman's rank correlations were performed. Neither the number of citations for each virus, nor the average number of citations per host, was significantly correlated with the number of host species recorded for a given virus (virus citations, primates: P = 0.964; carnivores: P = 0.964; ungulates P = 0.667, average host citations, primates: P = 0.843; carnivores: P = 0.604; ungulates: P = 0.5).",
+            "cite_spans": [
+                {
+                    "start": 137,
+                    "end": 160,
+                    "text": "(Nunn and Alitzer 2005)",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 393,
+                    "end": 409,
+                    "text": "Nunn et al. 2004",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "SAMPLING CONSIDERATIONS"
+        },
+        {
+            "text": "Finally, any phylogenetic bias in sampling effort for different species of parasite and host might affect the phylogenetic distribution of recorded hosts for a multihost RNA virus. Two tests were performed to assess whether measures of sampling effort for virus or host species were significantly correlated with the average phylogenetic distance between hosts (as measured by the HSD \"host switch distance\" statistic, detailed below). Spearman's rank correlations indicated that the sampling effort for each virus was not significantly correlated with HSD, for viruses of primates (P = 0.341), carnivores (P = 0.439) or ungulates (P = 0.083). Nor was the average number of citations per host species significantly correlated with HSD (primates: P = 0.126; carnivores: P = 0.72; ungulates: P = 0.75). Furthermore, HSD was found to be normally distributed for all viruses of all three mammal orders (primates: W = 0.945, P = 0.254; carnivores: W = 0.178, P = 0.904; ungulates: W = 0.998, P = 0.995). Consequently, the main analyses were performed without any transformation or correction of HSD.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "SAMPLING CONSIDERATIONS"
+        },
+        {
+            "text": "A measure of phylogenetic distance between the host species exploited by a given multihost RNA virus was used to estimate host switch distances. Specifically, host switch distance (HSD) was estimated, for each virus, as the average phylogenetic distance between each pair (i, j) of host species of that virus:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MEASURING HOST SWITCH DISTANCE"
+        },
+        {
+            "text": "where d ij is the midbranch distance between two host species i and j, and n is the number of host species. The midbranch distance between two hosts is calculated as d ij = D ij -(A i + A j )/2, where D ij is the patristic distance between host leaves i and j, and A i (resp. A j ) is the length of the branch incident to host leaf i (resp. j). HSD is similar to previously proposed measures of phylogenetic host specificity (Poulin and Mouillot 2003; Poulin, Krasnov, and Mouillot 2011) , but considers distances between branch midpoints rather than distances between leaves. Branch midpoints were used to model host switch events from a \"take-off\" site, at an unknown point along the branch to one of the host leaves, to a \"landing\" site, at an unknown point along the branch to another host leaf. Although this was the biologically motivated method of calculation, simulated phylogenetic distances between leaves were similarly distributed to those calculated between midbranch points (data not shown). HSD was not found to be significantly correlated with the number of hosts for viruses of primates (linear correlation P = 0.194), carnivores (P = 0.065), or ungulates (P = 0.295), suggesting that this measure of interhost phylogenetic distance is comparable for multihost viruses with different numbers of hosts (two hosts, three hosts, etc.). HSD values for each virus were then summarized by the mean, variance, skewness, and kurtosis, calculated separately among the viruses of primates, carnivores, and ungulates. This provided four summary statistics for each host phylogeny, which could then be compared with similar statistics calculated for the data simulated under the theoretical models of preferential host switching (as described below).",
+            "cite_spans": [
+                {
+                    "start": 425,
+                    "end": 451,
+                    "text": "(Poulin and Mouillot 2003;",
+                    "ref_id": "BIBREF62"
+                },
+                {
+                    "start": 452,
+                    "end": 487,
+                    "text": "Poulin, Krasnov, and Mouillot 2011)",
+                    "ref_id": "BIBREF63"
+                }
+            ],
+            "ref_spans": [],
+            "section": "MEASURING HOST SWITCH DISTANCE"
+        },
+        {
+            "text": "We tested two theoretical models for the probability of a successful host switch at a given distance between species on the host phylogeny. These represent exponential (Charleston and Robertson 2002; Engelst\u00e4dter and Hurst 2006) , versus sigmoidal (Engelst\u00e4dter and Hurst 2006), functions for the decline in host switch probability with phylogenetic distance, respectively:",
+            "cite_spans": [
+                {
+                    "start": 168,
+                    "end": 199,
+                    "text": "(Charleston and Robertson 2002;",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 200,
+                    "end": 228,
+                    "text": "Engelst\u00e4dter and Hurst 2006)",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Mathematical Models of Preferential Host Switching"
+        },
+        {
+            "text": "where P e (i j) and P s (i j) give the probability of a successful host switch between species i and j on the host phylogeny (which may have occurred either from i to j, or from j to i ), \u03b3 (0 \u2264 \u03b3 \u2264 1) is a constant for the host phylogeny (which can be viewed as the probability of successful infection where d ij = 0 (Engelst\u00e4dter and Hurst 2006) ), d ij is the phylogenetic distance between species i and j (as described above), and \u03b2 is a positive parameter that scales the decay in host switch probability as d ij increases. Under both models (Fig. 1) , the maximum possible probability of a host switch is given by the value of \u03b3 (achieved if d ij = 0). With a given value of \u03b2, the probability of a successful host switch decreases toward zero as phylogenetic distance increases, reaching \u03b3/2 when d ij = \u03b2 (Engelst\u00e4dter and Hurst 2006) . As the decay parameter \u03b2 decreases, the probability of a host switch at a given phylogenetic distance declines. Overall, both models describe a decrease in the probability of a successful host switch as phylogenetic distance increases. However, with a given \u03b2 value, the sigmoidal function (Fig. 1B) shows a smaller initial decline in host switch probability (when phylogenetic distances are small) followed by a steeper decline toward a host switch probability of zero (as the distance between host species becomes relatively large), compared with the exponential function ( Fig. 1 ) (as discussed below). We use 2 as the base of the exponent for consistency with previously proposed forms (Engelst\u00e4dter and Hurst 2006) , noting that changing the base is equivalent to scaling the \u03b2 value.",
+            "cite_spans": [
+                {
+                    "start": 318,
+                    "end": 347,
+                    "text": "(Engelst\u00e4dter and Hurst 2006)",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 813,
+                    "end": 842,
+                    "text": "(Engelst\u00e4dter and Hurst 2006)",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 1536,
+                    "end": 1565,
+                    "text": "(Engelst\u00e4dter and Hurst 2006)",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 547,
+                    "end": 555,
+                    "text": "(Fig. 1)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1135,
+                    "end": 1144,
+                    "text": "(Fig. 1B)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1421,
+                    "end": 1427,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Mathematical Models of Preferential Host Switching"
+        },
+        {
+            "text": "Host switches were simulated, under the two theoretical models of preferential host switching, using a MATLAB (version 7.13.0.564, The Mathworks Inc. 2011) program written for the purpose (Text S1). Simulations were performed separately for the three consensus phylogenies (Primates, Carnivora, and Cetartiodactyla). The patristic distance matrix corresponding to each phylogeny was used to derive a matrix of the midbranch distances (d ij ) between each possible pair of hosts (as described above). The probability of host switch success under each of the two models (probability P e (i j) for the exponential model or P s (i j) for the sigmoidal model) was then calculated for each possible pair of host species, with values of the decay parameter \u03b2 ranging from 0.01 to 2 in steps of 0.01. For sampling purposes, host switch probabilities (for a given phylogeny and with a given \u03b2 value) were then normalized by dividing the probability calculated for each possible host pair by the total probability of host switching (the sum probability over all possible pairs of species). A random sampling procedure was then used to sample interhost phylogenetic distances, according to the normalized probability of each possible host switch. Sampling from the normalized probabilities (rather than non-normalized values) removes the effect of the phylogenetic constant \u03b3 (the probability of infection at a phylogenetic distance, d ij , of zero), and ensures that a phylogenetic distance is sampled at every iteration. This is suitable for comparison with our observed data, which records only the presence of a pathogen (rather than recording absence vs. presence of each pathogen across all potential hosts, e.g.). Each sampled distance d ij provides an estimate of host switch distance, HSD, where n = 2 (eq. 1). The sample size was set to match the recorded number of viruses for each host order (22 for Primates, 12 for Carnivora, and 4 for Cetartiodactyla). Four summary statistics were then calculated for each sample. These were the mean value of the HSD statistic (Fig. 2) , and its variance, skewness, and kurtosis (Figs. S1-S3). The use of these different sample sizes allowed us to test whether ABC could distinguish between simulations, with different models and parameter values, given sample sizes comparable to the numbers of viruses actually recorded in databases of host-pathogen associations, such as that used in our study. The sampling procedure was repeated 1000 times for each unique combination of host phylogeny, model, and \u03b2 value, and the calculated summary statistics (HSD mean, variance, skewness, and kurtosis) were output for ABC. This procedure was also repeated using the average pairwise phylogenetic distance calculated on 1000 phylogenies sampled from the MCMC chain (rather than the consensus phylogeny, which was used in the main analyses). Taking the average pairwise distances, across the sampled phylogenies, approximately weights them by the relevant clade posterior probabilities. This allows us to test whether the main results (based on the consensus phylogeny) were robust to phylogenetic uncertainty, by comparison against the results based on average phylogenetic distance (across the range of topologies present in the MCMC sample).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 2066,
+                    "end": 2074,
+                    "text": "(Fig. 2)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "DATA SIMULATION"
+        },
+        {
+            "text": "Data simulated under the two models of preferential host switching were compared with the observed phylogenetic distributions of multihost RNA viruses using ABC, as implemented in the R package abc (Csill\u00e9ry 2012 ). ABC allows model and parameter selection, and estimation of support for a selected model or parameter, under complex biological models for which computation of the likelihood function may be impracticable (Csill\u00e9ry et al. 2010 ). This is achieved by comparing summary statistics for observed data with similar statistics calculated for the simulated data. These comparisons are based on a rejection method, which repeatedly samples from the simulated statistics, accepting parameter values for a given simulation if the distance from the observed statistic is below a set threshold (which determines the proportion of accepted simulations). Accepted parameter values can be viewed as a sample from an approximate posterior probability distribution for that parameter. Regression techniques may then be applied to improve the estimates of distance between statistic values, and to produce a weighted and corrected approximation of the parameter posterior. Average posterior probabilities can then be calculated for different models, over the range of simulated parameter values, and compared using Bayes factors (Csill\u00e9ry 2012) . Bayesian confidence (or, credible) intervals were calculated from each estimated posterior probability distribution, giving the interval within which there is a 95% probability that the parameter value lies.",
+            "cite_spans": [
+                {
+                    "start": 198,
+                    "end": 212,
+                    "text": "(Csill\u00e9ry 2012",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 421,
+                    "end": 442,
+                    "text": "(Csill\u00e9ry et al. 2010",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1327,
+                    "end": 1342,
+                    "text": "(Csill\u00e9ry 2012)",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "APPROXIMATE BAYESIAN COMPUTATION"
+        },
+        {
+            "text": "For each RNA virus in the dataset, the observed phylogenetic distribution of its hosts was summarized using the mean phylogenetic distance HSD (as described above), and three further summary statistics for HSD: its variance, skewness, and kurtosis. These statistics (mean, variance, skewness, and kurtosis) are widely used to summarize biological data (e.g., Dowd 2007) , and their effectiveness in model and parameter selection was tested using an ABC cross-validation procedure, also implemented in the abc package. Cross-validation for model and parameter selection was also performed to select the best performing ABC method and tolerance level, and to evaluate performance. Cross-validation for \"model\" selection repeatedly samples from the simulated data and records the percentage of samples for which the simulation model is correctly identified, based on the simulated summary statistics. Cross-validation for \"parameter\" selection repeatedly samples from the simulated data and calculates the prediction error for a given parameter (the sum of squared differences between true and estimated values divided by the variance (Csill\u00e9ry 2012) ). Based on cross-validation for parameter selection, the main analyses were performed using a linear regression method to improve posterior probability estimation (Csill\u00e9ry 2012 ) and reduce estimation error (relative to the simpler rejection method). Based on cross-validation for parameter selection, we used a tolerance level of 0.05 (rather than the tested alternatives of 0.005 or 0.5), which gave the greatest model selection accuracy with the ABC method and simulation set chosen for the main analyses (parameter prediction error was found to be relatively independent of tolerance level, as illustrated in Fig. S4 ). The ABC procedure was performed first on the full simulation set (across all \u03b2 values) and then on the subset of simulations with \u03b2 \u2264 0.4, over which the models can be clearly distinguished while covering a relatively wide range of ",
+            "cite_spans": [
+                {
+                    "start": 359,
+                    "end": 369,
+                    "text": "Dowd 2007)",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1132,
+                    "end": 1147,
+                    "text": "(Csill\u00e9ry 2012)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1312,
+                    "end": 1326,
+                    "text": "(Csill\u00e9ry 2012",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1763,
+                    "end": 1770,
+                    "text": "Fig. S4",
+                    "ref_id": null
+                }
+            ],
+            "section": "APPROXIMATE BAYESIAN COMPUTATION"
+        },
+        {
+            "text": "Model selection with ABC (Csill\u00e9ry 2012) supported the sigmoidal model of preferential host switching, over the exponential model, for all three studied host phylogenies. Mean posterior probabilities for the sigmoidal model were 0.925 for primates, 0.528 for carnivores, and 0.629 for ungulates; whereas posterior probabilities for the exponential model were 0.075 for primates, 0.472 for carnivores, and 0.371 for ungulates. Bayes factor comparisons of these posterior probabilities (Kass and Raftery 1995) indicate positive support for the sigmoidal model, over the exponential model, among the multihost RNA viruses of primates (Bayes factor = 12.4), but only weak support among those of ungulates (Bayes factor = 1.7) and carnivores (Bayes factor = 1.1). For all three host phylogenies, ABC selected a relatively low value for the parameter \u03b2, indicating a strong effect of host phylogenetic distance (HSD) on the probability of a successful host switch. The modal \u03b2 value with 95% Bayesian confidence intervals on the posterior probability distribution for this parameter was 0.29 [0.25, 0.37] for the primates, 0.18 [0.15, 0.27] for carnivores, and 0.15 [0.1, 0.37] for ungulates.",
+            "cite_spans": [
+                {
+                    "start": 484,
+                    "end": 507,
+                    "text": "(Kass and Raftery 1995)",
+                    "ref_id": "BIBREF46"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "A second set of analyses, conducted using the average pairwise distance between species (across 1000 phylogenies sampled from the Bayesian MCMC chain), gave similar results to those based on the majority rule consensus phylogenies (above). These supported the sigmoidal model (posterior probabilities: primates 0.908, carnivores 0.535, ungulates 0.641) over the exponential model (posterior probabilities: primates 0.092, carnivores 0.466, ungulates 0.359) and returned relatively low estimates for parameter \u03b2 (primates 0.3 [0.25, 0.37], carnivores 0.17 [0.14, 0.27], ungulates 0.15 [0.1, 0.38] ). This suggests that the main results, based on the consensus phylogenies, are fairly robust to phylogenetic uncertainty. Figure 1 illustrates modeled relationships between phylogenetic distance and the probability of a successful host switch. Given levels of \u03b2 between 0.1 and 0.3 (as selected for the three host phylogenies), the best supported sigmoidal model indicates, first, that very low phylogenetic distances (below approximately 0.05 substitutions per site) present very little barrier to host switching. Then, with increasing phylogenetic distance, there is a relatively steep decline in the probability of a successful host switch, nearing zero as phylogenetic distances increase above approximately 0.25-0.8 substitutions per site. Figure 2 illustrates the average host switch distance (HSD) returned by computer simulation on each host phylogeny. With the \u03b2 parameter value selected using ABC (for the given host phylogeny), the average phylogenetic distance of a simulated host switch under the best supported sigmoidal model is markedly lower than that expected under the exponential model (given the same value of \u03b2).",
+            "cite_spans": [
+                {
+                    "start": 511,
+                    "end": 595,
+                    "text": "(primates 0.3 [0.25, 0.37], carnivores 0.17 [0.14, 0.27], ungulates 0.15 [0.1, 0.38]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 719,
+                    "end": 727,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1342,
+                    "end": 1350,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Cross-validation for model selection, using the simulated host switch data, confirmed that the simulation model and \u03b2 parameter value could be effectively estimated from the summary statistics for each host phylogeny. This indicates that ABC model selection was effective with each of the three sample sizes used for calculation of the HSD summary statistics (which corresponded to the number of observed host-virus associations, of 22 for primates, 12 for carnivores, and 4 for ungulates). The sigmoidal model was correctly selected in 88% of the sampled simulations on the primate phylogeny, 61% on the carnivore phylogeny, and 70% on the ungulate phylogeny. The exponential model was correctly selected in 74% of sampled simulations for primates, 84% for carnivores, and 61% for ungulates. Cross-validation for parameter selection indicated that the prediction error (Csill\u00e9ry 2012) for the \u03b2 parameter was very low for the simulations on the primate phylogeny (error = 0.05), for which the sample of virus species was largest. Prediction error was higher, for carnivores (error = 0.12) and ungulates (error = 0.31), which had lower sample sizes. However, error plots illustrate that estimated parameter values (within the relevant Bayesian confidence intervals) are approximately linearly related to true parameter values, showing no evidence for prediction bias (Fig. S4 ). This indicates that relatively large samples of host-virus associations allow for more effective model and parameter testing, but that even relatively small samples can provide information on host-switching dynamics.",
+            "cite_spans": [
+                {
+                    "start": 870,
+                    "end": 885,
+                    "text": "(Csill\u00e9ry 2012)",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1367,
+                    "end": 1375,
+                    "text": "(Fig. S4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Our survey of the RNA viruses of mammals recorded in the GMPD (Nunn and Alitzer 2005) found a total of 38 multihost RNA virus species, collectively infecting 228 wild hosts among the primates, carnivores, or terrestrial ungulates. Of the RNA viruses recorded in the GMPD, multihost viruses represented 96% of the total among primates, 32% among carnivores, and 44% among ungulates. Of these recorded multihost viruses, 42% had just two hosts and 82% had fewer than seven hosts, although a few virus species infected relatively large numbers of host species. (Harder and Osterhaus 1997; Purse et al. 2005; Chambers 2010; MacLachlan and Guthrie 2010; de Almeida et al. 2012) .",
+            "cite_spans": [
+                {
+                    "start": 62,
+                    "end": 85,
+                    "text": "(Nunn and Alitzer 2005)",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 558,
+                    "end": 585,
+                    "text": "(Harder and Osterhaus 1997;",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 586,
+                    "end": 604,
+                    "text": "Purse et al. 2005;",
+                    "ref_id": "BIBREF64"
+                },
+                {
+                    "start": 605,
+                    "end": 619,
+                    "text": "Chambers 2010;",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 620,
+                    "end": 648,
+                    "text": "MacLachlan and Guthrie 2010;",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 649,
+                    "end": 672,
+                    "text": "de Almeida et al. 2012)",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Comparison of two theoretical models of preferential host switching (eq. 2) using ABC supported a sigmoidal model, over an exponential model, with a strong effect from phylogenetic distance for the three studied host phylogenies. This suggests that the decay in host switch probability is initially shallow, before proceeding steeply as phylogenetic distance increases. It is noteworthy that our tests across three mammal phylogenies (primates, carnivores and ungulates) all supported the same theoretical model and similarly strong effects from phylogenetic distance. These results suggest that strong preferential host switching, with a sigmoidal decay in the probability of a successful host switch as phylogenetic distance increases, may be a general characteristic of infection dynamics among mammal RNA viruses.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "This result feeds into our understanding of the coevolutionary dynamics of host switching by parasites and pathogens, potentially generalizing across many different coevolutionary systems (see below). Although it has long been held that the success of host switching diminishes with phylogenetic distance between current and nascent hosts, it has not previously been possible to test particulars of this decay. Our work suggests that ecological arguments of a certain \"tolerable range\" of host environment are indeed reflected in a sigmoidal reduction in host-switching success with increasing phylogenetic distance.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "This agrees with previous experimental observations from a wide range of host and parasite taxa. First, it has been observed that small phylogenetic distances (such as those between sister species, or within a subgenus (Perlman and Jaenike 2003) or genus (Tinsley and Majerus 2007) ) can present very low barriers to host switching. Second, a number of recent studies suggest that the distribution of pathogens and parasites on the phylogeny of their hosts is affected by the phylogenetic distance between the host species (Charleston and Robertson 2002; Clayton et al. 2003a; Perlman and Jaenike 2003; Poulin and Mouillot 2003; Krasnov et al. 2004; Percy et al. 2004; Sorenson et al. 2004; Tinsley and Majerus 2007; Longdon et al. 2011) . Third, it has been suggested that host switches over very large phylogenetic distances are comparatively rare. For example, few pathogens or parasites have hosts in difference orders or classes (Gifford et al. 2005; Woolhouse and Gowtage-Sequeria 2005) and very few infect hosts in different phyla (Poulin and Mouillot 2003) .",
+            "cite_spans": [
+                {
+                    "start": 219,
+                    "end": 245,
+                    "text": "(Perlman and Jaenike 2003)",
+                    "ref_id": "BIBREF60"
+                },
+                {
+                    "start": 255,
+                    "end": 281,
+                    "text": "(Tinsley and Majerus 2007)",
+                    "ref_id": "BIBREF71"
+                },
+                {
+                    "start": 523,
+                    "end": 554,
+                    "text": "(Charleston and Robertson 2002;",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 555,
+                    "end": 576,
+                    "text": "Clayton et al. 2003a;",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 577,
+                    "end": 602,
+                    "text": "Perlman and Jaenike 2003;",
+                    "ref_id": "BIBREF60"
+                },
+                {
+                    "start": 603,
+                    "end": 628,
+                    "text": "Poulin and Mouillot 2003;",
+                    "ref_id": "BIBREF62"
+                },
+                {
+                    "start": 629,
+                    "end": 649,
+                    "text": "Krasnov et al. 2004;",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 650,
+                    "end": 668,
+                    "text": "Percy et al. 2004;",
+                    "ref_id": "BIBREF59"
+                },
+                {
+                    "start": 669,
+                    "end": 690,
+                    "text": "Sorenson et al. 2004;",
+                    "ref_id": "BIBREF67"
+                },
+                {
+                    "start": 691,
+                    "end": 716,
+                    "text": "Tinsley and Majerus 2007;",
+                    "ref_id": "BIBREF71"
+                },
+                {
+                    "start": 717,
+                    "end": 737,
+                    "text": "Longdon et al. 2011)",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 934,
+                    "end": 955,
+                    "text": "(Gifford et al. 2005;",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 956,
+                    "end": 992,
+                    "text": "Woolhouse and Gowtage-Sequeria 2005)",
+                    "ref_id": "BIBREF81"
+                },
+                {
+                    "start": 1038,
+                    "end": 1064,
+                    "text": "(Poulin and Mouillot 2003)",
+                    "ref_id": "BIBREF62"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Although the sigmoidal host-switching model had the highest posterior probability (compared with the exponential model) for all three studied orders, and is consistent with previous suggestions (as described above), Bayes factor support was weaker for the smaller carnivore and ungulate datasets than for the larger primate dataset. This suggests that the generality of the sigmoidal host-switching model should be corroborated as more host-virus association data becomes available for nonprimate groups.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Our ABC parameter selection supported a relatively low value of the model parameter \u03b2, which scales the decay in host switch probability with increasing phylogenetic distance between current and potential hosts. Increasing values of \u03b2 indicate a declining effect of phylogenetic distance. However, the average host switch distance modeled with a particular \u03b2 value depends on the distribution of branch lengths on the host phylogeny (Fig. 2) . Thus, the significant point is not the selected value of the \u03b2 parameter per se, but that the value supported for each phylogeny falls in the range where phylogenetic distance strongly affects the distribution of simulated host switches. This suggests that the dynamics of host switching by mammal RNA viruses have been strongly affected by host phylogeny.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 433,
+                    "end": 441,
+                    "text": "(Fig. 2)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "Although our analysis focused on the decay parameter \u03b2 describing the probability of a successful host switch at a given phylogenetic distance, the models of host switching also contain a parameter \u03b3, which represents the probability of infection within the original host species (Engelst\u00e4dter and Hurst 2006) . Our ABC procedure could perhaps be extended to incorporate estimates of \u03b3, based on statistics describing intrahost pathogen infectivity (e.g., see Tinsley and Majerus 2007) , though it is not yet clear how informative this would be. Here we have tested two simple models that could be compared with the available data. Of course, simply finding that one model is better supported than another does not mean that that model is the correct one in all cases: however, we regard this as an important first step in understanding the general dynamics of host switching by RNA viruses. Furthermore, the ABC methods used here could be applied to other models as they arise.",
+            "cite_spans": [
+                {
+                    "start": 280,
+                    "end": 309,
+                    "text": "(Engelst\u00e4dter and Hurst 2006)",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 460,
+                    "end": 485,
+                    "text": "Tinsley and Majerus 2007)",
+                    "ref_id": "BIBREF71"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In summary, we present a novel empirical test of two theoretical models of preferential host switching and the model parameter that scales the predicted decay in host switch probability. Comparison of observed and computer simulated host phylogenetic distributions for mammal RNA viruses, using ABC, supports a strong sigmoidal decay in the probability of a successful host switch as phylogenetic distance on the host phylogeny increases. The same model, with similar decay parameter values, is supported for all three studied host phylogenies (primates, carnivores, and ungulates) . This suggests that the supported model is applicable across mammal RNA viruses, and may generalize to a wider range of coevolutionary systems. These findings provide an insight into the dynamics of host switching, an evolutionary factor thought be responsible for a majority (Holmes and Rambaut 2004 ) of emerging and re-emerging infectious disease.",
+            "cite_spans": [
+                {
+                    "start": 544,
+                    "end": 581,
+                    "text": "(primates, carnivores, and ungulates)",
+                    "ref_id": null
+                },
+                {
+                    "start": 859,
+                    "end": 883,
+                    "text": "(Holmes and Rambaut 2004",
+                    "ref_id": "BIBREF41"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "This work was supported by an Australian Research Council Grant, DP1094891, which we gratefully acknowledge. We also thank the curators of the 10kTrees project for granting us early access to their phylogenies of Carnivora and Cetartiodactyla.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ACKNOWLEDGMENTS"
+        },
+        {
+            "text": "Associate Editor: S. Remold",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "LITERATURE CITED"
+        },
+        {
+            "text": "Additional Supporting information may be found in the online version of this article at the publisher's website: Table S1 . Recorded mammal hosts of RNA viruses, as used in this study. Text S1. Matlab program for data simulation. Figure S1 . Variance among the simulated HSD statistics, otherwise annotated as for Figure 2 . Figure S2 . Skewness among the simulated HSD statistics, otherwise annotated as for Figure 2 . Figure S3 . Kurtosis among the simulated HSD statistics, otherwise annotated as for Figure 2 . Figure S4 . Prediction error for model parameter \u03b2 (eq. 2) determined using an approximate Bayesian computation cross-validation procedure (Csill\u00e9ry 2012) for simulated host switches on the phylogenies of primates (A), carnivores (B), and ungulates (C).",
+            "cite_spans": [
+                {
+                    "start": 654,
+                    "end": 669,
+                    "text": "(Csill\u00e9ry 2012)",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 113,
+                    "end": 121,
+                    "text": "Table S1",
+                    "ref_id": null
+                },
+                {
+                    "start": 230,
+                    "end": 239,
+                    "text": "Figure S1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 314,
+                    "end": 322,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 325,
+                    "end": 334,
+                    "text": "Figure S2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 409,
+                    "end": 417,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 420,
+                    "end": 429,
+                    "text": "Figure S3",
+                    "ref_id": null
+                },
+                {
+                    "start": 504,
+                    "end": 512,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 515,
+                    "end": 524,
+                    "text": "Figure S4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Supporting Information"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "The 10kTrees website: a new online resource for primate phylogeny",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Arnold",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Matthews",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Nunn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Evol. Anthropol",
+            "volume": "19",
+            "issn": "",
+            "pages": "114--118",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Evolution and dispersal of St. Louis encephalitis virus in the Americas",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Auguste",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Pybus",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "V F"
+                    ],
+                    "last": "Carrington",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Infect. Genet. Evol",
+            "volume": "9",
+            "issn": "",
+            "pages": "709--715",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Host range, host specificity and hypothesized host shift events among viruses of lower vertebrates",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Band\u00edn",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Dopazo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Vet. Res",
+            "volume": "42",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Multi-host parasite species in cophylogenetic studies",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Banks",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Paterson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Int. J. Parasitol",
+            "volume": "35",
+            "issn": "",
+            "pages": "741--746",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Evolutionary dynamics and spatial genetic structure of epizootic hemorrhagic disease virus in the eastern United States",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Biek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Infect. Genet. Evol",
+            "volume": "7",
+            "issn": "",
+            "pages": "651--655",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "The role of body size in host specificity: reciprocal transfer experiments with feather lice",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Bush",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Clayton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Evolution",
+            "volume": "60",
+            "issn": "",
+            "pages": "2158--2167",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The evolutionary dynamics of bluetongue virus",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Carpi",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Holmes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J. Mol. Evol",
+            "volume": "70",
+            "issn": "",
+            "pages": "583--592",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Flaviviruses: general features",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Chambers",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Desk encyclopedia of human and medical virology",
+            "volume": "",
+            "issn": "",
+            "pages": "77--87",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Preferential host switching by primate lentiviruses can account for phlyogenetic similarity with the primate phylogeny",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Charleston",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Robertson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Syst. Biol",
+            "volume": "51",
+            "issn": "",
+            "pages": "528--535",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Host defense reinforces host-parasite coevolution",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Clayton",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Bush",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Goates",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Johnson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Proc. Natl. Acad. Sci. USA",
+            "volume": "100",
+            "issn": "",
+            "pages": "15694--15699",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "The ecological basis of coevolutionary history",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Clayton",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Al-Tamimi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Johnson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "310--342",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Diseases of humans and their domestic mammals: pathogen characteristics, host range and the risk of emergence",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cleaveland",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Laurenson",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Taylor",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Philos. Trans. R. Soc. Lond. B",
+            "volume": "356",
+            "issn": "",
+            "pages": "991--999",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Identification of simian agent 10 as human parainfluenza virus type 3 suggests transmission of a human virus to an African monkey",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Collins",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J. Virol",
+            "volume": "84",
+            "issn": "",
+            "pages": "13068--13070",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Jane: a new tool for the cophylogeny reconstruction problem",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Conow",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Fielder",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ovadia",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Libeskind-Hadas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Algorithms Mol. Biol",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "abc: an R package for approximate Bayesian computation (ABC)",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Csill\u00e9ry",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Methods Ecol. Evol",
+            "volume": "3",
+            "issn": "",
+            "pages": "475--479",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Approximate Bayesian computation (ABC) in practice",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Csill\u00e9ry",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Blum",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Gaggiotti",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Fran\u00e7ois",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Trends Ecol. Evol",
+            "volume": "25",
+            "issn": "",
+            "pages": "410--418",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Anthropogenic environmental change and the emergence of infectious diseases in wildlife",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Daszak",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Cunningham",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Hyatt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Acta Trop",
+            "volume": "78",
+            "issn": "",
+            "pages": "103--116",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Phylogeny and geography predict pathogen community similarity in wild primates and humans",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Davies",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Pedersen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Proc. R. Soc. Lond. B",
+            "volume": "275",
+            "issn": "",
+            "pages": "1695--1701",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Fever outbreak affecting Alouatta populations in southern Brazil",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "De Almeida",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Santos",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Da Cruz Cardoso",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Da Fonseca",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Noll",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Silveira",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Maeda",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Souza",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Kanamura",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Brasil",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Am. J. Primatol",
+            "volume": "74",
+            "issn": "",
+            "pages": "68--76",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Measles studies in the Macaque model",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "De Swart",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Curr. Top. Microbiol. Immunol",
+            "volume": "330",
+            "issn": "",
+            "pages": "55--72",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "CD46, a primate-specific receptor for measles virus",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "D\u00f6rig",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Marcil",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Richardson",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "Trends Microbiol",
+            "volume": "2",
+            "issn": "",
+            "pages": "312--318",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Phylogenomic datasets provide both precision and accuracy in estimating the timescale of placental mammal phylogeny",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dos Reis",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Inoue",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hasegawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Asher",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "C J"
+                    ],
+                    "last": "Donoghue",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ziheng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Proc. R. Soc. Lond. B",
+            "volume": "279",
+            "issn": "",
+            "pages": "3491--3500",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Bayesian statistical data assimilation for ecosystem models using Markov Chain Monte Carlo",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dowd",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J. Marine Syst",
+            "volume": "68",
+            "issn": "",
+            "pages": "439--456",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Bats host major mammalian paramyxoviruses",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Drexler",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Corman",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "M\u00fcller",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Maganga",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Vallo",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Binger",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Gloza-Rausch",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rasche",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yordanov",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Seebens",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Nat. Commun. 3",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "The evolutionary genetics and emergence of avian influenza viruses in wild birds",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Dugan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Spiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Sengamalay",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zaborsky",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Ghedin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Nolting",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Swayne",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Runstadler",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Happ",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "PLoS Pathog",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "The dynamics of parasite incidence across host species",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Engelst\u00e4dter",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "D D"
+                    ],
+                    "last": "Hurst",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Evol. Ecol",
+            "volume": "20",
+            "issn": "",
+            "pages": "603--616",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Tracing the origin and co-phylogeny of the caliciviruses",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Etherington",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ring",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Charleston",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dicks",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Rayward-Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Roberts",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "J. Gen. Virol",
+            "volume": "87",
+            "issn": "",
+            "pages": "1229--1235",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Genome-scale phylogeny of the Alphavirus genus suggests a marine origin",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Forrester",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Palacios",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Tesh",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Savji",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Guzman",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sherman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Weaver",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Lipkin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J. Virol",
+            "volume": "86",
+            "issn": "",
+            "pages": "2729--2738",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Origin of measles virus: divergence from rinderpest virus between the 11 th and 12 th centuries",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Furuse",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Suzuki",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Oshitani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Virol. J",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Receptor-binding profiles of H7 subtype influenza viruses in different host species",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Gambaryan",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Matrosovich",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Philipp",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Munster",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A M"
+                    ],
+                    "last": "Fouchier",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Cattoli",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Capua",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Krauss",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Webster",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Banks",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J. Virol",
+            "volume": "86",
+            "issn": "",
+            "pages": "4370--4379",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Molecular epidemiology and evolution of human respiratory syncytial virus and human metapneumovirus",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Gaunt",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Jansen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Poovorawan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Templeton",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Toms",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Simmonds",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "PLoS One",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Full genomic analysis of a simian SA11-like G3P[2] rotavirus strain isolated from an asymptomatic infant: identification of novel VP1, VP6 and NSP4 genotypes",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ghosh",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Gatheru",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Nyangao",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Adachi",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Urushibara",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kobayashi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Infect. Genet. Evol",
+            "volume": "11",
+            "issn": "",
+            "pages": "57--63",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Evolution and distribution of class II-related endogenous retroviruses",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Gifford",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Kabat",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Martin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lynch",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tristem",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J. Virol",
+            "volume": "79",
+            "issn": "",
+            "pages": "6478--6486",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Genomics and evolution of the Nidovirales",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Gorbalenya",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "15--28",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Understanding the alphaviruses: recent research on important emerging pathogens and progress towards their control",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Gould",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Coutard",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Malet",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Morin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jamal",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Weaver",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gorbalenya",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Moureau",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Baronti",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Delogu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Antivir. Res",
+            "volume": "87",
+            "issn": "",
+            "pages": "111--124",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Emergence of divergent Zaire ebola virus strains in Democratic Republic of the Congo on",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Grard",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Biek",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.-J. Muyembe",
+                    "middle": [],
+                    "last": "Tamfum",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Fair",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Wolfe",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Formenty",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Paweska",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Leroy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J. Infect. Dis",
+            "volume": "204",
+            "issn": "",
+            "pages": "776--784",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Genetic characterization of Zika virus strains: geographic expansion of the Asian lineage",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Haddow",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Schuh",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Yasuda",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Kasper",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Heang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Huy",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Guzman",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Tesh",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Weaver",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "PLoS Negl. Trop. Dis",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "The matrix protein gene sequence analysis reveals close relationship between peste des petits ruminants virus (PPRV) and dolphin morbillivirus",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Haffar",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Libeau",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Moussa",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "C\u00e9cile",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Diallo",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Virus Res",
+            "volume": "64",
+            "issn": "",
+            "pages": "69--75",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Canine distemper virus-a morbillivirus in search of new hosts?",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Harder",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D M E"
+                    ],
+                    "last": "Osterhaus",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Trends Microbiol",
+            "volume": "5",
+            "issn": "",
+            "pages": "120--124",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Evolutionary history and phylogeography of human viruses",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Holmes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Annu. Rev. Microbiol",
+            "volume": "77",
+            "issn": "",
+            "pages": "307--328",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "The evolution of endogenous viral elements",
+            "authors": [],
+            "year": 2011,
+            "venue": "Cell Host Microbe",
+            "volume": "10",
+            "issn": "",
+            "pages": "368--377",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Viral evolution and the emergence of SARS coronavirus",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Holmes",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rambaut",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Philos. Trans. R. Soc. Lond. B",
+            "volume": "359",
+            "issn": "",
+            "pages": "1059--1065",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "A cophylogenetic perspective of RNA-virus evolution",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Jackson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Charleston",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Mol. Biol. Evol",
+            "volume": "21",
+            "issn": "",
+            "pages": "45--57",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Evolution of insect/host plant relationships",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Jermy",
+                    "suffix": ""
+                }
+            ],
+            "year": 1984,
+            "venue": "Am. Nat",
+            "volume": "124",
+            "issn": "",
+            "pages": "609--630",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "When do parasites fail to speciate in response to host speciation?",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Adams",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "D M"
+                    ],
+                    "last": "Page",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Clayton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Syst. Biol",
+            "volume": "52",
+            "issn": "",
+            "pages": "37--47",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Global trends in emerging infectious diseases",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Patel",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Levy",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Storeygard",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Balk",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Gittleman",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Daszak",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Nature",
+            "volume": "451",
+            "issn": "",
+            "pages": "990--994",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Bayes factors",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Kass",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Raftery",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "J. Am. Stat. Assoc",
+            "volume": "90",
+            "issn": "",
+            "pages": "773--795",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Pandemic human viruses cause decline of endangered great apes",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "K\u00f6ndgen",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "K\u00fchl",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "N&apos;goran",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Walsh",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Schenk",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ernst",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Biek",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Formenty",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "M\u00e4tz-Rensing",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Schweiger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Curr. Biol",
+            "volume": "18",
+            "issn": "",
+            "pages": "260--264",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Relationship between parasite abundance and the taxonomic distance among a parasite's host species: an example with fleas parasitic on small mammals",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Krasnov",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Shenbrot",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Khokhlova",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Poulin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Int. J. Parasitol",
+            "volume": "34",
+            "issn": "",
+            "pages": "1289--1297",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Molecular characterization of medically imoprtant viruses of the genus Orthobunyavirus",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lambert",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lanciotti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "J. Gen. Virol",
+            "volume": "89",
+            "issn": "",
+            "pages": "2580--2585",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Host phylogeny determines viral persistence and replication in novel hosts",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Longdon",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Hadfield",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Webster",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Obbard",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Jiggins",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "PLoS Pathog",
+            "volume": "7",
+            "issn": "",
+            "pages": "1--9",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Management measures to control a feline leukemia virus outbreak in the endangered Iberian lynx",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "L\u00f3pez",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "L\u00f3pez-Parra",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Fern\u00e1ndez",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Mart\u00ednez-Granados",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Mart\u00ednez",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Meli",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Gil-S\u00e1nchez",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Viqueira",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "D\u00edaz-Portero",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Anim. Conserv",
+            "volume": "12",
+            "issn": "",
+            "pages": "173--182",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Re-emergence of bluetongue, African horse sickness, and other Orbivirus diseases",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Maclachlan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Guthrie",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Vet. Res",
+            "volume": "41",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Phylogeography of West Nile virus: from the cradle of evolution in Africa to Eurasia, Australia and the Americas",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "May",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Davis",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Tesh",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D T"
+                    ],
+                    "last": "Barrett",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J. Virol",
+            "volume": "85",
+            "issn": "",
+            "pages": "2964--2974",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Pattern and process in the evolution of insect-plant associations: Yponomeuta as an example",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "B J"
+                    ],
+                    "last": "Menken",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "Entomol. Exp. Appl",
+            "volume": "80",
+            "issn": "",
+            "pages": "297--305",
+            "other_ids": {}
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Overview: Japanese encephalitis",
+            "authors": [
+                {
+                    "first": "U",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Misra",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kalita",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Prog. Neurobiol",
+            "volume": "91",
+            "issn": "",
+            "pages": "108--120",
+            "other_ids": {}
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "The Global Mammal Parasite Database: an online resource for infectious disease records in wild primates",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Nunn",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Alitzer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Evol. Anthropol",
+            "volume": "14",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Gittleman. 2004. Parasites and the evolutionary diversification of primate clades",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Nunn",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Altizer",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Sechrest",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Barton",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Am. Nat",
+            "volume": "164",
+            "issn": "",
+            "pages": "90--103",
+            "other_ids": {}
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "Host-virus specificity of morbilliviruses predicted by structural modeling of the marine mammal SLAM, a receptor",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Ohishi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ando",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Suzuki",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Takishita",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kawato",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Katsumata",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ohtsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Okutsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Tokutake",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Comp. Immunol. Microb",
+            "volume": "33",
+            "issn": "",
+            "pages": "227--241",
+            "other_ids": {}
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "Plant-insect interactions: double-dating associated insect and plant lineages reveals asynchronous radiations",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Percy",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "D M"
+                    ],
+                    "last": "Page",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [
+                        "C B"
+                    ],
+                    "last": "Cronk",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Syst. Biol",
+            "volume": "53",
+            "issn": "",
+            "pages": "120--127",
+            "other_ids": {}
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "Infection success in novel hosts: an experimental and phylogenetic study of Drosophila-parasitic nematodes",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Perlman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Jaenike",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Evolution",
+            "volume": "57",
+            "issn": "",
+            "pages": "544--557",
+            "other_ids": {}
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "Relative infection levels and taxonomic distances among the host species used by a parasite: insights into parasite specialization",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Poulin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Parasitology",
+            "volume": "130",
+            "issn": "",
+            "pages": "109--115",
+            "other_ids": {}
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "Parasite specialization from a phylogenetic perspective: a new index of host specificity",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Poulin",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Mouillot",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Parasitology",
+            "volume": "126",
+            "issn": "",
+            "pages": "473--480",
+            "other_ids": {}
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Host specificity in phylogenetic and geographic space",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Poulin",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Krasnov",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Mouillot",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Trends Parasitol",
+            "volume": "27",
+            "issn": "",
+            "pages": "355--361",
+            "other_ids": {}
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "Climate change and the recent emergence of bluetongue in Europe",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Purse",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Mellor",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Rogers",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Samuel",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "P C"
+                    ],
+                    "last": "Mertens",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Baylis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Nat. Rev. Microbiol",
+            "volume": "3",
+            "issn": "",
+            "pages": "171--181",
+            "other_ids": {}
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "Pathological manifestations of feline immunodeficiency virus (FIV) infection in wild African lions",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Roelke",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Troyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Winterbach",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Winterbach",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Hemson",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Pecon-Slattery",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Roca",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Virology",
+            "volume": "390",
+            "issn": "",
+            "pages": "1--12",
+            "other_ids": {}
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "Calicivirus emergence from ocean reservoirs: zoonotic and interspecies movements",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Skilling",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Cherry",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Mead",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Matson",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Emerg. Infect. Dis",
+            "volume": "4",
+            "issn": "",
+            "pages": "13--20",
+            "other_ids": {}
+        },
+        "BIBREF67": {
+            "ref_id": "b67",
+            "title": "Clade-limited colonization in brood parasitic finches (Vidua spp",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Sorenson",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Balakrishnan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Payne",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Syst. Biol",
+            "volume": "53",
+            "issn": "",
+            "pages": "140--153",
+            "other_ids": {}
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "Ancient co-speciation of simian foamy viruses and primates",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Switzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Salemi",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Shanmugam",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cong",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Kuiken",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Bhullar",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Beer",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Vallet",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gautier-Hion",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Nature",
+            "volume": "434",
+            "issn": "",
+            "pages": "376--380",
+            "other_ids": {}
+        },
+        "BIBREF69": {
+            "ref_id": "b69",
+            "title": "Ancient origin and molecular features of the novel human T-lymphotropic virus type 3 revealed by complete genome analysis",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Switzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Qari",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Wolfe",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Burke",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Folks",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Heneine",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "J. Virol",
+            "volume": "80",
+            "issn": "",
+            "pages": "7427--7438",
+            "other_ids": {}
+        },
+        "BIBREF70": {
+            "ref_id": "b70",
+            "title": "Risk factors for human disease emergence",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Taylor",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Latham",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E J"
+                    ],
+                    "last": "Woolhouse",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Philos. Trans. R. Soc. Lond. B",
+            "volume": "356",
+            "issn": "",
+            "pages": "983--989",
+            "other_ids": {}
+        },
+        "BIBREF71": {
+            "ref_id": "b71",
+            "title": "Small steps or giant leaps for male-killers? Phylogenetic constraints to male-killer host shifts",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Tinsley",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E N"
+                    ],
+                    "last": "Majerus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "BMC Evol. Biol",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF72": {
+            "ref_id": "b72",
+            "title": "Antibodies against orthopoxviruses in wild carnivores from Fennoscandia",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tryland",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Sandvik",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Arnemo",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Stuve",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Olsvik",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Traavik",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "J. Wildl. Dis",
+            "volume": "34",
+            "issn": "",
+            "pages": "443--450",
+            "other_ids": {}
+        },
+        "BIBREF73": {
+            "ref_id": "b73",
+            "title": "The tale of a modern animal plague: tracing the evolutionary history and determining the time-scale for foot and mouth disease virus",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Tully",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Fares",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Virology",
+            "volume": "382",
+            "issn": "",
+            "pages": "250--256",
+            "other_ids": {}
+        },
+        "BIBREF74": {
+            "ref_id": "b74",
+            "title": "The discovery of two new divergent STLVs has implications for the evolution and epidemiology of HTLVs",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Van Brussel",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Salemi",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.-F",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Goubau",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Desmyter",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Vandamme",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Rev. Med. Virol",
+            "volume": "9",
+            "issn": "",
+            "pages": "155--170",
+            "other_ids": {}
+        },
+        "BIBREF75": {
+            "ref_id": "b75",
+            "title": "Genetics and evolution of infectious diseases",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "H V"
+                    ],
+                    "last": "Van Regenmortel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF76": {
+            "ref_id": "b76",
+            "title": "Genomescale phylogenetic analyses of Chikungunya virus reveal independent emergences of recent epidemics and various evolutionary rates",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Volk",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Tsetsarkin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Adams",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Garcia",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Sall",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Nasar",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Schuh",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Holmes",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Higgs",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J. Virol",
+            "volume": "84",
+            "issn": "",
+            "pages": "6497--6504",
+            "other_ids": {}
+        },
+        "BIBREF77": {
+            "ref_id": "b77",
+            "title": "Molecular evolution of dengue viruses: contributions of phylogenetics to understanding the history and epidemiology of the preeminent arboviral disease",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Weaver",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Vasilakis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Infect. Genet. Evol",
+            "volume": "9",
+            "issn": "",
+            "pages": "523--540",
+            "other_ids": {}
+        },
+        "BIBREF78": {
+            "ref_id": "b78",
+            "title": "Evolution and ecology of influenza A virus",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Webster",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Bean",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Gorman",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Chambers",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kawaoka",
+                    "suffix": ""
+                }
+            ],
+            "year": 1992,
+            "venue": "Microbiol. Rev",
+            "volume": "56",
+            "issn": "",
+            "pages": "152--179",
+            "other_ids": {}
+        },
+        "BIBREF79": {
+            "ref_id": "b79",
+            "title": "Purifying selection can obscure the ancient age of viral lineages",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Wertheim",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Pond",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Mol. Biol. Evol",
+            "volume": "28",
+            "issn": "",
+            "pages": "3355--3365",
+            "other_ids": {}
+        },
+        "BIBREF80": {
+            "ref_id": "b80",
+            "title": "A challenge to the ancient origin of SIVagm based on African green monkey mitochondrial genomes",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Wertheim",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Worobey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "PLoS Comput. Biol",
+            "volume": "3",
+            "issn": "95",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF81": {
+            "ref_id": "b81",
+            "title": "Host range and emerging and reemerging pathogens",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "E J"
+                    ],
+                    "last": "Woolhouse",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gowtage-Sequeria",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Emerg. Infect. Dis",
+            "volume": "11",
+            "issn": "",
+            "pages": "1842--1847",
+            "other_ids": {}
+        },
+        "BIBREF82": {
+            "ref_id": "b82",
+            "title": "Population biology of multihost pathogens",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "E J"
+                    ],
+                    "last": "Woolhouse",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Taylor",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Haydon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Science",
+            "volume": "292",
+            "issn": "",
+            "pages": "1109--1111",
+            "other_ids": {}
+        },
+        "BIBREF83": {
+            "ref_id": "b83",
+            "title": "Use of cotton rats for preclinical evaluation of measles vaccines",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Wyde",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Stittelaar",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D M E"
+                    ],
+                    "last": "Osterhaus",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Guzman",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Gilbert",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Vaccine",
+            "volume": "19",
+            "issn": "",
+            "pages": "42--53",
+            "other_ids": {}
+        },
+        "BIBREF84": {
+            "ref_id": "b84",
+            "title": "Evolutionary history and phylodynamics of Influenza A and B neuroaminidase (NA) genes inferred from large-scale sequence analysis",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Davis",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Christman",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Rivailler",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhong",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Donis",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "PLoS One",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF85": {
+            "ref_id": "b85",
+            "title": "Molecular characterization of African orthobunyaviruses",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Yakondo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gribaldo",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Finance",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "Le"
+                    ],
+                    "last": "Faou",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Rihn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J. Gen. Virol",
+            "volume": "88",
+            "issn": "",
+            "pages": "1761--1766",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Theoretical probability ( P e (i j) or P s (i j)) of a successful host switch, at a given phylogenetic distance (d ij ), under an exponential (A) or sigmoidal model (B) of preferential host switching (eq. 2). The parameter \u03b2 determines the decay in the probability of a successful host switch as phylogenetic distance increases. The maximum probability of a successful host switch corresponds to the constant \u03b3 of equation 2, here equal to 1. The illustrated phylogenetic distances (measured as average substitutions per site) cover the range of interspecies distances shown within the studied host phylogenies (seeFig. 2).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Mean host switch distance (HSD) (eq. 1) values, simulated under an exponential (red) or sigmoidal (green) model of preferential host switching (eq. 2). Simulations were conducted separately on the phylogenies of primates (A), carnivores (B), and terrestrial ungulates (C), across a range of values of the probability decay parameter \u03b2 (eq. 2). Boxplot midpoints (black circles) show the median statistic value for 1000 simulations, box ends show the 25th and 75th percentiles, and whiskers extend to marked outliers. Reference line (black) shows the mean value of HSD calculated across the observed RNA virus-host associations.\u03b2 values (Figs. 2, S1-S3) as confirmed by cross-validation (see results below).",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "); the flaviviruses dengue virus-2, Japanese encephalitis virus, St. Louis encephalitis virus, West Nile virus, yellow fever virus, and Zika virus (Auguste et al. 2009; Weaver and Vasilakis 2009; Misra and Kalita 2010; May et al. 2011; Haddow et al. 2012); Zaire ebolavirus (Grard et al. 2011); influenza A virus-2 (Xu et al. 2012); simian immunodeficiency virus-agm",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "The most extreme examples in the dataset were canine distemper virus (Morbillivirus, Paramyxoviridae) with 30 carnivore hosts, yellow fever virus (Flavivirus, Flaviviridae) with 26 primate hosts, and Bluetongue virus and Epizootic hemorrhagic disease virus (Orbivirus, Reoviridae) each with four ungulate hosts; all viruses noted for their unusually broad host ranges",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

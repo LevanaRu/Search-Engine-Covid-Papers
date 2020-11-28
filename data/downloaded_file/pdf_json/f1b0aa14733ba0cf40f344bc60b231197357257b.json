@@ -1,0 +1,1874 @@
+{
+    "paper_id": "f1b0aa14733ba0cf40f344bc60b231197357257b",
+    "metadata": {
+        "title": "Information disorders on Italian Facebook during COVID-19 infodemic",
+        "authors": [
+            {
+                "first": "Alessandro",
+                "middle": [],
+                "last": "Celestini",
+                "suffix": "",
+                "affiliation": {},
+                "email": "1a.celestini@iac.cnr.it"
+            },
+            {
+                "first": "Marco",
+                "middle": [],
+                "last": "Di Giovanni",
+                "suffix": "",
+                "affiliation": {},
+                "email": "2marco.digiovanni@polimi.it"
+            },
+            {
+                "first": "Stefano",
+                "middle": [],
+                "last": "Guarino",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "National Research Council",
+                    "location": {
+                        "settlement": "Rome",
+                        "country": "Italy"
+                    }
+                },
+                "email": "3s.guarino@iac.cnr.it"
+            },
+            {
+                "first": "Francesco",
+                "middle": [],
+                "last": "Pierri",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Politecnico di Milano",
+                    "location": {
+                        "settlement": "Milano",
+                        "country": "Italy"
+                    }
+                },
+                "email": "4francesco.pierri@polimi.it"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "In this work we carry out an exploratory analysis of online conversations on the Italian Facebook during the recent COVID-19 pandemic. We analyze the circulation of controversial topics associated with the origin of the virus, which involve popular targets of misinformation, such as migrants and 5G technology. We collected over 1.5 M posts in Italian language and related to COVID-19, shared by nearly 80k public pages and groups for a period of four months since January 2020. Overall, we find that potentially harmful content shared by unreliable sources is substantially negligible compared to traditional news websites, and that discussions over controversial topics has a limited engagement w.r.t to the pandemic in general. Besides, we highlight a \"small-worldness\" effect in the URL sharing diffusion network, indicating that users navigating through a limited set of pages could reach almost the entire pool of shared content related to the pandemic, thus being easily exposed to harmful propaganda as well as to verified information on the virus.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The spread of a novel coronavirus in the past months has changed in an unprecedented way the everyday life of people on a global scale. According to World Health Organization (WHO), at the time of this writing the pandemic has caused over 3.5 M confirmed cases, with more than 250k fatalities globally speaking 1 . Italy, in particular, has been one of the first European countries to be severely hit by the pandemic, as the virus spread outside China borders at the end of January, and to implement national lockdown on the 9th of March [1, 2] . Following Italy and China, national lockdowns have been adopted by most countries around the world, drastically reducing mobility flows in order to circumvent the spread [3] .",
+            "cite_spans": [
+                {
+                    "start": 538,
+                    "end": 541,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 542,
+                    "end": 544,
+                    "text": "2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 717,
+                    "end": 720,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction and related work"
+        },
+        {
+            "text": "In relation to the emergency, the term \"infodemic\" has been coined to describe the risks related to the massive spread of harmful and malicious content on online social platforms [4] , as misinformation could support the spread of the virus undermining medical efforts and, at the same time, drive societal mistrust producing other direct damages [4] . In response, several contemporary works have provided different perspectives on this phenomenon. Authors of [5] analyzed more than 100 millions Twitter messages posted worldwide in 64 languages and found correspondence between waves of unreliable and low-quality information and the epidemic ones. Authors of [6] have investigated the prevalence of low-credibility content in relation to the activity of social bots, showing that the combined amount of unreliable information is comparable to the retweets of articles published on The New York Times alone. Finally, authors of [7] have carried out a comparative analysis of information diffusion on different social platforms, from Twitter to Reddit, finding different volumes of misinformation in different environments.",
+            "cite_spans": [
+                {
+                    "start": 179,
+                    "end": 182,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 347,
+                    "end": 350,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 461,
+                    "end": 464,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 662,
+                    "end": 665,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 930,
+                    "end": 933,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction and related work"
+        },
+        {
+            "text": "As a matter of fact, ever since 2016 US presidential elections we witnessed to a growing concern of the research community over deceptive information spreading on online social networks [8, 9, 10, 11] . In Italy, according to Reuters, trust in news is today particularly low [12] , and previous research has highlighted the exposure to online disinformation in several political circumstances, from 2016 Constitutional Referendum to 2019 European Parliament elections [13, 14, 15, 16, 17] . A recent questionnaire by SOMA observatory on disinformation spreading on online social media 2 (a project funded by the European Union) showed that people relied on official channels used by authoritative institutions in order to inform about the pandemic. Interestingly, social media were not the primary source of information during the crisis.",
+            "cite_spans": [
+                {
+                    "start": 186,
+                    "end": 189,
+                    "text": "[8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 190,
+                    "end": 192,
+                    "text": "9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 193,
+                    "end": 196,
+                    "text": "10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 197,
+                    "end": 200,
+                    "text": "11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 275,
+                    "end": 279,
+                    "text": "[12]",
+                    "ref_id": null
+                },
+                {
+                    "start": 468,
+                    "end": 472,
+                    "text": "[13,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 473,
+                    "end": 476,
+                    "text": "14,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 477,
+                    "end": 480,
+                    "text": "15,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 481,
+                    "end": 484,
+                    "text": "16,",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 485,
+                    "end": 488,
+                    "text": "17]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction and related work"
+        },
+        {
+            "text": "In this work we adopt a consolidated strategy to label news articles at the source level [18, 19, 10, 20, 21] and investigate accordingly the diffusion of different kinds of information on Facebook. We thus use the term \"disinformation\" as a shorthand for unreliable information in several forms, all potentially harmful, including false news, click-bait, propaganda, conspiracy theories and unverified rumours [20, 21] . We use instead the term \"mainstream\" to indicate traditional news websites which convey reliable and accurate information. This approach has been mainly used for Twitter, which however exhibits a declining trend as a platform to consume online news [12, 17] . Similar to [22] , we leverage Crowdtangle platform to collect posts related to COVID-19 from Facebook public pages and groups. We use a set of keywords related to the epidemic and we limit the search to posts in the Italian language. The overall dataset accounts for over 1.5 M public posts shared by almost 80k unique pages/groups. We investigate the prevalence of reliable vs non-reliable information by analysing the domain of URLs included in such posts. In particular, we are interested in understanding how specific disinformation narratives compete with official communications. To this aim, we further specify keywords related to three different controversial topics that have been trending in the past few months, all related to the origins of the novel coronavirus: (1) the alleged correlation between COVID-19 and migrants, (2) between the virus and 5G technology, and (3) rumours about the artificial origin of the virus.",
+            "cite_spans": [
+                {
+                    "start": 89,
+                    "end": 93,
+                    "text": "[18,",
+                    "ref_id": null
+                },
+                {
+                    "start": 94,
+                    "end": 97,
+                    "text": "19,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 98,
+                    "end": 101,
+                    "text": "10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 102,
+                    "end": 105,
+                    "text": "20,",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 106,
+                    "end": 109,
+                    "text": "21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 411,
+                    "end": 415,
+                    "text": "[20,",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 416,
+                    "end": 419,
+                    "text": "21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 671,
+                    "end": 675,
+                    "text": "[12,",
+                    "ref_id": null
+                },
+                {
+                    "start": 676,
+                    "end": 679,
+                    "text": "17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 693,
+                    "end": 697,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction and related work"
+        },
+        {
+            "text": "This work provides the following main contributions:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction and related work"
+        },
+        {
+            "text": "\u2022 We evaluate the prevalence of COVID-19 (and related controversial topics) on the Italian Facebook, identifying the key players and the most relevant pieces of content in the information ecosystem in terms of both volume of posts and generated engagement.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction and related work"
+        },
+        {
+            "text": "\u2022 We study how these issues shaped the debate on Facebook, quantifying the polarization of groups and pages w.r.t. topics of discussion and measuring the respective lexical/semantic divergence.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction and related work"
+        },
+        {
+            "text": "\u2022 We analyze patterns in the URL sharing network of groups/pages, observing that the majority of groups and pages interact in a \"small-world\", and discarding the hypothesis that different groups draw upon fully separate pools of web resources.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction and related work"
+        },
+        {
+            "text": "\u2022 We focus on the connections among URLs related to controversial topics and among groups/pages where these URLs where shared, to assess the existence of clusters induced by different sources of information and to ascertain that centrality in these networks is not correlated with high engagement.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction and related work"
+        },
+        {
+            "text": "The outline of this paper is the following: we first describe the methodology applied, including the collection of data from Facebook, the taxonomy of news sources and controversial topics, and both text and network analysis tools; then we describe our contributions, and finally we draw conclusions and future work.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction and related work"
+        },
+        {
+            "text": "We used CrowdTangle's \"historical data\" interface [23] to fetch posts (in Italian language) shared by public pages and groups since January 1st 2020 until May 12th 2020 and containing any of the following keywords: virus, coronavirus, covid, sars-cov-2, sars cov 2, pandemia, epidemia, pandemic, epidemic. The tool only tracks public posts made by public accounts or groups. Besides, it does not track every public account 3 and does not track neither private profiles nor private groups. For each post we collected the number of public interactions (likes, reactions, comments, shares, upvotes and three second views) as well as Uniform Resource Locators (URL) attached with it. Our collection contains overall 1.59 M posts shared by 87,426 unique Facebook pages/groups. In the rest of the paper, we use \"accounts\" as a shorthand to indicate the entire set of pages and groups. Data is not publicly available, but it can be provided to academics and non-profit organizations upon request to the platform.",
+            "cite_spans": [
+                {
+                    "start": 50,
+                    "end": 54,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Facebook data collection"
+        },
+        {
+            "text": "To understand the prevalence of reliable vs non-reliable information we refer to the lists of news outlets compiled in [17, 21] . We use the coarse \"source-based\" approach adopted in the literature [10, 19, 20] to label online news articles (i.e., links shared in Facebook posts) in two classes according to their domain:",
+            "cite_spans": [
+                {
+                    "start": 119,
+                    "end": 123,
+                    "text": "[17,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 124,
+                    "end": 127,
+                    "text": "21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 198,
+                    "end": 202,
+                    "text": "[10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 203,
+                    "end": 206,
+                    "text": "19,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 207,
+                    "end": 210,
+                    "text": "20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Mainstream and disinformation news"
+        },
+        {
+            "text": "(1) Disinformation sources, which notably publish a variety of harmful information, from hyper-partisan stories to false news and conspiracy theories; (2) Mainstream sources, which (mostly) provide accurate and reliable news reporting. However, this classification might not always hold since unreliable websites do share also true news, and incorrect news coverage on traditional outlets is not rare [9] . For what concerns unreliable news, we further partition the class into four distinct sets according to the geographic area: European (EU), Italian (IT), Russian (RU) and US sources. ",
+            "cite_spans": [
+                {
+                    "start": 401,
+                    "end": 404,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Mainstream and disinformation news"
+        },
+        {
+            "text": "In our analysis, we focus on three specific topics which were particularly exposed to disinformation during the infodemic 4 :",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Controversial topics"
+        },
+        {
+            "text": "\u2022 MIGRANTS: conspiracy theories that attempt to correlate the spread of the virus with migration flows. These are mainly promoted by far-right communities to foster racial hate. Some of the related keywords are: migranti, immigrati, ong, barconi, extracomunitari, africa.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Controversial topics"
+        },
+        {
+            "text": "\u2022 LABS: rumours that have been used as political weapons to attribute the origins of the pandemic to the development of a bioweapon to be used by China and/or to undermine the forthcoming U.S. presidential elections. Some of the related keywords are: laboratorio, ricerca, sperimentazione.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Controversial topics"
+        },
+        {
+            "text": "\u2022 5G: hoaxes that can be summarized in two main streams, those claiming that 5G activates COVID-19 and those that deny the existence of the novel coronavirus and attribute its symptoms to reactions to 5G waves. Both lines are obviously false and not supported by scientific evidence. Some of the related keywords are: 5g, onde, radiazioni, elettromagnetismo.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Controversial topics"
+        },
+        {
+            "text": "A complete list of keywords for each topic is available in the Appendix. For sake of simplicity, we will refer to an account as a \"MIGRANTS\" account (and likewise for the other topics) if the account shared at least N = 2 posts which contain a keyword in the related list; the same holds for URLs if the associated post contained a keyword matching the related topic. Finally, we will denote any account or URL as \"controversial\" if it is related to at least one of the three topics. In Table 1 we show a breakdown of the dataset in terms of posts and accounts. Note that the number of accounts is lower due to a preprocessing step described in the following paragraph.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 487,
+                    "end": 494,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Controversial topics"
+        },
+        {
+            "text": "We cleaned and pre-processed posts' textual content as follows. Firstly, strings are lower cased and URLs, punctuation, emojis and Italian stop words (collected from spacy Python library) are removed. We also remove words related to the COVID-19 as they act as stop word for our analysis. Then, we tokenize texts using nltk Python library [24] , and we remove tokens shorter than 4 or longer than 20 characters. Finally we embed accounts into vectors using Tf-Idf statistic. We firstly group tokens by account. To reduce noise effects we remove accounts with only 1 post and accounts with less than 20 tokens in total, obtaining 56,436 accounts from an original amount of 87,426. We compute the Tf-Idf of the cleaned strings, neglecting tokens that appeared less than 5 times in the whole corpus. Finally, for each account we obtain a sparse 137,901-dimensional embedding vector.",
+            "cite_spans": [
+                {
+                    "start": 339,
+                    "end": 343,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Text analysis"
+        },
+        {
+            "text": "We leverage tools from network science [25, 26] in order to investigate the diffusion network of content shared on Facebook. We use a bipartite graph formulation to link together accounts and URLs. Precisely, we draw an un-directed weighted edge between an account a and an URL u if and only if u was shared at least once on/by a; the weight w (a,u) of the edge (a, u) counts how many times u was shared on/by a. Figure 1 (left). We observe a general increase in the overall volume (top), with a few spikes at the end of January (when China imposed lockdown), at the end of February (when the virus was first diagnosed in Italy), at mid March (when lockdown was applied in Italy) and at the beginning of May (when restrictions have been lifted). We provide in the Appendix the time series of daily engagement (Fig. A1 ), which has similar characteristics although with a different order of magnitude (up to 10 19 ).",
+            "cite_spans": [
+                {
+                    "start": 39,
+                    "end": 43,
+                    "text": "[25,",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 44,
+                    "end": 47,
+                    "text": "26]",
+                    "ref_id": null
+                },
+                {
+                    "start": 907,
+                    "end": 912,
+                    "text": "10 19",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 413,
+                    "end": 421,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 809,
+                    "end": 817,
+                    "text": "(Fig. A1",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Network analysis"
+        },
+        {
+            "text": "For what concerns controversial topics (bottom), we immediately see that volumes are negligible w.r.t general conversations (the same holds for daily reactions, which are 2 order of magnitude smaller); also, they are quite aligned in time but they do exhibit spikes of their own, which are most likely related to real world events (for instance sabotages of 5G antennas in several countries).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Network analysis"
+        },
+        {
+            "text": "For what concerns the diffusion of URLs, we inspect most popular domains by focusing on their total engagement. In particular, in the Top-10 ranking of domains we encounter websites which are all related to Italian Mainstream newspapers, with the exception of Facebook and YouTube which are the 2 most shared domains. When we focus on the Top-10 ranking of news websites we observe what follows (see also figures in Appendix):",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Network analysis"
+        },
+        {
+            "text": "\u2022 Italian Mainstream newspapers generated from 2 to 6 M reactions;",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Network analysis"
+        },
+        {
+            "text": "\u2022 IT disinformation outlets generated no more than 500k reactions each; The top-3 are a generic untrustworthy website (\"silenziefalsita.it\"), the far-right website \"ilprimatonazionale.it\" and a law enforcement fan club (\"sostenitori.it\")",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Network analysis"
+        },
+        {
+            "text": "\u2022 only one RU website \"it.sputniknews.com\" (which is technically in Italian language) generated more than 100k reactions, whereas the others had a negligible engagement;",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Network analysis"
+        },
+        {
+            "text": "\u2022 EU and US sources did not receive much attention (most engaged sources did not exceed 3k reactions). Similar considerations hold also when analyzing the ranking by number of posts. Overall, as shown in Figure 1 (right), unreliable sources had a limited yet not negligible amount of engagement (1.5 M) compared to news websites which convey reliable information (35.9 M). Finally it is interesting to notice that Disinformation sources generate relatively more engagement for the LABS topic, while the MIGRANTS topic was the most discussed among Mainstream news websites.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 204,
+                    "end": 212,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Network analysis"
+        },
+        {
+            "text": "For what concerns metrics for accounts 5 involved in the analysis (e.g., total engagement, total number of posts, number of members and total number of shared links), we report that in all cases their distribution seems to follow power laws, which are common in social networks dimensions (see Appendix, Fig. A2 ). When considering separately accounts who discussed on controversial topics, we observe on average an higher activity compared to the global set of accounts, but we do notice similar distributions of members; therefore, we analyze the distribution of members versus the other dimensions (see Figure 2 left, centre) and we notice that (1), as expected, accounts with a larger number of members are more active but also (2) they were more likely involved in discussions on controversial topics. These results do not change if we consider Groups or Pages alone. We also consider the relative change in the number of members/likes of accounts during the observation period. We observe that groups have larger oscillations and higher (positive) growths compared to pages (see Appendix, Fig. A3) ; also, we notice that accounts which discussed about controversial topics experienced a larger growth compared both to the entire set and to those which did not discuss about any of them (see Figure 2 right). However, further investigation is needed to understand whether there is a causality effect between discussing about specific topics and experiencing a growth in followers/members. We then analyzed the total engagement generated by different accounts to understand which were the most influential in general and for each topic. In the former case in the Top-10 ranking (see Appendix, Table 2 ) we encounter 5 pages related to newspapers, 1 to a popular pseudo-journalistic TV program (Le Iene) and 4 pages related to right-wing politicians (in particular 2 pages of Matteo Salvini and 1 page of Luca Zaia, governor of Veneto region which was one of the most affected by the virus). Each of these accounts generated from 13 to 50 M reactions during the period of observation.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 304,
+                    "end": 311,
+                    "text": "Fig. A2",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 606,
+                    "end": 614,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1095,
+                    "end": 1103,
+                    "text": "Fig. A3)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1297,
+                    "end": 1305,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1697,
+                    "end": 1704,
+                    "text": "Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Accounts' characteristics"
+        },
+        {
+            "text": "For what concerns controversial topics, we consider the Top-10 ranking according to the total number of reactions generated only by posts related to each topic (see Appendix, Tables 3 4 and 5 ). For what concerns 5G, we notice that most influential accounts shared only a few related posts (from 2 to 6) but generated from 90k to almost 2 M reactions ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 175,
+                    "end": 191,
+                    "text": "Tables 3 4 and 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "Accounts' characteristics"
+        },
+        {
+            "text": "To investigate the polarization of accounts towards different topics we introduce a polarization score \u03c1 = pa\u2212p b pa+p b , where p b is the number of posts of an account about controversial topics, while p a is the number of posts of an account not about controversial topics. We define a post about controversial topics if it contains at least one of the manually selected tokens. The polarization index is constrained between \u22121, when all the posts of an account are about controversial topics (p a = 0) and +1, when no posts involved controversial topics (p b = 0). Figure 3 shows the distribution of the polarization scores of accounts. We notice a trimodal distribution: a peak at \u03c1 = 1 representing accounts not talking about controversial topics (the greater majority of accounts), a second peak at \u03c1 = 0 that includes accounts talking equally about controversial and not controversial topics, and a third lower peak at \u03c1 = \u22121 which represents accounts posting only about controversial topics. In the Appendix ( Figure A5 ), we show also how accounts are polarized when comparing topics against each other with the same rationale, i.e., by defining p a the number of posts about one controversial topic (e.g., 5g) and p b the number of posts about a different controversial topic (e.g., Labs). Peaks at \u03c1 = +1 and \u03c1 = \u22121 indicate that most accounts usually do not talk about more than one controversial topic.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 569,
+                    "end": 577,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1019,
+                    "end": 1028,
+                    "text": "Figure A5",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "Polarization of accounts and linguistic analysis"
+        },
+        {
+            "text": "In Figure 4 we show a kernel density plot for the embedding of accounts. For visualization purposes, we select the first two PCA components. Red indicates controversial accounts whereas blue indicates remaining ones. Note that, even if the intersection of controversial accounts is negligible (see Table 1 ) and the accounts are usually polarized on a single controversial topic (see Figure A5 ), the embeddings of the two \"classes\" distribute differently in all cases. This result suggests that, since the distributions of the embeddings are different, they might be suitable input features to automatically classify controversial vs non-controversial accounts -a task beyond the scope of this paper. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 3,
+                    "end": 11,
+                    "text": "Figure 4",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 298,
+                    "end": 305,
+                    "text": "Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 384,
+                    "end": 393,
+                    "text": "Figure A5",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "Polarization of accounts and linguistic analysis"
+        },
+        {
+            "text": "To better understand the patterns of sharing diffusion on Facebook, we now focus on the bipartite graph of accounts and URLs and on its projection upon the two layers, as defined in Section 2.5. Since we are particularly interested in characterizing controversial URLs and accounts, we will focus on the subgraph induced by such URLs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sharing diffusion network"
+        },
+        {
+            "text": "By inspecting the bipartite graph we aim to investigate two related aspects of the COVID-19 infodemic on Facebook: (i) whether there are niches of accounts where (possibly extreme) conspiracy theories get diffused; and, conversely, (ii) whether there exists a (relatively) small set of accounts that, altogether, provide access to a vast majority of all available web resources.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Bipartite graph"
+        },
+        {
+            "text": "To answer question (i), we look at the connected components of the graph. The giant component of the entire bipartite graph includes \u2248 57% of all accounts, \u2248 88% of all urls and \u2248 92% of all edges. With a bit of simplification, this means that (limited to our dataset) more than half of all Facebook accounts draw upon a unique large pool of web content -with the remaining pieces being essentially negligible as they are fall out this giant component. Quite interestingly, a similar scenario emerges if we only consider the set of controversial URLs: this bipartite subgraph has 55,411 vertices (18,681 accounts and 36,730 urls) and 81,707 edges, and its giant component includes \u2248 72% of both accounts and URLs and \u2248 87% of all edges. Components other than the giant are at least two orders of magnitude smaller in both graphs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Bipartite graph"
+        },
+        {
+            "text": "The isolation of specific accounts and URLs into such small components seems to emerge as a consequence of (poor) marketing strategies. For both graphs, in fact, the majority of the components consist of a small number of accounts -often, just one -sharing many different URLs (cf. Figure A6 in the Appendix). Through manual investigation, we verified that such phenomenon is oftentimes caused by a website controlling one or more Facebook pages to promote its articles. A notable case is \"howtodofor.com\", which seems to use as many as 17 different accounts, none of which is apparently ascribable to the website owners. However, a deeper and more rigorous analysis of similar cases is left to future work.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 282,
+                    "end": 291,
+                    "text": "Figure A6",
+                    "ref_id": null
+                }
+            ],
+            "section": "Bipartite graph"
+        },
+        {
+            "text": "To answer question (ii), (as shown in Figure A7 ) we observe that few accounts are sufficient to reach the majority of the URLs shared in the network. To reach the 25% of the URLs we need 88 (0.65%) accounts, to reach the 50% of the URLs we need 458 (3.42%) accounts, to reach the 75% of the URLs we need 1,535 (11.48%) accounts, finally to reach the 90% of the URLs we need 3,539 (26.48%) accounts.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 38,
+                    "end": 47,
+                    "text": "Figure A7",
+                    "ref_id": "FIGREF11"
+                }
+            ],
+            "section": "Bipartite graph"
+        },
+        {
+            "text": "We now consider the giant component in the projection of the controversial bipartite graph upon the two layers of URLs and accounts. This leads to a URL graph with 26,705 vertices and 1,096,672 edges, and an account graph with 13,363 vertices and 986,509 edges. The diameter, radius and average path length of the two graphs -10, 5 and 3.24 for URLs, 10, 5 and 2.86 for accounts -depict a small world [25, 26] , or even ultra-small world 6 , further confirmed by the global efficiency -0.33 for URLs, 0.37 for accounts -and the clustering coefficient -0.38 for URLs, 0.68 for accounts. This means that we observe Facebook accounts which often share common sets of URLs. At the same time, visiting a small percentage of them is enough to cover all the URLs shared in the network, as showed in Figure A7 . Altogether, this suggests that if Facebook allowed users to \"jump\" through groups and pages via shared URLs, they would likely get to all controversial URLs no matter the stance towards the topic. On the one hand, finding propaganda items on Facebook appears an easy task; on the other hand, debunking articles are probably equally easy to find, if the right instruments for browsing content were provided.",
+            "cite_spans": [
+                {
+                    "start": 401,
+                    "end": 405,
+                    "text": "[25,",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 406,
+                    "end": 409,
+                    "text": "26]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 792,
+                    "end": 801,
+                    "text": "Figure A7",
+                    "ref_id": "FIGREF11"
+                }
+            ],
+            "section": "Controversial urls, domains and accounts"
+        },
+        {
+            "text": "To better understand whether Mainstream news and Disinformation items are well mixed on Facebook, we rely on the manual classification of sources described in Section 2.2. Specifically, we aim to assess the existence of clusters of URLs and accounts with a strong prevalence of one of the two categories of domains. As a side result, we expect to gain insights into the possibility to infer the quality of web content solely based on where and who shared the item. We computed modularity-based clusters relying on the well-known Louvain algorithm [27] . In Figure 5 we compare the ratio of Mainstream URLs with the ratio of Disinformation URLs present in each cluster, and in the entire graph of URLs/accounts. We see that the ratio of deceptive URLs is very low for almost all clusters, and that in general news-related URLs are a minority. This is mainly a consequence of the high prevalence of domains relying on user generated content and that, as such, cannot be classified -e.g., \"facebook.com\" and \"youtube.com\" account for, respectively, \u2248 48% and \u2248 4% of all URLs.",
+            "cite_spans": [
+                {
+                    "start": 547,
+                    "end": 551,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 557,
+                    "end": 565,
+                    "text": "Figure 5",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "Controversial urls, domains and accounts"
+        },
+        {
+            "text": "Focusing on clusters of URLs, we argue that the most interesting cluster is cluster 2, the third largest cluster (2,179 URLs from 345 different domains) with a share of Disinformatiom domains that, albeit being barely over 10%, is notably larger than that of the entire URL graph. Ten domains appear in cluster 2, and they are all well-known websites which share sovereignty propaganda and false stories (from \"voxnews.info\" to \"ilprimatonazionale.it\"). However, the cluster also includes URLs from 20 Mainstream domains, showing that propaganda is apparently well-mixed with Mainstream information. Conversely, the only strongly polarized cluster of URLs, which includes almost 60% of disinfo URLs, is in reality similar to the small connected components discussed in Section 4.1 and, as such, of limited interest: it is very small (less that 100 URLs), dominated by just a few domains, and apparently consisting of a few web sites promoting each other.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Controversial urls, domains and accounts"
+        },
+        {
+            "text": "For what regards accounts, almost all clusters -including larger ones -have a negligible presence of disinformation URLs, a further element in favor of the existence of a body of web resources shared on/by groups and pages with very different audiences. The only clusters of accounts with a large share of disinformation are very small clusters of, at most, 12 accounts. It is interesting to notice that the names of these clusters include a mix of references to cross-ideological political parties and local movements, thus suggesting that disinformation spreads across political affiliation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Controversial urls, domains and accounts"
+        },
+        {
+            "text": "Finally, we analyzed the centrality of individual URLs and accounts in the graph based on their PageRank [28] , degree and strength [25, 26] . For URLs, we observe (cf. Table 7 ) that most central URLs generally convey mainstream, institutional and scientific content, with a few notable exceptions: six Youtube videos (one of which embedded in a Facebook post) that went viral during the COVID-19 infodemic, all related to counter-information and alternative propaganda -three of which are not available on Youtube anymore. Besides, all of these belong to the aforementioned cluster 2, which includes other widespread content as well: 2 news items from mainstream media outlets but very popular among conspirationists (an interview to an \"expert\" claiming that the virus is indeed a biological weapon, published by \"TgCom24\", and an article about the role of particulate in the epidemics, published by \"AGI\"); finally, a few URLs linking to scientific papers, data analysis and visualization of the pandemic. Two insights can be drawn: on the one hand, propaganda items are so popular that they invade the general debate on Facebook and are often found in accounts that also share factual and rigorous news items; on the other hand, a categorization of disinformation domains is useful but insufficient, because most popular disinformation content is shared as user generated content on platforms such as Youtube and Facebook, thus needing manual verification to flag them as harmful.",
+            "cite_spans": [
+                {
+                    "start": 105,
+                    "end": 109,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 132,
+                    "end": 136,
+                    "text": "[25,",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 137,
+                    "end": 140,
+                    "text": "26]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 169,
+                    "end": 176,
+                    "text": "Table 7",
+                    "ref_id": null
+                }
+            ],
+            "section": "Controversial urls, domains and accounts"
+        },
+        {
+            "text": "For what concerns central accounts, we see that most of them make explicit references to antiestablishment journalists, known counter-information bloggers, and conspiracy theories. Quite interestingly, we also see that these are mostly groups and do not coincide with the top ranking accounts emerged in Section 3.2, i.e., the greatest engagement is generated by accounts that are not among the most central in the network built upon URL shares. We may argue that controversial opinions are mostly shaped on groups, based on URLs shared by other users, and then just \"gathered\" on the public pages of political leaders and parties.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Controversial urls, domains and accounts"
+        },
+        {
+            "text": "In this paper we investigated online conversations about COVID-19 and related controversial topics on Facebook, during a period of 4 months and analyzing more than 1.5 M posts shared by almost 80k groups and pages. We first noticed that discussions on controversial topics, which had a smaller volume of interactions compared to the pandemic in general, induced polarized clusters of accounts in terms of both topic coverage and lexicon. We then observed that, in accordance with recent literature, sources of (supposedly) reliable information had a higher engagement compared to websites sharing unreliable content. However, we also realized the limitations of source-based approaches when analyzing an information ecosystem wherein user generated content has a paramount role. Finally, we highlighted a \"small-world effect\" in the sharing network of URLs, with the result that users on Facebook who navigate on a limited set of pages/groups can be potentially exposed to a wide range of content, from extreme propaganda to verified information. In this network, the central role is taken by popular groups, in contrast with popular pages being those generating the greatest engagement.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Future directions of research include further investigating the differences in the activity of groups and pages which focus on controversial topics. In particular, we aim to understand whether language differences might be effectively employed to distinguish accounts who were particularly active (or not) on specific subjects, and to extend the analysis of reliable vs. unreliable information to platforms for video and image sharing such as YouTube and Instagram. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Ulteriori disposizioni attuative del decreto-legge 23 febbraio 2020, n. 6, recante misure urgenti in materia di contenimento e gestione dell'emergenza epidemiologica da covid-19",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Dpcm",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Gazzetta Ufficiale",
+            "volume": "62",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Economic and social consequences of human mobility restrictions under covid-19",
+            "authors": [
+                {
+                    "first": "Giovanni",
+                    "middle": [],
+                    "last": "Bonaccorsi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Francesco",
+                    "middle": [],
+                    "last": "Pierri",
+                    "suffix": ""
+                },
+                {
+                    "first": "Matteo",
+                    "middle": [],
+                    "last": "Cinelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "Francesco",
+                    "middle": [],
+                    "last": "Porcelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "Alessandro",
+                    "middle": [],
+                    "last": "Galeazzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Andrea",
+                    "middle": [],
+                    "last": "Flori",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ana",
+                    "middle": [
+                        "Lucia"
+                    ],
+                    "last": "Schmidth",
+                    "suffix": ""
+                },
+                {
+                    "first": "Carlo",
+                    "middle": [
+                        "Michele"
+                    ],
+                    "last": "Valensise",
+                    "suffix": ""
+                },
+                {
+                    "first": "Antonio",
+                    "middle": [],
+                    "last": "Scala",
+                    "suffix": ""
+                },
+                {
+                    "first": "Walter",
+                    "middle": [],
+                    "last": "Quattrociocchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Fabio",
+                    "middle": [],
+                    "last": "Pammolli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Proceedings of the National Academy of Sciences",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Human mobility in response to covid-19 in france, italy and uk",
+            "authors": [
+                {
+                    "first": "Alessandro",
+                    "middle": [],
+                    "last": "Galeazzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Matteo",
+                    "middle": [],
+                    "last": "Cinelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "Giovanni",
+                    "middle": [],
+                    "last": "Bonaccorsi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Francesco",
+                    "middle": [],
+                    "last": "Pierri",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ana",
+                    "middle": [
+                        "Lucia"
+                    ],
+                    "last": "Schmidt",
+                    "suffix": ""
+                },
+                {
+                    "first": "Antonio",
+                    "middle": [],
+                    "last": "Scala",
+                    "suffix": ""
+                },
+                {
+                    "first": "Fabio",
+                    "middle": [],
+                    "last": "Pammolli",
+                    "suffix": ""
+                },
+                {
+                    "first": "Walter",
+                    "middle": [],
+                    "last": "Quattrociocchi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "How to fight an infodemic",
+            "authors": [
+                {
+                    "first": "John",
+                    "middle": [],
+                    "last": "Zarocostas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Assessing the risks of \"infodemics\" in response to COVID-19 epidemics",
+            "authors": [
+                {
+                    "first": "Riccardo",
+                    "middle": [],
+                    "last": "Gallotti",
+                    "suffix": ""
+                },
+                {
+                    "first": "Francesco",
+                    "middle": [],
+                    "last": "Valle",
+                    "suffix": ""
+                },
+                {
+                    "first": "Nicola",
+                    "middle": [],
+                    "last": "Castaldo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Pierluigi",
+                    "middle": [],
+                    "last": "Sacco",
+                    "suffix": ""
+                },
+                {
+                    "first": "Manlio De",
+                    "middle": [],
+                    "last": "Domenico",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "1--29",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Prevalence of Low-Credibility Information on Twitter During the COVID-19 Outbreak",
+            "authors": [
+                {
+                    "first": "Kai-Cheng",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Christopher",
+                    "middle": [],
+                    "last": "Torres-Lugo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Filippo",
+                    "middle": [],
+                    "last": "Menczer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The COVID-19 Social Media Infodemic",
+            "authors": [
+                {
+                    "first": "Matteo",
+                    "middle": [],
+                    "last": "Cinelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "Walter",
+                    "middle": [],
+                    "last": "Quattrociocchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Alessandro",
+                    "middle": [],
+                    "last": "Galeazzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Carlo",
+                    "middle": [
+                        "Michele"
+                    ],
+                    "last": "Valensise",
+                    "suffix": ""
+                },
+                {
+                    "first": "Emanuele",
+                    "middle": [],
+                    "last": "Brugnoli",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ana",
+                    "middle": [
+                        "Lucia"
+                    ],
+                    "last": "Schmidt",
+                    "suffix": ""
+                },
+                {
+                    "first": "Paola",
+                    "middle": [],
+                    "last": "Zola",
+                    "suffix": ""
+                },
+                {
+                    "first": "Fabiana",
+                    "middle": [],
+                    "last": "Zollo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Antonio",
+                    "middle": [],
+                    "last": "Scala",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "1--18",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Social media and fake news in the 2016 election",
+            "authors": [
+                {
+                    "first": "Hunt",
+                    "middle": [],
+                    "last": "Allcott",
+                    "suffix": ""
+                },
+                {
+                    "first": "Matthew",
+                    "middle": [],
+                    "last": "Gentzkow",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Journal of Economic Perspectives",
+            "volume": "31",
+            "issn": "2",
+            "pages": "211--247",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "The science of fake news",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "David",
+                    "suffix": ""
+                },
+                {
+                    "first": "Matthew",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lazer",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yochai",
+                    "middle": [],
+                    "last": "Baum",
+                    "suffix": ""
+                },
+                {
+                    "first": "Adam",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Benkler",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kelly",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Berinsky",
+                    "suffix": ""
+                },
+                {
+                    "first": "Filippo",
+                    "middle": [],
+                    "last": "Greenhill",
+                    "suffix": ""
+                },
+                {
+                    "first": "Miriam",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Menczer",
+                    "suffix": ""
+                },
+                {
+                    "first": "Brendan",
+                    "middle": [],
+                    "last": "Metzger",
+                    "suffix": ""
+                },
+                {
+                    "first": "Gordon",
+                    "middle": [],
+                    "last": "Nyhan",
+                    "suffix": ""
+                },
+                {
+                    "first": "David",
+                    "middle": [],
+                    "last": "Pennycook",
+                    "suffix": ""
+                },
+                {
+                    "first": "Michael",
+                    "middle": [],
+                    "last": "Rothschild",
+                    "suffix": ""
+                },
+                {
+                    "first": "Steven",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Schudson",
+                    "suffix": ""
+                },
+                {
+                    "first": "Cass",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Sloman",
+                    "suffix": ""
+                },
+                {
+                    "first": "Emily",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Sunstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "Duncan",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Thorson",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jonathan",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Watts",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Zittrain",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Science",
+            "volume": "359",
+            "issn": "6380",
+            "pages": "1094--1096",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "The spread of low-credibility content by social bots",
+            "authors": [
+                {
+                    "first": "Chengcheng",
+                    "middle": [],
+                    "last": "Shao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Giovanni",
+                    "middle": [
+                        "Luca"
+                    ],
+                    "last": "Ciampaglia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Onur",
+                    "middle": [],
+                    "last": "Varol",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kai-Cheng",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Alessandro",
+                    "middle": [],
+                    "last": "Flammini",
+                    "suffix": ""
+                },
+                {
+                    "first": "Filippo",
+                    "middle": [],
+                    "last": "Menczer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nature Communications",
+            "volume": "9",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "False news on social media: a data-driven survey",
+            "authors": [
+                {
+                    "first": "Francesco",
+                    "middle": [],
+                    "last": "Pierri",
+                    "suffix": ""
+                },
+                {
+                    "first": "Stefano",
+                    "middle": [],
+                    "last": "Ceri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "ACM Sigmod Record",
+            "volume": "48",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "The role of bot squads in the political propaganda on twitter",
+            "authors": [
+                {
+                    "first": "Guido",
+                    "middle": [],
+                    "last": "Caldarelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rocco",
+                    "middle": [
+                        "De"
+                    ],
+                    "last": "Nicola",
+                    "suffix": ""
+                },
+                {
+                    "first": "Fabio",
+                    "middle": [
+                        "Del"
+                    ],
+                    "last": "Vigna",
+                    "suffix": ""
+                },
+                {
+                    "first": "Marinella",
+                    "middle": [],
+                    "last": "Petrocchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Fabio",
+                    "middle": [],
+                    "last": "Saracco",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:1905.12687"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Beyond fact-checking: Network analysis tools for monitoring disinformation in social media",
+            "authors": [
+                {
+                    "first": "Stefano",
+                    "middle": [],
+                    "last": "Guarino",
+                    "suffix": ""
+                },
+                {
+                    "first": "Noemi",
+                    "middle": [],
+                    "last": "Trino",
+                    "suffix": ""
+                },
+                {
+                    "first": "Alessandro",
+                    "middle": [],
+                    "last": "Chessa",
+                    "suffix": ""
+                },
+                {
+                    "first": "Gianni",
+                    "middle": [],
+                    "last": "Riotta",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Complex Networks and Their Applications VIII",
+            "volume": "",
+            "issn": "",
+            "pages": "436--447",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Characterizing networks of propaganda on twitter: a case study",
+            "authors": [
+                {
+                    "first": "Stefano",
+                    "middle": [],
+                    "last": "Guarino",
+                    "suffix": ""
+                },
+                {
+                    "first": "Noemi",
+                    "middle": [],
+                    "last": "Trino",
+                    "suffix": ""
+                },
+                {
+                    "first": "Alessandro",
+                    "middle": [],
+                    "last": "Celestini",
+                    "suffix": ""
+                },
+                {
+                    "first": "Alessandro",
+                    "middle": [],
+                    "last": "Chessa",
+                    "suffix": ""
+                },
+                {
+                    "first": "Gianni",
+                    "middle": [],
+                    "last": "Riotta",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:2005.10004"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "News consumption during the italian referendum: A cross-platform analysis on facebook and twitter",
+            "authors": [
+                {
+                    "first": "Del",
+                    "middle": [],
+                    "last": "Michela",
+                    "suffix": ""
+                },
+                {
+                    "first": "Sabrina",
+                    "middle": [],
+                    "last": "Vicario",
+                    "suffix": ""
+                },
+                {
+                    "first": "Walter",
+                    "middle": [],
+                    "last": "Gaito",
+                    "suffix": ""
+                },
+                {
+                    "first": "Matteo",
+                    "middle": [],
+                    "last": "Quattrociocchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Fabiana",
+                    "middle": [],
+                    "last": "Zignani",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Zollo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "2017 IEEE International Conference on Data Science and Advanced Analytics (DSAA)",
+            "volume": "",
+            "issn": "",
+            "pages": "648--657",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Investigating italian disinformation spreading on twitter in the context of 2019 european elections",
+            "authors": [
+                {
+                    "first": "Francesco",
+                    "middle": [],
+                    "last": "Pierri",
+                    "suffix": ""
+                },
+                {
+                    "first": "Alessandro",
+                    "middle": [],
+                    "last": "Artoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Stefano",
+                    "middle": [],
+                    "last": "Ceri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "PloS one",
+            "volume": "15",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Influence of fake news in Twitter during the 2016 US presidential election",
+            "authors": [
+                {
+                    "first": "Alexandre",
+                    "middle": [],
+                    "last": "Bovet",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Hern\u00e1n A Makse",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nature Communications",
+            "volume": "10",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Topology comparison of twitter diffusion networks effectively reveals misleading news",
+            "authors": [
+                {
+                    "first": "Francesco",
+                    "middle": [],
+                    "last": "Pierri",
+                    "suffix": ""
+                },
+                {
+                    "first": "Carlo",
+                    "middle": [],
+                    "last": "Piccardi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Stefano",
+                    "middle": [],
+                    "last": "Ceri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Scientific reports",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "The diffusion of mainstream and disinformation news on twitter: the case of italy and france",
+            "authors": [
+                {
+                    "first": "Francesco",
+                    "middle": [],
+                    "last": "Pierri",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Companion Proceedings of the Web Conference 2020",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Mapping italian news media political coverage in the lead-up to 2018 general election",
+            "authors": [
+                {
+                    "first": "Fabio",
+                    "middle": [],
+                    "last": "Giglietto",
+                    "suffix": ""
+                },
+                {
+                    "first": "Laura",
+                    "middle": [],
+                    "last": "Iannelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "Luca",
+                    "middle": [],
+                    "last": "Rossi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Augusto",
+                    "middle": [],
+                    "last": "Valeriani",
+                    "suffix": ""
+                },
+                {
+                    "first": "Nicola",
+                    "middle": [],
+                    "last": "Righetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "Francesca",
+                    "middle": [],
+                    "last": "Carabini",
+                    "suffix": ""
+                },
+                {
+                    "first": "Giada",
+                    "middle": [],
+                    "last": "Marino",
+                    "suffix": ""
+                },
+                {
+                    "first": "Stefano",
+                    "middle": [],
+                    "last": "Usai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Elisabetta",
+                    "middle": [],
+                    "last": "Zurovac",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Crowdtangle. menlo park, ca: Facebook",
+            "authors": [
+                {
+                    "first": "Crowdtangle",
+                    "middle": [],
+                    "last": "Team",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Natural Language Processing with Python",
+            "authors": [
+                {
+                    "first": "Steven",
+                    "middle": [],
+                    "last": "Bird",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ewan",
+                    "middle": [],
+                    "last": "Klein",
+                    "suffix": ""
+                },
+                {
+                    "first": "Edward",
+                    "middle": [],
+                    "last": "Loper",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Network science",
+            "authors": [
+                {
+                    "first": "Albert-L\u00e1szl\u00f3",
+                    "middle": [],
+                    "last": "Barab\u00e1si",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Fast unfolding of communities in large networks",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Vincent",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jean-Loup",
+                    "middle": [],
+                    "last": "Blondel",
+                    "suffix": ""
+                },
+                {
+                    "first": "Renaud",
+                    "middle": [],
+                    "last": "Guillaume",
+                    "suffix": ""
+                },
+                {
+                    "first": "Etienne",
+                    "middle": [],
+                    "last": "Lambiotte",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Lefebvre",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Journal of statistical mechanics: theory and experiment",
+            "volume": "",
+            "issn": "10",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "The pagerank citation ranking: Bringing order to the web",
+            "authors": [
+                {
+                    "first": "Lawrence",
+                    "middle": [],
+                    "last": "Page",
+                    "suffix": ""
+                },
+                {
+                    "first": "Sergey",
+                    "middle": [],
+                    "last": "Brin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rajeev",
+                    "middle": [],
+                    "last": "Motwani",
+                    "suffix": ""
+                },
+                {
+                    "first": "Terry",
+                    "middle": [],
+                    "last": "Winograd",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": ", reactions and news articles We first inspect the prevalence of COVID-19 in online conversations by showing the time series of daily posts on Facebook in",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "(left) Time series of the daily number of posts, total and per topic. (right) Total engagement generated by news articles for Mainstream (orange), Disinformation domains (green) and both (blue), for each topic and altogether.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Scatter plot of the number of members vs. number of reactions (left) and number of posts (center) for each account. Points are grouped in 100 bins to ease the visualization. (right) Boxplot of the distribution of relative changes in the number of members/followers for all accounts, for different groups (outliers are filtered).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Histogram of the polarization scores of accounts.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "(which were accounted by 2 posts of the Italian Health Ministry). For what concerns LABS, we notice a larger number of posts and total reactions generated, most of which are accounted by Matteo Salvini leader of the right-wing Lega party. Finally, for what concerns MIGRANTS we see a larger number of posts/reactions w.r.t to other topics, most of which are accounted by a newspaper (\"Tgcom24\") and Matteo Salvini, respectively with 3.4 M and 1.1 M total engagement.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Distribution of the first two main components of embeddings of accounts.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Prevalence of Mainstream and Disinformation domains in different clusters of the controversial URLs graph and controversial account graph.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Complementary cumulative distribution function for several metrics. We show all accounts and according to different topics.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Boxplot of the distribution of relative changes in the number of members/followers for all accounts, groups and pages.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Top-10 ranking of news sources per different news domain according to the total engagement generated. In clockwise order from top left we show US, RU, IT, EU disinformation sources and finally IT Mainstream sources.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "Normalized histogram of polarization index of accounts, by pairs of topics. Number of urls and accounts in all components of the bipartite graph other than the giant, for both the whole graph and the topical subgraph. The marker size is proportional to the total number of vertices of the component.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "Percentage of reached URLs when visiting accounts in decreasing order of degree centrality.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF1": {
+            "text": "The overall list contains 25 Italian sources for the Mainstream domain whereas for the disinformation domain we count 25 EU sources, 52 Italian sources, 13 Russian sources and 22 US sources.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "This graph has 983,582 vertices (78,760 accounts and 904,822 URLs) and 1,374,921 edges. We then focus on the controversial bipartite graph defined as the subgraph of the accounts-URLs graph induced by controversial URLs. This subgraph has 55,411 vertices (18,681 accounts and 36,730 URLs) and 81,707 edges. Finally, we consider the two graphs of controversial URLs and controversial accounts obtained by projecting the giant component of the aforementioned controversial bipartite graph upon the two layers of URLs and accounts, respectively. In other words, URLs are connected if and only if there is at least one account that shared both, and the edge is weighted by the number of such accounts. Analogously, accounts are connected if and only if there is at least one URL that they both shared, and the edge is weighted by the number of such URLs. In all cases, we focus on the giant connected component of such graphs, as described in Section 4.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "url pagerank degree strength louvain governo.it/it/articolo/decreto-iorestoacasa-do... la7.it/piazzapulita/video/coronavirus-dentro-i... tgcom24.mediaset.it/mondo/coronavirus-lesperto... agi.it/cronaca/news/2020-04-24/inquinamento-pa... salute.gov.it/portale/nuovocoronavirus/dettagl... fanpage.it/politica/la-protezione-civile-chied... fanpage.it/attualita/coronavirus-fuga-da-milan... it.businessinsider.com/ernesto-burgio-2-o-3-co... gisanddata.maps.arcgis.com/apps/opsdashboard/i... facebook.com/giuseppe.provenza.5209/videos/231...",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "The top 20 controversial URLs by pagerank.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The complete lists of italian words used to define the thee controversial topics are the following (we include also the feminine and plural forms, omitted here for clarity purposes).\u2022 \"5G\": elettromagnetismo, onda, radiazione, wireless];\u2022 \"LABS\": cavia, espetimento, sperimentato, sperimentazione;\u2022 \"MIGRANTS\": africa, barcone, clandestino, extracomunitario, immigrato, islam, musulmano, negro, niger, ONG, profugo, senegal, straniero ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Appendix"
+        }
+    ]
+}

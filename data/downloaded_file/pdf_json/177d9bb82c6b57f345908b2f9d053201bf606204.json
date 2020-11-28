@@ -1,0 +1,1481 @@
+{
+    "paper_id": "177d9bb82c6b57f345908b2f9d053201bf606204",
+    "metadata": {
+        "title": "Diagnostic utility of aqueocentesis and aqueous humor analysis in dogs and cats with anterior uveitis",
+        "authors": [
+            {
+                "first": "K",
+                "middle": [
+                    "Tomo"
+                ],
+                "last": "Wiggans",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Colorado State University",
+                    "location": {
+                        "postCode": "80523",
+                        "settlement": "Fort Collins",
+                        "region": "CO",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "William",
+                "middle": [],
+                "last": "Vernau",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Michael",
+                "middle": [
+                    "R"
+                ],
+                "last": "Lappin",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Colorado State University",
+                    "location": {
+                        "postCode": "80523",
+                        "settlement": "Fort Collins",
+                        "region": "CO",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sara",
+                "middle": [
+                    "M"
+                ],
+                "last": "Thomasy",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "David",
+                "middle": [
+                    "J"
+                ],
+                "last": "Maggs",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Objective To evaluate diagnostic utility of aqueous humor analysis in animals with anterior uveitis. Animals Client-owned dogs (n = 12) and cats (n = 10). Procedures Examination findings and diagnostic test results including aqueous humor cytology were compared. Results Disease duration prior to aqueocentesis was not significantly different between dogs with idiopathic anterior uveitis and those with an etiologic diagnosis, but was shorter in cats with feline infectious peritonitis (FIP) than those with idiopathic uveitis. Microbial nucleic acids, antigens, or antibodies against them were seldom found in blood/serum; however, serum feline coronavirus titers \u22651:6400 were detected only in cats with FIP. Aqueous humor cytology was diagnostic in no cats and two dogs, both with neoplasia. Although aqueous humor contained predominantly neutrophils in cats with FIP and large reactive lymphocytes and plasma cells appeared more frequent in cats with idiopathic uveitis, neither clinical nor cytologic assessment of anterior chamber contents differed significantly between cats with idiopathic or FIP-associated uveitis. Cytologically assessed plasma cell number was correlated with keratic precipitates and disease duration. Clinically detectable hyphema and cytologic erythrocyte number were correlated. However, cytologic cell grades and clinical grade of flare or cell numbers within the anterior chamber were not correlated. Conclusions Aqueous humor cytology permitted diagnosis of neoplasia in dogs with anterior uveitis but was generally not helpful in cats. Poor correlation between clinical and cytologic assessment of cell numbers and type within the anterior chamber dictates that clinical grading should not be the sole criterion for electing to perform aqueocentesis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "There are numerous and diverse infectious, inflammatory, immune-mediated, neoplastic, and traumatic causes of anterior uveitis. As such, extensive diagnostic testing is required to guide treatment and prognostic advice regarding comfort and vision. Previous studies have shown, however, that despite complete systemic evaluation, an underlying cause for anterior uveitis was not found in 60% of dogs 1 and 37-70% of cats. 2, 3 In 1977, Olin examined the diagnostic utility of assessment of protein concentration and microbiologic and cytologic data from aqueous humor samples collected from 17 dogs and 20 cats with anterior uveitis. 4 In that study, aqueous humor analysis was beneficial in determining the underlying cause or guiding therapy of uveitis in three of 37 patients; culture of aqueous humor in one dog with a perforating corneal laceration revealed Pseudomonas spp., and cytologic analysis in two dogs led to a diagnosis of lymphoma.",
+            "cite_spans": [
+                {
+                    "start": 422,
+                    "end": 424,
+                    "text": "2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 425,
+                    "end": 426,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 634,
+                    "end": 635,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "More recently, a number of molecular and serologic assays have also been used to test aqueous humor. Antibody production indices (i.e., the Goldman-Witmer coefficient) have been used to document intraocular production of specific antibodies directed against Bartonella spp., feline herpesvirus 1, and Toxoplasma gondii in some animals with uveitis. [5] [6] [7] [8] [9] [10] [11] [12] [13] However, these indices do not prove causation because specific ocular humoral immune responses can occur without presence of the organism within the eye. Additionally, polymerase chain reaction (PCR) has been used to amplify Bartonella spp., T. gondii, and feline herpesvirus 1 DNA from aqueous humor and blood samples collected from experimental and clientowned cats. [12] [13] [14] [15] [16] [17] However, DNA from each of these agents can be present within aqueous humor in the absence of disease so the positive predictive value of these tests is less than 100%. Finally, PCR assessment of antigen receptor arrangement has been developed to aid in the diagnosis of lymphoma, 18, 19 but to the authors' knowledge, it has been reported in only one dog with uveitis. 20 Thus, numerous means of assessing aqueous humor exist, but the authors are unaware of any studies assessing correlations among clinical examination findings in dogs or cats with anterior uveitis, cytologic assessment of aqueous humor samples, and results of antibody and PCR assays. Therefore, the purpose of the present study was to retrospectively evaluate the diagnostic utility of aqueocentesis and aqueous humor cytologic analysis, along with antibody and PCR testing where available, in dogs and cats with anterior uveitis seen at a single referral hospital over a 27-year period. In particular, we wished to assess correlations between cytologic and clinical assessments of the anterior chamber contents.",
+            "cite_spans": [
+                {
+                    "start": 349,
+                    "end": 352,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 353,
+                    "end": 356,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 357,
+                    "end": 360,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 361,
+                    "end": 364,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 365,
+                    "end": 368,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 369,
+                    "end": 373,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 374,
+                    "end": 378,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 379,
+                    "end": 383,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 384,
+                    "end": 388,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 758,
+                    "end": 762,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 763,
+                    "end": 767,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 768,
+                    "end": 772,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 773,
+                    "end": 777,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 778,
+                    "end": 782,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 783,
+                    "end": 787,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1068,
+                    "end": 1071,
+                    "text": "18,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1072,
+                    "end": 1074,
+                    "text": "19",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1157,
+                    "end": 1159,
+                    "text": "20",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "The electronic medical records system at the University of California, Davis, Veterinary Medical Teaching Hospital was searched for all dogs and cats on which aqueocentesis had been performed and aqueous humor submitted for any form of laboratory evaluation between January 1985 and November 2012. Information retrieved from the records included age, sex, breed, duration of disease from the first owner report of clinical signs to time of aqueocentesis, ophthalmic examination findings, results of diagnostic tests performed in addition to aqueocentesis, results of PCR and culture of aqueous humor samples, and final etiologic diagnosis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MATERIALS A ND ME THODS"
+        },
+        {
+            "text": "Prior to aqueocentesis, an ophthalmic examination was performed on all patients by a board-certified ophthalmologist or resident-in-training and included slit-lamp biomicroscopy using diffuse and focal light sources, binocular indirect ophthalmoscopy, and applanation tonometry. Other diagnostic procedures were performed at the discretion of the attending clinician. For the purposes of this study, clinical findings recorded most recently prior to aqueocentesis were used for data analysis. Specifically, the degree of aqueous flare and cell numbers within the anterior chamber were semi-quantitatively graded on a scale from trace to 4+, 21 and the presence or absence of hypopyon, hyphema, keratic precipitates (KPs), fibrin, and lipid within the anterior chamber was recorded.",
+            "cite_spans": [
+                {
+                    "start": 641,
+                    "end": 643,
+                    "text": "21",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "MATERIALS A ND ME THODS"
+        },
+        {
+            "text": "Because the volume of aqueous humor submitted to the clinical pathology laboratory was usually small, aqueous humor evaluation at this institution typically consisted primarily of cytologic assessment only. Direct and cytocentrifuge slides were made and stained with Wright-Giemsa stain. To ensure consistency of assessment, all previously examined, interpreted, reported, and archived direct and cytospin aqueous humor slides from each patient were re-examined by a single board-certified clinical pathologist (WV). For each cell type, cell number was semi-quantitatively estimated as few (1+), mildly increased (2+), moderately increased (3+), or markedly/severely increased (4+). Within the lymphocyte population, reactive lymphocytes and lymphoblasts were also graded, if present. The amount, color, and nature of the background staining were also reported.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MATERIALS A ND ME THODS"
+        },
+        {
+            "text": "The Mann-Whitney U-test was used to compare between dogs and cats the duration of disease, clinical grade of aqueous flare and cell numbers within the anterior chamber, and cytologic grade of inflammatory cells and erythrocytes. Fischer's exact test was used to compare between dogs and cats the presence of hyphema, hypopyon, KPs, as well as fibrin and lipid within the anterior chamber. The same tests were also used to compare these parameters between dogs diagnosed with idiopathic anterior uveitis and those in which an etiologic diagnosis was reached and between cats diagnosed with idiopathic anterior uveitis and those ultimately diagnosed with feline infectious peritonitis (FIP). The diagnosis of FIP in these cats was either necropsy-confirmed or based upon characteristic signalment, clinical signs, clinicopathologic data, and clinical course. A Spearman correlation coefficient was used to compare cytologic grade of inflammatory cells with disease duration, clinical grade of aqueous flare, and clinical grade of cell numbers within the anterior chamber. The Mann-Whitney U-test was used to compare between animals with and without hyphema, hypopyon, KPs, or fibrin the cytologic grade of inflammatory cell numbers within the aqueous humor sample. For all statistical analyses, results were considered significant if P was \u2264 0.05.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MATERIALS A ND ME THODS"
+        },
+        {
+            "text": "Aqueocentesis was performed on 12 dogs (seven females; five males) and 10 cats (two females; eight males). The median (range) age for dogs and cats was 7.5 (1-14) and 2.8 (0. [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] years, respectively. Dog breeds ranged widely (two Labrador Retrievers and one each of Jack Russell Terrier, Rottweiler, Catahoula hound dog, Miniature Schnauzer, Siberian Husky, Border Collie, Shih Tzu, Staffordshire Terrier, Scottish Terrier, and mixed breed). There were nine domestic cats and one Siamese cat. The median (range) disease duration from the first owner report of clinical signs to the time of aqueocentesis did not differ significantly (P = 0.1) between dogs (9 [1-49] days) and cats (18 [7-608] days). Based on final diagnosis, no significant difference (P = 1.0) in median (range) disease duration was found between dogs with idiopathic anterior uveitis (8 days) and those in which a cause was found (16 days). Cats with anterior uveitis secondary to FIP had a significantly shorter (P = 0.04) median (range) disease duration prior to aqueocentesis (8 [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] days) than did those with idiopathic anterior uveitis (62 days).",
+            "cite_spans": [
+                {
+                    "start": 175,
+                    "end": 178,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 179,
+                    "end": 182,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 183,
+                    "end": 186,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 187,
+                    "end": 190,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 191,
+                    "end": 194,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 195,
+                    "end": 198,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 199,
+                    "end": 202,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 203,
+                    "end": 207,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 208,
+                    "end": 212,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 213,
+                    "end": 217,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 218,
+                    "end": 222,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 223,
+                    "end": 227,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 228,
+                    "end": 232,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 233,
+                    "end": 237,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 238,
+                    "end": 242,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 243,
+                    "end": 247,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 248,
+                    "end": 252,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 253,
+                    "end": 257,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 760,
+                    "end": 771,
+                    "text": "(18 [7-608]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1130,
+                    "end": 1133,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1134,
+                    "end": 1137,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1138,
+                    "end": 1141,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1142,
+                    "end": 1146,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1147,
+                    "end": 1151,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1152,
+                    "end": 1156,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1157,
+                    "end": 1161,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1162,
+                    "end": 1166,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1167,
+                    "end": 1171,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1172,
+                    "end": 1176,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1177,
+                    "end": 1181,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1182,
+                    "end": 1186,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "RE SUL TS"
+        },
+        {
+            "text": "Mean (median; range) intraocular pressure (IOP) prior to aqueocentesis was 17.7 (14; 4-60) mmHg for dogs and 12.6 (11.0; 4-34) mmHg for cats. Ten animals (four dogs and six cats) had an IOP below the lower end of the reference ranges for those species. 22, 23 Four animals (three dogs and one cat) had an IOP above the upper end of the reference ranges for those species. 22, 23 Clinical complications of aqueocentesis were noted in one patient only (C3), a dog which experienced moderate intraocular hemorrhage following aspiration of an iris mass. The hemorrhage was not treated and the subsequent clot resolved within 18 days.",
+            "cite_spans": [
+                {
+                    "start": 253,
+                    "end": 256,
+                    "text": "22,",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 257,
+                    "end": 259,
+                    "text": "23",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 372,
+                    "end": 375,
+                    "text": "22,",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 376,
+                    "end": 378,
+                    "text": "23",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "RE SUL TS"
+        },
+        {
+            "text": "For five dogs and nine cats, tests used to assess for evidence of infectious disease agents were performed on blood, serum, or urine samples. However, a standardized group of tests was not performed in each animal. Tests for West Nile virus (PCR; n = 1 dog); Bartonella clarridgeiae, B. henselae, and B. vinsonii (serum antibody; n = 3); Brucella canis (serum antibody; n = 2); Ehrlichia canis, Anaplasma phagocytophilum, Borrelia burgdorferi, and Rickettsia rickettsii (serum antibody; n = 6); E. canis (PCR; n = 1); Aspergillus spp. (urine and serum antigen; n = 1), Coccidioides immitis (serum antibody; n = 3), Cryptococcus neoformans (serum antigen; n = 2), Babesia canis (serum antibody; n = 1), Neospora spp. (serum antigen; n = 1), and Toxoplasma gondii (serum antibody; n = 2, PCR; n = 1) were all negative. One dog (C3) without history of leptospiral vaccination had a serum antibody titer of 1:400 against Leptospira canicola and L. icterohemorrhagie, but was negative for L. bratislava, L. grippotyphosa, L. hardjo, and L. Pomona. A second dog tested with the same panel had no serum leptospiral antibodies detected. For cats, tests for FeLV (serum antigen; n = 9); FIV (serum antibody; n = 9), Bartonella clarridgeiae and B. henselae (serum antibody; n = 1, PCR; n = 2); Mycoplasma haemofelis (PCR; n = 1); Anaplasma phagocytophilum, Ehrlichia canis, and Borrelia burgdorferi (serum antibody; n = 2, PCR; n = 1); A. platys and Rickettsia rickettsii (PCR; n = 1); Toxoplasma gondii (serum antibody; n = 7); and Dirofilaria immitis (serum antigen; n = 2) were all negative. Serum feline coronavirus (FCoV) titers were \u22651:6400 in two cats (F5 and F9), which were ultimately confirmed on necropsy to have FIP and for one of which (F9) FCoV RNA was detected in whole blood by use of real-time PCR. Serum FCoV titers were negative in all other cats in which they were assessed, two of which (F4 and F10) a cause of uveitis was not found, one of which (F3) had histologically confirmed phacoclastic uveitis, and one of which (F2) was suspected to have FIP based on signalment, clinical and clinicopathologic findings, and clinical course; however, a necropsy was not performed in this cat.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "RE SUL TS"
+        },
+        {
+            "text": "Aqueous humor samples in three dogs (C4, C7, and C12) were assessed using PCR targeting select viruses (canine distemper virus, West Nile virus), rickettsia (Anaplasma phagocytophilum, Borrelia burgdorferi, Ehrlichia canis, and Rickettsia spp.), fungi (Aspergillus fumigatus, Candida albicans, Coccidioides immitis, Cryptococcus neoformans, Microsporum canis, Paecilomyces spp., Penicillium spp., Rhizopus oryzae, Trichophyton mentagrophytes), and protozoa (Neospora hughesi and N. caninum, Toxoplasma gondii). No DNA from these organisms was detected in any of these aqueous humor samples. Feline coronavirus real-time PCR was performed on the aqueous humor sample from one cat (F9) and was negative despite this cat having a serum FCoV titer of \u22651:6400, real-time PCR amplification of FCoV RNA in whole blood collected at the same time as aqueocentesis and necropsy-confirmed FIP. Aerobic bacterial culture and sensitivity, anaerobic culture, and fungal culture were performed on aqueous humor samples from two dogs (C2 and C5); no organisms were detected in either sample.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "RE SUL TS"
+        },
+        {
+            "text": "Clinical findings, results of cytologic assessment of aqueous humor samples, and final diagnoses are presented in Table 1 (dogs) and Table 2 (cats). None of the following parameters differed significantly between dogs and cats: clinical grade of aqueous flare or cell numbers within the anterior chamber; cytologic grade of inflammatory, pigmented, or red blood cell numbers; or proportions of animals with or without clinically detectable hyphema, hypopyon, fibrin, or lipid (P = 0.1-1.0). Considering results from dogs and cats jointly, a significant positive correlation (P = 0.003, r = 0.6) was found between disease duration and cytologic grade for plasma cell number. No significant correlation was found between disease duration and all other cell types identified on aqueous humor cytology (P = 0.1-0.9). No significant correlation was detected between the clinical grade for aqueous flare or cell numbers within the anterior chamber and the cytologic grade for number of neutrophils, macrophages, lymphocytes, plasma cells, eosinophils, mast cells, erythrocytes, or pigmented cells (P = 0.1-0.9). Erythrocytes within the anterior chamber were detected clinically and cytologically in three dogs (C4, C6, and C10), and by cytologic evaluation only in two dogs (C9 and C11). In these latter two dogs, no cell of any type was detected clinically within the anterior chamber. Results were more frequently discordant in cats, with erythrocytes detected within the anterior chamber clinically and cytologically in two cats (F1 and F9), clinically but not cytologically in one cat (F2), and cytologically but not clinically in four cats (F3, F4, F7, and F10). However, two cats in this latter group (F4 and F7) had 3+ and 2+ cells within the anterior chamber, respectively, detected clinically. Considering both dogs and cats, median cytologic grade of erythrocyte number in eyes with clinically detected hyphema (2+) was significantly higher (P = 0.012) than in those without hyphema (1+). Likewise, median cytologic grade of plasma cell number in eyes with clinically detected KPs (2+) was significantly higher (P = 0.05) than in those without KPs (none). Disease duration, clinical grade of aqueous flare or cell numbers within the anterior chamber, and cytologic grade of inflammatory cell numbers did not differ significantly between animals with or without clinically detectable hypopyon (P = 0.1-1.0) or fibrin (P = 0.052-1.0). Considering only dogs, a definitive cause for anterior uveitis was diagnosed based on cytologic assessment of aqueous humor samples in two of 12 dogs (C1 and C3). The aqueous humor sample from one dog (C1) contained predominantly eosinophils along with scattered mast cells with cytologic criteria of malignancy and led to a diagnosis of intraocular mast cell neoplasia. This dog also had multifocal recurrent grade III cutaneous mast cell tumors and was described fully in a separate publication. 24 Cytologic assessment of aqueous humor from the second dog (C3) revealed a predominantly monomorphic population of immature lymphocytes with large nuclei that were occasionally lobulated or cerebriform and contained frequent mitotic figures (Fig. 1) . This dog had bilateral uveitis and was diagnosed with lymphoma solely on the basis of cytologic assessment of aqueous humor. Additional diagnostic testing, including complete blood count, serum chemistry analysis, thoracic radiographs, and abdominal ultrasound, failed to reveal additional organ involvement. The aqueous humor obtained from a third dog (C9), which was ultimately diagnosed with an idiopathic inflammatory neuropathy, was notable in that it contained a heterogeneous population of lymphocytes with many reactive and larger, more immature appearing lymphocytes. This dog was presented with multiple cranial nerve deficits and anterior uveitis OU. Cytologic findings from a CSF sample were similar to those from the aqueous humor sample. Immunophenotyping of the CSF revealed predominantly CD3-positive T cells along with CD79a-positive B cells. Antigen receptor gene rearrangement analysis (PCR molecular clonality testing) on CSF failed to produce an interpretable result. Inflammatory cells were not detected in three dogs (C7, C10, and C12), for two of which (C7 and C12) no clinical diagnosis was ultimately made and one of which (C10) was diagnosed with recurrent grade II cutaneous mast cell tumors. When results of all diagnostic tests were considered, the cause of anterior uveitis was not found in seven of 12 dogs undergoing aqueocentesis. In five of these dogs, cytologic assessment revealed mild to marked lymphocytic inflammation. Neither inflammatory nor red blood cells were detected cytologically in the remaining two dogs (C7 and C12); however, one did have cytologically detectable pigmented cells (C12). Neither clinical anterior chamber findings (flare, cell numbers, hyphema, hypopyon, fibrin, and lipid) nor cytologic grade of inflammatory cell number differed significantly (P = 0.1-1.0) between dogs with idiopathic anterior uveitis and those in which a cause was ultimately found.",
+            "cite_spans": [
+                {
+                    "start": 2935,
+                    "end": 2937,
+                    "text": "24",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 114,
+                    "end": 121,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 133,
+                    "end": 140,
+                    "text": "Table 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 3178,
+                    "end": 3186,
+                    "text": "(Fig. 1)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "RE SUL TS"
+        },
+        {
+            "text": "Considering only cats, a definitive cause for anterior uveitis was never found based on cytologic assessment of aqueous humor alone. When results of all diagnostic tests were considered, the cause of anterior uveitis was not determined in six of 10 cats. Of these, all had a complete blood count and serum chemistry analysis, five underwent infectious disease testing including serologic testing for feline leukemia virus (FeLV), feline immunodeficiency virus (FIV), FCoV, Cryptococcus spp., and Toxoplasma gondii and five had thoracic radiographs and abdominal ultrasound performed. The cat that did not undergo infectious disease testing (F1) was diagnosed with idiopathic systemic hypertension. However, signs of breakdown of the blood ocular barrier persisted after the blood pressure was controlled within normal limits prompting aqueocentesis. One cat (F3) was diagnosed with phacoclastic uveitis based on ocular ultrasound and histopathology of the subsequently enucleated eye. The etiologic diagnosis in the remaining three cats was confirmed at necropsy to be FIP (F5 and F9) or presumptively diagnosed as FIP (F2). The presumptive diagnosis in case F2 was based on the cat's age (1 year), history of fever and lethargy, presence of hyperglobulinemia (6.5 g/dL, range: 2.9-5.3), and decline in clinical status leading to euthanasia within 5 weeks; however, no necropsy was performed. Neither clinical anterior chamber findings (flare, cell numbers, hyphema, hypopyon, fibrin, and lipid) nor cytologic grade of inflammatory cell numbers differed significantly between cats with anterior uveitis due to FIP and those in which a cause was not found. However, cytologic assessment of aqueous humor in two of three cats diagnosed with FIP (F2 and F9) revealed predominantly neutrophils (Fig. 2) . Although neutrophils were seen commonly in aqueous humor samples from both cats with FIP and those in which a cause was not found, the aqueous humor of cats with idiopathic uveitis tended to have greater numbers of larger, reactive lymphocytes and plasma cells than cats with other causes of uveitis (Fig. 3) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1790,
+                    "end": 1798,
+                    "text": "(Fig. 2)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 2101,
+                    "end": 2109,
+                    "text": "(Fig. 3)",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "RE SUL TS"
+        },
+        {
+            "text": "Of the 22 cases included in this retrospective study, cytologic evaluation of aqueous humor definitively established the cause of anterior uveitis in two dogs but in no cats. This frequency is similar to the only comparable previous report in which aqueocentesis was diagnostic in three of 17 dogs and none of 20 cats. 4 These data are corroborated by another retrospective study of feline anterior uveitis in which cytologic assessment of aqueous humor did not correlate with final etiologic diagnosis in 13 of 53 cases. 2 A study examining the causes of anterior uveitis in dogs noted that aqueous humor cytology provided an etiologic diagnosis in two of 102 cases; however, the total number of cases that underwent aqueocentesis was not reported. 1 These reports may suggest that the diagnostic utility of aqueous humor analysis in dogs and cats is generally low; however, information from the current study suggests that aqueous humor analysis may be highly valuable for diag-nosing neoplastic uveitis. Cytologic assessment of aqueous humor was particularly useful for the dog with lymphoma, because all other diagnostic tests failed to produce a diagnosis or reveal evidence of nonocular neoplastic involvement. Ultimately, uveitis was considered idiopathic in 50% of dogs and 56% of cats in the present study on the basis of nonspecific or inconclusive aqueous humor cytologic findings and an absence of specific diagnostic findings on bloodwork, imaging, and infectious disease testing. Although this is consistent with reports suggesting that uveitis is idiopathic in 60% of dogs 1 and 37-70% of cats, 2,3 selection bias may have influenced results in the present study because aqueocentesis was performed when extraocular testing up to that point had failed to provide a diagnosis. Thus, cats and dogs meeting entry criteria for the present study were more likely to have a form of Large reactive lymphocytes (arrows) are more frequent than in cats with uveitis due to FIP. There are also fewer nondegenerate neutrophils than is typically seen in aqueous humor from cats with FIP (see Fig. 2 ). Wright-Giemsa stain, 60 9 objective. (b) Case F7. Plasma cells (arrows) are more common than in cats with uveitis due to FIP. Wright-Giemsa stain, 60 9 objective. uveitis in which an etiologic diagnosis was unlikely to be reached or challenging to make.",
+            "cite_spans": [
+                {
+                    "start": 319,
+                    "end": 320,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 750,
+                    "end": 751,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 2094,
+                    "end": 2100,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "A major goal of the present study was to examine correlations between cytologic and clinical assessments of anterior chamber contents. We were unable to detect significant correlations between cytologic grade of cell numbers and either clinical grade of aqueous flare or cell numbers within the anterior chamber. Aqueous flare represents clinically detectable concentrations of serum proteins within the anterior chamber and therefore may not be directly correlated with the types or numbers of inflammatory cells that migrate into the same space. However, lack of correlation between cytologic and clinical grading of cell numbers within the anterior chamber is more intriguing. It may be due in part to the somewhat subjective nature of the two semi-quantitative grading systems. Additionally, cells within the anterior chamber may not have been as uniformly distributed as protein such that aspiration of aqueous humor may not have obtained a representative sample. In particular, cell numbers within the anterior chamber would typically be clinically quantified above any area of condensed (i.e., not free-floating) cells, whereas aqueocentesis is typically directed at more condensed regions. By contrast, good correlations were noted between some clinical features and cytologic estimates of specific cell types in the present study. For example, patients with KPs had a significantly higher grade for plasma cell numbers. Although this may be a direct correlation, it is also possible that both the clinical and cytologic findings reflect the duration of the uveitis because some forms of KPs have been associated with chronic anterior uveitis in humans, 25 and there was a significant positive correlation in the present study between disease duration and the semi-quantitative grading of plasma cells. This is perhaps predictable because the progression of a primarily neutrophilic inflammatory response to one more dominated by lymphocytes and plasma cells is considered an indicator of chronicity. Not surprisingly, median cytologic grade of erythrocyte number was greater in eyes with clinically detectable hyphema than in those without, and erythrocytes were detected more often on cytologic assessment than by clinical examination. However, erythrocytes were not noted on cytologic assessment of aqueous humor from one cat with hyphema. There are several possible explanations for this: a representative sample of aqueous humor may not have been obtained, the aqueous may have had scant free-floating red cells above the dependent hyphema, or hemolysis may have occurred within the anterior chamber or during sampling and processing. Taken together, comparison of cytologic and clinical estimates of total and individual cell types in the present study suggest that slit-lamp grading of aqueous flare and cell numbers within the anterior chamber should not be used as the sole criterion for determining whether or not aqueocentesis should be performed because cellular aqueous humor samples may be obtained even when clinically detectable cell numbers are low or absent.",
+            "cite_spans": [
+                {
+                    "start": 1662,
+                    "end": 1664,
+                    "text": "25",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "In the period since the last report of the diagnostic utility of aqueous humor assessment in dogs and cats, 4 the ability to detect host antibodies and pathogen antigens, RNA, and DNA has expanded greatly in veterinary medicine. Despite this, only five patients in the present study had the PCR tests performed, and results of all tests were negative. The low number of samples assessed using molecular techniques may reflect availability of these tests at the time samples were collected because this study describes a 25-year period, some of which pre-date PCR and many of the more current ELISAs. It is also possible that clinicians were not encouraged to submit aqueous humor for testing by ELISA or PCR due to reports of the diagnostic utility of these tests in experimentally infected and naturally exposed animals, especially cats. In the present study, PCR molecular clonality testing was performed in one dog with a predominance of T cells on immunocytochemistry of aqueous humor cytology. Despite this test being previously helpful when run on the aqueous humor from a dog with uveitis, 20 in the dog of the present study, the test failed to produce an interpretable result when run on CSF. Unfortunately, the dog's aqueous humor was not similarly tested. Further assessment of molecular clonality testing of aqueous humor in animals with anterior uveitis is recommended, especially in cases such as C3 and C9 presented here, because it may be useful to aid differentiation of inflammation from neoplasia when there are increased numbers of larger, more immature appearing lymphocytes.",
+            "cite_spans": [
+                {
+                    "start": 1097,
+                    "end": 1099,
+                    "text": "20",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Data from the present study permit some comments regarding aqueous humor sampling as an aid to diagnosis of FIP. Aqueous humor samples from cats ultimately diagnosed with FIP tended to have mild to marked suppurative or pyogranulomatous inflammation with relatively few large and reactive lymphocytes and plasma cells than did samples from cats in which an underlying cause was not found. However, this was not statistically more likely. Likewise, FCoV RNA was never detected in aqueous humor samples in the present study despite one cat having FCoV RNA in whole blood, a FCoV titer >1:6400, and necropsy-confirmed FIP. This suggests that the inability to detect FCoV DNA in the aqueous humor of a cat should not be used to eliminate the diagnosis. By contrast, FCoV titers were typically very high in cats with necropsy-confirmed FIP in the present study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Results of this study indicate that cytological analysis of aqueous humor facilitates the etiologic diagnosis of anterior uveitis in some dogs but not cats. The poor correlation between clinical and cytologic detection and characterization of cells and cell types within the anterior chamber dictates that clinical grading should not be the sole criterion for electing whether to perform aqueocentesis. A multi-institutional prospective study applying a standardized panel of diagnostic tests to aqueous humor samples collected from a large number of dogs and cats with anterior uveitis is needed to gather more data on the diagnostic utility of aqueocentesis in dogs and cats.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Causes of uveitis in dogs: 102 cases",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Massa",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Gilger",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Miller",
+                    "suffix": ""
+                }
+            ],
+            "year": 1989,
+            "venue": "",
+            "volume": "5",
+            "issn": "",
+            "pages": "93--98",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Feline anterior uveitis: a study of 53 cases",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Davidson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Nasisse",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "English",
+                    "suffix": ""
+                }
+            ],
+            "year": 1991,
+            "venue": "Journal of the American Animal Hospital Association",
+            "volume": "27",
+            "issn": "",
+            "pages": "77--83",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Histopathologic study of uveitis in cats: 139 cases (1978-1988)",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Peiffer",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Wilcock",
+                    "suffix": ""
+                }
+            ],
+            "year": 1991,
+            "venue": "Journal of the American Veterinary Medical Association",
+            "volume": "198",
+            "issn": "",
+            "pages": "135--138",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Examination of the aqueous humor as a diagnostic aid in anterior uveitis",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Olin",
+                    "suffix": ""
+                }
+            ],
+            "year": 1977,
+            "venue": "Journal of the American Veterinary Medical Association",
+            "volume": "171",
+            "issn": "",
+            "pages": "557--559",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Enzyme-linked immunosorbent assays for the detection of Toxoplasma gondii-specific antibodies and antigens in the aqueous humor of cats",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Lappin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Roberts",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Davidson",
+                    "suffix": ""
+                }
+            ],
+            "year": 1992,
+            "venue": "Journal of the American Veterinary Medical Association",
+            "volume": "201",
+            "issn": "",
+            "pages": "1010--1016",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Toxoplasma gondii-specific antibodies in the aqueous humor of cats with toxoplasmosis",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Chavkin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Lappin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Powell",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "American Journal of Veterinary Research",
+            "volume": "55",
+            "issn": "",
+            "pages": "1244--1249",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Comparison of methods for estimation of Toxoplasma gondii-specific antibody production in the aqueous humor of cats",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Hill",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Lappin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Carman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "American Journal of Veterinary Research",
+            "volume": "56",
+            "issn": "",
+            "pages": "1181--1187",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Detection of Toxoplasma gondii-specific IgA in the aqueous humor of cats",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Lappin",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Burney",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Hill",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "American Journal of Veterinary Research",
+            "volume": "56",
+            "issn": "",
+            "pages": "774--778",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Feline ocular and cerebrospinal fluid Toxoplasma gondii-specific humoral immune responses following specific and nonspecific immune stimulation",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Lappin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Chavkin",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Munana",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "Veterinary Immunology and Immunopathology",
+            "volume": "55",
+            "issn": "",
+            "pages": "23--31",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Enzyme-linked immunosorbent assay for detection of feline herpesvirus 1 IgG in serum, aqueous humor, and cerebrospinal fluid",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Dawson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Carman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Collins",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Journal of Veterinary Diagnostic Investigation",
+            "volume": "10",
+            "issn": "",
+            "pages": "315--319",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Bartonella spp infection as a possible cause of uveitis in a cat",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Lappin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Black",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Journal of the American Veterinary Medical Association",
+            "volume": "214",
+            "issn": "",
+            "pages": "1205--1207",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Detection of feline herpesvirus-specific antibodies and DNA in aqueous humor from cats with or without uveitis",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Maggs",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Lappin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Nasisse",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "American Journal of Veterinary Research",
+            "volume": "60",
+            "issn": "",
+            "pages": "932--936",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Bartonella spp antibodies and DNA in aqueous humour of cats",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Lappin",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Kordick",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Breitschwerdt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Journal of Feline Medicine and Surgery",
+            "volume": "2",
+            "issn": "",
+            "pages": "61--68",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Polymerase chain reaction for the detection of Toxoplasma gondii in aqueous humor of cats",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Lappin",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Burney",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Dow",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "American Journal of Veterinary Research",
+            "volume": "57",
+            "issn": "",
+            "pages": "1589--1593",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Polymerase chain reaction for the detection of Toxoplasma gondii within aqueous humor of experimentally-inoculated cats",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Burney",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Chavkin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Dow",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Veterinary Parasitology",
+            "volume": "79",
+            "issn": "",
+            "pages": "181--186",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Quantification of feline herpesvirus 1 DNA in ocular fluid samples of clinically diseased cats by real-time TaqMan PCR",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vogtlin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fraefel",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Albini",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Journal of Clinical Microbiology",
+            "volume": "40",
+            "issn": "",
+            "pages": "519--523",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Bartonella species, feline herpesvirus-1, and Toxoplasma gondii PCR assay results from blood and aqueous humor samples from 104 cats with naturally occurring endogenous uveitis",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Powell",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Mcinnis",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Fontenelle",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Journal of Feline Medicine and Surgery",
+            "volume": "12",
+            "issn": "",
+            "pages": "923--928",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "An immunophenotypic study of canine leukemias and preliminary assessment of clonality by polymerase chain reaction",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Vernau",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Moore",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Veterinary Immunology and Immunopathology",
+            "volume": "69",
+            "issn": "",
+            "pages": "145--164",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Diagnosis of canine lymphoid neoplasia using clonal rearrangements of antigen receptor genes",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Burnett",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Vernau",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Modiano",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Veterinary Pathology",
+            "volume": "40",
+            "issn": "",
+            "pages": "32--41",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Diagnosis of intraocular lymphosarcoma in a dog by use of a polymerase chain reaction assay for antigen receptor rearrangement",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Pate",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Gilger",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Suter",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Journal of the American Veterinary Medical Association",
+            "volume": "238",
+            "issn": "",
+            "pages": "625--630",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Signs and symptoms of uveitis. I. Anterior uveitis",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hogan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kimura",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Thygeson",
+                    "suffix": ""
+                }
+            ],
+            "year": 1959,
+            "venue": "American Journal of Ophthalmology",
+            "volume": "47",
+            "issn": "",
+            "pages": "155--170",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Circadian rhythm of intraocular pressure in cats",
+            "authors": [
+                {
+                    "first": "Del",
+                    "middle": [],
+                    "last": "Sole",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Sande",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Bernades",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Veterinary Ophthalmology",
+            "volume": "10",
+            "issn": "",
+            "pages": "155--161",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Daytime profile of the intraocular pressure and tear production in normal dog",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Giannetto",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Piccione",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Giudice",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Veterinary Ophthalmology",
+            "volume": "12",
+            "issn": "",
+            "pages": "302--305",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Unilateral intraocular mastocytosis and anterior uveitis in a dog with subcutaneous mast cell tumors. Veterinary Ophthalmology",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Boostrom",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Good",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Maggs",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Confocal scan of keratic precipitates in uveitic eyes of various etiologies",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Kanavi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Soheilian",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Naghshgar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Cornea",
+            "volume": "29",
+            "issn": "",
+            "pages": "650--654",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "grading scheme: + = few; ++ = mildly increased; +++ = moderately increased; ++++ = markedly/severely increased. \u00a9 2013 American College of Veterinary Ophthalmologists, Veterinary Ophthalmology, 17, Clinical assessment of anterior chamber contents and aqueous humor cytologic findings in cats with anterior grading scheme: + = few; ++ = mildly increased; +++ = moderately increased; ++++ = markedly/severely increased; FIP = feline infectious peritonitis.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Cytocentrifuge slide of aqueous humor from a dog with large-cell lymphoma (Case C3). There is a relatively monomorphic population of large immature lymphocytes with high nuclear to cytoplasmic ratios, multiple, prominent nucleoli, and low volumes of deep blue cytoplasm. Mitotic figures (arrows) are frequent. Wright-Giemsa stain, 60 9 objective.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Cytocentrifuge slide of aqueous humor from a cat with feline infectious peritonitis (Case F2). Nondegenerate neutrophils predominate, along with fewer macrophages (arrows) and small, mature-appearing lymphocytes (arrowheads). The background staining is likely a reflection of increased protein concentration. Wright-Giemsa stain, 60 9 objective.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Cytocentrifuge slides of aqueous humor from 2 cats (F6 and F7) with idiopathic uveitis. (a) Case F6.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Clinical assessment of anterior chamber contents and aqueous humor cytologic findings in dogs with anterior uveitis",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors thank Dr. Phil Kass for statistical guidance and Mr. John Doval for image preparation. Dr. Wiggans' position was funded by Nestle-Purina Petcare and the Center for Companion Animal Studies at Colorado State University.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ACKNOWLEDGMENTS"
+        }
+    ]
+}

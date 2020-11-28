@@ -7,9 +7,9 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 class searching:
 
-    DEFAULT_TAGGING_TXT = "cluster_taggings.txt"
+    DEFAULT_TAGGING_TXT = "../cluster_taggings.txt"
     DEFAULT_RETURN_SIZE = 5
-    DEFAULT_OUTPUT_FILE = "search_output_index.txt"
+    DEFAULT_OUTPUT_FILE = "../search_output_index.txt"
 
     def find_nearest(self, search_query, return_size = DEFAULT_RETURN_SIZE, taggings = DEFAULT_TAGGING_TXT, output_file = DEFAULT_OUTPUT_FILE):
         # Get an input query

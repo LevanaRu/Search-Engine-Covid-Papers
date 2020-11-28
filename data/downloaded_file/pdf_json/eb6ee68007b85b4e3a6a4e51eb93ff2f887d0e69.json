@@ -1,0 +1,1222 @@
+{
+    "paper_id": "eb6ee68007b85b4e3a6a4e51eb93ff2f887d0e69",
+    "metadata": {
+        "title": "Journal Pre-proof Personalized care management for persons with Parkinson's disease: a telenursing solution",
+        "authors": [
+            {
+                "first": "Francesca",
+                "middle": [],
+                "last": "Mancini",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Angelika",
+                "middle": [
+                    "D"
+                ],
+                "last": "Van Halteren",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Tania",
+                "middle": [],
+                "last": "Carta",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Sue",
+                "middle": [],
+                "last": "Thomas",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Bastiaan",
+                "middle": [
+                    "R"
+                ],
+                "last": "Bloem",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Sirwan",
+                "middle": [
+                    "K L"
+                ],
+                "last": "Darweesh",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Mancini",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "UO Neurology and Stroke Unit",
+                    "institution": "IRCCS Istituto Auxologico Italiano",
+                    "location": {
+                        "settlement": "Milan",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "We are thankful for the constructive comments and suggestions of the reviewers. These have most certainly helped to further improve our manuscript. We were able to address all of them in the revision of the manuscript. Please find our detailed point-by-point reply and corresponding revisions below.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Reviewer 1: Comment: This article reports a \"test of concept\" in one patient, on the use of nursing contact to support advanced patients with Parkinson living at home and having motor and non-motor fluctuations. The article is well written. I think it was important to mention that medications were not changed during the intervention.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "We now mention that medications (and DBS parameters) were not changed during the study period.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "-\"This medication scheme and DBS stimulation parameters were not changed over the 3-month observation period. [page 7, line 55] Comment: I do not think it is surprising that the patient improved. Anecdotally patients do benefit from a more telephone contacts with the clinics, and this is done traditionally by a nurse. It has however to be more studied if we want to recommend this approach a s a standard of care.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "We agree with the reviewer that further research on the impact of telenursing is warranted before this approach could potentially become standard of care. We believe that our case report could serve as a catalyst to stimulate further research on this topic, in particular large-scale evaluations which include a control group. In our manuscript we highlight the need for further research. Moreover in Italy, PD patients rarely have telephone contacts with clinics, eventually with neurologist, never with nurses.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Parkinson's disease (PD) is a neurodegenerative disorder characterized by progressive development of motor and non-motor symptoms. Some symptoms remain poorly recognized and inadequately treated, which negatively impacts on the quality of life (QoL) of patients and their caregivers. In addition, withholding treatment of these symptoms increases the risk of complications, such as traumatic injuries from falls or hallucinations resulting from poorly controlled bladder infections [1, 2] . Optimal dopaminergic medication only partially alleviates the disabilities in everyday life, emphasizing the need to also deploy complementary nonpharmaceutical treatments such as specialized physiotherapy [3] or cognitive training [4] .",
+            "cite_spans": [
+                {
+                    "start": 482,
+                    "end": 485,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 486,
+                    "end": 488,
+                    "text": "2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 697,
+                    "end": 700,
+                    "text": "[3]",
+                    "ref_id": null
+                },
+                {
+                    "start": 723,
+                    "end": 726,
+                    "text": "[4]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Unfortunately, our current healthcare systems typically fail to timely incorporate such nonpharmaceutical interventions. This failure to implement 'proactive care' at a very early stage contributes to the occurrence of partially avoidable complications, necessitating expensive treatments ('reactive care') [1] .",
+            "cite_spans": [
+                {
+                    "start": 307,
+                    "end": 310,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "To address these challenges, we have developed a novel care approach that is based on the promising beneficial effects of telenursing [5, 6] . There is some evidence that care delivered by a Parkinson's Disease Nurse Specialist (PDNS) through telephone contacts can ameliorate patients' clinical outcomes, daily functioning and QoL, without increasing social and healthcare costs [7, 8] .",
+            "cite_spans": [
+                {
+                    "start": 134,
+                    "end": 137,
+                    "text": "[5,",
+                    "ref_id": null
+                },
+                {
+                    "start": 138,
+                    "end": 140,
+                    "text": "6]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 380,
+                    "end": 383,
+                    "text": "[7,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 384,
+                    "end": 386,
+                    "text": "8]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "As such, adding telenursing to the present healthcare system could fill a gap in currently available services, including offering patients easy accessibility to a nurse with specific expertise in PD, and opportunities to build up a personal relationship with the patient. Indeed, having access to such a readily accessible point of contact topped the list of priorities identified by patients with PD [1, 4] .",
+            "cite_spans": [
+                {
+                    "start": 401,
+                    "end": 404,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 405,
+                    "end": 407,
+                    "text": "4]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "J o u r n a l P r e -p r o o f",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "We hypothesize that a telenursing service may improve the management of motor and non-motor symptoms of patients in everyday life. We explore this hypothesis here by presenting the case history of a PD patient who experienced a marked reduction in number of falls and less discomfort due to hallucinations through telenursing. The core features of this telenursing service are displayed in Appendix 1. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Journal Pre-proof"
+        },
+        {
+            "text": "At the time of enrollment, the patient had sustained almost 100 falls during the previous three months, mainly due to freezing, and regularly experienced visual and auditory hallucinations. She also reported depressive symptoms and feelings of anxiety (items 9 and 10 of the Non Motor Scale) as the main source of discomfort in everyday life, but she did not want to address these symptoms directly during interviews with the PDNS. Her oral treatment consisted of carbidopa/levodopa 12.5/50 mg three times a day, carbidopa/levodopa 50/200 mg once a day, opicapone 50 mg once a day, pramipexole PR 3.15 mg once a day, quetiapine 25 mg once a day and paroxetine 20 mg once a day. This medication scheme and DBS stimulation parameters were not changed over the 3-month observation period.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f Journal Pre-proof"
+        },
+        {
+            "text": "The patient and PDNS of the telenursing service never physically met but were in contact 13 times by telephone over a period of three months: once at enrollment, once at the 3-month follow-up interview (to better prepare the upcoming outpatient visit to the neurologist), two structured discussions about hallucinations (\"triage protocol\", including management advice), three structured triage protocols about FOG, and six unstructured calls for marital issues, sense of guilt, and acceptance of the disease.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f Journal Pre-proof"
+        },
+        {
+            "text": "The triage protocol for FOG revealed that freezing episodes occurred upon arising, initiating gait, walking towards obstacles, turning or changing direction, walking in small or crowded spaces, and with distraction by another task. FOG required the patient to seek constant supervision, both at home and outside, and to wear knee pads at home. Elucidating the problem in more detail facilitated the subsequent delivery of individualized advice aimed at self-management, includingbut not limited to-specific strategies and cues to prevent or overcome freezing episodes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f Journal Pre-proof"
+        },
+        {
+            "text": "The triage protocol for hallucinations revealed that the patient saw and heard her dead mother.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f Journal Pre-proof"
+        },
+        {
+            "text": "The onset had occurred after treatment with an antibiotic. She was aware of her hallucinations, which made her feel uncomfortable and ashamed, so she had never shared these symptoms with J o u r n a l P r e -p r o o f Journal Pre-proof her neurologist. The triage protocol led to increased awareness that hallucinations could be caused by medication and encompassed several recommendations on behavioral changes to minimize hallucinations. No cholinesterase inhibitor was prescribed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f Journal Pre-proof"
+        },
+        {
+            "text": "After three months, the patient received a follow-up interview with the PDNS three days prior to her visit to the neurologist. At that time, the patient herself reported a significant reduction in number of falls, from 99 per three months to just three in the last three months, despite an unchanged frequency and severity of FOG. The caregiver, which was her husband, confirmed this information. Hallucinations about her mother were still present but were no longer associated with negative feelings. Rather, in some instances the episode was \"comforting\".",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f Journal Pre-proof"
+        },
+        {
+            "text": "Furthermore, the patient reported that her severe difficulties falling or staying asleep and moderate difficulty swallowing, which were present at enrollment, had disappeared entirely at the 3-month follow-up interview (Appendix 1). Also, she noted reductions in fatigue and problems having sex, while her mild memory problems remained unchanged (Appendix 1). Moreover, she reported absence of nervousness, worries and fear, and manifested less sadness and anxiety, leading to only limited discomfort in everyday life (Appendix 2).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f Journal Pre-proof"
+        },
+        {
+            "text": "This case history illustrates the potential of telenursing services to improve motor and non-motor symptoms and prevent common complications in PD. Two beneficial effects were observed. First, the telenursing service was associated with a marked reduction in number of falls during the first three months after enrollment. It is possible that the reduction in falls can be explained also through the observed improvement in sleep disturbances. In fact, she reported an improvement in sleep quality as assessed with the NMSS. The main working mechanism, however, was presumably rather indirect and mediated via alleviation of anxiety, achieved by the individually tailored health information and problem-solving strategies provided by the PDNS. Knowing that the PDNS could J o u r n a l P r e -p r o o f Journal Pre-proof be easily contacted by telephone to ask questions or discuss issues arising in everyday life may have further helped to reduce feelings of anxiety. Indeed, at the time of enrollment, the patient was very nervous and worried and clearly depressed. Three months after enrollment, the feelings of nervousness were absent, while sadness and depression had reduced from severe to moderate.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The frequency and intensity of freezing episodes had not improved, which is understandable as this may require adjustments of medication or application of in-person training of specific cueing techniques [9] (several FOG strategies were explained by telephone but this was apparently ineffective). However, reduction of anxiety could by itself potentially also lead to less FOG [10] .",
+            "cite_spans": [
+                {
+                    "start": 204,
+                    "end": 207,
+                    "text": "[9]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 378,
+                    "end": 382,
+                    "text": "[10]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The patient did acquire a greater awareness of FOG issues and its risks, enabling for better selfmanagement. Less anxiety may also have helped to reduce falls by diminishing axial stiffness, which is a manifestation of PD. This axial stiffness interferes with a person's ability to flexibly absorb external balance perturbations and thus worsens the risk of falling [11] .",
+            "cite_spans": [
+                {
+                    "start": 366,
+                    "end": 370,
+                    "text": "[11]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Second, the patient reported a lower impact of hallucinations on her QoL, even though these hallucinations themselves persisted throughout the intervention period. Again, this is understandable as suppression of hallucinations may require reductions of dopaminergic medication or installment of cholinesterase inhibitors or neuroleptics. This beneficial effect of telenursing was probably also explained by the personalized information provision and ready access to a PDNS in case of sudden issues, as well as the encouragement to self-monitor symptoms and find suitable solutions for psychological problems herself. Counselling by the PDNS decreased the patient's sense of isolation, helped her to verbalize what she experienced as a \"distressing factor\", and to start accepting the hallucinations as part of the disease process. Aside from less impact of hallucinations, the patient also reported improvements in various other nonmotor symptoms, most notably a vast reduction in sleep problems.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Several words of caution are in place. First, we cannot rule out that recall bias-due to the retrospective nature of the baseline assessment-partially explained the substantial improvement in falls and other patient-reported outcomes throughout the intervention period, although this unlikely to fully explain the full effect size that we observed. Second, we also cannot rule out regression to the mean -due to the initial high scores of falls indicating a tendency towards change -as an explanation of the observed improvements. Third, the intervention was rather intensive (13 telephone contacts during three months), so the cost-effectiveness remains to be demonstrated. Theoretically, preventing major complications such as hip fractures could cover the costs of telenursing, but this needs to be studied. Also, simply being able to speak so regularly to a trusted person might have therapeutic effects in its own right, regardless of any PD-specific management advice or the level of experience of the professional doing the telephone interviews.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Journal Pre-proof"
+        },
+        {
+            "text": "This also merits further evaluation. In addition, we cannot rule out that residual confounders explained part of our observations. Finally, the long-term effects and sustainability of the achieved improvements after cessation of the telenursing intervention need to be studied. We anticipate that an intense contact period-as described here-will have to be followed by a low-dose maintenance contact, including proactive screening for new problems.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Journal Pre-proof"
+        },
+        {
+            "text": "Our case report provides several intriguing new insights about a new approach to healthcare.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Journal Pre-proof"
+        },
+        {
+            "text": "While previous research on telenursing interventions have focused on its effects on hospital (re-) admissions and length of stay, there was a lack of insight on its potential benefit on motor and non-motor complications. Our case report addresses exactly that gap in knowledge. We acknowledge that single case observations can never provide definitive proof about causation, but importantly, carefully established observations in single patients are all but lack of evidence -they represent a low grade of evidence, and as such serve as catalyst to stimulate further research [12] .",
+            "cite_spans": [
+                {
+                    "start": 576,
+                    "end": 580,
+                    "text": "[12]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Journal Pre-proof"
+        },
+        {
+            "text": "The new insights made in the carefully studied patient described here should therefore serve as a J o u r n a l P r e -p r o o f source of inspiration to stimulate further research on telenursing interventions from which more robust conclusions can be drawn. Importantly, we believe that telenursing can only unfold its full potential when it does not stand on its own, but when it is delivered as an integral component of an overall, multidisciplinary and multifaceted package of chronic care delivery. In this context, telenurses have an integrating role across all layers of healthcare ensuring collaboration with and between health care providers, while at the same time reducing the case load of HCPs We feel that initial results presented here should encourage further systematic research into the potential merits of telenursing services for patients with PD or other complex and chronic health conditions. In particular, the marked reduction in number of falls, if confirmed and replicated, would have a substantial positive impact on patients' QoL as well as on the cost of healthcare services for PD patients. Reductions in anxiety could potentially also lead to fewer outpatient visits to the medical specialist, thus further contributing to cost-effectiveness. We believe that telenursing services could potentially promote health among all patients with PD, regardless of disease stage and severity. Telenursing is still relatively in its infancy, but due to the current COVID-19 crisis it is increasingly recognized as a potentially cost-effective alternative to in-person visits [13] . In the United States, for instance, almost all states are working on new regulations to make telemedicine service more available and to ensure reimbursement [14] . Adoption of reimbursement models beyond the corona crisis, however, still need to be discussed. Telenursing could play a key role for health promotion and benefits especially those who experience immobility due to disease progression or transportation barriers and those living in remote areas with a limited number of available PD specialists. Further large-scale evaluations which include a diverse sample of persons with PD with a range of disease severity, and a control group are now warranted to clarify the efficacy, cost-effectiveness and scaling potential of telenursing interventions. Figure 1 in S1 displays the core elements of the telenursing service. Figure 2 in S2 displays the severity score on sub-questions on the Non-Motor Symptom Scale Score (NMSS) with 0 = no symptoms, 1= mild symptoms present but causes little distress, 2 = moderate symptoms causing some distress or disturbance to patient, 3 = severe symptoms with being major source of distress or disturbance to patient. ",
+            "cite_spans": [
+                {
+                    "start": 1594,
+                    "end": 1598,
+                    "text": "[13]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1758,
+                    "end": 1762,
+                    "text": "[14]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 2360,
+                    "end": 2368,
+                    "text": "Figure 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 2430,
+                    "end": 2438,
+                    "text": "Figure 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Journal Pre-proof"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Move for Change Part II: a European survey evaluating the impact of the EPDA Charter for People with Parkinson's Disease",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Stocchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Bloem",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Eur J Neurol",
+            "volume": "20",
+            "issn": "",
+            "pages": "461--472",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Move for Change Part III: a European survey evaluating the impact of the EPDA Charter for People with Parkinson's Disease",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Bloem",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Stocchi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Eur J Neurol",
+            "volume": "22",
+            "issn": "",
+            "pages": "133--141",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Effectiveness and costs of specialised physiotherapy given via ParkinsonNet: a retrospective analysis of medical claims data",
+            "authors": [],
+            "year": 2018,
+            "venue": "Lancet Neurol",
+            "volume": "17",
+            "issn": "",
+            "pages": "153--161",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Cognitive training in Parkinson disease: A systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Walton",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hallock",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lewis",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Valenzuela",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lampit",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Neurology",
+            "volume": "85",
+            "issn": "",
+            "pages": "1843--1851",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "A Randomized Crossover Pilot Study of Telemedicine Delivered via iPads in Parkinson's Disease",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Guideline for Parkinson's Disease Nurse Specialists, with Recommendations for Clinical Practice",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Lennaerts",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Groot",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Rood",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Gilissen",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Tulp",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Van Wensen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Munneke",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Van Laar",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Bloem",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Parkinsons Dis",
+            "volume": "7",
+            "issn": "",
+            "pages": "749--754",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Using telehealth to educate Parkinson's disease patients about complicated medication regimens",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Fincher",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ward",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Dawkins",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Magee",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Willson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J Gerontol Nurs",
+            "volume": "35",
+            "issn": "",
+            "pages": "16--24",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Effects of community based nurse specialising in Parkinson's disease on health outcome and costs: Randomised controlled trial",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Jarman",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hurwitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cook",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bajekal",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "BMJ",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Freezing of gait: a practical approach to management",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Nonnekes",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Snijders",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Nutt",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Deuschl",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Giladi",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Bloem",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Lancet Neurol",
+            "volume": "14",
+            "issn": "",
+            "pages": "768--778",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Freezing of gait: Promising avenues for future treatment",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gilat",
+                    "suffix": ""
+                },
+                {
+                    "first": "L\u00edgia",
+                    "middle": [],
+                    "last": "Silva De Lima",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bloem",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Shine",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Nonnekes",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lewis",
+                    "suffix": ""
+                },
+                {
+                    "first": "Sjg",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Parkinsonism Relat Disord",
+            "volume": "52",
+            "issn": "",
+            "pages": "7--16",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Postural inflexibility in PD: does it affect compensatory stepping? Gait Posture",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Smulders",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Esselink",
+                    "suffix": ""
+                },
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Swart",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Geurts",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Bloem",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Weerdesteyn",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "",
+            "volume": "39",
+            "issn": "",
+            "pages": "700--706",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Case reports in an evidence-based world",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Vandenbroucke",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "J R Soc Med",
+            "volume": "92",
+            "issn": "",
+            "pages": "159--163",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "The Coronavirus Disease 2019 Crisis as Catalyst for Telemedicine for Chronic Neurological Disorders",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Bloem",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Dorsey",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Okun",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA Neurol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jamaneurol.2020.145"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Journal of gastrointestinal surgery : official journal of the Society for Surgery of the Alimentary Tract, 1-6. Advance online publication",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s11605-020-04623-5"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "UPDRS Revision Task Force. Movement Disorder Society-sponsored revision of the Unified Parkinson's Disease Rating Scale (MDS-UPDRS): scale presentation and clinimetric testing results",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Goetz",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Tilley",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Shaftman",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Stebbins",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Fahn",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Martinez-Martin",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Poewe",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sampaio",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Stern",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Dodel",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Dubois",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Holloway",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Jankovic",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kulisevsky",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Lang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lees",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Leurgans",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lewitt",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Nyenhuis",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Olanow",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Rascol",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Schrag",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Teresi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Van Hilten",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Lapelle",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Mov Disord",
+            "volume": "23",
+            "issn": "15",
+            "pages": "2129--70",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "The metric properties of a novel non-motor symptoms scale for Parkinson's disease: Results from an international pilot study",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Macmahon",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Barone",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Rabey",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Forbes",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Breen",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Tluk",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Naidu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Olanow",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Williams",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Thomas",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Rye",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Tsuboi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hand",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Schapira",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Mov Disord",
+            "volume": "22",
+            "issn": "13",
+            "pages": "1901--1912",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "A short scale for the assessment of motor impairments and disabilities in Parkinson's disease: the SPES/SCOPA",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hilten",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J Neurol Neurosurg Psychiatry",
+            "volume": "75",
+            "issn": "",
+            "pages": "388--395",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "year-old woman had been diagnosed with PD in 1996, at the age of 44. Symptom progression was controlled satisfactorily by pharmacotherapy until 2004. In 2005 she underwent bilateral Subthalamic Nucleus Deep Brain Stimulation, with complete regression of motor complications for almost 5 years. Since 2010, moderate fluctuations and dyskinesias reappeared but the most disabling emerging symptom was freezing of gait (FOG), present both in ON and OFF phases. This symptom caused multiple falls, which led to traumatic injuries on three occasions (cracked ribs, knee bruising and abrasions). Moreover, during the previous 9 months, she started to experience hallucinations. The cognitive function was normal (MMSE 30/30). The patient joined a telenursing service (ParkinsonCare; Appendix 1) on February 2 nd 2019. This service, although innovative, was offered as part of regular healthcare, hence ethical approval was not required under Italy's regulatory framework. All PDNSs affiliated with the telenursing service had longstanding experience in chronic neurological diseases care. They received additional PDspecific training, including an internship in an outpatient Movement Disorders Center, and participation in seminars and conferences dedicated to PD. Furthermore, they received training in using a digital communication platform and telephone communication techniques. We used open questions as well as the Non Motor Scale to assess several motor and non-motor symptoms at enrollment and at the final contact performed after 3 months of telenursing management (Appendix 2).",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Sub-questions of NMSS with a score > 0 at Enrollment Interview:Severity scores of sub-questions of NMSS Questionnaire with 0 = no symptoms, 1= mild symptoms present but causes little distress, 2 = moderate symptoms causing some distress or disturbance to patient, 3 = severe symptoms with being major source of distress or disturbance to patient. Hypotension, attention, constipation and pain were scored 0, both at enrollment and pre-visit time. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "APPENDIX 2: Non-motor outcomes"
+        }
+    ]
+}

@@ -1,0 +1,538 @@
+{
+    "paper_id": "d1b3e1aefbac05df63afb22e4b586a3ef0ebf4e2",
+    "metadata": {
+        "title": "",
+        "authors": [
+            {
+                "first": "\u00a9",
+                "middle": [],
+                "last": "Serdi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Sas",
+                "middle": [],
+                "last": "Springer-Verlag International",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Springer",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "In March 2020, the World Health Organization (WHO) declared the COVID-19 pandemic outbreak (1) . Ever since, the pandemic has spread widely across the world. COVID-19 is not solely a health crisis, but rather a crucial issue affecting the social, ethical, and economic dimensions of the human life, governments, and countries (2) .",
+            "cite_spans": [
+                {
+                    "start": 91,
+                    "end": 94,
+                    "text": "(1)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 326,
+                    "end": 329,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In general, everyone is susceptible to a COVID-19, while the elderly are more susceptible due to comorbidities and frailty (3) . The highest mortality rate of the disease has been reported in the elderly, especially those with severe illnesses and immune deficiency. Currently, no definite treatments or vaccines are available for COVID-19, and recommendations mostly revolve around self-isolation and the observance of personal hygiene. To the elderly with cognitive impairment, functional dependence or living alone, it might be difficult to follow instructions, stay updated on the news or detect the signs or symptoms of the infection. Consequently, these individuals may be faced with challenges in communicating and explaining their pain or uneasiness, and the newly emerging pandemic becomes a profound health hazard in their cases (2, 4) . Brooke and Jackson have reported the risk of COVID-19 mortality to be 3.6% in the elderly in their 60s and 8.0% and 14.8% in those in their 70s and over 80s, respectively based on the Oxford COVID-19 Evidence Service Data (5).",
+            "cite_spans": [
+                {
+                    "start": 123,
+                    "end": 126,
+                    "text": "(3)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 839,
+                    "end": 842,
+                    "text": "(2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 843,
+                    "end": 845,
+                    "text": "4)",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Every pandemic may cause the excessive demand for healthcare facilities and systems, while also increasing the workload of healthcare providers. On the other hand, the limited resources available to provide healthcare services to patients are a major challenge in this regard, which often emerges within the first days of the pandemic when the healthcare system is unexpectedly faced with a large number of patients without access to sufficient equipment, staff, and facilities. As such, the healthcare system or patients may suffer numerous consequences due to unpreparedness (6) . During this pandemic, some of the main issues faced by the healthcare system include the limited special equipment (e.g., ventilators, pulse oximeter, intensive care unit beds), overcrowding of patients in emergency departments, high infectivity of COVID-19, and inability to isolate all the patients (7). Under such circumstances and despite the deficiencies in the healthcare system, younger patients also have difficulty receiving medical care, and it seems that the elderly do not have the chance to compete with them in receiving optimal care.",
+            "cite_spans": [
+                {
+                    "start": 577,
+                    "end": 580,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Although emergency situations may be forced onto healthcare teams and incline them toward unfair decisions, the value of human life it must be borne in mind even in the most difficult decisions. The news constantly reminds us that the individuals aged less than 60 years are at a lower risk of the disease, and the mortality rate is higher in the elderly aged more than 60 years and those with comorbidities, which cause the inadvertent negligence of the value of the elderly. Such verbal mistreatment is evident in this difficult time (7, 8) . Although it may not matter to many, these statements leave a negative impact on the elderly, making them assuming that their life is not as important as other age groups (5). As is witnessed in many countries, this vulnerable population is treated as second-class citizens with no future. Some of the examples in this regard are the tests that have not become routine for everyone (especially for the elderly), post-acute care services, long-term facilities decreasing the admission rate of the elderly, death of the elderly residents of the nursing homes due to the abandonment of work by their caregivers, and due to the lack of equipment, intensive care unit beds, and ventilators as the elderly are detached from the ventilator to give younger individuals a chance to live (7, 9) .",
+            "cite_spans": [
+                {
+                    "start": 536,
+                    "end": 539,
+                    "text": "(7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 540,
+                    "end": 542,
+                    "text": "8)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1322,
+                    "end": 1325,
+                    "text": "(7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1326,
+                    "end": 1328,
+                    "text": "9)",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The current situation is alarming due to insufficient medical equipment and shortage of medical staff, which will eventually lead to a moral dilemma in deciding who should be prioritized for the use of healthcare services and who should be detached from the ventilator (10) . Although many guidelines indicate that the withdrawal of limited resources from severe or terminal patients in order to save the life of others is not an act of killing, such decision causes extreme psychological traumas in the elderly population (6, 11, 12) . The main issue in this regard is not the setting of priorities for receiving treatment, but rather the ambiguity about the implementation of such priorities in terms of morality and continuity as priorities must not deprive individuals of their right to live and survive (especially in vulnerable populations) based on organizational and therapeutic policies (13) .",
+            "cite_spans": [
+                {
+                    "start": 269,
+                    "end": 273,
+                    "text": "(10)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 523,
+                    "end": 526,
+                    "text": "(6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 527,
+                    "end": 530,
+                    "text": "11,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 531,
+                    "end": 534,
+                    "text": "12)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 896,
+                    "end": 900,
+                    "text": "(13)",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The COVID-19 pandemic will eventually come to an end, and after this challenging experience, we must count the number of the elderly we have lost due to our limited healthcare",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "M. CHEHREHGOSHA resources and inefficient management. Elderly patients must be detached from any devices only to save the life of a younger patient. The value of human life is not limited to age. After the flu and COVID-19 pandemic, we must learn our lesson and discover the weaknesses of the healthcare systems and come up with pre-determined plans in order to properly manage other pandemics in the future, while also seeking to provide pandemic care models for vulnerable groups based on the clinical experiences of every country that has been affected by the circumstances.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "THE UNPREPAREDNESS OF THE HEALTHCARE SYSTEM FOR THE MANAGEMENT OF COVID-19 PANDEMIC LEADING TO THE MISTREATMENT OF THE ELDERLY: A NEWLY EMERGING MORAL DILEMMA"
+        },
+        {
+            "text": "There is no conflict of interest.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of interest:"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "WHO Director-General's opening remarks at the media briefing on COVID-19 -11",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Responding to global systemic shocks: applying lessons from previous crises to Covid-19",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "The epidemic of 2019-novelcoronavirus (2019-nCoV) pneumonia and insights for emerging infectious diseases in the future",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "You",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Qiu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Microbes Infect",
+            "volume": "22",
+            "issn": "2",
+            "pages": "80--85",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "COVID-19) information for older Australians | Australian Government Department of Health",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Coronavirus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Older people and COVID-19: Isolation, risk and ageism",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Brooke",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Jackson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Clin Nurs",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/jocn.15274"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "European Pandemic Influenza Preparedness Planning: A Review of National Plans",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Droogers",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ciotti",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Kreidl",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Melidou",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Penttinen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sellwood",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "13",
+            "issn": "",
+            "pages": "582--92",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Geriatric Medicine in Italy in the Time of Covid-19",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cesari",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Proietti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Nutr Health Aging",
+            "volume": "1",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Boomer remover\" is the morbid meme millennials are sharing",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Attitudes Toward Vulnerable Populations In The Time Of Covid-19: Critical Discourse Analysis Of Gazeta",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Grzelka",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Pl Online Comment Sections. Soc Regist",
+            "volume": "4",
+            "issn": "2",
+            "pages": "121--153",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Coronavirus: NHS doctors to be given guidelines to decide which victims go on ventilators | The Independent",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Ethical considerations: Care of the critically ill and injured during pandemics and disasters: CHEST consensus statement",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Daugherty Biddison",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Berkowitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Courtney",
+                    "suffix": ""
+                },
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Jong",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Devereaux",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Kissoon",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Chest",
+            "volume": "146",
+            "issn": "",
+            "pages": "145--155",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Duty to Plan: Health Care, Crisis Standards of Care, and Novel Coronavirus SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Hick",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Pavia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "The Limits of Procedural Discretion: Unequal Treatment and Vulnerability in Britain's Asylum Appeals",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Gill",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Rotter",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Burridge",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Allsopp",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Soc Leg Stud",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {},
+    "back_matter": []
+}

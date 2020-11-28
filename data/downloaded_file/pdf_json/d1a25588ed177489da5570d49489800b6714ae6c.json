@@ -1,0 +1,3666 @@
+{
+    "paper_id": "d1a25588ed177489da5570d49489800b6714ae6c",
+    "metadata": {
+        "title": "Review Artificial intelligence in COVID-19 drug repurposing",
+        "authors": [
+            {
+                "first": "Yadi",
+                "middle": [],
+                "last": "Zhou",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Fei",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jian",
+                "middle": [],
+                "last": "Tang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Ruth",
+                "middle": [],
+                "last": "Nussinov",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Feixiong",
+                "middle": [],
+                "last": "Cheng",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Drug repurposing or repositioning is a technique whereby existing drugs are used to treat emerging and challenging diseases, including COVID-19. Drug repurposing has become a promising approach because of the opportunity for reduced development timelines and overall costs. In the big data era, artificial intelligence (AI) and network medicine offer cutting-edge application of information science to defining disease, medicine, therapeutics, and identifying targets with the least error. In this Review, we introduce guidelines on how to use AI for accelerating drug repurposing or repositioning, for which AI approaches are not just formidable but are also necessary. We discuss how to use AI models in precision medicine, and as an example, how AI models can accelerate COVID-19 drug repurposing. Rapidly developing, powerful, and innovative AI and network medicine technologies can expedite therapeutic development. This Review provides a strong rationale for using AI-based assistive tools for drug repurposing medications for human disease, including during the COVID-19 pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The artificial intelligence (AI) pioneers of the 1950s foresaw building machines that could sense, reason, and think like people-a proof-of-concept known as general AI. 1 The rapid growth in computing power and memory storage, an unprecedented wealth of data, and the development of advanced algorithms have led to substantial breakthroughs in AI. AI applications cover diverse fields, such as computer vision, voice recognition, natural language understanding, and digital pathology data analysis. Similarly, AI has been revolutionising drug discovery by extracting hidden patterns and evidence from biomedical data. Pharmaceutical companies and start-ups have used AI for drug discovery and development. 2 For example, IBM's Watson Health platform searches for drugs from vast amounts of textual data, including laboratory data, clinical reports, and scientific publications. 3 In this Review, we focus on AI technologies for a specific domain in drug discovery-that of drug repurposing-which offers rapid and cost-effective solutions for therapeutic development. These merits are especially clear in the COVID-19 global pandemic caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), where de-novo drug discovery is almost infeasible (figure 1). Thus, the pandemic is a good opportunity for introducing advanced AI algorithms combined with network medicine for drug repurposing.",
+            "cite_spans": [
+                {
+                    "start": 169,
+                    "end": 170,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 706,
+                    "end": 707,
+                    "text": "2",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 878,
+                    "end": 879,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "One study estimated that pharmaceutical companies spent US$2\u00b76 billion in 2015, up from $802 million in 2003, for the development of a new chemical entity approved by the US Food and Drug Administration (FDA). 4 The increasing cost of drug development is due to the large volume of compounds to be tested in preclinical stages and the high proportion of randomised controlled trials (RCTs) that do not find clinical benefits or with toxicity issues. Given the high attrition rates, substantial costs, and low pace of de-novo drug discovery, exploiting known drugs can help improve their efficacy while minimising side-effects in clinical trials. As Nobel Prize-winning pharmacologist Sir James Black said, \"The most fruitful basis for the discovery of a new drug is to start with an old drug\". 5 Drug repurposing, also termed drug repositioning, reprofiling or re-tasking, is a strategy for identifying new indications for approved or investigational (including clinically failed) drugs that have not been approved (panel) . Because the safety of these drugs has already been tested in clinical trials for other applications, repurposing known drugs can bring medications to patients much faster and with less cost than that of developing new drugs. For decades, academic institutions and science funders have championed the idea that screening libraries of existing drugs with various tests could uncover new applications, and have made observations that have led to medicines designed for one disease finding uses in another. Well known examples include sildenafil citrate for erectile dysfunction, 6 thalidomide for multiple myeloma, 7 and remdesivir for treatment of COVID-19. 8 Indeed, the increasing number of repositioned medications led to the idea that a systematic (hypothesis-free) screen of all known drugs might uncover additional compatible targets.",
+            "cite_spans": [
+                {
+                    "start": 210,
+                    "end": 211,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 794,
+                    "end": 795,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1015,
+                    "end": 1022,
+                    "text": "(panel)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1601,
+                    "end": 1602,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1637,
+                    "end": 1638,
+                    "text": "7",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1681,
+                    "end": 1682,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Emerging challenges and opportunities in drug discovery"
+        },
+        {
+            "text": "The strategy of drug repurposing is a powerful solution for emerging diseases, 9 such as COVID-19. Yet, without foreknowledge of the complete drug-target network, development of promising and affordable approaches for effective treatment of complex diseases is challenging. 10 Because drug targets do not operate in isolation from the complex system of proteins that comprise the molecular machinery of the cells with which they associate, each drug-target interaction (panel) should be examined in an integrative context (figure 2). 11 Therapeutic interventions need to consider the perturbation of disease system properties (termed network medicine [panel]), and have little to do, functionally speaking, with genetic and genomic events alone. 12 Observations and advances in network medicine further indicate that perturbations of cellular systems and the human interactome (panel) underlie the disease, which is the essence of drug discovery and develop ment. 12 Knowledge of the interplay Review between drug targets and human diseases can provide clues for possible drug repurposing because drugs that target one disease might target another through a shared functional protein-protein interaction network. 11 For example, SARS-CoV-2 requires host cellular factors (such as angiotensin I converting enzyme 2 [ACE2], trans membrane serine protease 2 [TMPRSS2], and furin; figure 1) for successful replication during infection. 13, 14 Systematic targeting of the viral protein and host protein interactions (the SARS-CoV-2 interactome) offers a novel strategy for effective drug repurposing for COVID-19. A SARS-CoV-2 virus-host interactome that contains 332 high-confidence protein-protein interactions between 26 viral proteins and human proteins was structed using affinity purification mass spectrometry. 15 69 drug candidates were prioritised that can target the host proteins in the SARS-CoV-2-host interactome. 15 Experimental assays validated the antiviral activities of two sets of agents: mRNA translation inhibitors (ie, zotatifin) and sigma-1 and sigma-2 receptor regulators (ie, haloperidol).",
+            "cite_spans": [
+                {
+                    "start": 274,
+                    "end": 276,
+                    "text": "10",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 534,
+                    "end": 536,
+                    "text": "11",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 746,
+                    "end": 748,
+                    "text": "12",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 964,
+                    "end": 966,
+                    "text": "12",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1213,
+                    "end": 1215,
+                    "text": "11",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1432,
+                    "end": 1435,
+                    "text": "13,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1436,
+                    "end": 1438,
+                    "text": "14",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1813,
+                    "end": 1815,
+                    "text": "15",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1922,
+                    "end": 1924,
+                    "text": "15",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Emerging challenges and opportunities in drug discovery"
+        },
+        {
+            "text": "In another study, 16 a network-based methodology that quantifies the interplay between the virus-host interactome and drug targets in the human interactome network suggested 16 repurposed drug candidates for potential treatment of COVID-19. 16 This finding calls for a detailed approach, including AI and network medicine, and raises the question of not only which protocols to consider, but also which factors to scrutinise, and broadly, how to integrate the disciplines (figure 2).",
+            "cite_spans": [
+                {
+                    "start": 241,
+                    "end": 243,
+                    "text": "16",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Emerging challenges and opportunities in drug discovery"
+        },
+        {
+            "text": "Deep learning is a subfield of machine learning that refers to the paradigm of exploring the data with layers of linear and non-linear transformations organised in a hierarchical way. 17 The most widely used deep learning model is artificial neural networks, wherein the basic building block is an artificial neuron that non-linearly transforms the weighted sum of input feature variables.",
+            "cite_spans": [
+                {
+                    "start": 184,
+                    "end": 186,
+                    "text": "17",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI algorithms and recent advancements Deep learning architecture"
+        },
+        {
+            "text": "Fully connected feedforward neural network (FNN) is an architecture in which the artificial neurons are connected layer-by-layer from input features to output targets. A weight is associated with each connection and is optimised by minimising the prediction loss of the output targets through backpropagation on training samples. 18 FNNs are typically used for data samples represented as vectors. For example, Aliper and collea gues 19 used FNN to classify drugs into pharma ceutical therapeutic classes based on the drugs' transcriptomic profile vectors. Lenselink and colleagues 20 compared the performance of a diverse set of algorithms on the prediction of molecule and target activity with the ChEMBL database. 20 The authors showed that the inclusion of target data can lead to better models. FNN can achieve better performance than that of con ventional machine learning methods, such as logistic regression.",
+            "cite_spans": [
+                {
+                    "start": 330,
+                    "end": 332,
+                    "text": "18",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 717,
+                    "end": 719,
+                    "text": "20",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI algorithms and recent advancements Deep learning architecture"
+        },
+        {
+            "text": "In the case of images being the input where each pixel is a feature variable, FNNs become infeasible as the number of weights becomes far too large. However, convolutional neural network (CNN; panel) is particularly suitable for image processing. Instead of fully connecting neurons in adjacent layers, CNN uses filters (small matrices of weights) that apply a convolution operation on local patches of the images, which greatly reduces the number of weights. CNN has been used to analyse chemical images to obtain insight into drug therapeutic functions. 21 For example, AtomNet predicts the binding affinity of small molecules to proteins on the basis of the structural information extracted by CNN. 22 Biological sequences are another widely explored type of data for drug repurposing. However, neither FNN nor CNN appropriately consider the sequential nature of the Review data. Recurrent neural networks (RNNs) are specifically designed for sequences in which the main building block is a recurrent cell appearing at each timestamp or sequence location that retains past information while learning new information in a sequence. RNN models have been used for generating focused molecule libraries for drug discovery, with the molecules represented as sequences using simplified molecular input line entry system codes. 23 Gao and colleagues 24 developed a hybrid approach of graph neural network and RNN to predict drug-target interactions. Beck and colleagues 25 developed a hybrid CNN and RNN model called Molecule Transformer-Drug Target Interaction to predict whether any commercially available antiviral drugs could work in SARS-CoV-2.The authors computationally identified several known antiviral drugs, such as atazanavir, remdesivir , efavirenz, ritonavir, and dolutegravir, for the potential treatment of SARS-CoV-2 infection.",
+            "cite_spans": [
+                {
+                    "start": 556,
+                    "end": 558,
+                    "text": "21",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 702,
+                    "end": 704,
+                    "text": "22",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1324,
+                    "end": 1326,
+                    "text": "23",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI algorithms and recent advancements Deep learning architecture"
+        },
+        {
+            "text": "A classic way to repurpose drugs is through network medicine, which includes the construction of medical knowledge graphs containing relationships between different kinds of medical entities (eg, diseases, drugs, and proteins) and predicts new links between existing approved drugs and diseases (eg, . Methods that are based on graph embedding have been gaining attention for link prediction in graphs 26 that represent nodes and edges as low-dimensional feature vectors. [27] [28] [29] [30] Using the feature vectors of drugs and diseases, we can easily measure their similarities and therefore identify effective drugs for a given disease. One challenge for the graph embedding method is scalability. Real-world (knowledge) graphs are usually large. The number of entities in a medical knowledge graph could be as many as several million. Existing machine learning systems such as TensorFlow and PyTorch are mainly designed for data with regular structures but not for large-scale graphs. Therefore, several systems that are specifically designed for learning representations from large-scale graphs have been developed. For example, Zhu and colleagues 31 developed a high-performance system named GraphVite that could be promising for future drug repurposing because the system can efficiently process tens or even hundreds of millions of nodes.",
+            "cite_spans": [
+                {
+                    "start": 402,
+                    "end": 404,
+                    "text": "26",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 472,
+                    "end": 476,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 477,
+                    "end": 481,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 482,
+                    "end": 486,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 487,
+                    "end": 491,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Graph representation learning"
+        },
+        {
+            "text": "Increasing interest exists in developing graph representation learning techniques for drug repurposing. Sosa and colleagues 32 constructed a medical knowledge graph of drugs, diseases, genes, and proteins from the biomedical literature and used graph embedding techniques for predicting the links between drugs and diseases. Gysi and colleagues 33 developed a method that was based on graph neural network and presented a case study on SARS-CoV-2 with 81 potential repurposing candidates identified. BenevolentAI's knowledge graph is a large repository of structured medical information, including num erous connections extracted from the scientific",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Graph representation learning"
+        },
+        {
+            "text": "Drug-target network A bipartite graph composed of approved drugs and proteins linked by drug-target binary associations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Panel: Terms and concepts"
+        },
+        {
+            "text": "A strategy for identifying new indications for approved or investigational (including clinically failed) drugs that have not been originally approved or dedicated (also termed drug repositioning, reprofiling or re-tasking).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Drug repurposing"
+        },
+        {
+            "text": "Represents a group of nodes (ie, proteins or genes) whose perturbation can be linked to a particular disease (eg, COVID-19) phenotype.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Disease module"
+        },
+        {
+            "text": "An inter-discipline that applies systems biology principles and data science techniques in pharmacology.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Systems pharmacology"
+        },
+        {
+            "text": "The set of physical protein-protein interactions (the interactome) in human cells.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Human interactome"
+        },
+        {
+            "text": "A discipline that seeks to redefine disease and therapeutics from an integrated perspective using systems biology and network science methodologies, offering important applications to drug design.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Network medicine"
+        },
+        {
+            "text": "The basic unit of graphs. Usually visualised as circles (or in other shapes), nodes represent basic entities, such as drugs and proteins.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Node or vertex"
+        },
+        {
+            "text": "A basic unit of graphs that connects two nodes. Usually visualised as lines (with arrows if directed), edges represent the relationships (eg, protein interaction) between the nodes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Edge or link"
+        },
+        {
+            "text": "Measures the distances between two modules, such as drug-target and disease-gene modules. Several proximity measures have been defined, such as shortest, closest, separation, kernel, and centre measures. 11",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Network proximity"
+        },
+        {
+            "text": "The study of building machines or programmes that exhibit human intelligence in doing specific or general tasks.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Artificial intelligence (AI)"
+        },
+        {
+            "text": "A subset of AI algorithms that can learn from data, therefore removing the need for explicit instructions on how to do certain tasks.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Machine learning algorithms"
+        },
+        {
+            "text": "A general term referring to multilayer neural networks.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Deep neural networks"
+        },
+        {
+            "text": "Neural network architectures specifically designed for analysing image data, which generally include multiple layers of convolutional layers and pooling layers.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Convolutional neural networks"
+        },
+        {
+            "text": "Specific deep learning techniques that are developed for learning feature representations of graph structure data.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Graph representation learning"
+        },
+        {
+            "text": "A new generation of visible approaches that aim to guide the structure of machine learning models with an increasingly extensive knowledge of a biological mechanism. Review literature by machine learning. 34 BenevolentAI predicted that baricitinib, a drug used to treat rheumatoid arthritis, could be a potential treatment for COVID-19 through the inhibition of AP2-associated protein kinase 1 (encoded by AAK1; figure 1) . A team constructed a compre hensive COVID-19 knowledge graph (termed CoV-KGE) that included 15 million edges across 39 types of relationships connecting drugs, diseases, proteins, genes, pathways, and expressions of genes and proteins 35 from a large scientific corpus of 24 million PubMed publications. Using Amazon Web Services' computing resources and graph representation learning techniques, the team identified 41 repurposed drug candidates (including dexamethasone and melatonin) for COVID-19 treatment. To achieve a high prediction performance, the construction of a high-quality medical knowledge graph is essential, which itself is a promising direction for future research.",
+            "cite_spans": [
+                {
+                    "start": 205,
+                    "end": 207,
+                    "text": "34",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 412,
+                    "end": 421,
+                    "text": "figure 1)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Visible neural network"
+        },
+        {
+            "text": "Several examples exist of repurposed drugs being or having been tested in clinical trials for COVID-19, including antiviral drugs and host-targeting therapies (figure 1). A detailed discussion of repurposed drugs for COVID-19 can be found in a review by Sanders and colleagues. 36",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Repurposed drugs for COVID-19 are under investigation"
+        },
+        {
+            "text": "Remdesivir, a monophosphate prodrug of an active C-adenosine nucleoside triphosphate analogue, was originally discovered for the potential treatment of Ebola virus disease. 36 Remdesivir has shown promise in the treatment of COVID-19, prompting emergency use clearance from the FDA, although indication is limited to severe disease only. The FDA made this decision on the basis of early research showing that the drug might help speed up recovery for hospitalised patients with COVID-19. Mechanistically, remdesivir was shown to inhibit the viral RNA-dependent RNA polymerase (figure 1). 37 A doubleblind, randomised, placebo-con trolled trial of intravenous remdesivir in adults hos pitalised with COVID-19 showed that remdesivir significantly shortens the median recovery time to 11 days, compared with 15 days in the placebo group. 8 These preliminary findings support the use of remdesivir for patients who are hospitalised with COVID-19 and require supplemental oxygen therapy. However, another randomised, open-label, phase 3 trial involving hospi talised patients not requiring mechanical ventilation did not show a significant difference between a 5-day course and a 10-day course of remdesivir. 38 Further investigation of the clinical benefits of rem desivir for patients with COVID-19 in different patient subgroups with or without mechanical ventilation is needed to identify the shortest effective duration of therapy. Additionally, whether remdesivir can shorten the recovery course of individuals with early COVID-19 is unknown. A study using machine learning and statistical analysis approaches discovered that mefuparib (CVL218), a poly-ADP-ribose polymerase 1 inhibitor (figure 1), blocked SARS-CoV-2 replication without obv ious toxic effects in vitro. 39 The antiviral activity of mefuparib is more potent at viral entry and similar at viral post entry compared with remdesivir, sug gesting the drug to be a potential anti-SARS-CoV-2 drug candidate.",
+            "cite_spans": [
+                {
+                    "start": 173,
+                    "end": 175,
+                    "text": "36",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 588,
+                    "end": 590,
+                    "text": "37",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 835,
+                    "end": 836,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1204,
+                    "end": 1206,
+                    "text": "38",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 1772,
+                    "end": 1774,
+                    "text": "39",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Antiviral drugs"
+        },
+        {
+            "text": "Toremifene, a first-generation selective estrogenic receptor modulator that is non-steroidal, was approved for the treatment of breast cancer in 1997. 40 A network medicine analysis identified toremifene as a top candidate for the treatment of COVID-19. 16 In vitro assays indicated that toremifene blocked various viral infections at micromolar concentration, including Middle East Respiratory Syndrome coronavirus, 41 severe acute respiratory syndrome coronavirus, 42 and SARS-CoV-2. 43 A further computational biophysics study 44 suggested that toremifene might block interaction between ACE2 and the spike protein of SARS-CoV-2 and might inhibit nonstructural protein 14 of SARS-CoV-2 (figure 1), mechanistically supporting the drug's antiviral activities. The mean plasma concentration of toremifene during administration of 60 mg per day was 0\u00b788 mg/L (2\u00b717 \u00b5M) in post-menopausal patients with breast cancer 40 and the peak plasma concentration (>10 \u00b5M) of toremifene (60 mg per day) was approximately three-times the antiviral effect on SARS-CoV-2 (half-maximal inhibitory Review concentration of 3\u00b758 \u00b5M). 43 In summary, toremifene, identified by CoV-KGE 35 and network medi cine 16 approaches, offers a potential drug candidate to be tested in COVID-19 clinical trials.",
+            "cite_spans": [
+                {
+                    "start": 151,
+                    "end": 153,
+                    "text": "40",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 254,
+                    "end": 256,
+                    "text": "16",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 417,
+                    "end": 419,
+                    "text": "41",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 467,
+                    "end": 469,
+                    "text": "42",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 486,
+                    "end": 488,
+                    "text": "43",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 530,
+                    "end": 532,
+                    "text": "44",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 1115,
+                    "end": 1117,
+                    "text": "43",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 1164,
+                    "end": 1166,
+                    "text": "35",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Antiviral drugs"
+        },
+        {
+            "text": "SARS-CoV-2 causes up-regulation of systemic inflammation, 45 in some cases culminating in a cytokine storm, underscoring the high potential for treatment success by using a drug targeting inflammation and immune response (including baricitinib, dexamethasone, and melatonin; figure 1 ). By combining findings based on network medicine and large-scale patient data analysis from the COVID-19 patient registry at the Cleveland Clinic, Cleveland, OH, USA, resear chers found that melatonin intake was associated with a 50-60% reduced likelihood of a positive laboratory test result for SARS-CoV-2. 46 Dexamethasone is a gluco corticoid receptor (figure 1) agonist approved by the US FDA for a variety of inflammatory and autoimmune conditions. 47 Dexamethasone was identified as a top repur posed drug candidate by CoV-KGE. 35 The ran domised trial 48 [0\u00b772-0\u00b794]). However, dexamethasone did not reduce mortality in COVID-19 patients not receiving respiratory support. Altogether, these data suggest that targeting excessive host inflammation by immune modulators or anti-inflam matory drugs offers a therapeutic strategy for severe COVID-19, warranting testing in large-scale RCTs.",
+            "cite_spans": [
+                {
+                    "start": 58,
+                    "end": 60,
+                    "text": "45",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 595,
+                    "end": 597,
+                    "text": "46",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 741,
+                    "end": 743,
+                    "text": "47",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 821,
+                    "end": 823,
+                    "text": "35",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 846,
+                    "end": 848,
+                    "text": "48",
+                    "ref_id": "BIBREF47"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 275,
+                    "end": 283,
+                    "text": "figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Host-targeting therapy"
+        },
+        {
+            "text": "Monotherapies, including remdesivir 8,38 and hydroxychloroquine, 49 have shown little or no clinical benefit for patients with COVID-19. Because the immune system plays key roles in the worsening health and death of patients with COVID-19, 50 combining inflammatory or immune modulators (ie, boosting host immunity) with antiviral drugs might offer an effective treatment for patients with COVID-19. Drug combinations, offering increased therapeutic efficacy and reduced toxicity, play an important role in treating infectious diseases, inclu ding COVID-19 (eg, remdesivir plus baricitinib [NCT04401579]). However, our ability to identify and vali date effective combinations is limited by a huge increase in the number of possible drug pairs. Using a network-based methodology, 51 scientists identified three potential drug combinations for COVID-19, 16 including sirolimus plus dactinomycin, mercaptopurine plus melatonin, and toremifene plus emodin. These combinations are based on theoretical analysis using the interactome and have not been tested in preclinical or clinical studies. The same team further observed that com bining melatonin and toremifene showed potential for use in the treatment of COVID-19. 52 The selective estrogen modu lation and melatonin in early COVID-19 (SENTINEL; NCT04531748) trial is being done at the Cleveland Clinic to test the clinical efficacy of combining melatonin and toremifene therapy in patients with early COVID-19. 52 Using BenevolentAI's knowledge graph, 34 baricitinib was identified as potential treatment for COVID-19. At least two phase 2 randomised, double-blind trials of baricitinib alone or as part of combination therapy with antiviral drugs (eg, remdesivir) are underway for patients with moderate and severe COVID-19 (NCT04373044 and NCT04401579).",
+            "cite_spans": [
+                {
+                    "start": 65,
+                    "end": 67,
+                    "text": "49",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 779,
+                    "end": 781,
+                    "text": "51",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 852,
+                    "end": 854,
+                    "text": "16",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1216,
+                    "end": 1218,
+                    "text": "52",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 1463,
+                    "end": 1465,
+                    "text": "52",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 1504,
+                    "end": 1506,
+                    "text": "34",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Drug combinations for COVID-19"
+        },
+        {
+            "text": "Another important aspect of using AI for drug repurposing is the use of real-world data, such as electronic health records, in searching for effective repurposed drug candidates. Electronic health records are patient clinical data that are routinely collected, such as demographics, diagnoses, medications, procedures, and laboratory test results, stored in digital form, which can be exchanged and accessed securely. 53 Extensive discussions have taken place on leveraging real-world data for drug discovery and development. 54 On the one hand, patients in real-world data are more representative of patients who will receive the prescription when the drug is on the market than patients in RCTs are, who are enrolled on the basis of strict inclusion and exclusion criteria. On the other hand, typically treatment and control groups are required to precisely estimate the treatment effects. However, for certain scenarios, such as remdesivir trials for COVID-19, only a single treatment group is possible, which makes estimating the treatment effect difficult. 55 In this case, because of the inclusion of many diverse patients, real-world data contain rich information for synthesising a potential control group, which can then be compared with the treatment group in an RCT to help estimate the treatment effects.",
+            "cite_spans": [
+                {
+                    "start": 418,
+                    "end": 420,
+                    "text": "53",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 526,
+                    "end": 528,
+                    "text": "54",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 1062,
+                    "end": 1064,
+                    "text": "55",
+                    "ref_id": "BIBREF55"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Real-world evidence to test drug responsiveness"
+        },
+        {
+            "text": "Despite the promises of real-world data, deriving insights from real-world data that are similar to those from RCTs is challenging because real-world data have higher dimensionality (including confounding factors), a broader population, and usually lower data quality compared with RCT data. Propensity score, which calculates the likelihood of the patient receiving the treat ment from a set of potential confounding factors using logistic regression, is the standard technique to do patient matching. 56 However, the calculation of the likelihood of the patient receiving the treatment from such a set is much more complicated in real-world data because of the associated challenges such as high dimensionality, longitudinality, irregularity, and incompleteness. In this case, the advanced machine learning models can estimate propensity scores more accurately than tradi tional logistic regression-based propensity score matching Review approaches can. 57, 58 Moreover, other types of matching techniques, such as patient similarity analy tics, 59 also hold promise in these complicated scenarios.",
+            "cite_spans": [
+                {
+                    "start": 503,
+                    "end": 505,
+                    "text": "56",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 956,
+                    "end": 959,
+                    "text": "57,",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 960,
+                    "end": 962,
+                    "text": "58",
+                    "ref_id": "BIBREF58"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Real-world evidence to test drug responsiveness"
+        },
+        {
+            "text": "The initiative to build national or international electronic health records repositories for COVID-19 research has been undertaken. One such repository is the international consortium 4CE, which includes the electronic health records of patients from 96 hospitals across five countries. All participants' electronic health records are matched to a common data model with Integrating Biology and the Bedside 60 or Observational Medical Outcomes Partnership (OMOP). 61 A retrospective cohort study of 1438 patients with laboratory-confirmed COVID-19 admitted to hospital in metropolitan New York, USA, revealed that treatment with hydroxychloro quine, azithromycin, or both, compared with neither treatment, was not significantly associated with differences in inhospital mortality for patients with COVID-19. 49 From a COVID-19 registry of nearly 20 000 patients with 1600 COVID-19-positive patients from the Cleveland Clinic Health System electronic health records, and using a user-active comparator design and propensity score adjustment for confounding, melatonin usage was shown to be associated with a reduced likelihood of a positive SARS-CoV-2 test result by RT-PCR assay. 46 Mancia and colleagues 62 showed that angiotensin-converting enzyme inhibitors (ACEIs) or angiotensin II receptor blockers (ARBs) were not associated with the risk of COVID-19. An independent study revealed that the use of ACEIs or ARBs were not associated with an increase of the likelihood for a positive COVID-19 test or an increase in the COVID-19 severity using New York University Langone Health electronic health records. 63 RCTs are underway to test the clinical benefits of melatonin in patients with COVID-19 (NCT04409522 and NCT04353128).",
+            "cite_spans": [
+                {
+                    "start": 464,
+                    "end": 466,
+                    "text": "61",
+                    "ref_id": "BIBREF61"
+                },
+                {
+                    "start": 808,
+                    "end": 810,
+                    "text": "49",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 1180,
+                    "end": 1182,
+                    "text": "46",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 1205,
+                    "end": 1207,
+                    "text": "62",
+                    "ref_id": "BIBREF62"
+                },
+                {
+                    "start": 1611,
+                    "end": 1613,
+                    "text": "63",
+                    "ref_id": "BIBREF63"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Real-world evidence to test drug responsiveness"
+        },
+        {
+            "text": "For decades, translational science has faced the challenge of how to translate research findings into new effective medicines and technologies that rapidly deliver the medicines. This challenge has encouraged basic and translational sciences to work together towards this pivotal aim. Generations of scientists have struggled to make headway in de novo drug discovery. In principle, a strategy involving drug repurposing, in which a drug has already been tested and approved by the US FDA, can overcome the barriers of de novo drug discovery. However, the volume of approved or clinically failed drugs is large, emphasising the difficulty of which drug to select that would be highly effective for the disease in question.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion, perspective, and future directions"
+        },
+        {
+            "text": "Despite the enthusiasm for drug repurposing in treating COVID-19, challenges remain. Cellular or animal assays might not reflect the host environment of the virus infection in humans. Also, repurposed drugs might have been optimised for a particular target, dosing, or tissue in the original indications. Rapid clinical tests of existing antiviral, antimalarial, and immunomodulatory drugs have been done or are underway against COVID-19. Many trials did not optimise the drug's clinical benefits and biological questions because of their expedient design, lack of clinical endpoints, small number of patients enrolled (thus lack of statistical power), and more. 64 For example, hydroxy chloroquine shows potential anti-SARS-CoV-2 activities in in vitro assays. 65 However, hydroxychloroquine has shown very little or no efficiency in preclinical 66 and clinical trial studies. 49 Few reproducible preclinical animal models and gold-standard clinical outcome measures in COVID-19 trials might also result in some failures to find clinical benefits. Tools and analyses with greater sensitivity are also required to detect differences between drugs and placebos, especially as more mildly affected patients with COVID-19 are included in trials. The presence of heterogeneous populations with different genetic backgrounds might also affect outcomes of clinical results. Possible factors contributing to these clinical trial findings that should be accounted for in future trials include targeting the wrong pathobiological or pathophysiological mechanisms in COVID-19; using drugs that do not engage with the intended target (including virus proteins and virus-host and proteinprotein interactome); intervening at the wrong stage of the disease, including early, mild, moderate, and severe illnesses; lacking translatable pharmacodynamic and pharmacokinetic (ie, poor lung penetration) biomarkers; depending on in vitro antiviral activities and not using appropriate animal models with poor predictive efficacy; not addressing the rapid disease progression of COVID-19 in a short period; and not accurately monitoring the complexity of the clinical and biological characteristics to therapeutic intervention.",
+            "cite_spans": [
+                {
+                    "start": 663,
+                    "end": 665,
+                    "text": "64",
+                    "ref_id": "BIBREF64"
+                },
+                {
+                    "start": 762,
+                    "end": 764,
+                    "text": "65",
+                    "ref_id": "BIBREF65"
+                },
+                {
+                    "start": 847,
+                    "end": 849,
+                    "text": "66",
+                    "ref_id": "BIBREF66"
+                },
+                {
+                    "start": 878,
+                    "end": 880,
+                    "text": "49",
+                    "ref_id": "BIBREF49"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Challenges in drug repurposing"
+        },
+        {
+            "text": "Although AI-based drug repurposing is in the developmental stage, several examples have shown encouraging results, including baricitinib identified by BenevolentAI, 34 dexamethasone 48 predicted by CoV-KGE, 35 and melatonin from network medicine-based findings (figure 1). 46 The development of effective and robust in vitro and in vivo models can reduce the failure rate of drug repurposing between preclinical studies and clinical trials for COVID-19. 67, 68 Genotype-informed drug repurposing (termed personalised drug repurposing) might further improve the success rate of clinical trials. 69",
+            "cite_spans": [
+                {
+                    "start": 207,
+                    "end": 209,
+                    "text": "35",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 273,
+                    "end": 275,
+                    "text": "46",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 454,
+                    "end": 457,
+                    "text": "67,",
+                    "ref_id": "BIBREF67"
+                },
+                {
+                    "start": 458,
+                    "end": 460,
+                    "text": "68",
+                    "ref_id": "BIBREF68"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Challenges in drug repurposing"
+        },
+        {
+            "text": "Given the highly complex and regulated nature of drug development, a long-term vision is needed when developing AI applications in drug repurposing that could increase efficiency and effectiveness in the various processes involved, and reduce the barriers between the numerous research components in the ecosystem to create new therapy options. AI technologies, such as visible neural networks, 70 incorporate the AI model's inner For more on 4CE see https://www.covidclinical.net Review workings into real systems of biomedical sciences (eg, human and animal). For example, visible machine learning approaches might guide model structures of data heterogeneity in the life sciences and translate patient data to successful therapies. 71 Biological systems are complex and hierarchical (figure 2), com posed of multiple levels such as sequences, protein complexes, cells, tissues, organs, and organisms. Drug discovery is a complicated process involving multilevel interactions between chemical compounds and biological systems. Therefore, a potential way of building an effec tive and interpretable model of drug discovery is to enrich the biologically-inspired visible neural network model 72 with drug-related entities such as chemical compounds and diseases. The biomedical knowledge on how different entities interact with each other at different levels can be leveraged to guide the design of the corresponding computing modules. 35 Compared to cur rent deep learning models which try to model the entire system with a complex model at once, this divide-and-conquer scheme models the different components in the complex system and how these components interact with each other in an explicit and transparent way. The model parameters can be optimised in an end-to-end way as in other deep learning models.",
+            "cite_spans": [
+                {
+                    "start": 395,
+                    "end": 397,
+                    "text": "70",
+                    "ref_id": "BIBREF70"
+                },
+                {
+                    "start": 735,
+                    "end": 737,
+                    "text": "71",
+                    "ref_id": "BIBREF71"
+                },
+                {
+                    "start": 1436,
+                    "end": 1438,
+                    "text": "35",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Challenges in biological interpretation"
+        },
+        {
+            "text": "Data harmonisation refers to the process of standardising and integrating information from disparate sources to form a unified database. Data harmonisation is a crucial step for guaranteeing that the machine-learning based models that are developed are widely applicable in different scenarios. Establishing a high quality data model (which is a prerequisite for organising and standardising the data) is the foundation for the harmonisation process. National and international efforts aim to build common data models such as the national patientcentered clinical research network 72 and the observational health data science and informatics programme. 73 Fast healthcare interoperability resources 74 represent another type of standard, which defines how these data should be exchanged.",
+            "cite_spans": [
+                {
+                    "start": 653,
+                    "end": 655,
+                    "text": "73",
+                    "ref_id": "BIBREF73"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Challenges in data and model harmonisation"
+        },
+        {
+            "text": "In addition to data harmonisation, model harmonisation, which defines a unified standard for storing the computational models, is also an important aspect to enhance the generalisability and utility of the computational drug repurposing tools. The open neural network exchange (ONNX) is an example of such efforts aiming to build model exchanging standards that are interoperable. ONNX defines implemented models as an extensible acyclic graph model. Each node on the graph is a call to built-in operators with inputs and outputs defined using standard data types.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Challenges in data and model harmonisation"
+        },
+        {
+            "text": "With the enhanced availability of health-related data (especially patient data), concerns have been raised regarding data security and privacy. 75 For example, demographics and DNA sequencing data have an increased risk of making patients identifiable. Efforts should be made to scrutinise each stage in the data life cycle. For example, questions pertaining to what type of data will be collected; whether the data are necessary; who will collect the data; how the data will be used, stored, and transferred; what the rights are of the person whose data are being collected, and others, should be addressed carefully. Additionally, regulations and transparency are crucial for appropriate data collection and use, and so is an increased public aware ness. Towards this goal, federated learning 76 could be a promising direction, which trains algorithms across decentralised edge devices (eg, individual mobile phones) or servers hosting different local samples (eg, data owned by different samples). Data samples are not shared or centralised and only the trained models are communicated, which might improve data security and privacy of patient data for drug-disease outcome validation in drug repurposing.",
+            "cite_spans": [
+                {
+                    "start": 144,
+                    "end": 146,
+                    "text": "75",
+                    "ref_id": "BIBREF75"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Challenges in data sharing and security"
+        },
+        {
+            "text": "Advances in pharmacogenetics and pharmacogenomics indicated that disease treatment would be considerably improved if therapies were guided by individual's genomic profiles. This hypothesis has garnered initial success in some diseases, including cancer. 77 Responsive ness to a drug is influenced by genetic, epigenetic, and environmental factors. SARS-CoV-2 infection has shown large inter-individual variabilities, ranging from asymp tomatic to severe and lethal disease. One possible hypothesis is that human genetics might determine clinical characteristics and drug responses. 69, 78 For example, analysis of approximately 81 000 genomes and exomes from the general population suggested that hydroxychloroquine or chloroquine might only work for TMPRSS2-absent patients who are infected by SARS-CoV-2. 69 An international team showed that hydroxychloroquine has antiviral activity in the kidney cells of African green monkeys without TMPRSS2 expression (VeroE6) but not in the model of reconstituted human airway epithelium developed from primary nasal or bronchial cells. 67 Additionally, another team showed that chloroquine does not block SARS-CoV-2 infection of the TMPRSS2-positive lung cell line Calu-3. 68 These preli minary findings highlight the importance of pharma cogenomics studies in improving clinical benefits and the success rate of drug repurposing. A COVID-19 host genetics initiative is underway to generate, share and analyse data in a search for the genetic determinants of COVID-19 susceptibility, severity, and outcomes, and personalised treatment. Therefore, AI techniques could leverage massive genetic and genomic data to identify human genetic determinants of SARS-CoV-2 patho genesis, which presents a unique opportunity for drug repurposing in precision medicine and personalised treatment for individuals with COVID-19 ( figure 3) . ",
+            "cite_spans": [
+                {
+                    "start": 254,
+                    "end": 256,
+                    "text": "77",
+                    "ref_id": "BIBREF77"
+                },
+                {
+                    "start": 582,
+                    "end": 585,
+                    "text": "69,",
+                    "ref_id": "BIBREF69"
+                },
+                {
+                    "start": 586,
+                    "end": 588,
+                    "text": "78",
+                    "ref_id": "BIBREF78"
+                },
+                {
+                    "start": 807,
+                    "end": 809,
+                    "text": "69",
+                    "ref_id": "BIBREF69"
+                },
+                {
+                    "start": 1078,
+                    "end": 1080,
+                    "text": "67",
+                    "ref_id": "BIBREF67"
+                },
+                {
+                    "start": 1215,
+                    "end": 1217,
+                    "text": "68",
+                    "ref_id": "BIBREF68"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1857,
+                    "end": 1866,
+                    "text": "figure 3)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Personalised drug repurposing"
+        },
+        {
+            "text": "The future of AI-informed drug repurposing Drug selection among the many approved ones, while avoiding time-consuming searches, can present uncertainty. To date, AI's potential ability to identify new candidate therapies that can be made available for clinical trials rapidly and, if approved, merged into health care is unparalleled, making AI a centrepiece of advanced tech nologies. Because of this, AI is a promising method for accelerating drug repurposing for human diseases, espe cially emerging diseases, such as COVID-19. With the availability of big data, including biological, clinical, and open data (scientific publications and data repositries), novel AI techniques capable of leveraging these large sets of biomedical data are in high demand. Pharmaceutical scientists, computer scientists, statisticians, and physi cians are increasingly involved in developing and adopting AI-based technologies for the rapid development of thera peutics. AI approaches, coupled with big data, have the potential to substantially improve the efficiency and effec tiveness of drug repur posing and aid medical decision making of therapeutic benefits with real-world evidence for various complex human diseases, such as COVID-19 (figure 1) and Alzheimer's disease. 79 However, challenges remain in developing these AI tools, such as data heterogeneity and low quality, and insufficient data sharing by pharma ceutical companies, as well as the security and inter pretability of the models. We expect future successful AI models for drug repurposing to be accurate in terms of the generated outcomes, integrative of disparate information types and sources, interoperable in diverse deployment settings, inter pretable of internal working mechanisms, and robust to noise and adversarial attacks.",
+            "cite_spans": [
+                {
+                    "start": 1263,
+                    "end": 1265,
+                    "text": "79",
+                    "ref_id": "BIBREF79"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Review"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Computing machinery and intelligence",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Turing",
+                    "suffix": ""
+                }
+            ],
+            "year": 1950,
+            "venue": "Mind",
+            "volume": "49",
+            "issn": "",
+            "pages": "433--60",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "How artificial intelligence is changing drug discovery",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Fleming",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nature",
+            "volume": "557",
+            "issn": "",
+            "pages": "55--57",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "AI-powered drug discovery captures pharma interest",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Smalley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Nat Biotechnol",
+            "volume": "35",
+            "issn": "",
+            "pages": "604--609",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "The $2\u00b76 billion pill\u00b7methodologic and policy considerations",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Avorn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "N Engl J Med",
+            "volume": "372",
+            "issn": "",
+            "pages": "1877--79",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "New uses for old drugs",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Chong",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Sullivan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Nature",
+            "volume": "448",
+            "issn": "",
+            "pages": "645--691",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Sildenafil: from angina to erectile dysfunction to pulmonary hypertension and beyond",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ghofrani",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Osterloh",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Grimminger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Nat Rev Drug Discov",
+            "volume": "5",
+            "issn": "",
+            "pages": "689--702",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Hematology: thalidomide maintenance in multiple myeloma",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Laubach",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Richardson",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Nat Rev Clin Oncol",
+            "volume": "6",
+            "issn": "",
+            "pages": "565--66",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Remdesivir for the treatment of Covid-19-Preliminary Report",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Beigel",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Tomashek",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Dodd",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Systems biology-based investigation of cellular antiviral drug targets identified by gene-trap insertional mutagenesis",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Murray",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Rubin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "PLOS Comput Biol",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Target identification among known drugs by deep learning from heterogeneous networks",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Chem Sci (Camb)",
+            "volume": "11",
+            "issn": "",
+            "pages": "1775--97",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Network-based approach to prediction and population-based validation of in silico drug repurposing",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Desai",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Handy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nat Commun",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Putting the patient back together-social medicine, network medicine, and the limits of reductionism",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Greene",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Loscalzo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "N Engl J Med",
+            "volume": "377",
+            "issn": "",
+            "pages": "2493--99",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "A multibasic cleavage site in the spike protein of SARS-CoV-2 is essential for infection of human lung cells",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hoffmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kleine-Weber",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pohlmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Mol Cell",
+            "volume": "78",
+            "issn": "",
+            "pages": "779--84",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "SARS-CoV-2 cell entry depends on ACE2 and TMPRSS2 and is blocked by a clinically proven protease inhibitor",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hoffmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kleine-Weber",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Schroeder",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell",
+            "volume": "181",
+            "issn": "",
+            "pages": "271--80",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "A SARS-CoV-2 protein interaction map reveals targets for drug repurposing",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Gordon",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Jang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bouhaddou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "583",
+            "issn": "",
+            "pages": "459--68",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Network-based drug repurposing for novel coronavirus 2019-nCoV/SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hou",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Martin",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell Discov",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Deep learning",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Lecun",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Bengio",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Hinton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Nature",
+            "volume": "521",
+            "issn": "",
+            "pages": "436--480",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Learning representations by back-propagating errors",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Rumelhart",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Hinton",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Williams",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "Nature",
+            "volume": "323",
+            "issn": "",
+            "pages": "533--569",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Deep learning applications for predicting pharmacological properties of drugs and drug repurposing using transcriptomic data",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Aliper",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Plis",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Artemov",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ulloa",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Mamoshina",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zhavoronkov",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Mol Pharm",
+            "volume": "13",
+            "issn": "",
+            "pages": "2524--2554",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Beyond the hype: deep neural networks outperform established methods using a ChEMBL bioactivity benchmark set",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Lenselink",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ten Dijke",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Bongers",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Cheminform",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Learning drug functions from chemical structures with convolutional neural networks and random forests",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Meyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Coon",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gitter",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Chem Inf Model",
+            "volume": "59",
+            "issn": "",
+            "pages": "4438--4487",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "AtomNet: a deep convolutional neural network for bioactivity prediction in structure-based drug discovery",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Wallach",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dzamba",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Heifets",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "arXiv",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Generating focused molecule libraries for drug discovery with recurrent neural networks",
+            "authors": [
+                {
+                    "first": "Mhs",
+                    "middle": [],
+                    "last": "Segler",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kogej",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Tyrchan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Waller",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "ACS Cent Sci",
+            "volume": "4",
+            "issn": "",
+            "pages": "120--151",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Interpretable drug target prediction using deep neural representation",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Fokoue",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Iyengar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Dey",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "IJCAI",
+            "volume": "",
+            "issn": "",
+            "pages": "3371--77",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Predicting commercially available antiviral drugs that may act on the novel coronavirus (SARS-CoV-2) through a drug-target interaction deep learning model",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Beck",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Shin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Comput Struct Biotechnol J",
+            "volume": "18",
+            "issn": "",
+            "pages": "784--90",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "LINE: large-scale information network embedding",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Qu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Mei",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Proceedings of the 24th International Conference on World Wide Web",
+            "volume": "",
+            "issn": "",
+            "pages": "1067--77",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Translating embeddings for modeling multi-relational data",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bordes",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Usunier",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Garcia-Dur\u00e1n",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Weston",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Yakhnenko",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "26th International Conference on Neural Information Processing Systems",
+            "volume": "",
+            "issn": "",
+            "pages": "1--9",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Complex embeddings for simple link prediction",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Trouillon",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Welbl",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Riedel",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Gaussier",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Bouchard",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Proceedings of the 33rd International Conference on Machine Learning",
+            "volume": "",
+            "issn": "",
+            "pages": "2071--80",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Convolutional 2D knowledge graph embeddings",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Dettmers",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Minervini",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Stenetorp",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Riedel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "RotatE: knowledge graph embedding by relational rotation in complex space",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z-H",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "J-Y",
+                    "middle": [],
+                    "last": "Nie",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "arXiv",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "GraphVite: a high-performance CPU-GPU hybrid system for node embedding",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Qu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "arXiv",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "A literature-based knowledge graph embedding method for identifying drug repurposing opportunities in rare diseases",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Sosa",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Derry",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Brinton",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Altman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Pac Symp Biocomput",
+            "volume": "25",
+            "issn": "",
+            "pages": "463--74",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Network medicine framework for identifying drug repurposing opportunities for COVID-19",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Gysi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Do",
+                    "middle": [],
+                    "last": "Valle",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Zitnik",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "arXiv",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Baricitinib as potential treatment for 2019-nCoV acute respiratory disease",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Richardson",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Griffin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Tucker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "30--31",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Repurpose open data to discover therapeutics for COVID-19 using deep learning",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Proteome Res",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/acs.jproteome.0c00316"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Pharmacologic treatments for coronavirus disease 2019 (COVID-19): A Review",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Sanders",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Monogue",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Jodlowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Cutrell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "323",
+            "issn": "",
+            "pages": "1824--1860",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Structural basis for inhibition of the RNA-dependent RNA polymerase from SARS-CoV-2 by remdesivir",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Yin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Mao",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Luan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "368",
+            "issn": "",
+            "pages": "1499--504",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Remdesivir for 5 or 10 days in patients with severe Covid-19",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Goldman",
+                    "suffix": ""
+                },
+                {
+                    "first": "Dcb",
+                    "middle": [],
+                    "last": "Lye",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hui",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2015301"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "A data-driven drug repositioning framework discovered a potential therapeutic agent targeting COVID-19",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ge",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Tian",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "bioRxiv",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.11.986836"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "A review of its pharmacological properties and clinical efficacy in the management of advanced breast cancer",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Wiseman",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Goa",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Toremifene",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Drugs",
+            "volume": "54",
+            "issn": "",
+            "pages": "141--60",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "MERS-CoV pathogenesis and antiviral efficacy of licensed drugs in human monocyte-derived antigen-presenting cells",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Cong",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hart",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Gross",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "PLoS One",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Repurposing of clinically developed drugs for treatment of Middle East respiratory syndrome coronavirus infection",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dyall",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Coleman",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hart",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Antimicrob Agents Chemother",
+            "volume": "58",
+            "issn": "",
+            "pages": "4885--93",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Identification of antiviral drug candidates against SARS-CoV-2 from FDA-approved drugs",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jeon",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ko",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Antimicrob Agents Chemother",
+            "volume": "64",
+            "issn": "",
+            "pages": "819--839",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Repurposing of FDA-approved toremifene to treat COVID-19 by blocking the spike glycoprotein and NSP14 of SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Martin",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Proteome Res",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/acs.jproteome.0c00397"
+                ]
+            }
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Extrapulmonary manifestations of COVID-19",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gupta",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Madhavan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Sehgal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Med",
+            "volume": "26",
+            "issn": "",
+            "pages": "1017--1049",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "A network medicine approach to prediction and patient-based validation of disease manifestations and drug repurposing for COVID-19",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hou",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "ChemRxiv",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.26434/chemrxiv.12579137"
+                ]
+            }
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Corticosteroids: mechanisms of action in health and disease",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ramamoorthy",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Cidlowski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Rheum Dis Clin North Am",
+            "volume": "42",
+            "issn": "",
+            "pages": "15--31",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Dexamethasone in hospitalised patients with Covid-19-preliminary report",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Group",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Horby",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Association of treatment with hydroxychloroquine or azithromycin with in-hospital mortality in patients with COVID-19 in new york state",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Rosenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Dufort",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Udo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "323",
+            "issn": "",
+            "pages": "2493--502",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "The trinity of COVID-19: immunity, inflammation and intervention",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Tay",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Poh",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "R\u00e9nia",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Macary",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lfp",
+                    "middle": [],
+                    "last": "Ng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Rev Immunol",
+            "volume": "20",
+            "issn": "",
+            "pages": "363--74",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Network-based prediction of drug combinations",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Kov\u00e1cs",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Barab\u00e1si",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nat Commun",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "COVID-19 treatment: combining anti-inflammatory and antiviral therapeutics using a network-based approach",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Rao",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Mehra",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cleve Clin J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3949/ccjm.87a.ccc037"
+                ]
+            }
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Definition, structure, content, use and impacts of electronic health records: a review of the research literature",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "H\u00e4yrinen",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Saranto",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Nyk\u00e4nen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Int J Med Inform",
+            "volume": "77",
+            "issn": "",
+            "pages": "291--304",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Real-world evidence-what is it and what can it tell us?",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Sherman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Dal Pan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "N Engl J Med",
+            "volume": "375",
+            "issn": "",
+            "pages": "2293--97",
+            "other_ids": {}
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Randomized clinical trials and COVID-19: managing expectations",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Bauchner",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Fontanarosa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "The central role of the propensity score in observational studies for causal effects",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Rosenbaum",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Rubin",
+                    "suffix": ""
+                }
+            ],
+            "year": 1983,
+            "venue": "Biometrika",
+            "volume": "70",
+            "issn": "",
+            "pages": "41--55",
+            "other_ids": {}
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Improving propensity score weighting using machine learning",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lessler",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Stuart",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Stat Med",
+            "volume": "29",
+            "issn": "",
+            "pages": "337--383",
+            "other_ids": {}
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "Combining machine learning and propensity score weighting to estimate causal effects in multivalued treatments",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Linden",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Yarnold",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J Eval Clin Pract",
+            "volume": "22",
+            "issn": "",
+            "pages": "871--81",
+            "other_ids": {}
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "Supervised patient similarity measure of heterogeneous patient records",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Edabollahi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "SIGKDD Explor",
+            "volume": "14",
+            "issn": "",
+            "pages": "16--24",
+            "other_ids": {}
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "Serving the enterprise and beyond with informatics for integrating biology and the bedside (i2b2)",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Murphy",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Weber",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mendis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J Am Med Inform Assoc",
+            "volume": "17",
+            "issn": "",
+            "pages": "124--154",
+            "other_ids": {}
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "Advancing the science for active surveillance: rationale and design for the Observational Medical Outcomes Partnership",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Stang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Ryan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Racoosin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Ann Intern Med",
+            "volume": "153",
+            "issn": "",
+            "pages": "600--606",
+            "other_ids": {}
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "Renin-angiotensin-aldosterone system blockers and the risk of Covid-19",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Mancia",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Rea",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ludergnani",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Apolone",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Corrao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "",
+            "pages": "2431--2471",
+            "other_ids": {}
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Renin-angiotensinaldosterone system inhibitors and risk of Covid-19",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Reynolds",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Adhikari",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Pulgarin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "",
+            "pages": "2441--2489",
+            "other_ids": {}
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "Characteristics of registered clinical trials assessing treatments for COVID-19: a cross-sectional analysis",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Mehta",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ehrhardt",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Moore",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Segal",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Alexander",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ Open",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "Hydroxychloroquine, a less toxic derivative of chloroquine, is effective in inhibiting SARS-CoV-2 infection in vitro",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell Discov",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "Antiviral efficacies of FDA-approved drugs against SARS-CoV-2 infection in ferrets",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "MBio",
+            "volume": "11",
+            "issn": "",
+            "pages": "1114--1134",
+            "other_ids": {}
+        },
+        "BIBREF67": {
+            "ref_id": "b67",
+            "title": "Hydroxychloroquine use against SARS-CoV-2 infection in non-human primates",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Maisonnasse",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Guedj",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Contreras",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "Chloroquine does not inhibit infection of human lung cells with SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hoffmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "M\u00f6sbauer",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hofmann-Winkler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2575-3"
+                ]
+            }
+        },
+        "BIBREF69": {
+            "ref_id": "b69",
+            "title": "New insights into genetic susceptibility of COVID-19: an ACE2 and TMPRSS2 polymorphism analysis",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hou",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Martin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMC Med",
+            "volume": "18",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF70": {
+            "ref_id": "b70",
+            "title": "Using deep learning to model the hierarchical structure and function of a cell",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Fong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nat Methods",
+            "volume": "15",
+            "issn": "",
+            "pages": "290--98",
+            "other_ids": {}
+        },
+        "BIBREF71": {
+            "ref_id": "b71",
+            "title": "Visible machine learning for biomedicine",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Fisher",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Kreisberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Raphael",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ideker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Cell",
+            "volume": "173",
+            "issn": "",
+            "pages": "1562--65",
+            "other_ids": {}
+        },
+        "BIBREF72": {
+            "ref_id": "b72",
+            "title": "Launching PCORnet, a national patient-centered clinical research network",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Fleurence",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Curtis",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Califf",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Platt",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Selby",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Brown",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J Am Med Inform Assoc",
+            "volume": "21",
+            "issn": "",
+            "pages": "578--82",
+            "other_ids": {}
+        },
+        "BIBREF73": {
+            "ref_id": "b73",
+            "title": "Observational health data sciences and informatics (OHDSI): Opportunities for observational researchers",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Hripcsak",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Duke",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Shah",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Stud Health Technol Inform",
+            "volume": "216",
+            "issn": "",
+            "pages": "574--78",
+            "other_ids": {}
+        },
+        "BIBREF74": {
+            "ref_id": "b74",
+            "title": "Healthcare in the age of interoperability: the promise of fast healthcare interoperability resources",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Braunstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "IEEE Pulse",
+            "volume": "9",
+            "issn": "",
+            "pages": "24--27",
+            "other_ids": {}
+        },
+        "BIBREF75": {
+            "ref_id": "b75",
+            "title": "Ethics and governance for digital disease surveillance",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mello",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "368",
+            "issn": "",
+            "pages": "951--54",
+            "other_ids": {}
+        },
+        "BIBREF76": {
+            "ref_id": "b76",
+            "title": "Federated learning for healthcare informatics",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Glicksberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Su",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Walker",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bian",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "arXiv",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF77": {
+            "ref_id": "b77",
+            "title": "Review: Precision medicine and driver mutations: Computational methods, functional assays and conformational principles for interpreting cancer drivers",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Nussinov",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Jang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Tsai",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "PLOS Comput Biol",
+            "volume": "15",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF78": {
+            "ref_id": "b78",
+            "title": "Genomewide association study of severe Covid-19 with respiratory failure",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ellinghaus",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Degenhardt",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Bujanda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2020283"
+                ]
+            }
+        },
+        "BIBREF79": {
+            "ref_id": "b79",
+            "title": "Harnessing endophenotypes and network medicine for Alzheimer's drug repurposing",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Pieper",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Nussinov",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Overview of AI-assisted drug repurposing for COVID-19 AI algorithms can be used for drug repurposing, which is a rapid and cost-effective way to discover new therapy options for emerging diseases. Reproduced by permission of Cleveland Clinic Center for Medical Art and Photography. AI=artificial intelligence. PARP1=poly-ADP-ribose polymerase 1. NR3C1=nuclear receptor subfamily 3 group C member 1. AAK1=AP2-associated protein kinase 1. MTNR1A=melatonin receptor 1A. TMPRSS2=transmembrane serine protease 2. ACE2=angiotensin I converting enzyme 2. NRP1=neuropilin 1. NSP14=non-structural protein 14.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "AI for drug repurposing in an integrative context AI approaches can greatly accelerate drug repurposing by incorporating biological knowledge (eg, human interactome, organelles, tissues, and organs). The cogs indicate computer programs and algorithms. Red and black circles represent neurons in deep neural networks. Red indicates that this neuron carries important information from the biological systems. Green and blue people indicate different subgroups that might have different responses to the treatment. The downward arrows show that AI algorithms can use the information from multi-level biological systems and drug development pipelines to build more powerful models. The left panel shows the biological systems and the right panel shows the drug development pipeline AI=artificial intelligence.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "For more on the open neural network exchange see https://onnx.ai/ For the COVID-19 host genetics initiative see https://www. covid19hg.com",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "of COVID-19 therapy trial showed that dexamethasone reduced death by a third in patients requiring invasive mechanical ventilation (95 [29%] of 324 patients vs 283 [41%] of 683 patients; rate ratio 0\u00b764 [95% CI 0\u00b751-0\u00b781]) and by a fifth in individuals requiring oxygen without invasive mechanical ventilation (298 [23\u00b73%] of 1279 patients vs 682 [26\u00b72%] of 2604 patients; 0\u00b782",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "This work was supported by the National Institute of Aging of the US National Institutes of Health (NIH; R01AG066707 and 3R01AG066707-01S1) and the National Heart, Lung, and Blood Institute of the NIH (R00HL138272) to FC. This work was supported by the VeloSano Pilot Program (Cleveland Clinic Taussig Cancer Institute, Cleveland, OH, USA) to FC. This work has been also supported with federal funds from the Frederick National Laboratory for Cancer Research, NIH (HHSN261200800001E) to RN. This research was supported by the Intramural Research Program of the NIH, Frederick National Lab, Center for Cancer Research to RN. This work was supported by the US National Science Foundation (1750326 and 2027970) and US Office of Naval Research (N00014-18-1-2585) to FW. We are thankful for all helpful discussions and critical comments regarding this manuscript from the COVID-19 Research Intervention Advisory Committee members at the Cleveland Clinic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        }
+    ]
+}

@@ -1,0 +1,2248 @@
+{
+    "paper_id": "259e3719e592785654df9fefdbf98be756ea918b",
+    "metadata": {
+        "title": "Potential Role of Peptide-Based Antiviral Therapy Against SARS- CoV-2 Infection",
+        "authors": [
+            {
+                "first": "Biplab",
+                "middle": [
+                    "K"
+                ],
+                "last": "Maiti",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Because of the uninterrupted spread of novel severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infectious disease (COVID-19) with substantial illness and mortality rates, there is an urgent requirement of suitable antiviral agent/therapy to control this pandemic, but not yet established. The primary cause of SARS-CoV-2 infection is the crosstalk between the SARS-CoV-2 and host surface receptor protein, human angiotensin-converting enzyme 2 (hACE2), prior to cellular entry. Hence, blocking at the initial stage of virus entry could be a promising strategy/therapy to combat the SARS-CoV-2 infection. Many drugs as SARS-CoV-2 blocker have been proposed. Among them, peptide-based antivirals are one. This Viewpoint discusses the potential antiviral role and feasibility of two classes of peptides for prevention of SARS-CoV-2 infection, where (1) a designed peptide (replication of virus binding domain of hACE2), and (2) antimicrobial peptides (AMPs; natural and first line host defense peptide), both may reduce virus load into the host cell by blocking cellular surface receptors and/or disruption of virus cell membrane at the stage of virus entry. These finding may provide a novel antiviral therapy against COVID-19, which might control the current global health crisis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "T he recent emergence of novel severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infectious disease, COVID-19, has gripped the whole world with anxious and uncertain circumstance due to its high rate of human-to-human transmission and killer properties of infection. 1 COVID-19 is, primarily, caused by the interaction between SARS-CoV-2 and the host surface receptor protein, human angiotensin-converting enzyme 2 (hACE2), prior to entry into the host cell. 2 Therefore, hACE2 can be considered as a main check post of cellular entry of SARS-CoV-2. The SARS-CoV-2 is believed to enter through two primary entrances, nose and mouth, and then reach to mainly the lungs, brain, and intestine, where there is an abundance of hACE2. Once inside the host cell, virus impairs the host immune system, resulting in illness. The higher rate of illness and mortality risk are highly associated with older people and patients with a weakened immune system and comorbidities such as diabetes, obesity, cancer, lung disease, and hypertension. 1 As COVID-19 has become pandemic, scientists across the world are in a race to understand the COVID-19 enemy and discover suitable drug/vaccine to beat this infection. However, to date, no clinically approved drugs or vaccines are available in market to prevent the COVID-19 invasion. Therefore, the initial step is to search for potential candidates from existing drugs such as remdesivir, lopinavir, chloroquine, and hydroxychloroquine, etc. for the treatment of SARS-CoV-2, but their efficacy still is controversial. 3 Therefore, alternative antiviral agents/therapies are an urgent requirement to stop the spread of the present infection. Hence, this Viewpoint sheds light on peptide-based antiviral therapies and their feasibility, where both designed peptides (mimicking the virus binding domain of hACE2) and naturally occurring antimicrobial peptides (AMPs; first line host defense peptide 4 ) reduce cellular virus load by blocking cellular surface receptors and/or disruption of virus cell membrane at the stage of virus entry, thereby preventing COVID-19 illness.",
+            "cite_spans": [
+                {
+                    "start": 278,
+                    "end": 279,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 1041,
+                    "end": 1042,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 1562,
+                    "end": 1563,
+                    "text": "3",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Crystal structure reveals that specific amino acid residues at the contact interface between SARS-CoV-2 and hACE2 are essential meeting points of virus-host link-up ( Figure 1 ). 2 Especially, two viral hot spots, K31 and K353 on hACE2 endow a more killer nature to SARS-CoV-2 from SARS-CoV. 3 However, this finding gives valuable molecular insight into virus\u2212host interaction, which may be applied to design a newer drug. Currently, several interventional tactics are being investigated in ongoing COVID-19 research. Among them, one approach seeks to modulate the virus\u2212host interaction, which might be one of the important therapeutic interventions of COVID-19. Therefore, a designed peptide that mimics the virus binding domain of ACE2, would be a promising SARS-CoV-2 blocker. The FDA, to date, approves many peptide-like inhibitors for the treatment of several diseases including diabetes, cancer, infectious diseases, autoimmune diseases, etc., due to their easy synthesis, greater efficacy, ease of penetration into cell membrane, safety, and tolerability in humans compared to small molecules (based on the GlobalData Pharma Intelligence Center Drugs database). In fact, peptidebased inhibitors are already in line for the treatment of COVID-19. The initial step is amputation of the full length of hACE2 that specifically binds the spike protein. For instance, several fragments as antiviral peptides are extracted from hACE2 (such as, 21\u221243, 27\u221238, 22\u221244, 22\u221257, and 22\u221244\u2212linker\u2212 351\u2212357 amino acid residues ranges of ACE2) that exhibit potent antiviral activity, attributing high-binding affinity toward SARS-CoV-2. 5 This finding raises the interest to use a designedpeptide as an antiviral agent for the treatment of COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 292,
+                    "end": 293,
+                    "text": "3",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1628,
+                    "end": 1629,
+                    "text": "5",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 167,
+                    "end": 175,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "As is known, during infection, the innate and adaptive immune response of a host is modulated by the virus, including SARS-CoV-2. 6 Mounting experimental evidence supports that antimicrobial peptides (AMPs) are primary components of the innate immune system and are a first line natural barrier against infection in vivo. 4, 7 AMPs are up-regulated during infection by multiple pathogens in vivo, through the immune pathway. On the basis of available data, the enrichment of AMPs levels, in living organisms, boosts innate and adaptive immunity that leads to antiviral activity. AMPs are, in general, small and positively charged peptides that enable electrostatic interaction with the negatively charged cell surface of multiple pathogens thereby killing many pathogens at the stage of entry level, through a common mode of action such as blocking cellular receptors and/ or virus cell membrane disruption. 7 Currently, more than 5000 AMPs are reported, wherein \u223c15% AMPs show antiviral activities against enveloped viruses. 8 Therefore, AMPs have gained considerable attention as therapeutic tools against infectious viral pathogens such as dengue virus (DENV), Zika virus (ZIKV), and recently SARS-CoV-2 etc. 9 From clinical observation of the SARS-CoV-2 infection, the digestive symptom is rare relative to respiratory-or neurosymptom. This occurs because of high abundance of antimicrobial peptides (AMPs) in the intestine, which may play a defensive role against COVID-19 by disrupting specific virus\u2212host interactions. 10 Interestingly, AMPs such as human defensin 5 (HD5) are highly expressed in the intestine and play a key role in the innate immune system in humans. A recent study highlights that HD5 shows a potent antiviral activity against SARS-CoV-2 by blocking host surface receptors, resulting in a reduction of virus load into cell. 11 Other supporting data, mouse \u03b2-defensin-4 (mBD4) also shows strong antiviral activity against SARS-CoV in vitro and in vivo. 12 In spite of large numbers of AMPs presence in human saliva, COVID-19 infection spreads through infected human droplets, saliva, or sputum. Many clinical reports often identify the virus from saliva samples of the infected. 13 This outcome is unlike that for HD5. Still, there is no explanation, but we can propose that either saliva has limited antiviral activity 13 against SARS-CoV-2, or the acidic pH factor at stomach may play a key role to kill the virus, when the virus reaches the intestine through the stomach. In addition, different AMPs have different antiviral effects due to their diverse amino acid sequences and structures. 13 Therefore, HD5 cannot be ruled out as antiviral agent against SARS-CoV-2.",
+            "cite_spans": [
+                {
+                    "start": 130,
+                    "end": 131,
+                    "text": "6",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 322,
+                    "end": 324,
+                    "text": "4,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 325,
+                    "end": 326,
+                    "text": "7",
+                    "ref_id": null
+                },
+                {
+                    "start": 908,
+                    "end": 909,
+                    "text": "7",
+                    "ref_id": null
+                },
+                {
+                    "start": 1212,
+                    "end": 1213,
+                    "text": "9",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1526,
+                    "end": 1528,
+                    "text": "10",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1851,
+                    "end": 1853,
+                    "text": "11",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1979,
+                    "end": 1981,
+                    "text": "12",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Milk is an essential micronutrient for humans that boosts the host's innate and adaptive immunity against infection. Interestingly, lactoferrin (Lf) is one class of AMP and ironbinding glycoprotein that is derived from food sources, mainly milk, and plays as first-line host defense against multiple pathogens, including virus. 14 The antiviral activity of Lf against SARS-CoV infection was demonstrated first by Lang et al., where Lf interfered with virus adsorption on the host surface receptors by blocking. 15 During infection, Lf expression is elevated (approximately 150 fold) in SARS patients compared with the control experiment. 15 Therefore, Lf is likely to be considered as a promising antiviral therapy against SARS-CoV-2 infection. 16 One clinical report says that children are at a lesser risk from COVID-19. This outcome seems to be the result of the presence of a high level of Lf in plasma by breast-feeding or sufficient milk consumption, but it is not yet established. However, dietary factor, particular, endogenous Lf deficiency, may affect the host immune response in COVID-19 patients. Therefore, a sufficient consumption of milk might produce a high abundance of Lf in the human body that may help to prevent this current pandemic.",
+            "cite_spans": [
+                {
+                    "start": 413,
+                    "end": 425,
+                    "text": "Lang et al.,",
+                    "ref_id": null
+                },
+                {
+                    "start": 511,
+                    "end": 513,
+                    "text": "15",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 638,
+                    "end": 640,
+                    "text": "15",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 745,
+                    "end": 747,
+                    "text": "16",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Overall, AMP would be a better choice as an antiviral agent because it occurs naturally, it is safe and nontoxic, and it is an innate host defense peptide. Several AMPs to date have been called for clinical trials. 8 Preliminarily, more AMPs, those having potent antiviral activity, can be selected as antiviral drugs for the treatment of COVID-19. The antiviral potency and activity of AMPs could be enhanced by conjugation with conventional antiviral drugs, such as Lf conjugated with an antiviral drug. 8, 14 Furthermore, many natural AMPs have a metal binding motif, The author declares no competing financial interest.",
+            "cite_spans": [
+                {
+                    "start": 215,
+                    "end": 216,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 506,
+                    "end": 508,
+                    "text": "8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 509,
+                    "end": 511,
+                    "text": "14",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The author would like to thank the National Institute of Technology Sikkim, India.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "\u25a0 ACKNOWLEDGMENTS"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Early transmission dynamics in Wuhan, China, of novel coronavirus-infected pneumonia",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Tong",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S M"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "H Y"
+                    ],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xing",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Xiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Tu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Jin",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Shao",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Tao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "T Y"
+                    ],
+                    "last": "Lam",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cowling",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zijian",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Ye",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Aihara",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Geng",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Auerbach",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ge",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Shan",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Wang",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N. Engl. J. Med",
+            "volume": "382",
+            "issn": "2",
+            "pages": "221--224",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2180-5"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "SARS-CoV-2 protein interaction map reveals targets for drug repurposing",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Gordon",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Jang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bouhaddou",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Obernier",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "White",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "O&apos;meara",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Rezelj",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Swaney",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Tummino",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Hu\u1e97tenhain",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kaake",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Richards",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Tutuncuoglu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Foussard",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Batra",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Haas",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Modak",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Haas",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Polacco",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Braberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Fabius",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Eckhardt",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Soucheray",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Bennett",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cakir",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Mcgregor",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Meyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Roesch",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Vallet",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kain",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Miorin",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Moreno",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "Z C"
+                    ],
+                    "last": "Naing",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Kirby",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Melnyk",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Chorba",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Lou",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Dai",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Barrio-Hernandez",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Memon",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hernandez-Armenta",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lyu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J P"
+                    ],
+                    "last": "Mathy",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Perica",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Pilla",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ganesan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Saltzberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Rakesh",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Rosenthal",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Calviello",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Venkataramanan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liboy-Lugo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "X.-P",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Wankowicz",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bohn",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Safari",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Ugur",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Koh",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Savar",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Tran",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Shengjuler",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Fletcher",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "O&apos;neal",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Cai",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C J"
+                    ],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Broadhurst",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Klippsten",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Sharp",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Wenzell",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kuzuoglu-Ozturk",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.-Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Trenker",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Young",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Cavero",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hiatt",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Roth",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Rathore",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Subramanian",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Noack",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hubert",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Stroud",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Frankel",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Rosenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Verba",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Agard",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ott",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Emerman",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Jura",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Zastrow",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Verdin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ashworth",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Schwartz",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Enfert",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mukherjee",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Jacobson",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Malik",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Fujimori",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ideker",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Craik",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Floor",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Fraser",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Gross",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sali",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Roth",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ruggero",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Taunton",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kortemme",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Beltrao",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Vignuzzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Garc\u00eda-Sastre",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Shokat",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Shoichet",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Krogan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "583",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2286-9"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Antimicrobial host defence peptides: functions and clinical potential",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Mookherjee",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Haagsman",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Davidson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat. Rev. Drug Discovery",
+            "volume": "19",
+            "issn": "",
+            "pages": "311--332",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41573-019-0058-8"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "The first-in-class peptide binder to the SARS-CoV-2 spike protein",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pomplun",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Loftis",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Loas",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Pentelute",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.19.999318.?ref=pdf"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Immune response in COVID-19: addressing a pharmacological challenge by targeting pathways triggered by SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Catanzaro",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Fagiani",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Racchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Corsini",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Govoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lanni",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Signal Transduction and Targeted Therapy",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41392-020-0191-1"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Host defense antimicrobial peptides as antibiotics: design and application strategies",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Mishra",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Reiling",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zarena",
+                    "suffix": ""
+                },
+                {
+                    "first": "Wang",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Curr. Opin. Chem. Biol",
+            "volume": "38",
+            "issn": "",
+            "pages": "87--96",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cbpa.2017.03.014"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Human Antimicrobial Peptides as Therapeutics for Viral Infections",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ahmed",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Siman-Tov",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Hall",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Bhalla",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Narayanan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Viruses",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/v11080704"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Blocking Coronavirus 19 Infection via the SARS-CoV-2 Spike Protein: Initial Steps",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Whisenant",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Burgess",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "ACS Med. Chem. Lett",
+            "volume": "11",
+            "issn": "",
+            "pages": "1076--1078",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/acsmedchemlett.0c00233"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Lectin-like Intestinal Defensin Inhibits 2019-nCoV Spike binding to ACE2. bioRxiv",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Su",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Wang",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.29.013490?ref=pdf"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "A novel peptide with potent and broad-spectrum antiviral activities against multiple respiratory viruses",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Chu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Poon",
+                    "suffix": ""
+                },
+                {
+                    "first": ".-M",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C. C.-S",
+                    "middle": [],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.-C",
+                    "middle": [],
+                    "last": "Fai",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y.-P",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": ".-X",
+                    "middle": [],
+                    "last": "Jin",
+                    "suffix": ""
+                },
+                {
+                    "first": "D.-Y",
+                    "middle": [],
+                    "last": "Yuen",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.-Y",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "B.-J",
+                    "middle": [],
+                    "last": "Malamud",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Abrams",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Barber",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Weissman",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Rehtanz",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Golub",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Antiviral Activities in Human Saliva. Adv. Dent. Res",
+            "volume": "23",
+            "issn": "13",
+            "pages": "34--37",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/0022034511399282"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Antiviral activities of lactoferrin",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Van Der Strate",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Beljaars",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Molema",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Harmsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Meijer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Antiviral Res",
+            "volume": "52",
+            "issn": "",
+            "pages": "225--239",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0166-3542(01)00195-4"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Inhibition of SARS pseudovirus cell entry by lactoferrin binding to heparan sulfate proteoglycans",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lang",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Elnagdy",
+                    "suffix": ""
+                },
+                {
+                    "first": "Alkhazindar",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "PLoS One",
+            "volume": "6",
+            "issn": "16",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/acsptsci.0c00059"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Antimicrobial Peptides as an Antiviral Therapy against COVID-19",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/acsptsci.0c00059"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Attenuation of West Nile Virus NS2B/NS3 Protease by Amino Terminal Copper and Nickel Binding (ATCUN) Peptides",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Pinkham",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Cowan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "ACS Pharmacol. Transl. Sci",
+            "volume": "61",
+            "issn": "17",
+            "pages": "980--988",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/acs.jmedchem.7b01409"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "(A) Cartoon represents the attachment of SARS-CoV-2 (sky blue sphere with spike) and hACE2 (green rod). (B) Crystal structure of spike protein (sky blue) bound hACE2 (green) complex (PDB: 6m0j), 2b (C) Selective amino acid residues at the contact interface between spike protein and hACE2 are highlighted with numbering (for simplicity, noncovalent interactions lines are omitted). H-bonding interaction:K417 (COVID-19) ---D30 (ACE2) , G446 (COVID-19) ---Q42 (ACE2) , Y449 ( C O V I D -1 9 ) ---D38 ( A C E 2 ) , Y449 ( C O V I D -1 9 ) ---Q42 ( A C E 2 ) , Y453 ( C O V I D -1 9 ) ---H34 ( A C E 2 ) , A475 ( C O V I D -1 9 ) ---S19 ( A C E 2 ) , F486 ( C O V I D -1 9 ) ---Y83 ( A C E 2 ) , N487 ( C O V I D -1 9 ) ---Q24 ( A C E 2 ) , Q493 ( C O V I D -1 9 ) ---E35 ( A C E 2 ) , G496 ( C O V I D -1 9 ) ---D38 ( A C E 2 ) , G496 ( C O V I D -1 9 ) ---K353 ( A C E 2 ) , Q498 ( C O V I D -1 9 ) ---Q42 ( A C E 2 ) , T500 (COVID-19) ---Y41 (ACE2) , N501 (COVID-19) ---Y41 (ACE2) . Electrostatic interaction: G502 (COVID-19) ---K353 (ACE2) , K417 (COVID-19) ---D30 (ACE2) , E484 (COVID-19) ---K31 (ACE2) , L455 (COVID-19) ---H34 (ACE2) . Hydrophobic interaction: F486 (COVID-19) ---M82 (ACE2) , Y489 (COVID-19) ---K31 (ACE2) , Y505 (COVID-19) ----K353 (ACE2) .",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "ACS Pharmacology & Translational Science pubs.acs.org/ptsci Viewpoint ATCUN (N-terminus Cu II and Ni II binding motif with H 2 N-X-X-H sequence; X = any amino acid and H = histidine), 7 that shows antiviral activity against an enveloped virus by oxidative modification. 17 So, antiviral peptide would be a promising therapeutic route for prevention of COVID-19. Biplab K. Maiti \u2212 National Institute of Technology Sikkim, South Sikkim 737139, India; orcid.org/0000-0002-0985-0031; Email: biplab@nitsikkim.ac.in Complete contact information is available at: https://pubs.acs.org/10.1021/acsptsci.0c00081",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

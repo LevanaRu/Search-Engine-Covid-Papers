@@ -1,0 +1,1600 @@
+{
+    "paper_id": "b7080f7cbfff9feaefacfee5e73a9c28d6fec3e9",
+    "metadata": {
+        "title": "Pharmacokinetics of a single inhalation of hydrogen gas in pigs",
+        "authors": [
+            {
+                "first": "Motoaki",
+                "middle": [],
+                "last": "Sanoid",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Keio University School of Medicine",
+                    "location": {
+                        "addrLine": "Shinjuku-ku",
+                        "settlement": "Tokyo",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Genki",
+                "middle": [],
+                "last": "Ichihara",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Keio University School of Medicine",
+                    "location": {
+                        "addrLine": "Shinjuku-ku",
+                        "settlement": "Tokyo",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yoshinori",
+                "middle": [],
+                "last": "Katsumata",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Keio University School of Medicine",
+                    "location": {
+                        "addrLine": "Shinjuku-ku",
+                        "settlement": "Tokyo",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Takahiro",
+                "middle": [],
+                "last": "Hiraide",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Keio University School of Medicine",
+                    "location": {
+                        "addrLine": "Shinjuku-ku",
+                        "settlement": "Tokyo",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Akeo",
+                "middle": [],
+                "last": "Hirai",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Mizuki",
+                "middle": [],
+                "last": "Momoi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Keio University School of Medicine",
+                    "location": {
+                        "addrLine": "Shinjuku-ku",
+                        "settlement": "Tokyo",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Tomoyoshi",
+                "middle": [],
+                "last": "Tamuraid",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Keio University School of Medicine",
+                    "location": {
+                        "addrLine": "Shinjuku-ku",
+                        "settlement": "Tokyo",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Shigeo",
+                "middle": [],
+                "last": "Ohata",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Juntendo University Graduate School of Medicine",
+                    "location": {
+                        "addrLine": "Bunkyo-ku",
+                        "settlement": "Tokyo",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Eiji",
+                "middle": [],
+                "last": "Kobayashi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Keio University School of Medicine",
+                    "location": {
+                        "addrLine": "Shinjuku-ku",
+                        "settlement": "Tokyo",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The benefits of inhaling hydrogen gas (H 2 ) have been widely reported but its pharmacokinetics have not yet been sufficiently analyzed. We developed a new experimental system in pigs to closely evaluate the process by which H 2 is absorbed in the lungs, enters the bloodstream, and is distributed, metabolized, and excreted. We inserted and secured catheters into the carotid artery (CA), portal vein (PV), and supra-hepatic inferior vena cava (IVC) to allow repeated blood sampling and performed bilateral thoracotomy to collapse the lungs. Then, using a hydrogen-absorbing alloy canister, we filled the lungs to the maximum inspiratory level with 100% H 2 . The pig was maintained for 30 seconds without resuming breathing, as if they were holding their breath. We collected blood from the three intravascular catheters after 0, 3, 10, 30, and 60 minutes and measured H 2 concentration by gas chromatography. H 2 concentration in the CA peaked immediately after breath holding; 3 min later, it dropped to 1/40 of the peak value. Peak H 2 concentrations in the PV and IVC were 40% and 14% of that in the CA, respectively. However, H 2 concentration decay in the PV and IVC (half-life: 310 s and 350 s, respectively) was slower than in the CA (half-life: 92 s). At 10 min, H 2 concentration was significantly higher in venous blood than in arterial blood. At 60 min, H 2 was detected in the portal blood at a concentration of 6.9-53 nL/mL higher than at steady state, and in the SVC 14-29 nL/mL higher than at steady state. In contrast, H 2 concentration in the CA decreased to steady state levels. This is the first report showing that inhaled H 2 is transported to the whole body by advection diffusion and metabolized dynamically.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Inhalation of H 2 is reported to have beneficial effects in living organisms [1, 2] , and clinical trials have demonstrated its efficacy and safety in patients with acute myocardial infarction [3] and post-resuscitation cardiac arrest [4, 5] . On March 3, 2020, the Chinese National Health and Medical Commission recommended \"conditional treatment with hydrogen and oxygen inhalation\" in addition to the general oxygen therapy measures in the treatment section of the a1111111111 a1111111111 a1111111111 a1111111111 a1111111111",
+            "cite_spans": [
+                {
+                    "start": 77,
+                    "end": 80,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 81,
+                    "end": 83,
+                    "text": "2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 193,
+                    "end": 196,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 235,
+                    "end": 238,
+                    "text": "[4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 239,
+                    "end": 241,
+                    "text": "5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Diagnosis and Treatment Protocol for Novel Coronavirus Pneumonia (Trial Version 7), in accordance with a recommendation notification by the Chinese Non-government Medical Institutions Association [6] . However, the kinetics of inhaled H 2 in the body have not been sufficiently analyzed to date.",
+            "cite_spans": [
+                {
+                    "start": 196,
+                    "end": 199,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "We previously measured, in rats, the time course of H 2 levels in different tissues after continuous H 2 inhalation, by inserting a needle-type sensor electrode directly into the tissues [7, 8] . However, since the response of the needle-type hydrogen sensor electrode is slow, this makes it unsuitable for measuring short-term changes in H 2 concentration in tissues.",
+            "cite_spans": [
+                {
+                    "start": 187,
+                    "end": 190,
+                    "text": "[7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 191,
+                    "end": 193,
+                    "text": "8]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In a non-clinical pharmacokinetic study, the distribution of a test drug to various organs and tissues after a single or repeated dose and its change over time should be investigated. In the case of gas, unlike oral and injectable drugs, a non-clinical pharmacokinetic study with a single dose has not been performed. This was because there was no animal protocol for a single-dose study of the gas. The same is true for H 2 . It remained undetermine whether H 2 diffused from the lungs in a blood flow-independent manner or whether H 2 was transported throughout the body in a blood flow-dependent manner. Therefore, in the present study, we devised an animal protocol for single-dose inhalation of gas and proved the latter to be true for the first time.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The most effective way of taking H 2 into circulating blood after a single inhalation is by fully exhaling, then inhaling 100% H 2 to the maximum inspiration position, and holding your breath for as long as you can endure. In the present study, we examine the pharmacokinetics of H 2 by replicating this single inhalation method in pigs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The present study was designed according to the principles of the ARRIVE (Animal Research: Reporting of In Vivo Experiments) guidelines [9] . Experiments were performed in accordance with the institutional guidelines and the Japanese law on the protection and management of animals. The full ethical proposal was approved by the Research Council and Animal Care and Use Committee of Keio University [approval no: 12094- (7)].",
+            "cite_spans": [
+                {
+                    "start": 136,
+                    "end": 139,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Animals"
+        },
+        {
+            "text": "Two female pigs, weighing 22.4 kg and 22.0 kg, were housed in separate cages under temperature-and light-controlled conditions (12-h light/dark cycle) and provided with food and water ad libitum. The pigs were fasted for 12 h prior to surgery, with free access to water. Sedation with medetomidine (0.02 mg/kg) and midazolam (0.1 mg/kg) was followed by endotracheal intubation and mechanical ventilation. Anesthesia was maintained with inhalational isoflurane. Surgery was performed by a surgeon with experience of more than 200 clinical transplant operations, who is a steering member of the transplantation society and a permanent director of the transplantation society of Japan (E.K.).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Animals"
+        },
+        {
+            "text": "Before insertion, a catheter (Argyle Medecut LCV-UK kit, 16 GX, 70 cm) was filled with heparinized saline, and the blood collection site was equipped with a three-way stopcock (TERUMO terfusion three-way stopcock, R type). Once at a sufficient depth of anesthesia, the pig was placed in the supine position. A vertical incision of about 10 cm was made in the right side of the neck to expose about 3 cm of the right external jugular vein and the right internal carotid artery (CA). The peripheral side of the right internal CA was ligated with a 1-0 silk thread, a bulldog clip was applied to the medial side, and after An incision was made in CA, a catheter was advanced through the artery to about 5 cm and secured. Subsequently, another prepared catheter was inserted through the right external jugular vein and advanced approximately 25 cm toward the upper hepatic inferior vena cava and fixed. After confirming sufficient reflux blood could be obtained from both catheters, the skin incision was continuously sutured with 5-0 nylon thread. Next, a midline incision of the upper abdomen was made about 30 cm below the xiphoid process, and the abdomen was opened. The intestinal tract was held to the left to expose the hepatic portal region. An incision was made in the pancreatic vein and a catheter was inserted about 3 cm toward the hepatic portal. The midline incision was closed by continuous suture with 5-0 nylon thread.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Catheter insertion"
+        },
+        {
+            "text": "A median sternum incision was made from the xiphoid process toward the head. At the end of an expiration, the ventilator was removed to stop the animal breathing, and both lungs were manually compressed to mimic maximal forced exhalation by eliminating residual air.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Protocol for achieving a single inhalation of H 2"
+        },
+        {
+            "text": "A beach ball was filled with 100% H 2 using a hydrogen gas filling device from DAYS (Doctorsman Co., Ltd.) containing hydrogen-absorbing alloys [DAYS (Doctorsman Co., Ltd.)] [10] (Fig 1) . The device contained a coupler consisting of a plug and socket with a built-in valve, so when the plug and socket were separated, the inflow of air into the beach ball was completely blocked. The beach ball was connected to a tracheal tube then squeezed, using both hands, at a pressure of about 20 mmHg, to fill the lungs with 100% H 2 . This reflected the manner in which a bag valve mask would be pressed. The H 2 -filled lungs were kept at maximal inspiration for approximately 30 s before the tracheal tube was connected to the ventilator and breathing was resumed.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 179,
+                    "end": 186,
+                    "text": "(Fig 1)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Protocol for achieving a single inhalation of H 2"
+        },
+        {
+            "text": "Blood was collected from the three intravascular catheters. First, blood was collected in the steady-state condition (before the breath hold, with the chest open). Next, two sets of experiments were performed per pig. In the first set, blood was collected immediately after the breath hold and at 3, 10, 30, and 60 min after restarting ventilation. In the second set, blood was collected immediately after the breath hold and at 3 and 10 min after restarting ventilation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Blood sampling for H 2 concentration measurement"
+        },
+        {
+            "text": "A needle was inserted into the rubber lid of a 13.5-mL sealed vial, 1 mL of air was extracted, and 1 mL of blood was injected. To prevent outgassing, wax was immediately applied to the rubber lid and the injected hole was sealed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Measurement of H 2 concentration"
+        },
+        {
+            "text": "H 2 in the blood was released into the air phase in the closed vial. Some of the air phase (0.2 mL, 0.4 mL or 1 mL, depending on the H 2 concentration) was collected from the vial and H 2 concentration was measured by gas chromatography (TRIlyzer mBA-3000, Taiyo, Co., Ltd. Osaka, Japan). A calibration curve was obtained using standard H 2 gas of 0, 5, 50 and 130 ppm. Each sample was measured twice. The concentration of the sample taken before H 2 inhalation was subtracted as background.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Measurement of H 2 concentration"
+        },
+        {
+            "text": "Data are expressed as the mean \u00b1 standard error of the mean. One-way analysis of variance followed by a Tukey-Kramer multiple comparisons test was used to compare the H 2 concentrations between measurement sites. P < 0.05 was considered significant. All data were analyzed using GraphPad Prism 8.4 (GraphPad Software Inc., La Jolla, CA).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "Mammalian cells do not produce H 2 as they lack the hydrogenase activity necessary for its formation. Instead, resident bacteria in the colon produce a considerable amount of H 2 via anaerobic fermentation of unabsorbed carbohydrates. It is generally assumed that H 2 produced by bacterial fermentation in the colon is transferred to the portal circulation and excreted through the breath. In a previous breath gas analysis we conducted in healthy volunteers, we found that the concentration of H 2 in the breath varies widely (1-56 ppm) between individuals [11] .",
+            "cite_spans": [
+                {
+                    "start": 558,
+                    "end": 562,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "H 2 concentration in circulating blood at steady state"
+        },
+        {
+            "text": "In the present experiment, we detected minimal H 2 in the carotid artery (CA) in the steadystate condition in both pigs. In contrast, H 2 concentration in the portal vein (PV) was 67 nL/ mL and 8.8 nL/mL for the first and second pigs, respectively, and in the supra-hepatic inferior vena cava (IVC) it was 18 nL/mL and 1.9 nL/mL, respectively. We expect that the large difference between the two pigs in PV H 2 concentration is due to differences in H 2 production ability by colonic bacteria.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "H 2 concentration in circulating blood at steady state"
+        },
+        {
+            "text": "These results indicate that H 2 produced by bacteria in the colon is carried by the portal circulation, most of it is trapped in the liver, and the remaining H 2 is excreted from the lungs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "H 2 concentration in circulating blood at steady state"
+        },
+        {
+            "text": "In the first set of experiments, blood H 2 concentration was tracked until 60 min after breathing was resumed. After that, breathing was stopped again at the end of an exhalation and the lungs were manually compressed to reduce residual air, and then expanded with 100% H 2 for the second set of experiments. In the second set, H 2 concentration in the circulating blood was monitored for 10 min.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Pharmacokinetics a single inhalation of H 2"
+        },
+        {
+            "text": "Immediately after the end of the breath hold, the peak H 2 concentration in the CA of the first pig was 5000 nL/mL in the first set of experiments and 7900 nL/mL in the second set. In the second pig, the concentrations were 10000 and 11000 nL/mL, respectively. (Fig 2A) . H 2 concentration of a 100% aqueous solution was 17,600 nL/mL, meaning that peak H 2 in the CA reached 28-60% saturation by this inhalation method. Peak H 2 concentration in venous blood (PV, IVC) was much lower than that in arterial blood (CA>>PV>IVC). This indicates that H 2 is not simply diffused, but diffuses while being carried by the bloodstream (advection diffusion), and most H 2 is consumed by the tissues.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 261,
+                    "end": 269,
+                    "text": "(Fig 2A)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Pharmacokinetics a single inhalation of H 2"
+        },
+        {
+            "text": "H 2 concentration decreases rapidly in arterial blood (half-life: 92 s) but more slowly in venous blood (half-life: PV, 310 s; IVC, 350 s) (Fig 2B) . Consequently, H 2 concentration after 10 min was greatest in the IVC, then in the PV, and lowest in the CA (Fig 3) -the opposite to that at peak concentration. At 60 min after resuming breathing, H 2 in the CA had almost disappeared (2.5 nL/mL) (Fig 4) , but higher concentrations of H 2 were detected in the PV and IVC than at steady state. These results indicate that H 2 is absorbed in the tissues, then gradually exits the tissues and returns to the heart via venous flow. In other words, a considerable amount of H 2 remains in the tissues throughout the body even 60 min after inhalation of H 2 . ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 139,
+                    "end": 147,
+                    "text": "(Fig 2B)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 257,
+                    "end": 264,
+                    "text": "(Fig 3)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 395,
+                    "end": 402,
+                    "text": "(Fig 4)",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Pharmacokinetics a single inhalation of H 2"
+        },
+        {
+            "text": "This is the first preclinical study to investigate the kinetics of single-dose inhalation of H 2 in the body. We devised a protocol that allows pigs to inhale H 2 only once. The ventilator was removed from the intubated pig at the end of expiration. Both lungs were compressed by hand to release the remaining air. We defined this state as the estimated position at maximum exhalation. A beach ball filled with 100% H 2 was connected to a tracheal tube and H 2 was pumped into the lungs until inflated to the estimated position of maximal inspiration by squeezing the ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "beach ball with both arms. We kept the H 2 -inflated lungs intact for a while. We modeled the behavior of holding the breath after inhaling as much H 2 as possible using this series of methods.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "PLOS ONE"
+        },
+        {
+            "text": "Since many animal experiments [12] [13] [14] and clinical studies [4, 5, 15] have been conducted to examine the protective effect of H 2 inhalation on the brain, the CA was chosen as the first blood collection point to prove that the inhaled H 2 can reach the brain efficiently. The liver has a dual blood supply from the PV and the hepatic artery. About 75% of the blood flow to the liver comes from the PV and 25% from the hepatic artery. Oxygen is supplied by the PV and the hepatic artery in half each. Therefore, in contrast to the brain, the liver has been regarded as the organ where inhaled H 2 is least likely to reach [16] . The liver is the largest organ in the body, performing a number of functions that are essential for life, such as metabolism, detoxification, and excretion, so protecting it with H 2 is considered to be a great advantage. We wanted to find out how much H 2 is consumed as it passes through the liver, so we compared the H 2 concentrations in the PV and supra-hepatic IVC. The H 2 concentration of CA immediately after inhalation was very high, and it was confirmed that the inhaled H 2 reached the brain efficiently. The peak H 2 concentrations of PV and IVC were 40% and 14% of CA, respectively, indicating that inhaled H 2 is relatively difficult to reach the liver, but the liver actively consumes the H 2 .",
+            "cite_spans": [
+                {
+                    "start": 30,
+                    "end": 34,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 35,
+                    "end": 39,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 40,
+                    "end": 44,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 66,
+                    "end": 69,
+                    "text": "[4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 70,
+                    "end": 72,
+                    "text": "5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 73,
+                    "end": 76,
+                    "text": "15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 628,
+                    "end": 632,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "PLOS ONE"
+        },
+        {
+            "text": "H 2 circulates throughout the body, with only about 10% returning to the venous blood. The arterial blood H 2 concentration drops rapidly and has a half-life of about 90 seconds. On the other hand, the half-life of venous blood H 2 concentrations is longer, 310 seconds for PV and 350 seconds for IVC; therefore, 3 minutes after inhalation, H 2 concentrations in venous blood exceed those in arterial blood. This is presumed to be due to the fact that the H 2 diffused into the tissues, which was not metabolized, is gradually returned to the venous blood. H 2 can still be detected in venous blood an hour after a single inhalation, but H 2 is almost undetectable in arterial blood, perhaps because it is discarded from the lungs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "PLOS ONE"
+        },
+        {
+            "text": "Gaseous molecules, such as oxygen, carbon dioxide, nitric oxide, and hydrogen sulfide, can bind to the ferrous heme of a variety of proteins with high affinity; thus, they bind to hemoglobin. H 2 , however, does not bind to heme, and its receptor molecules and their downstream effectors have not yet been identified. Inhaled H 2 is simply dissolved in the plasma and transported to the whole body. Supply of H 2 via the arterial blood to the tissues depends on blood flow. However, unlike for oxygen, there is no system that keeps H 2 concentrated in the blood vessels, so it diffuses out of the blood vessels as it travels.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "PLOS ONE"
+        },
+        {
+            "text": "Whether H 2 is inhaled or drunk in water enriched with dissolved H 2 [17, 18] , breath analysis shows that 60% is excreted in the breath, with 40% being consumed by the body. The amount of H 2 released from the body surface is estimated to be extremely small-about 0.1% [17] . By comparing the H 2 concentration in the PV and IVC, we estimate that 64% of H 2 in the portal blood is trapped just by passing through the liver. Together, these results indicate that H 2 is consumed by the body, but the molecular mechanism of how H 2 is metabolized remains unknown.",
+            "cite_spans": [
+                {
+                    "start": 69,
+                    "end": 73,
+                    "text": "[17,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 74,
+                    "end": 77,
+                    "text": "18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 270,
+                    "end": 274,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "PLOS ONE"
+        },
+        {
+            "text": "We, at the Center for Molecular Hydrogen Medicine at Keio University in Tokyo, have demonstrated the therapeutic effects of H 2 on diseases such as acute myocardial infarction [3, 7] , post-cardiac arrest syndrome [4, 5, 13, 14] , hemorrhagic shock [19, 20] , and organ transplantation [10] in both animal experiments and clinical studies. In patients with severe COVID-19, the immune over-response causes the production of large amounts of cytokines by alveolar macrophages, which becomes a cytokine storm, resulting in the progression of acute respiratory distress syndrome, abnormal blood coagulation, and multiple organ failure [21] . H 2 gas not only inhibits the overproduction of cytokines [13] , but also suppresses vascular endothelial damage [20] , facilitates the flow of red blood cells in microvessels and increases the efficiency of gas exchange (M.S. unpublished observation). Accordingly, H 2 inhalation therapy has great potential to improve the life expectancy of intubated COVID-19 patients admitted to the intensive care unit with severe hypoxemia. The HYBRID II Trial (Efficacy of inhaled HYdrogen on neurological outcome following BRain Ischemia During out-of-hospital cardiac arrest), a multicenter, randomized, double-blind, placebo-controlled, controlled clinical trial investigating the efficacy of H 2 inhalation therapy for patients after out-of-hospital cardiac arrest, has been underway since 2017 using a hydrogenated oxygen supply device jointly developed by Keio University and Taiyo Nippon Sanso (jRCTs031180352) [4] . In the HYBRID II trial, patients after cardiopulmonary arrest and resuscitation have been treated with hydrogenated oxygen for 18 hours in combination with conventional cooling methods. Prior to Hybrid II, we had conducted an open-label, single-arm, prospective interventional trial at Keio University Hospital in Tokyo in 2014 to evaluate the feasibility and safety of H 2 inhalation in patients with out-of-hospital cardiac arrest achieved a spontaneous return of circulation [5] . Non-cardiogenic cardiac arrest patients were also enrolled in this TRIAL; 5 patients were entered, one of whom was a CA patient due to severe pneumonia and septic shock. This patient had a stable respiratory state during H 2 inhalation, but died after H 2 inhalation was completed due to a rapid deterioration of the respiratory state. Based on this experience, we are considering a study protocol in which patients with severe COVID-19 disease will continue to receive hydrogenated oxygen for at least one week until their hypoxemia has sufficiently improved. In China, the hydrogen-oxygen mixture gas inhaler was certified as a national class III medical device in February, and it is reported to have a certain effect on the improvement of hypoxic symptoms of COVID-19-related pneumonia. We hope to bring this new treatment to patients as quickly as possible in order to save the lives of severely ill patients with COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 176,
+                    "end": 179,
+                    "text": "[3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 180,
+                    "end": 182,
+                    "text": "7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 214,
+                    "end": 217,
+                    "text": "[4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 218,
+                    "end": 220,
+                    "text": "5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 221,
+                    "end": 224,
+                    "text": "13,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 225,
+                    "end": 228,
+                    "text": "14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 249,
+                    "end": 253,
+                    "text": "[19,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 254,
+                    "end": 257,
+                    "text": "20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 286,
+                    "end": 290,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 632,
+                    "end": 636,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 697,
+                    "end": 701,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 752,
+                    "end": 756,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1547,
+                    "end": 1550,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 2031,
+                    "end": 2034,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "PLOS ONE"
+        },
+        {
+            "text": "We developed a pig model in which we could study the pharmacokinetics of a single inhalation of H 2 . Inhaled H 2 was transported to the whole body by advection diffusion, and metabolized dynamically. The present results will contribute to the knowledge on H 2 biology that is increasingly being applied to medicine.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Promising novel therapy with hydrogen gas for emergency and critical care medicine",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sano",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Suzuki",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Homma",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hayashida",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Tamura",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Matsuoka",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Acute Med. Surg",
+            "volume": "5",
+            "issn": "",
+            "pages": "113--118",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/ams2.320"
+                ],
+                "PMID": [
+                    "29657720"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Molecular hydrogen as a novel antioxidant: overview of the advantages of hydrogen for medical applications",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ohta",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Methods Enzymol",
+            "volume": "555",
+            "issn": "",
+            "pages": "289--317",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/bs.mie.2014.11.038"
+                ],
+                "PMID": [
+                    "25747486"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "The effects of hydrogen gas inhalation on adverse left ventricular remodeling after percutaneous coronary intervention for ST-elevated myocardial infarction-first pilot study in humans",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Katsumata",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Sano",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Abe",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Tamura",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Fujisawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shiraishi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Circ. J",
+            "volume": "81",
+            "issn": "",
+            "pages": "940--947",
+            "other_ids": {
+                "DOI": [
+                    "10.1253/circj.CJ-17-0105"
+                ],
+                "PMID": [
+                    "28321000"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Efficacy of inhaled HYdrogen on neurological outcome following BRain Ischemia During post-cardiac arrest care (HYBRID II trial): study protocol for a randomized controlled trial",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Tamura",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hayashida",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sano",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Onuki",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Suzuki",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Trials",
+            "volume": "18",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s13063-017-2246-3"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Feasibility and safety of hydrogen gas inhalation for post-cardiac arrest syndrome-first-in-human pilot study",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Tamura",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hayashida",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sano",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Suzuki",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Shibusawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yoshizawa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Circ. J",
+            "volume": "80",
+            "issn": "",
+            "pages": "1870--1873",
+            "other_ids": {
+                "DOI": [
+                    "10.1253/circj.CJ-16-0127"
+                ],
+                "PMID": [
+                    "27334126"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Chinese Non-government Medical Institutions Association, Recommendation for the use of hydrogen and oxygen atomizers in the clinical treatment of novel coronavuris pneumonia",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Inhalation of hydrogen gas reduces infarct size in the rat model of myocardial ischemia-reperfusion injury",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hayashida",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sano",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Ohsawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Shinmura",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Tamaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kimura",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Biochem. Biophys. Res. Commun",
+            "volume": "373",
+            "issn": "",
+            "pages": "30--35",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.bbrc.2008.05.165"
+                ],
+                "PMID": [
+                    "18541148"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Hydrogen gas distribution in organs after inhalation: real-time monitoring of tissue hydrogen concentration in rat",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Yamamoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Homma",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Suzuki",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sano",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sasaki",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Sci. Rep",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41598-018-38180-4"
+                ],
+                "PMID": [
+                    "30718910"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Improving bioscience 568 research reporting: the ARRIVE guidelines for reporting animal research",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Kilkenny",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Browne",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Cuthill",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Emerson",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Altman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "PLoS Biol",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pbio.1000412"
+                ],
+                "PMID": [
+                    "20613859"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Organ preservation solution containing dissolved hydrogen gas from a hydrogen-absorbing alloy canister improves function of transplanted ischemic kidneys in miniature pigs",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Kobayashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sano",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "PLoS One",
+            "volume": "14",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0222863"
+                ],
+                "PMID": [
+                    "31574107"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Are the effects of alpha-glucosidase inhibitors on cardiovascular events related to elevated levels of hydrogen gas in the gastrointestinal tract?",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Suzuki",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sano",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hayashida",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Ohsawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ohta",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Fukuda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "FEBS Lett",
+            "volume": "583",
+            "issn": "",
+            "pages": "2157--2159",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.febslet.2009.05.052"
+                ],
+                "PMID": [
+                    "19505462"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Hydrogen acts as a therapeutic antioxidant by selectively reducing cytotoxic oxygen radicals",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Ohsawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ishikawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Takahashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Watanabe",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Nishimaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Yamagata",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Nat. Med",
+            "volume": "13",
+            "issn": "",
+            "pages": "688--694",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nm1577"
+                ],
+                "PMID": [
+                    "17486089"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "H 2 gas improves functional outcome after cardiac arrest to an extent comparable to therapeutic hypothermia in a rat model",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hayashida",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sano",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kamimura",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yokota",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Suzuki",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Maekawa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J. Am. Heart. Assoc",
+            "volume": "1",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1161/JAHA.112.003459"
+                ],
+                "PMID": [
+                    "23316300"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Hydrogen inhalation during normoxic resuscitation improves neurological outcome in a rat model of cardiac arrest independently of targeted temperature management",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hayashida",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sano",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kamimura",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yokota",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Suzuki",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ohta",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Circulation",
+            "volume": "130",
+            "issn": "",
+            "pages": "2173--2180",
+            "other_ids": {
+                "DOI": [
+                    "10.1161/CIRCULATIONAHA.114.011848"
+                ],
+                "PMID": [
+                    "25366995"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Hydrogen gas inhalation treatment in acute cerebral infarction: a randomized controlled clinical study on safety and neuroprotection",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ono",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Nishijima",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ohta",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sakamoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kinone",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Horikosi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J. Stroke. Cerebrovasc. Dis",
+            "volume": "26",
+            "issn": "",
+            "pages": "2587--2594",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jstrokecerebrovasdis.2017.06.012"
+                ],
+                "PMID": [
+                    "28669654"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Hydrogen flush after cold storage as a new end-ischemic ex vivo treatment for liver grafts against ischemia/reperfusion injury",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Tamaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hata",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Okamura",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Nigmet",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hirao",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kubota",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Liver Transpl",
+            "volume": "11",
+            "issn": "",
+            "pages": "1589--1602",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/lt.25326"
+                ],
+                "PMID": [
+                    "30120877"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Estimation of molecular hydrogen consumption in the human whole body after the ingestion of hydrogen-rich water",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Shimouchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Nose",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Shirai",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kondo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Adv. Exp. Med. Biol",
+            "volume": "737",
+            "issn": "",
+            "pages": "245--250",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/978-1-4614-1566-4_36"
+                ],
+                "PMID": [
+                    "22259109"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Molecular hydrogen consumption in the human body during the inhalation of hydrogen gas",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Shimouchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Nose",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Mizukami",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Che",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Shirai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Adv. Exp. Med. Biol",
+            "volume": "789",
+            "issn": "",
+            "pages": "315--321",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/978-1-4614-7411-1_42"
+                ],
+                "PMID": [
+                    "23852510"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Hydrogen gas inhalation inhibits progression to the \"irreversible\" stage of shock after severe hemorrhage in rats",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Matsuoka",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Suzuki",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sano",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hayashida",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Tamura",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Honma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Trauma Acute Care Surg",
+            "volume": "83",
+            "issn": "",
+            "pages": "469--75",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/TA.0000000000001620"
+                ],
+                "PMID": [
+                    "28640781"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Hydrogen gas inhalation attenuates endothelial glycocalyx damage and stabilizes hemodynamics in a rat hemorrhagic shock model",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Tamura1",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sano",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Matsuoka",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yoshizawa1",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Yamamoto1",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Homma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Shock",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "SARS-CoV-2: a storm is raging",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Pedersen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Ho",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Clin Invest",
+            "volume": "130",
+            "issn": "",
+            "pages": "2202--2205",
+            "other_ids": {
+                "DOI": [
+                    "10.1172/JCI137647"
+                ],
+                "PMID": [
+                    "32217834"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Beach ball being filled with 100% H 2 . The ball is expanding with H 2 released from a hydrogen-absorbing alloy in an H 2 filling device. https://doi.org/10.1371/journal.pone.0234626.g001",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Time course of blood concentration of H 2 after a single inhalation. (A) Peak H 2 concentration in the CA reached 28-60% saturation. Peak H 2 concentration in venous blood (PV, IVC) was much lower than that in arterial blood (CA>>PV>IVC). (B) Enlarged low-concentration areas from Fig 3A. After 10 min, blood H 2 concentrations were highest in the IVC, then the PV, and lowest in the CA. After 60 min, H 2 concentration in the PV and IVC remained higher than at steady state. In A and B, upper and lower graphs in each panel show readings from pig 1 and pig 2, respectively. Duplicate H 2 concentration measurements are overlaid. CA, carotid artery; PV, portal vein; IVC, supra-hepatic inferior vena cava. https://doi.org/10.1371/journal.pone.0234626.g002",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Blood concentration of H 2 10 min after a single inhalation. Venous H 2 concentrations (PV, IVC) were significantly higher than arterial H 2 concentrations (CA). Individual readings (two readings from two animals from each intravascular catheter) and means are shown. https://doi.org/10.1371/journal.pone.0234626.g003",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Blood concentration of H 2 60 min after a single inhalation. By 60 min, H 2 had almost disappeared in the CA but remained in the IVC and PV. Data are one reading per animal from each intravascular catheter. https://doi.org/10.1371/journal.pone.0234626.g004",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors are grateful to Yasuyo Aoyama (Doctors Man Co., Ltd.), Keiji Kawagoe (Toku Corporation), Suga Kato (JHyPA) and Mayumi Takeda (JHyPA) for technical assistance.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        }
+    ]
+}

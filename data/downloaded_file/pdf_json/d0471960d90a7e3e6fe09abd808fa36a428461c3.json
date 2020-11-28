@@ -1,0 +1,1740 @@
+{
+    "paper_id": "d0471960d90a7e3e6fe09abd808fa36a428461c3",
+    "metadata": {
+        "title": "INSMA: An Integrated System for Multimodal Data Acquisition and Analysis in the Intensive Care Unit",
+        "authors": [
+            {
+                "first": "Y",
+                "middle": [],
+                "last": "Guo",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "F",
+                "middle": [],
+                "last": "Kaffashi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "F",
+                "middle": [
+                    "J"
+                ],
+                "last": "Jacono",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "F",
+                "middle": [
+                    "J"
+                ],
+                "last": "Degeorgia",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "M",
+                "middle": [
+                    "A"
+                ],
+                "last": "Loparo",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "K",
+                "middle": [
+                    "A"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Modern intensive care units (ICU) are equipped with a variety of different medical devices to monitor the physiological status of patients. These devices can generate large amounts of multimodal data daily that include physiological waveform signals (arterial blood pressure, electrocardiogram, respiration), patient alarm messages, numeric vitals data, etc. In order to provide opportunities for increasingly improved patient care, it is necessary to develop an effective data acquisition and analysis system that can assist clinicians and provide decision support at the patient bedside. Previous research has discussed various data collection methods, but a comprehensive solution for bedside data acquisition to analysis has not been achieved. In this paper, we proposed a multimodal data acquisition and analysis system called INSMA, with the ability to acquire, store, process, and visualize multiple types of data from the Philips IntelliVue patient monitor. We also discuss how the acquired data can be used for patient state tracking. INSMA is being tested in the",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Each year, more than four million acutely ill patients are admitted to intensive care units (ICUs) in the U.S. alone; approximately 500,000 of them do not survive [1] [2] [3] . In extreme situations, like the current COVID-19 pandemic, ICUs are essential for treating critically ill coronavirus patients. Given the high stakes involved, timely and effective care is paramount, and this requires continuous patient surveillance using sophisticated monitoring equipment. As a result, ICUs are complex, data-intensive environments and dozens of systemic parameters are monitored, including heart rate, respiration, arterial blood pressure, oxygen saturation, temperature, end tidal CO2 concentration, etc. Enormous volumes of multimodal physiological data are generated including physiological waveform signals, patient monitoring alarm messages, and numerics and if acquired, synchronized and analyzed, this data can been effectively used to support clinical decision-making at the bedside [10, 18] .",
+            "cite_spans": [
+                {
+                    "start": 163,
+                    "end": 166,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 167,
+                    "end": 170,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 171,
+                    "end": 174,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 988,
+                    "end": 992,
+                    "text": "[10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 993,
+                    "end": 996,
+                    "text": "18]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "I. INTRODUCTION"
+        },
+        {
+            "text": "Clinical personnel rely on information from these signals provided on the patient monitor display for visual assessment or as numerics in the EMR to understand the current state of the patient, and how it is changing over time. Continuous digital monitoring is intended to allow clinicians to dynamically track changes in patient state more closely than would be possible with more sporadic measurements [4] . The hope has been that this would allow for more accurate diagnosis, earlier anticipation of deterioration, and a clearer understanding of the impact of administered treatments, improving quality of care and lowering costs [5] .",
+            "cite_spans": [
+                {
+                    "start": 404,
+                    "end": 407,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 633,
+                    "end": 636,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "I. INTRODUCTION"
+        },
+        {
+            "text": "Even when data can be viewed in real-time, standard approaches provide little insight into a patient's actual pathophysiologic state. Understanding the dynamics of critical illness requires precisely time-stamped physiologic data (sampled frequently enough to accurately recreate the detail of physiologic waveforms) integrated with clinical context, but this will produce an overwhelming amount of data-far too much to be routinely reviewed manually. It is thus necessary to develop a data acquisition system that facilitates the access and review of historical data for medical personnel. The acquired data needs to be synchronized across disparate devices, archived, analyzed and presented to clinical personnel in a manner that supports clinical decision-making at the patient bedside. Previous work includes, for example: Matam and Duncan adopt the real-time data recording system used for F1 race cars to acquire and analyze data from bedside monitors in the pediatric intensive care unit [6] . This system supports the storage and review of electrocardiogram (ECG) data retrospectively. Raimond et al. developed a platform called \"WaveformECG\" that provides interactive analysis, visualization and annotation of ECG signals [7] . Alexander et al. developed an alarm data collection framework to acquire all alarms generated from Philips IntelliVue MP70 patient monitors installed in each ICU room with the objective of reducing false alarms by leveraging annotations provided by clinicians [4] . Hyung and Chul introduced a physiological data acquisition and visualization program \"Vital Recorder\" with a user-friendly interface similar to that of a video-editing program for anesthesia information management, where Physiological data can be manipulated like editing video clips [8] .",
+            "cite_spans": [
+                {
+                    "start": 995,
+                    "end": 998,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1231,
+                    "end": 1234,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1497,
+                    "end": 1500,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1787,
+                    "end": 1790,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "I. INTRODUCTION"
+        },
+        {
+            "text": "Much of the previous work has focused on the acquisition or visualization of certain physiological data, a complete general purpose solution for data collection, analysis and visualization of multimodal ICU data is currently unavailable. ICU clinical personnel need the ability to effectively deal with different data sources on a patient or departmental level, and need advanced analytic methods that transform this data to actionable and clinically meaningful outcomes for each patent. We have been working on building the Integrated Medical Environment (tIME) [10] to address this critical opportunity and in this paper, we discuss an integrated system (INSMA) that supports multimodal data acquisition, parsing, real-time data analysis and visualization in the ICU. In the current implementation, INSMA acquires data from the Philips IntelliVue patient monitor, and has the ability to store and review the multimodal data acquired either in real-time or on request. The system has been tested in the ICU at University Hospitals Cleveland Medical Center, for multimodal data analysis and patient state tracking.",
+            "cite_spans": [
+                {
+                    "start": 563,
+                    "end": 567,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "I. INTRODUCTION"
+        },
+        {
+            "text": "The remainder of the paper is organized as follows. In Section 2, we discuss some related work. In Section 3, we present the INSMA framework, and introduce the details of the data acquisition, parsing and visualization modules. In Section 4, we discuss the applications of our proposed system. We conclude our work and suggest possible future work in Section 5.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "I. INTRODUCTION"
+        },
+        {
+            "text": "ICUs provide treatment to patients with the most severe and life-threatening illnesses and injuries. It requires uninterrupted attentiveness and medical care from various clinical specialists and medical equipment to sustain life and help nurture the patients back to health. Effective and reliable patient monitoring and data analysis are of ultimate importance in the ICU to ensure early diagnosis, timely and informed therapeutic decisions, effective institution of treatment and follow-up [30, 32] . Several clinical information systems have been developed from both industry and academia to meet the demanding needs of the ICU.",
+            "cite_spans": [
+                {
+                    "start": 493,
+                    "end": 497,
+                    "text": "[30,",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 498,
+                    "end": 501,
+                    "text": "32]",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "II. RELATED WORK"
+        },
+        {
+            "text": "General Electric (GE) Co.'s Centricity Critical Care system introduced in 2003 creates actionable insight across the healthcare system and the care pathway in intensive care units, enabling enhanced clinical quality and operational efficiency. The system collects data from monitors and ventilators and displays it in spreadsheets reminiscent of the typical ICU chart. Data are collected from medical devices through device interfaces that connect with GE's Unity Interface Device network [10] . The Datex-Ohmeda S/5\u2122 Collect program proposed by GE Healthcare can obtain high-resolution data from the Datex-Ohmeda S/5\u2122 series monitors [13] .",
+            "cite_spans": [
+                {
+                    "start": 489,
+                    "end": 493,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 635,
+                    "end": 639,
+                    "text": "[13]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "II. RELATED WORK"
+        },
+        {
+            "text": "The program was developed for Windows XP and is not compatible with current Windows operating systems, and the manufacturer does not intend to update it. Philips offers data management solutions that link the Philips ALS monitor/defibrillator and AED and allow quality assurance officers using a direct connection that downloads and forwards every event automatically. Quality assurance officers can then retrieve and review an event summary with confidence [11] .",
+            "cite_spans": [
+                {
+                    "start": 458,
+                    "end": 462,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "II. RELATED WORK"
+        },
+        {
+            "text": "Often, the commercial off-the-shelf products do not support the acquisition, archiving, or annotations of high-resolution physiologic data with bedside observations for clinical applications. Systems have also been developed in academic settings primarily to support clinical research. Tsui et al. developed a system to acquire, model, and predict ICP in the ICU using wavelet analysis for feature extraction [12] . Goldstein et al. proposed and developed a physiologic data acquisition system that could capture and archive parametric data, but the annotation of important clinical events such as changes in a patient's condition or timing of drug administration, was limited [22] . Kool et al. reported that they collected numerical data at five-second intervals from the Datex Ohmeda S/5 TM monitoring system using their own information management system [14] . Liu et al. [15] also reported the collection of vital signal data from 32 surgical patients, from Philips IntelliVue MP series monitors, using a self-developed program that was not disclosed. Lee and Jung developed an anaesthesia information management system (AIMS) for the acquisition of high-quality vital signal data (Vital Recorder) to support research [8] . Physiological data of surgical patients were collected from 10 operating rooms by Vital Recorder through the patient monitor, anaesthesia machine and bispectral index monitor. Winslow et al. proposed a platform called WaveformECG for visualizing, annotating, and analyzing ECG data [7] . As discussed in the first section, these systems only focus on acquiring and analyzing one or two types of physiological data, and that is not sufficient for ICU applications.",
+            "cite_spans": [
+                {
+                    "start": 409,
+                    "end": 413,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 677,
+                    "end": 681,
+                    "text": "[22]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 858,
+                    "end": 862,
+                    "text": "[14]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 876,
+                    "end": 880,
+                    "text": "[15]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1223,
+                    "end": 1226,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1511,
+                    "end": 1514,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "II. RELATED WORK"
+        },
+        {
+            "text": "Matam and Duncan used real-time data recording software, ATLAS from McLaren Electronics Systems that continuously monitor and analyze data from F1 racing cars to implement a similar real-time data recording platform system adapted with real time analytics to suit the requirements of the intensive care environment [6] . The parameter data recorded by Philips MP30 bedside monitors can be transferred to the server in real-time. However, such a third-party data acquisition tool is not flexible enough to customize the functions according to the clinician's requirements, and the compatibility of the data format is another issue.",
+            "cite_spans": [
+                {
+                    "start": 315,
+                    "end": 318,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "II. RELATED WORK"
+        },
+        {
+            "text": "To address the issues described above, our research proposed the INSMA with the aim of obtaining clinical physiological data including electroencephalography (EEG), electrocardiography (ECG), photoplethysmogram (PPG), peripheral capillary oxygen saturation (SpO2), blood pressure (BP) and other signals to be acquired and stored for data sharing, mining, analysis and visualization.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "II. RELATED WORK"
+        },
+        {
+            "text": "The primary data source in our first implantation comes from the IntelliVue MP (Philips, Germany) series of monitors.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "II. RELATED WORK"
+        },
+        {
+            "text": "INSMA contains three independent but data related modules: data acquisition module, parsing module and visualization module. Figure 1 shows the INSMA architecture and its data flow. The Data Acquisition Module establishes the connection with the patient monitor and requests the physiological measurements that are acquired. The raw multimodal data obtained from the monitor includes physiological waveforms, alarm messages and numeric (vitals) data. The specific types of data to be acquired can be chosen by the users according to their needs through the \"Data Type Selector\" and \"Physiological Signal Selector\". The data transport rate can also be set by the \"Serial Port Selector\". Once the raw data has been acquired from the monitor, the Data Parsing Module will process, parse and transform the data into a time-series using the physiological identifiers or codes provided by the monitor. The Data Visualization Module will display the graphs for the parsed time-series results. It can plot both real-time signals and historical data given a time range. All three modules are developed using MFC and C/C++, so that they all run in the same operating environment and use compatible data formats, and therefore provide a complete solution for data acquisition, parsing and visualization. The details of these modules are discussed in next sections. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 125,
+                    "end": 133,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "III. INSMA"
+        },
+        {
+            "text": "The bedside patient monitor is the most common long-term monitoring medical device used in an ICU. It is used to continuously monitor the physiological parameters of an patient through specially designed sensors, signal acquisition modules, and invasive or noninvasive interfaces: cardiac activity including ECG and heart rate, circulation including blood pressure & cardiac output indices, SPO2, respiratory function including respiration rate, oxygenation, capnography, and Brain through EEG waveforms and derived indicators, temperature and metabolic rate, etc.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A. Patient Monitor"
+        },
+        {
+            "text": "The Philips IntelliVue MP70 is a bedside patient monitoring device that displays various physiological waves (e.g.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A. Patient Monitor"
+        },
+        {
+            "text": "ECG and Blood Pressure) and provides important functions such as displaying numeric vitals data (e.g. heartrate, oxygen saturation) and performing alarm functions based on minimum and maximum limits set by the clinical staff in the monitor. A variety of sensors and associated clinical measurement modules can be connected to the monitor, and these modules are generally interchangeable with other monitors provided by Philips [17] . One of these modules is the Philips VueLink module that provides an interface to more than 100 third-party specialty measurement devices like Baudrate Protocol is a connection-oriented, message-based request/respond protocol, based on an object-oriented model concept. All information is stored as attributes within a set of defined object types. The following objects are defined in the protocol: Medical Device System (MDS), Alert Monitor, Numeric, and Patient Demographics. In order for a client application to access the attributes of instantiated objects, it first has to poll the MDS object. Then, the client gets the information of the instantiated object via queries that return the attribute values of these objects. After building the association, the following data can be accessed from the IntelliVue monitor: all measurement numerics and alarm data (real-time update rates up to 1024 ms), wave data, and patient demographic data entered by the user in the IntelliVue monitor.",
+            "cite_spans": [
+                {
+                    "start": 427,
+                    "end": 431,
+                    "text": "[17]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "A. Patient Monitor"
+        },
+        {
+            "text": "The Data Acquisition Module collects and stores real-time data from patient monitors in intensive care units for further data analytics that supports clinical decision-making. We developed an interface using MFC, to make the data acquisition process easy to be controlled by users. Figure 2 shows the interface with function areas 1-5. The data acquisition and preprocessing tools can perform high-resolution recording and processing tasks, such as simultaneously recording of 1-3 ECG (at 500 samples/s) channels, and additionally up to 8 non-ECG (at 125 or 62.5 samples/s) waves, along with other signal types such as all available numeric values and alert messages. After the program is started, a text file including the monitoring results of the selected data type and signals will be generated for further analysis. The file is named by the date time and patient's demographic information.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 282,
+                    "end": 290,
+                    "text": "Figure 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "B. Data Acquistion Module"
+        },
+        {
+            "text": "The Data Parsing Module runs synchronously with the Data Acquisition Module to continuously parse real-time data being streamed from the monitor to increase the efficiency of the data collection and archiving process and to also When parsing the data, we first identify each frame by locating its BOF (0xC0) and EOF (0xC1), and get the type and length of the message from Hdr. Next, we interpret the time stamp from the User Data. In the Data Export Protocol defined by Philips IntelliVue monitor, the time stamps contain two types of data: absolute time and relative time. For the waveform signals, the IntelliVue patient monitor supports the wave types ( Table I) that are defined by sample period, sample size, array size, update period and bandwidth requirement. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 657,
+                    "end": 665,
+                    "text": "Table I)",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "C. Data Parsing Module"
+        },
+        {
+            "text": "The Data Visualization Module can display the multimodal data including the wave signals and numeric data of patients. Figure 4 illustrates the main interface. The timestamp is displayed above the chart. The selector (3) lists all the numeric data types obtained from the parsed results. When a numeric data type is chosen, its value will be displayed in the panel (4) in real-time. The list in (3) will update automatically when the program finds \"new\" data type in the parsed results of that numeric data. The numeric data is displayed as markers (dots) instead of a continuous curve, and each dot represents one data value at that time point. Different types of waveforms or numeric values are displayed in different colors, so it is easier for users to distinguish them. All the control commands are displayed in panel (5) in a log style. The patient's ID, wave and numeric data type list can be set in the \"Option\" menu.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 119,
+                    "end": 127,
+                    "text": "Figure 4",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "D. Data Visualization Module"
+        },
+        {
+            "text": "In addition to providing the patient's physiological status in a real-time mode, the Data Visualization Module can also display waveforms from archived data. Users first need to choose the patient and types of waves that are to be visualized, and then set the time range in the \"Plot Setting\" window, as shown in figure 5. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "D. Data Visualization Module"
+        },
+        {
+            "text": "In order to evaluate the performance of INSMA, the system was deployed in the Neurological Surgery ICU at University Hospitals Cleveland Medical Center using a DELL minicomputer with an Intel(R) Dual Core Celeron processor, 2 GB of RAM, and 240 GB hard disk storage. Results to date indicate that it is reliable for collecting data from the patient monitor. The waveform signals (e.g. ECG, respiration, PLETH/CO2), numeric signals and alarm event signals when streamed continuously from the monitor over a 24-hour period generate an approximately 400MB data file for each patient. The parsed results will be larger in size because the absolute time stamp information is added to each sample point in the file. how the patient is progressing by observing the ART and ICP waveforms, and how they are temporally correlated. We also collected alarm messages and numeric measurements in the parsed results. The analysis of ICU data from patients in the clinical setting is generally limited to visualizing waveform and numeric data and computing simple values such as average heartrate, average respiratory rate, average blood oxygen saturation, etc. In INSMA, each waveform can be analyzed independently or in conjunction with other waveforms to extract more information, as shown in Fig. 7 . It is possible to zoom in to provide additional waveform details for visual inspection or apply different analytical analysis techniques to single or multiple waveform signals to better understand the status of the patient and support clinical decision-making.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1280,
+                    "end": 1286,
+                    "text": "Fig. 7",
+                    "ref_id": "FIGREF8"
+                }
+            ],
+            "section": "A. Multimodal Data Analysis"
+        },
+        {
+            "text": "It has been well established that feature extraction for quantifying the complexity and/or variability in physiological time-series data can provide important information related to health and disease [29] . Specifically, even though temporal patterns of variability can be leveraged as powerful diagnostic and/or prognostic indicators, the current use of beat-tobeat and cycle-to-cycle variability dynamics at the bedside is hampered by: (1) lack of high-resolution real-time multimodal clinical data, (2) non-trivial interpretation and integration of these variability metrics into clinical workflows, and (3) lack of a unified framework for classifying variability dynamics into meaningful clinical categories.",
+            "cite_spans": [
+                {
+                    "start": 201,
+                    "end": 205,
+                    "text": "[29]",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "B. Patient State Tracking"
+        },
+        {
+            "text": "Algorithms that quantify variability dynamics over multiple temporal scales, such as multiscale entropy (MSE) and multifractal detrended fluctuation analysis (MFDFA) have shown a lot of promise as diagnostic tools in clinical research settings, but the difficulty in interpreting these measures by non-specialists prevents their routine implementation and use in the ICU. The acquired data from patient monitors can be used to develop novel and generalizable methods for quantifying and tracking patient state in real-time [20] . We are developing a patient state tracking system based on the analysis of physiologic time-series dynamics as shown in Fig. 8 . In STAGE II, the data is analyzed using the beat-to-beat or cycle-to-cycle time-series data that is of interest. A new dataset is analyzed (Step 4) with the same algorithm used in Step 2, the ANN classifies the output of the algorithm in",
+            "cite_spans": [
+                {
+                    "start": 523,
+                    "end": 527,
+                    "text": "[20]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 650,
+                    "end": 656,
+                    "text": "Fig. 8",
+                    "ref_id": "FIGREF9"
+                }
+            ],
+            "section": "B. Patient State Tracking"
+        },
+        {
+            "text": "Step 5, and the result of the ANN classification is then mapped into the physiological phase space in Step 6.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B. Patient State Tracking"
+        },
+        {
+            "text": "This methodology reduces the dimensionality of multiscale variability dynamics in a clinically relevant manner, thereby facilitating the development of clinician-centric visualization tools that can be implemented in a bedside display, and easily integrated in the ICU workflow as a generalized early warning system for clinical decompensation in ICU patients [19] . Any algorithm that quantifies multiscale variability dynamics [16] [23] can be used to process the waveform data in order to classify the information extracted from the raw data in an intuitive and physiologically relevant manner [24] [25] , and thus to facilitate the incorporation of subtle and dynamic fluctuations in physiological waveform data. By assessing the current status of a patient in the ICU, the system will provide a wealth of information on future trajectories for extracting related clinical information [26] [27] [28] .",
+            "cite_spans": [
+                {
+                    "start": 360,
+                    "end": 364,
+                    "text": "[19]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 429,
+                    "end": 433,
+                    "text": "[16]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 434,
+                    "end": 438,
+                    "text": "[23]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 597,
+                    "end": 601,
+                    "text": "[24]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 602,
+                    "end": 606,
+                    "text": "[25]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 889,
+                    "end": 893,
+                    "text": "[26]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 899,
+                    "end": 903,
+                    "text": "[28]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "B. Patient State Tracking"
+        },
+        {
+            "text": "The amount of data that is available for clinicians to use in support of real-time patient care at the bedside is growing rapidly as a result of advances in medical monitoring and imaging technology. Advances in informatics, whether through data acquisition, physiologic alarm detection, or signal analysis and visualization for decision support have the potential to markedly improve patient treatment in ICUs. Clinical monitors have the ability to collect and visualize important numerics or waveforms, but more work is needed to interface to the monitors and acquire and synchronize multimodal physiological data across a diverse set of clinical devices. Patient monitors offer the opportunity to acquire a number of different physiological signals in a single device, but in certain cases there are other monitors and devices whose data is critical to patient care, but do not interface to the patient monitor. The tIME framework that we are developing is directly addressing this unmet clinical need. An integrated solution for multimodal data acquisition, parsing and visualization in the ICU (INSMA) presented in this paper is an important first step in achieving this overall vision [20] . Particularly in the Neuro-Intensive Care Unit, there are a variety of different devices that provide valuable information for patient care that do not interface directly to a patient monitor including EEG signal data, real-time tissue blood flow (perfusion) data, and advanced hemodynamic data monitoring (e.g. continuous cardiac output) that are cornerstones in the management of critically ill patients. There are options, for example, with Nihon-Kohden EEG acquisition systems to collect patient vitals (similar to a bedside patient monitor) as well as interface to specialized devices such as for hemodynamic monitoring. Simultaneous acquisition of data from Philips patient monitors and Nihon-Kohden EEG systems in the ICU was done to augment data provided in the MIMIC study [21] . The objective of data acquisition was to stream real-time data from both monitors for archiving in a single biorepository. This provides valuable data for research, but the intent of tIME is to stream data for real-time patient care at the bedside. INSMA is an important first step, and we have also developed data techniques for synchronizing data acquisition from a variety of different ICU devices as a core technology for future implementations of tIME in the ICU. We have also demonstrated that patient data acquired from the patient monitor can be used for patient state tracking. The prototype system we developed was optimized to identify the type of dynamics observed in cardiac (ECG or blood pressure) beat-to-beat time-series data collected from ICU patients. The prototype system has been tested using ICU patient data from ECG to understand how variability in the heartbeat time-series can be used to dynamically track patient state [19] .",
+            "cite_spans": [
+                {
+                    "start": 1191,
+                    "end": 1195,
+                    "text": "[20]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1979,
+                    "end": 1983,
+                    "text": "[21]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 2932,
+                    "end": 2936,
+                    "text": "[19]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "V. CONCLUSIONS AND FUTURE WORK"
+        },
+        {
+            "text": "In the current development of INSMA and tIME, we have implemented the INSMA software on Lenovo ThinkCentre M600 computers, and currently have one system connected to the Philips patient monitor in the Neurosurgery ICU at University Hospitals Cleveland Medical Center under the direction of Dr. DeGeorgia to continuously collect patient data. We are completing the development of 21 additional INSMA units that will be connected to each of the Neurosurgery ICU beds. The INSMA system operates in background and once setup for data collection at the bedside and does not require attention from any clinical ICU personnel. INSMA allows the client to send messages to request for patient demographic information, and we implemented a patient demographic request function that monitors any modification of patient information. New patient demographic information will be entered when patients admitted into the ICU are connected to the monitor, and this information will be requested and stored in the raw data file. When the patient is discharged and a new patient is admitted and connected to the monitor, the parsing algorithm will capture the change of patient demographic information (e.g. First Name, Last Name, Age, Weight) and",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "V. CONCLUSIONS AND FUTURE WORK"
+        },
+        {
+            "text": "a new patient archive corresponding to the new patient identifier will be created, as shown in Fig. 9 . Each unit is equipped with a wireless communication link that supports remotely monitoring the INSMA units only from within the hospital firewall to protect the privacy and security of the data, and then also moves the data to a permanent secure data storage unit. Example data from patient monitoring is shown in Fig. 10 . The future of critical care will require \"information management\", that includes the real-time collection, integration, and interpretation of various types of physiological data from multiple sources. The possible research work will focus on (1) the integration and analysis of massive heterogenous medical data to provide scientific decision-making with machine learning methods [9] [31], and (2) the acquisition and processing of vast amount of multi-channel high-density and real-time streaming data using multivariate and nonlinear time series analysis methods to facilitate rapid diagnosis and treatment [32] . Patient care in the ICU can be significantly improved through the application of complex system analysis and information management methods.",
+            "cite_spans": [
+                {
+                    "start": 808,
+                    "end": 811,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1037,
+                    "end": 1041,
+                    "text": "[32]",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 95,
+                    "end": 101,
+                    "text": "Fig. 9",
+                    "ref_id": "FIGREF10"
+                },
+                {
+                    "start": 418,
+                    "end": 425,
+                    "text": "Fig. 10",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "V. CONCLUSIONS AND FUTURE WORK"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Daily cost of an intensive care unit day: the contribution of mechanical ventilation",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Dasta",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Mclaughlin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Mody",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Piech",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Crit Care Med",
+            "volume": "33",
+            "issn": "",
+            "pages": "1266--71",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Evaluation of acute physiology and chronic health evaluation III predictions of hospital mortality in an independent database",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Zimmerman",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Wagner",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Draper",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wright",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Alzola",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Knaus",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Crit Care Med",
+            "volume": "26",
+            "issn": "",
+            "pages": "1317--1343",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Estimating Lives and Dollars Saved from Universal Adoption of the Leapfrog Safety and Quality Standards",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Lwin",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Shepard",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Update",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Clinician-in-the-Loop Annotation of ICU Bedside Alarm Data",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Roederer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dimartino",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gutsche",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mullen-Fortino",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Shah",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Hanson",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "2016 IEEE First International Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE)",
+            "volume": "",
+            "issn": "",
+            "pages": "229--237",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Big data analytics in healthcare: promise and potential",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Raghupathi",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Raghupathi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Health Information Science and Systems",
+            "volume": "2",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Technical challenges related to implementation of a formula one real time data acquisition and analysis system in a paediatric intensive care unit",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Matam",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Duncan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Journal of clinical monitoring and computing",
+            "volume": "32",
+            "issn": "3",
+            "pages": "559--569",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "WaveformECG: A Platform for Visualizing, Annotating, and Analyzing ECG Data",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Winslow",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Granite",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Jurado",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Computing in science & engineering",
+            "volume": "18",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Vital Recorder-a free research tool for automatic recording of high-resolution time-synchronised physiological data from multiple anaesthesia devices",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Jung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Scientific reports",
+            "volume": "8",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Intensive care window: A multi-modal monitoring tool for intensive care research and practice",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Gjermundrod",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Papa",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zeinalipour-Yazti",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Dikaiakos",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Panayi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kyprianou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Twentieth IEEE International Symposium on Computer-Based Medical Systems (CBMS'07)",
+            "volume": "",
+            "issn": "",
+            "pages": "471--476",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Information technology in critical care: review of monitoring and data acquisition systems for patient care and research",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "De Georgia",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Kaffashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Jacono",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Loparo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "The Scientific World Journal",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Streamlining Data Management Workflow",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Philips",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Acquiring, modeling, and predicting intracranial pressure in the intensive care unit",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Tsui",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ching-Chung",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "BioMedical Engineering",
+            "volume": "8",
+            "issn": "",
+            "pages": "96--108",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Entropy Module and the Bispectral Index\u00ae monitor during propofol-remifentanil anesthesia",
+            "authors": [],
+            "year": null,
+            "venue": "Anesthesiology: The Journal of the American Society of Anesthesiologists",
+            "volume": "101",
+            "issn": "6",
+            "pages": "1283--1290",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Artifacts in research data obtained from an anesthesia information and management system",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Kool",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Van Waes",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Bijker",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Peelen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Van Wolfswinkel",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "De Graaff",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Van Klei",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Canadian Journal of Anesthesia/Journal canadien d'anesth\u00e9sie",
+            "volume": "59",
+            "issn": "9",
+            "pages": "833--841",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "University of Queensland vital signs dataset: Development of an accessible repository of anesthesia patient monitoring data for research",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "G\u00f6rges",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Jenkins",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "",
+            "volume": "114",
+            "issn": "",
+            "pages": "584--589",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Context aware image annotation in active learning",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Loparo",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "2019 19th Industrial Conference on Data Mining",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Intensive care window: A multi-modal monitoring tool for intensive care research and practice",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Gjermundrod",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Papa",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zeinalipour-Yazti",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Dikaiakos",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Panayi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kyprianou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Twentieth IEEE International Symposium on Computer-Based Medical Systems (CBMS'07)",
+            "volume": "",
+            "issn": "",
+            "pages": "471--476",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Data Acquisition and Complex Systems Analysis in Critical Care: Developing the Intensive Care Unit of the Future",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Jacono",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Degeorgia",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wilson",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Dick",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Loparo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Journal of Healthcare Engineering",
+            "volume": "1",
+            "issn": "3",
+            "pages": "337--355",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "A Framework for Patient State Tracking by Classifying Multiscalar Wavform Features",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Vandendriessche",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "IEEE Transactions on Biomedical Engineering",
+            "volume": "64",
+            "issn": "12",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Neurocritical Care Inforamtics: Translating Raw Data into Bedside Action",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Degeorgia",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Loparo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "System for Collecting Biosignal Data from Multiple Patient Monitoring Systems",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Yoon",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Healthcare Informatics Research",
+            "volume": "23",
+            "issn": "4",
+            "pages": "333--337",
+            "other_ids": {
+                "DOI": [
+                    "10.4258/hir.2017.23.4.333"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Physiologic data acquisition system and database for the study of disease dynamics in the intensive care unit",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Goldstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mcnames",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mcdonald",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Critical CareMedicine",
+            "volume": "31",
+            "issn": "2",
+            "pages": "433--441",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Learning-based adaptation framework for elastic software systems",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Cai",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Loparo",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "2019 IEEE 31st International Conference on Software Engineering & Knowledge Engineering (SEKE)",
+            "volume": "1",
+            "issn": "",
+            "pages": "281--286",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Context aware image annotation in active learning with batch mode",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Loparo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "2019 IEEE 43rd Annual Computer Software and Applications Conference (COMPSAC)",
+            "volume": "1",
+            "issn": "",
+            "pages": "952--953",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Eliminating Search Intent Bias in Learning to Rank",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Richard",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Loparo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Proceedings of the 14th IEEE international conference on semantic computing (ICSC)",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Information extraction from free text in clinical trials with knowledge-based distant supervision",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Loparo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "2019 IEEE 43rd Annual Computer Software and Applications Conference (COMPSAC)",
+            "volume": "1",
+            "issn": "",
+            "pages": "954--955",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Knowledge-guided text structuring in clinical trials",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Loparo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "2019 19th Industrial Conference on Data Mining(ICDM)",
+            "volume": "1",
+            "issn": "",
+            "pages": "211--219",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Complex query recognition based on dynamic learning mechanism",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Xue",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Journal of Computational Information Systems",
+            "volume": "8",
+            "issn": "20",
+            "pages": "1--8",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "A common gene expression signature analysis method for multiple types of cancer",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Loparo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "2019 19th Industrial Conference on Data Mining (ICDM)",
+            "volume": "1",
+            "issn": "",
+            "pages": "200--211",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Deep learning for heterogeneous medical data analysis. World Wide Web",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yue",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Tian",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Yin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "1--23",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Opinion spam detection based on heterogeneous information network",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Loparo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "2019 IEEE 31st International Conference on Tools with Artificial Intelligence (ICTAI)",
+            "volume": "1",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Raim: Recurrent attentive and intensive model of multimodal patient monitoring data",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Biswal",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Deshpande",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Maher",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining",
+            "volume": "",
+            "issn": "",
+            "pages": "2565--2573",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "\uf0b7 Integrated system for ICU multimodal data acquisition, analysis and visualization",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Yingcheng Sun: Conceptualization, Methodology, Software, Visualization, Writing -Original Draft. Fei Guo: Conceptualization, Software, Methodology, Visualization. Farhad Kaffashi: Conceptualization, Methodology, Formal analysis. Frank J. Jacono: Resources, Data Curation, Validation. Michael DeGeorgia: Resources, Data Curation, Validation. Kenneth A. Loparo: Conceptualization, Funding acquisition, Investigation, Methodology",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "INSMA Architecture: Data Acquistion, Parsing and Visualization modules. INSMA acquires data from patient monitors in real-time through a variety of different types of network communication.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "mechanical ventilators, gas analyzers, anesthesia machines, etc. The Philips IntelliVue MP70 is the monitor INSMA uses to collect high-resolution physiological signals from patients in ICU. Using a communication interface protocol, data from the Philips IntelliVue Patient Monitor MP70 can be transferred via the Local Area Network (LAN) Interface or Medical Information Bus (MIB/RS232) Interface to an external computer. For the LAN interface, the transport protocol is the standard UDP/IP protocol. For the MIB/RS232 interface, two transport protocols are supported: a fixed baudrate protocol at 19200 or 115200 baud and a protocol with baudrate negotiation (Auto Speed). INSMA can connect and acquire data using either the UDP/IP/LAN protocol/interface or the MIB/RS232 protocol/interface. The Fixed Baudrate Protocol provides a transport protocol with minimal overhead and complexity, so we describe how INSMA uses the Fixed Baudrate Protocol through the MIB/RS232 interface. The Fixed",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "and Output Display. The (1) Serial Port Selector lets the user set the initialization parameters of the communication port and the baudrate rate for serial port communication. The MSComm Control handler will transfer the parameters to messages to initialize serial communication. The (2) Data Type Selector allows users to decide the type of data that will be polled in the Poll Data Request. The backend will be automatically enabled or disabled when the checkbox is checked or unchecked. The (3) Signal Selector allows users to choose the expected signals to observe. The (4) Patient Information area shows the patient demographic information. All the commands are displayed in the (5) Output area, including the requests that are sent and the results that are received. It works like a printout log, to show whether the messages are sent correctly, or what types of messages are received.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "make the system suitable for real-time applications in the clinical environment. For the fixed baudrate communication protocol, each transmitted byte consists of one start bit, 8 data bits (no parity) and one stop bit. The monitor will process up to 4 frames within 128ms, and the framing structure is shown in figure The framing structure.A frame starts with the Beginning Of Frame (BOF) and Header Information (Hdr), and then followed by the Association Control or Data Export Command message as the User Data, and a 16 bit Frame Check Sequence using the CRC-CCITT algorithm (FCS). The frame ends with the End Of Frame (EOF).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "The absolute time stamp is the time stamp generated and sent only once at the beginning of the communication according to the system date and time set of the monitor, with 1s resolution. All the following messages sent from monitor will only contain relative time stamp information with resolution in milliseconds. With this relation, all sampled data and alarm events can be mapped to a time axis accordingly. We then interpret the multimodal data in the User Data field.For the numeric data, we need to interpret the physiological parameters of Numerics Observed Value and Compound Numerics Observed Value. The Numerics Observed Value attribute represents the measured value, along with state and identification data. Each observed value of numeric data has the same data structure. The Compound NumericsObserved Value attribute represents multiple measured values contained in one Numeric object, along with state and identification data. For example, a blood pressure measurement can include systolic, diastolic and mean values in a single Numeric object.The Alarm object represents the overall device alert condition and contains the global status and a list of active patient alarms. There are two groups of alarms available in the IntelliVue monitor: the active Technical Alarm (T-Alarm) and the active Patient Alarm (P-Alarm). T-Alarm messages indicate that the monitor cannot measure or detect alarm conditions reliably. P-Alarm indicates a relevant deviation from a normal clinical state of patient. It can be a high priority alarm signal such as a potentially life-threatening situation (for example, asystole), or a lower priority alarm signal like a respiration alarm limit violation. T-Alarm and P-Alarm both have the same alarm data structure, including the alarm source, code, type, state, etc.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "The main interface of the Data Visualization Module. The data is from a patient with three measurements: ECG I, RESP and PLETH .After picking up the type of wave signals in the selector (1), the corresponded real-time flow of data will display on the charting control panel(2) in a continuous way. The charting control can plot continuous data and is able to display the data quickly by plotting only the new-coming points of data, not the complete series. When a data point is added to a series, the chart control does not refresh the display totally, only the last point (or last line section) will be drawn, which is quite efficient. The charting control module was based on the open-source project provided by Cedric Moonen 1 .",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Plot Setting dialogue window.The Teechart charting library in MS VC++ is used to draw the waveforms.Figure 6 shows an example of displaying the ECG I waveform for 2 minutes from 0:0:2 to 0:2:2. The x-axis shows the time line, with the scale of milliseconds and format \"HH:MM:SS.SSS. The figure is scalar, so it is available to focus on one given segment of data and zoom in to check more details of the signal.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Plot one type of wave data: ECG I from 0:0:2 to 0:2:2 If multiple types of waveform signals are chosen, they will be displayed in one panel with the same but independent horizontal time axes because the signals are simultaneously acquired from the monitor, but they may have different vertical axes because their value scales or ranges may be different. Clinicians can check multiple physiological measurements of a patient at one time and find the correlation among them.Figure 7shows an example of displaying three types of waveforms: ECG I, RESP and PLETH from the time 0:0:2 to 0:16:50.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Display of three types of wave data: ECG I, RESP and PLETH from 0:0:2 to 0:16:50 in one panel.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Patient state tracking using acquired multimodal data. Numbers in bottom-right hand corner correspond to numbering below-this stage is performed once for every variability dynamics algorithm of interest.In STAGE I, synthetic non-stationary time-series exhibiting multifractal dynamics are generated and validated to mimic the beat-to-beat dynamics expected in an individual exhibiting long-term stable dynamics in the ICU. Progressive amounts of white noise are added to the time-series and then the time-series are integrated to generate their brown noise equivalent and to generate a fingerprint database of synthetic time-series that span multifractal time-series dynamics from white noise and brown noise. The fingerprint database is then processed using any algorithm that quantifies multiscale variability dynamics (e.g. Multi-Scale Entropy in our application), and the curated database is divided into classes based on how generated profiles clustered. Next, a feedforward artificial neural network (ANN) is trained on the curated database to classify the MSE profiles according to the specified classes. A 2-dimensional physiologic phase space is created for the ANN classes and based on the data, the classes are rearranged so that actual transitions are more likely to occur between adjacent classes.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "Flow chart of patient data management",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "Parsed data from INSMA. ECG, Pleth and Respiration waveforms (top and bottom panels) selected from a recording of a patient in the Neurosurgery ICU.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF1": {
+            "text": "DIFFERENT TYPES OF WAVEFORM SIGNALS SUPPORTED BY THE MONITORThe data acquisition module can poll up to three ECG waves simultaneously with sample rate at 500 samples/s. The ECG compound wave can contain up to three channels with 250 samples/s for each. Up to eight non-ECG waves (125 or 62.5 samples/s) can be polled simultaneously by selecting the appropriate labels. In the data parsing module, all these polled wave signals can be identified by their physiological identifier, and the values will be interpreted in a binary data format.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "THE PARSED RESULT OF A MONITORED PATIENT AFTER CRANIOTOMY",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "This work was supported in part by AHRQ Grant 1R18HS022860-01A1 (PI: Dr. Leo Kobayashi).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgment"
+        },
+        {
+            "text": "\u2612 The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.\u2610The authors declare the following financial interests/personal relationships which may be considered as potential competing interests:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of interests"
+        }
+    ]
+}

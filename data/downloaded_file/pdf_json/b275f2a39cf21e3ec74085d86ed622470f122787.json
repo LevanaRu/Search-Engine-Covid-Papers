@@ -1,0 +1,1580 @@
+{
+    "paper_id": "b275f2a39cf21e3ec74085d86ed622470f122787",
+    "metadata": {
+        "title": "The potential long-term impact of the COVID-19 outbreak on patients with non-communicable diseases in Europe: consequences for healthy ageing",
+        "authors": [
+            {
+                "first": "Katie",
+                "middle": [],
+                "last": "Palmer",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Oliba",
+                    "location": {
+                        "settlement": "Rome",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Alessandro",
+                "middle": [],
+                "last": "Monaco",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Rue de la Liberation Jouy en Josas",
+                    "institution": "HEC",
+                    "location": {
+                        "settlement": "Paris",
+                        "country": "France"
+                    }
+                },
+                "email": "alessandro.monaco@hec.edu"
+            },
+            {
+                "first": "Miia",
+                "middle": [],
+                "last": "Kivipelto",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Theme Aging",
+                    "location": {
+                        "settlement": "Stockholm",
+                        "country": "Sweden"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Graziano",
+                "middle": [],
+                "last": "Onder",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Istituto Superiore di Sanit\u00e0",
+                    "location": {
+                        "settlement": "Rome",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Stefania",
+                "middle": [],
+                "last": "Maggi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "CNR-Neuroscience Institute",
+                    "location": {
+                        "settlement": "Padua",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jean-Pierre",
+                "middle": [],
+                "last": "Michel",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Medical University of Geneva",
+                    "location": {
+                        "settlement": "Geneva",
+                        "country": "Switzerland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Rita",
+                "middle": [],
+                "last": "Prieto",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Pfizer GEP SLU",
+                    "location": {
+                        "settlement": "Upjohn, Madrid",
+                        "country": "Spain"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Georgia",
+                "middle": [],
+                "last": "Sykara",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Upjohn Hellas Ltd (Division of Pfizer)",
+                    "location": {
+                        "settlement": "Athens",
+                        "country": "Greece"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Shaantanu",
+                "middle": [],
+                "last": "Donde",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Upjohn (Division of Pfizer)",
+                    "location": {
+                        "settlement": "Surrey",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The early stages of the COVID-19 pandemic have focused on containing SARS-CoV-2 infection and identifying treatment strategies. While controlling this communicable disease is of utmost importance, the long-term effect on individuals with non-communicable diseases (NCD) is significant. Although certain NCDs appear to increase the severity of COVID-19 and mortality risk, SARS-CoV-2 infection in survivors with NCDs may also affect the progression of their pre-existing clinical conditions. Infection containment measures will have substantial short-and long-term consequences; social distancing and quarantine restrictions will reduce physical activity and increase other unhealthy lifestyles, thus increasing NCD risk factors and worsening clinical symptoms. Vitamin D levels might decrease and there might be a rise in mental health disorders. Many countries have made changes to routine management of NCD patients, e.g., cancelling non-urgent outpatient visits, which will have important implications for NCD management, diagnosis of new-onset NCDs, medication adherence, and NCD progression. We may have opportunities to learn from this unprecedented crisis on how to leverage healthcare technologies and improve procedures to optimize healthcare service provision. This article discusses how the COVID-19 outbreak and related infection control measures could hit the most frail individuals, worsening the condition of NCD patients, while further jeopardizing the sustainability of the healthcare systems. We suggest ways to define an integrated strategy that could involve both public institutional entities and the private sector to safeguard frail individuals and mitigate the impact of the outbreak.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Publisher's Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "In December 2019, the first confirmed case of SARS-CoV-2 infection was reported in Wuhan China [1] , leading to an outbreak that was declared a pandemic by the World Health Organization (WHO). Although we are currently in the early stages of the outbreak in Europe, the disease has already caused thousands of deaths and led to Government-enforced quarantine measures in several countries. Although the current focus of Governments and health ministries is to employ urgent measures to slow SARS-CoV-2 infection rates and minimize the number of infected individuals, the pandemic will potentially also have a substantial long-term impact on people with non-communicable diseases (NCDs) in Europe. While the focus on controlling this communicable disease is of utmost importance, the long-term effect on NCDs is also of vital significance. It could further jeopardize the sustainability of healthcare systems by worsening the condition of patients with chronic conditions, as discussed below. The pandemic could potentially affect Quality Adjusted Life Years making the socio, clinical, and economic impact of NCDs even worse. There are almost 94 million persons aged 65 and over in the EU, accounting for an 18.5% share of the population [2] , and the majority of persons in this age group have multimorbidity, defined as multiple concurrent NCDs [3] . Here, we briefly discuss the various ways in which the pandemic may impact NCD management and affect patient outcomes in Europe.",
+            "cite_spans": [
+                {
+                    "start": 95,
+                    "end": 98,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 1238,
+                    "end": 1241,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1347,
+                    "end": 1350,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The COVID-19 pandemic"
+        },
+        {
+            "text": "Initial reports indicate that mortality in persons infected with SARS-CoV-2 appears to be higher in men and persons with NCDs; a meta-analysis of the first cases early in the outbreak suggest a case-fatality rate of approximately 7% [4] , although this estimated rate is likely to reduce when more precise calculations of infected individuals that include asymptomatic or minimally symptomatic cases become available [5] . Moreover, it is still unclear how many nursing home residents have died from causes related to SARS-CoV-2 infection or the number of deaths from people who avoided seeking inpatient medical care for fear of getting infected. Many deaths involve men and individuals with preexisting medical conditions such as coronary diseases, hypertension, diabetes and active cancer, often with multimorbidity [6, 7] . The first reports mainly come from China and Italy [6, 7] but if these mortality patterns continue in other countries throughout the outbreak this has the potential to have a long-term effect on the prevalence of some NCD prevalence rates; NCDs that are associated with mortality in SARS-CoV-2 infected patients, such as cardiovascular disorders and diabetes may subsequently decrease in prevalence at the population level. Although there is no peer-reviewed scientific evidence on this issue yet, initial reports from scientific societies in Italy [8, 9] and Spain [10] suggest a substantial reduction in admission for stroke or Myocardial infarction since the start of the outbreak, for example. In Spain, cardiologists have seen a 40% reduction in heart attack treatments and a decrease in the number of diagnostic procedures [10] . It is imperative to establish the reasons behind these patterns. One hypothesis is that individuals do not go to the hospital even if they need to or that such cases are admitted to the hospital as a SARS-CoV-2 admission. There is also a shortage of healthcare staff to cover both SARS-CoV-2 related illness and all other routine medical care, as discussed below.",
+            "cite_spans": [
+                {
+                    "start": 233,
+                    "end": 236,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 417,
+                    "end": 420,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 819,
+                    "end": 822,
+                    "text": "[6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 823,
+                    "end": 825,
+                    "text": "7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 879,
+                    "end": 882,
+                    "text": "[6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 883,
+                    "end": 885,
+                    "text": "7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1377,
+                    "end": 1380,
+                    "text": "[8,",
+                    "ref_id": null
+                },
+                {
+                    "start": 1381,
+                    "end": 1383,
+                    "text": "9]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1394,
+                    "end": 1398,
+                    "text": "[10]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1657,
+                    "end": 1661,
+                    "text": "[10]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Change in NCD prevalence due to mortality in persons infected with SARS-CoV-2"
+        },
+        {
+            "text": "In patients with NCDs, a concurrent SARS-CoV-2 infection may affect the progression and health outcome of their preexisting chronic disorder. Evidence from other respiratory infections such as seasonal influenzas, for example, show that the infection can exacerbate chronic NCD conditions (e.g., asthma, chronic obstructive pulmonary disease, congestive cardiac failure) [11] and are associated with functional decline in older persons [12] . Conditions such as community-acquired pneumonia are associated with cognitive decline [13] . Moreover, functional deterioration occurs quickly after hospitalization in a significant proportion of older patients after an acute event such as pneumonia and typically fails to improve by the time of discharge [14] . This evidence highlights the need to monitor NCD progression in those infected with SARS-CoV-2 to examine how it affects NCD symptoms as well as short-and long-term functional and cognitive decline.",
+            "cite_spans": [
+                {
+                    "start": 371,
+                    "end": 375,
+                    "text": "[11]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 436,
+                    "end": 440,
+                    "text": "[12]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 529,
+                    "end": 533,
+                    "text": "[13]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 749,
+                    "end": 753,
+                    "text": "[14]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The role of SARS-CoV-2 infection on NCD progression"
+        },
+        {
+            "text": "During the first months of 2020, governments in many European countries initiated containment measures with different approaches ranging from restricting population movement and increasing social distancing, to implementing voluntary or enforced isolation and quarantine measures [15] . Selfisolation recommendations were particularly targeted to older persons and/or to individuals with chronic medical conditions, who have a higher risk of negative health outcomes resulting from SARS-CoV-2 infection. However, these measures have the potential to impact short-and longterm NCD management and progression from various perspectives, as discussed below.",
+            "cite_spans": [
+                {
+                    "start": 280,
+                    "end": 284,
+                    "text": "[15]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The long-term impact of infection control measures on older persons with NCDs"
+        },
+        {
+            "text": "One consequence of quarantine measures will be a decrease in physical activity levels in many individuals. The closure of gyms, swimming pools, and exercise clubs in addition to laws limiting access to outdoor space and free movement will inevitably reduce opportunities to exercise. This is of particular importance to NCD patients, where physical activity is essential for controlling symptoms and risk factors such as obesity, hypertension, and elevated glucose levels [16] . Exercise is also important for reducing sarcopenia, falls, and fall-related injuries [17, 18] . Further, cardiorespiratory fitness is also associated with cognitive functioning in older persons [19] . In situations where opportunities for aerobic exercise training are limited, alternatives such as resistance exercise training may need to be proposed as potential alternatives, as evidence suggest that it may be as effective for reducing the risk of several chronic diseases [9] . Access to fresh food may be limited leading to changes in diet, which can affect a number of health outcomes including cognition [20] . Nutrition, exercise, cognitive training, and management of metabolic and vascular risk factors are all important for maintaining cognitive functioning and reducing the risk of chronic diseases in older persons [21] .",
+            "cite_spans": [
+                {
+                    "start": 472,
+                    "end": 476,
+                    "text": "[16]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 564,
+                    "end": 568,
+                    "text": "[17,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 569,
+                    "end": 572,
+                    "text": "18]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 673,
+                    "end": 677,
+                    "text": "[19]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 956,
+                    "end": 959,
+                    "text": "[9]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1091,
+                    "end": 1095,
+                    "text": "[20]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1308,
+                    "end": 1312,
+                    "text": "[21]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Reduced physical activity levels and other lifestyle factors"
+        },
+        {
+            "text": "Quarantine measures will lead to reduced social contact and increased loneliness in older individuals. This may lead to a rise in mental health disorders, such as depression, and affect outcomes of patients who have existing mental health conditions. According to the EU statistics on income and living conditions, 13.4% of households in the EU in 2013 were composed of a single person aged 65 or over. Physical and social environments are related to loneliness and mental health factors in persons aged over 50, with social cohesion and social participation playing an important role [22] . Reduced social network, isolation, and loneliness can lead to generalized anxiety and major depression disorders in older persons [23] and have been shown to negatively affect a range of health outcomes [24] , including increased healthcare utilization and mortality as well as malnutrition and vitamin D deficiency [25] , which have important implications as discussed below. Further, people with existing mental health disorders may suffer during quarantine periods due to difficulties accessing regular outpatient visits for evaluations and prescriptions and they might be more influenced by the emotional responses related to the pandemic that could lead to relapse or worsening of mental health symptoms [26] .",
+            "cite_spans": [
+                {
+                    "start": 585,
+                    "end": 589,
+                    "text": "[22]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 722,
+                    "end": 726,
+                    "text": "[23]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 795,
+                    "end": 799,
+                    "text": "[24]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 908,
+                    "end": 912,
+                    "text": "[25]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1301,
+                    "end": 1305,
+                    "text": "[26]",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Reduced social contact and its effect on loneliness and mental health disorders"
+        },
+        {
+            "text": "Home-isolation is also likely to lead to a reduced number of hours spent outdoors, which may affect vitamin D levels. Low sunlight exposure periods are associated with vitamin D concentrations [27] . This can have relevant health consequences as low levels of vitamin D are associated with numerous NCDs [28] and a higher prevalence of multimorbidity [29] . Further, evidence exists on a link between vitamin D deficiency and impaired immune function, potentially leading to autoimmunity and increased risk of infections [30] .",
+            "cite_spans": [
+                {
+                    "start": 193,
+                    "end": 197,
+                    "text": "[27]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 304,
+                    "end": 308,
+                    "text": "[28]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 351,
+                    "end": 355,
+                    "text": "[29]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 521,
+                    "end": 525,
+                    "text": "[30]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Reduction in vitamin D"
+        },
+        {
+            "text": "During the SARS-CoV-2 outbreak, healthcare systems began postponing and scaling down some aspects of routine NCD management, outpatient visits, and non-urgent surgery to avoid unnecessary hospital visits, reduce the burden on hospitals, and decrease infection risk [31] . Although there are no data available yet on this issue, it is likely that many NCD patients have decreased access to outpatient visits and one-on-one clinical advice, and, in some cases, there may be a shortage of medicines. Further, some patients may be reluctant to seek care due to fears of infection in healthcare settings. The situation is further exacerbated by the preexisting European shortage of skilled healthcare workers [32] and that many healthcare workers have been infected with SARS-CoV-2, which affects staffing levels. In the shortterm this has important consequences for integrated care programs, which are a vital element of the care of persons with NCDs, particularly patients with multimorbidity [33, 34] . Lack of integrated support from local health units and healthcare systems, whose focus in now on managing the COVID-19 crisis, may undermine welfare, particularly hitting vulnerable groups such as the elderly and persons with frailty and NCDs. In the long-term, reduced NCD management may have devastating consequences to some individuals, particularly those with multiple or more severe conditions who require regular symptom monitoring and adjustment of complex drug regimens. In addition, the redistribution of healthcare resources to fight the SARS-CoV-2 outbreak is likely to have long term financial effects on national health systems throughout Europe, affecting patients both with non-communicable and communicable diseases. Indeed, it is also important that vaccination for other communicable diseases are not neglected as they are also of crucial importance for fighting against emerging and re-emerging infectious diseases and for maintaining better health and functioning in older individuals.",
+            "cite_spans": [
+                {
+                    "start": 265,
+                    "end": 269,
+                    "text": "[31]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 704,
+                    "end": 708,
+                    "text": "[32]",
+                    "ref_id": null
+                },
+                {
+                    "start": 990,
+                    "end": 994,
+                    "text": "[33,",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 995,
+                    "end": 998,
+                    "text": "34]",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Changes to routine management of NCD patients"
+        },
+        {
+            "text": "Integrated care and clinical monitoring of NCD patients are essential for maintaining medication adherence. The scaling down of outpatient visits, as mentioned above, in addition to quarantine measures that may affect access to pharmacies may have relevant clinical implications in terms of drug adherence. Further, as rapid research into the clinical management of SARS-CoV-2 infected individuals continues and the media report premature findings to the general public there may be dangerous consequences to patients who might start to self-manage their NCD medications. For example, in March 2020 reports emerged on potential adverse effects of angiotensin-converting enzyme inhibitors (ACE-i) or Angiotensin Receptor Blockers (ARB) on the risk of infection and the severity of SARS-CoV2, leading to the publication of a position statement from the European Society of Cardiology [35] urging physicians and patients not to discontinue antihypertensive treatment with ACEi or ARBs. Adherence to medication regimens and continuity of treatment is essential for the management of NCDs in older persons to avoid longterm negative health outcomes [36, 37] , and pharmacists may need to play a role in this, hopefully with the support of computerized prescription registries.",
+            "cite_spans": [
+                {
+                    "start": 882,
+                    "end": 886,
+                    "text": "[35]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1144,
+                    "end": 1148,
+                    "text": "[36,",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 1149,
+                    "end": 1152,
+                    "text": "37]",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Medication adherence"
+        },
+        {
+            "text": "Many research projects on NCDs in Europe have been either halted or postponed during the COVID-19 outbreak to drain strategic resources (structural, financial, and human) from the NCD epidemic and redirect them to the COVID-19 pandemic. In addition, several clinical studies have been paused because healthcare systems are under pressure and clinical staff do not have time to complete research protocols. Many laboratory-based projects have been temporarily suspended due to infection risks to staff, with numerous universities also closing across Europe. The postponement of ongoing NCD research projects that focus on identifying risk factors and treatment options for NCDs will likely derail progress in this area by further delaying cost-effective interventions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Effects on NCD research"
+        },
+        {
+            "text": "We are at the start of this unprecedented situation, and currently we can only speculate on the potential longterm impact that the COVID-19 outbreak will have on individuals with NCDs. In the meantime, we should urgently address the basic needs of NCD patients by identifying priority actions to support them in the management of their chronic conditions, both during the existing emergency and in the medium/long term. We need to define an integrated strategy that could involve both private companies and institutional entities to safeguard frail individuals and mitigate the impact of the outbreak. Politicians at national and European levels also need to prioritize this within their planning strategies during and after the pandemic. Actions to minimize the potentially devastating impact of the COVID-19 outbreak on older persons with NCDs should leverage on the use of cost-effective tools (e.g., digital health technologies) that could ensure access to both critical information (such as access to healthcare resources, clinical and lifestyle guidance, the importance of continuing vaccination programmes for other communicable diseases) and monitoring from healthcare professionals (including telemedicine). A common effort is needed to ensure the continuity of healthcare services, where the outbreak emergency could coercively push the adoption of sustainable solutions toward the decentralization of social and clinical assistance. These actions may include: awareness and education campaigns; tools to facilitate communication with healthcare professionals; improved access to institutional health communication and; better access to local and social support activities. The COVID-19 emergency has changed everyday life and we should take advantage of the lessons that we are learning from the experience, including building a healthcare system that is better able to protect the most fragile people in our society.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Future strategies to reduce the impact of the COVID-19 pandemic on persons with NCDs"
+        },
+        {
+            "text": "The COVID-19 outbreak has also seen an unprecedented collaboration between the public and private sectors that should be taken as a model for future synergies in the area of NCDs. The opportunity to engage older persons with NCDs to maintain cognitive and physical functioning and reduce solitude emerging from isolation should be also addressed. Now, more than ever, a holistic approach to NCD patients (that involves General Practitioners, Geriatric and Internal Medicine Physicians, Epidemiologists, Psychiatrists, and Behavioral Psychologists etc.) is mandatory, and rapid solutions to support this must be identified and implemented with urgency. We also recognize the pivotal role of Patient Advocacy Associations to define and implement supportive action that properly address patients' needs. Partnership models like Project chAnGE can help achieve this goal, as it is based on collaboration between healthcare partners from various fields from private and public sectors. The project aims to identify challenges and solutions to healthy ageing in people with NCDs in Europe [38] and previous initiatives have emphasized the importance of Information and Communication Technologies and integrated care solutions in the management of NCDs for promoting healthy ageing [34, 39] .",
+            "cite_spans": [
+                {
+                    "start": 1275,
+                    "end": 1279,
+                    "text": "[34,",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1280,
+                    "end": 1283,
+                    "text": "39]",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Future strategies to reduce the impact of the COVID-19 pandemic on persons with NCDs"
+        },
+        {
+            "text": "Funding Project chAnGE is supported by Pfizer Ltd, UK through an unconditional, independent financial grant support for Healthy Ageing Advisory Boards and related activities. Informed consent For this type of study formal consent is not required.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Future strategies to reduce the impact of the COVID-19 pandemic on persons with NCDs"
+        },
+        {
+            "text": "Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creat iveco mmons .org/licen ses/by/4.0/.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of interest"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Pneumonia of unknown cause-China: disease outbreak news. World Health Organization",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "popul ation -demog raphy -migra tion-proje ction s/popul ation -proje ction s-data",
+            "authors": [],
+            "year": 2020,
+            "venue": "Accessed",
+            "volume": "14",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Prevalence of multimorbidity in community settings: a systematic review and meta-analysis of observational studies",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Nguyen",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Manolova",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Daskalopoulou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Comorb",
+            "volume": "9",
+            "issn": "",
+            "pages": "2235042--19870934",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Novel coronavirus patients' clinical characteristics, discharge rate and fatality rate of meta-analysis",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Med Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jmv.25757"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Covid-19-navigating the uncharted",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Fauci",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lane",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Redfield",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "",
+            "pages": "1268--1269",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Case-fatality rate and characteristics of patients dying in relation to COVID-19 in Italy",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Onder",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Rezza",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Brusaferro",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "323",
+            "issn": "",
+            "pages": "1775--1776",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Risk factors associated with acute respiratory distress syndrome and death in patients with coronavirus disease 2019 pneumonia in Wuhan",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Cai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA Intern Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jamainternmed.2020.0994"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Impacto de la pandemia de COVID-19 sobre la actividad asistencial en cardiolog\u00eda intervencionista en Espa\u00f1a",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Rodr\u00edguez-Leor",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Cid-\u00c1lvarez",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ojeda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "REC Interv Cardiol",
+            "volume": "2",
+            "issn": "",
+            "pages": "82--89",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Preventing and controlling influenza with available interventions",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Uyeki",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "N Engl J Med",
+            "volume": "370",
+            "issn": "",
+            "pages": "789--791",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Effect of influenza on functional decline",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Gozalo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Pop-Vicas",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J Am Geriatr Soc",
+            "volume": "60",
+            "issn": "",
+            "pages": "1260--1267",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Long-term cognitive impairment after hospitalization for communityacquired pneumonia: a prospective cohort study",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Girard",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Self",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Edwards",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Gen Intern Med",
+            "volume": "33",
+            "issn": "",
+            "pages": "929--935",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Functional disability, cognitive impairment, and depression after hospitalization for pneumonia",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Davydow",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Hough",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Levine",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Am J Med",
+            "volume": "126",
+            "issn": "",
+            "pages": "615--639",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Nonpharmaceutical measures for pandemic influenza in nonhealthcare settingssocial distancing measures",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Fong",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Emerg Infect Dis",
+            "volume": "26",
+            "issn": "",
+            "pages": "976--984",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Exercise in people with comorbidity or multimorbidity",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dekker",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Buurman",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Van Der Leeden",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Health Psychol",
+            "volume": "38",
+            "issn": "",
+            "pages": "822--830",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Exercise to prevent falls in older adults: an updated systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sherrington",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Michaleff",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Fairhall",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Br J Sports Med",
+            "volume": "51",
+            "issn": "",
+            "pages": "1750--1758",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Relationship between sarcopenia and physical activity in older people: a systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Steffl",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Bohannon",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Sontakova",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Clin Interv Aging",
+            "volume": "12",
+            "issn": "",
+            "pages": "835--845",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Cardiorespiratory fitness and cognition: longitudinal associations in the FIN-GER study",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Pentikainen",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Savonen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ngandu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Alzheimers Dis",
+            "volume": "68",
+            "issn": "",
+            "pages": "961--968",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Dietary changes and cognition over 2 years within a multidomain intervention trial-the Finnish Geriatric Intervention Study to Prevent Cognitive Impairment and Disability (FINGER)",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lehtisalo",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Levalahti",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lindstrom",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Alzheimers Dement",
+            "volume": "15",
+            "issn": "",
+            "pages": "410--417",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "The effect of a 2-year intervention consisting of diet, physical exercise, cognitive training, and monitoring of vascular risk on chronic morbiditythe FINGER randomized controlled trial",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Marengoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Rizzuto",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Fratiglioni",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Am Med Dir Assoc",
+            "volume": "19",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "The association between perceived social and physical environment and mental health among older adults: mediating effects of loneliness",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dom\u00e8nech-Abella",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Switsers",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mund\u00f3",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Aging Ment Health",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/13607863.2020.1727853"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Anxiety, depression, loneliness and social network in the elderly: longitudinal associations from the Irish Longitudinal Study on Ageing (TILDA)",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dom\u00e8nech-Abella",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mund\u00f3",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Haro",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Affect Disord",
+            "volume": "246",
+            "issn": "",
+            "pages": "82--88",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Social isolation, loneliness and health in old age: a scoping review",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Courtin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Knapp",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Health Soc Care Community",
+            "volume": "25",
+            "issn": "",
+            "pages": "799--812",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Vitamin D and depression",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Parker",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Brotchie",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Graham",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Affect Disord",
+            "volume": "208",
+            "issn": "",
+            "pages": "56--61",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Patients with mental health disorders in the COVID-19 epidemic",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Psychiatry",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Potential determinants of vitamin D in Finnish adults: a cross-sectional study from the Northern Finland birth cohort 1966",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Palaniswamy",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Hypponen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Williams",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "BMJ Open",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Calcium and vitamin D in obesity and related chronic disease",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Pannu",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Calton",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Soares",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Adv Food Nutr Res",
+            "volume": "77",
+            "issn": "",
+            "pages": "57--100",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Low levels of vitamin D are associated with multimorbidity: results from the LifeLines Cohort Study",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Meems",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "De Borst",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Postma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Ann Med",
+            "volume": "47",
+            "issn": "",
+            "pages": "474--481",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Regulation of immune function by vitamin D and its use in diseases of immunity",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Vanherwegen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gysemans",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Mathieu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Endocrinol Metab Clin N Am",
+            "volume": "46",
+            "issn": "",
+            "pages": "1061--1094",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Challenges for NHS hospitals during covid-19 epidemic",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Willan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "King",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Jeffery",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ",
+            "volume": "368",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Multimorbidity care model: recommendations from the consensus meeting of the Joint Action on Chronic Diseases and Promoting Healthy Ageing across the Life Cycle (JA-CHRODIS)",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Palmer",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Marengoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Forjaz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Health Policy",
+            "volume": "122",
+            "issn": "",
+            "pages": "4--11",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Integrated care for the management of ageing-related non-communicable diseases: current gaps and future directions",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Monaco",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Palmer",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Margengoni",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Aging Clin Exp Res",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s40520-020-01533-z"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "News/posit ion-state ment-of-the-esc-counc il-on-hyper tensi on-on-ace-inhib itors -and-ang",
+            "authors": [],
+            "year": 2020,
+            "venue": "Accessed",
+            "volume": "14",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "The impact of medication adherence on clinical outcomes of coronary artery disease: a meta-analysis",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Eur J Prev Cardiol",
+            "volume": "24",
+            "issn": "",
+            "pages": "962--970",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Medication adherence measures: an overview",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Lam",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Fresco",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Biomed Res Int",
+            "volume": "2015",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Information and communication technology for increasing healthy ageing in people with non-communicable diseases: identifying challenges and further areas for development",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Monaco",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Maggi",
+                    "suffix": ""
+                },
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Cola",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Aging Clin Exp Res",
+            "volume": "31",
+            "issn": "",
+            "pages": "1689--1693",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Katie Palmer: None. Alessandro Monaco: None. Miia Kivipelto: None. Graziano Onder: None. Stefania Maggi participated in advisory boards activities and has received research grants from Pfizer, Sanofi, Merck, Takeda, GSK in the last three years, none of them related to the present work. Jean-Pierre Michel: None. Rita Prieto is a full-time employee of Pfizer GEP SLU Spain and holds Pfizer stock and stock options. Georgia Sykara is a full-time employee of Upjohn Hellas Ltd, a company of the Pfizer group of companies. Shaantanu Donde is a full-time employee of Upjohn Ltd, UK. Statement of human and animal rights This article does not contain any studies with human participants or animals performed by any of the authors.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

@@ -1,0 +1,554 @@
+{
+    "paper_id": "19d2f6c868a90ee75adce39a752ff470cfc9bf62",
+    "metadata": {
+        "title": "Key points",
+        "authors": [
+            {
+                "first": "Shane",
+                "middle": [],
+                "last": "O&apos;hanlon",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "St Vincent's University Hospital",
+                    "location": {
+                        "settlement": "Dublin",
+                        "country": "Ireland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sharon",
+                "middle": [
+                    "K"
+                ],
+                "last": "Inouye",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Harvard Medical School and Hebrew SeniorLife",
+                    "location": {
+                        "settlement": "Boston",
+                        "region": "MA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "\u2022 Older people are most vulnerable to severe infections and mortality. \u2022 Current guidance for diagnosis does not routinely include delirium, which may lead to under-detection of COVID-19. \u2022 The care home population is particularly at risk, as failure to promptly detect COVID-19 may lead to outbreaks. \u2022 Non-pharmacological approaches to management of delirium may be more difficult to implement but remain the priority.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Coronavirus disease (COVID-19) represents an enormous new threat to our healthcare system and particularly to the health of older adults. As the pandemic has spread quickly around the globe, it has become increasingly clear that the older population is most vulnerable to severe infections and mortality [1, 2] . Although questions remain about how to best treat and manage the infection, it is imperative that we not forget our best practices in the clinical management of older adults. Delirium is a well-recognised complication of respiratory illness, such as pneumonia, in older adults. Early studies indicate that 20-30% of COVID-19 patients will present with or develop delirium or mental status changes during the course of their hospitalisation, with rates of 60-70% in cases of severe illness at all ages [3, 4] . The exact mechanisms of this association are likely multifactorial, including direct neurological invasion, cerebrovascular involvement, and more indirectly through hypoxia, high fever, dehydration, inflammation (cytokine storm), medications or metabolic derangements. Despite this, there has been a concerning lack of attention paid to the implications of delirium identification and management in the public health response to this pandemic. The current assessment for COVID-19 does not routinely include delirium or mental status changes for older adults. While guidance on suspected COVID-19 cases from the World Health Organization cautions about 'atypical symptoms' in older people, and cites possible 'altered mental status', it does not explicitly mention delirium [5] . Importantly, many national guidelines do not include mental status changes as part of their criteria. For instance, guidance from the US Centers for Disease Control and Prevention does not consider mental status or delirium at all, [6] nor do the case definitions from Public Health England [7] . Since mental status change is not being routinely addressed, tracking its frequency as a presenting symptom will be difficult, and is critically important to determine particularly for older adults. Delirium is considered the 'barometer' or 'vital sign' for severe illness in older adults. In the case of COVID-19, older adults often do not mount the typical febrile response, and many do not manifest dyspnoea even in the face of hypoxia. In total, 40% of all cases have no radiographic abnormalities on presentation [8] . Thus, the risk of overlooking potential COVID-19 infections is high, without inclusion of delirium as part of the screening criteria. This has particular importance in care homes, where there is concerning evidence of high mortality rates associated with delirium, [9] as well as the risk for subsequent longterm cognitive and functional decline. Thus, failure to detect delirium may lead to: (i) missed diagnoses of infection where delirium is the presenting symptom, which may lead to accelerated spread of an outbreak such as in a care home [10] , (ii) lack of appreciation of the severity of an infection leading to increased mortality and (iii) enhanced risk for longterm adverse outcomes, including cognitive and functional decline [11] .",
+            "cite_spans": [
+                {
+                    "start": 304,
+                    "end": 307,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 308,
+                    "end": 310,
+                    "text": "2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 814,
+                    "end": 817,
+                    "text": "[3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 818,
+                    "end": 820,
+                    "text": "4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1596,
+                    "end": 1599,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1834,
+                    "end": 1837,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1893,
+                    "end": 1896,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 2417,
+                    "end": 2420,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 2688,
+                    "end": 2691,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 2967,
+                    "end": 2971,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 3161,
+                    "end": 3165,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Current hospital management of COVID-19 involves isolation precautions, limitation of family visitation and even limited physical contact with hospital staff. Moreover, the use of personal protective equipment by hospital staff can be depersonalising and frightening to older adults, particularly those with underlying dementia or cognitive impairment. Thus, the current approach has resulted in intense social isolation, as well as increased use of both physical and chemical restraints for management of fear, agitation, and wandering, all of which may increase risk for development of delirium, exacerbate and prolong the duration of delirium, and lead to poor outcomes and accelerated mortality. While there may be a tendency in these challenging times to opt directly for pharmacological management of delirium, this approach should only be adopted in the most challenging cases, where there is the threat of extubation or interruption of essential medical therapies. Recent studies have well-documented the lack of efficacy and potential for adverse outcomes related Editorial to antipsychotic treatment for delirium [12] While nonpharmacological approaches are effective and the mainstay for management of delirium, aspects such as reorienting communication, therapeutic activities, early mobilisation, relaxation exercises and non-pharmacological approaches to sleep may be more difficult to implement without the ability to provide hands-on care [13] .",
+            "cite_spans": [
+                {
+                    "start": 1123,
+                    "end": 1127,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1455,
+                    "end": 1459,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "There are realistic solutions. Many hospitals are permitting a 1:1 caregiver or family member to be with the patient, particularly those with dementia or cognitive impairment. This can be critical to assist with management of fear and anxiety, and with instituting effective non-pharmacological approaches for delirium prevention and management. Moreover, the Hospital Elder Life Program has developed a Toolkit to provide delirium prevention strategies for patients in COVID-19 isolation (See https://www.hospitalelderlife program.org/for-clinicians/covid19-resources). Both inside and outside the intensive care unit, in acute and longterm care, slowing down for just a moment to provide comforting reassurance and to hold someone's hand may provide the humanistic touch needed to prevent fear and agitation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In summary, delirium is an important missing component in the assessment and management of older people for COVID-19. Guidelines should include delirium as a presenting feature, screening should be a standard of care, and non-pharmacological approaches for delirium prevention and management need to be implemented as early and often as possible. Resources to assist healthcare providers should be built into electronic medical records, order sets and protocols. Data on delirium in the course of COVID-19 should be routinely collected. Most importantly, personcentred care needs to be at the heart of our response in this highly vulnerable group [14] . Our health professionals are providing heroic care in the midst of this pandemic. We are hoping to provide guidance and resources that may be able to help with the early recognition of severe cases in older adults, and strategies that we hope will ultimately mitigate long-term complications following delirium.",
+            "cite_spans": [
+                {
+                    "start": 647,
+                    "end": 651,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Characteristics of and important lessons from the coronavirus disease 2019 (COVID-19) outbreak in China: summary of a report of 72 314 cases from the Chinese Center for Disease Control and Prevention",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mcgoogan",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.2648"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Baseline characteristics and outcomes of 1591 patients infected with SARS-CoV-2 admitted to ICUs of the Lombardy region",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Grasselli",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zangrillo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zanella",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.5394"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Neurologic manifestations of hospitalized patients with coronavirus disease 2019 in Wuhan, China",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Mao",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Jin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA Neurol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jamaneurol.2020.1127"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Neurologic features in severe SARS-CoV-2 infection",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Helms",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kremer",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Merdji",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMc2008597"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "-of-severe-acute-respiratory-infection-when-nove l-coronavirus-(ncov)-infection-is-suspected. Last accessed",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Priorities for testing patients with suspected COVID-19 infection. Centers for Disease Control and Prevention",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "COVID-19: investigation and initial clinical management of possible cases",
+            "authors": [],
+            "year": 2020,
+            "venue": "Public Health England",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Clinical characteristics of coronavirus disease 2019 in China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2002032"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Epidemiology of Covid-19 in a long-term Care Facility in King County, Washington",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mcmichael",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Currie",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Clark",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2005412"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Asymptomatic and presymptomatic SARS-CoV-2 infections in residents of a long-term care skilled nursing facility",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kimball",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hatfield",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Arons",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "MMWR Morb Mortal Wkly Rep",
+            "volume": "69",
+            "issn": "",
+            "pages": "377--81",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "For survivors of severe COVID-19, beating the virus is just the beginning",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Servick",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.abc1486"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Antipsychotics for treating delirium in hospitalized adults: a systematic review",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Nikooie",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Neufeld",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Oh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Ann Intern Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.7326/M19-1860"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Delirium in the elderly",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Hshieh",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Inouye",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Oh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Geriatr Med",
+            "volume": "36",
+            "issn": "",
+            "pages": "183--99",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Joining forces against delirium-from organsystem care to whole-human care",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Inouye",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "",
+            "pages": "499--501",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {},
+    "back_matter": []
+}
